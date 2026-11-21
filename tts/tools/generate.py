@@ -212,6 +212,32 @@ SYMBOL_PAIRS = [('...', '省略號'), ('…', '省略號'), ('{}', '一對大括
                 ('()', '一對小括號'), ('->', '到'), ('=>', '到')]
 PER_UNIT = re.compile(r'\s*[／/]\s*(?=(?:秒|分鐘|分|小時|天|日|週|月|年|次|人|筆|個))')
 CJK_PUNCT = '。，、；：？！「」『』（）《》—…・'
+# GPT-SoVITS's English front end spells every ALL-CAPS token letter by letter (ORDER BY -> O R D E R B Y).
+# Keep real abbreviations as letters; lowercase SQL keywords and other words so they are read as words.
+ACRONYMS = set('''SQL CTE WSL UTF UI GC UDF UDAF UDTF AQE ISR TCP UDP TLS SSL PID UID DB IP DNS OOM AI ML LLM RAG PS ORC
+LTS DIM IO PC MOR COW SLO SLA DFS POM PDF TWD GB MB KB TB PB MS NS ODS DWD DWS ADS ETL ELT CDC DAG OLTP SCD HDFS
+JVM JDK JRE CSV API CPU GPU RAM SSD HDD URL URI UTC AWS EMR IAM VPC BI KPI GMV DAU MAU UV PV TPS QPS RPO RTO
+PR CI CD VM OS ID IDE CLI SDK HTTP HTTPS SSH FTP VS RF DDL DML DQL DCL TTL ACL RBAC OSS OBS CDN SQS SNS ECS EKS
+GCS GCP BOM BFS DFS FIFO LIFO LRU CTAS MCQ XML YAML HTML CSS JS TS NPM PIP OK PK FK UK QA UX CEO HR KV TCP IDC
+ERP CRM CDP DMP SKU SPU GPS SMS PNG JPG SVG MP3 USB NFS SAN RAID MVP MVCC WAL LSM SST AOF RDB AOP IOC DTO DAO
+ORM JDBC ODBC CRUD ACK NACK EOS IDL RPC REST GRPC'''.split()) - {'REST'}
+CAPS_SPLIT = {'DATEDIFF': 'date diff', 'TIMESTAMPDIFF': 'timestamp diff', 'DATEADD': 'date add',
+              'DATE_DIFF': 'date diff', 'NULLIF': 'null if', 'IFNULL': 'if null', 'ISNULL': 'is null',
+              'README': 'read me', 'LASTEXITCODE': 'last exit code', 'SUBSTRING': 'sub string',
+              'VARCHAR': 'var char', 'CONCAT': 'con cat', 'ASOF': 'as of', 'GROUPBY': 'group by',
+              'ORDERBY': 'order by', 'SUBSTR': 'sub str', 'STRFTIME': 'str f time', 'TOPN': 'top N'}
+CAPS = re.compile(r'(?<![A-Za-z0-9])[A-Z][A-Z0-9_]*[A-Z0-9](?![a-z])')
+
+
+def speakable_caps(text):
+    def fix(m):
+        tok = m.group()
+        if tok in CAPS_SPLIT:
+            return CAPS_SPLIT[tok]
+        if tok in ACRONYMS or not re.search(r'[AEIOUY]', tok) or re.search(r'\d', tok):
+            return tok
+        return tok.lower()
+    return CAPS.sub(fix, text)
 TOO_SHORT_UNITS = 5  # below this, GPT-SoVITS often returns silence; the app's system voice reads it
 
 
@@ -220,6 +246,8 @@ def engine_text(text):
     t = PER_UNIT.sub('每', t)
     t = t.replace('／', '、')
     t = re.sub(r'\s*(?:->|=>)\s*', '到', t)
+    t = re.sub(r'(?<=[A-Za-z0-9])[-_](?=[A-Za-z0-9])', ' ', t)  # UTF-8, key-value, read-only
+    t = speakable_caps(t)
     core = t.strip(CJK_PUNCT + ' ')
     if HAN.search(core) or not core:
         return core and t
@@ -332,7 +360,8 @@ def make_one(row, clips, folder, args):
     try:
         while True:
             try:
-                wav_data, seconds = call_api(row, clips, args.timeout, args.low_memory, faults + outliers)
+                wav_data, seconds = call_api(row, clips, args.timeout, args.low_memory,
+                                             faults + outliers + 1000 * args.seed_offset)
                 times.append(seconds)
                 raw_duration = inspect_wav(wav_data, engine_text(row['speak']))
                 ms, lufs, dbtp = encode(wav_data, temp)
@@ -445,6 +474,7 @@ def main(argv=None):
     parser.add_argument('--modules', nargs='+', default=[], help='module IDs or pathOrders (comma or space separated)')
     parser.add_argument('--dry-run', action='store_true')
     parser.add_argument('--retry-skipped', action='store_true', help='also retry keys listed in skipped.jsonl')
+    parser.add_argument('--seed-offset', type=int, default=0, help='use a different take (for re-synthesising flagged clips)')
     parser.add_argument('--flush-every', type=int, default=10)
     parser.add_argument('--timeout', type=float, default=180)
     parser.add_argument('--low-memory', action='store_true', help='use upstream non-parallel semantic inference')
