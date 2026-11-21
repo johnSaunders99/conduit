@@ -1,0 +1,41 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 308" role="img" aria-labelledby="title description">
+  <title id="title">沿欄位找影響，不把整張表都算進去</title>
+  <desc id="description">退款金額影響淨額與利潤；訂單量指標另有自己的輸入。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#356684"/></marker>
+  </defs>
+  <rect x="1" y="1" width="758" height="306" rx="18" fill="#f3f7fa" stroke="#ccd9e4" stroke-width="2"/>
+  <g font-family="Microsoft JhengHei, PingFang TC, sans-serif">
+    <text x="32" y="38" font-size="23" font-weight="700" fill="#17334b">沿欄位找影響，不把整張表都算進去</text>
+    <path d="M200 118 H274" fill="none" stroke="#356684" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M466 118 H547" fill="none" stroke="#356684" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M466 216 H547" fill="none" stroke="#356684" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(32 86)">
+      <rect width="168" height="64" rx="9" fill="#fff1df" stroke="#ba8646"/>
+      <text x="84" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">原始退款金額</text>
+      <text x="84" y="49" text-anchor="middle" font-size="15" fill="#36566a">raw.refund_amount</text>
+    </g>
+    <g transform="translate(282 86)">
+      <rect width="184" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="92" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">集市淨額</text>
+      <text x="92" y="49" text-anchor="middle" font-size="15" fill="#36566a">ads.net_amount</text>
+    </g>
+    <g transform="translate(555 86)">
+      <rect width="172" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="86" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">利潤看板</text>
+      <text x="86" y="49" text-anchor="middle" font-size="15" fill="#36566a">dashboard.margin</text>
+    </g>
+    <g transform="translate(282 184)">
+      <rect width="184" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="92" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">集市訂單量</text>
+      <text x="92" y="49" text-anchor="middle" font-size="15" fill="#36566a">ads.order_count</text>
+    </g>
+    <g transform="translate(555 184)">
+      <rect width="172" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="86" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">訂單量看板</text>
+      <text x="86" y="49" text-anchor="middle" font-size="15" fill="#36566a">dashboard.volume</text>
+    </g>
+    <path d="M32 267H728" stroke="#c3d3de"/>
+    <text x="32" y="291" font-size="16" fill="#36566a">再用執行紀錄、營業日及版本確認哪些結果真的受影響。</text>
+  </g>
+</svg>

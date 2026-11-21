@@ -1,0 +1,42 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 308" role="img" aria-labelledby="title description">
+  <title id="title">快照與日誌共享一個切點</title>
+  <desc id="description">快照建立底本，從匹配的來源位置接續日誌，已驗收後才發布。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#356684"/></marker>
+  </defs>
+  <rect x="1" y="1" width="758" height="306" rx="18" fill="#f3f7fa" stroke="#ccd9e4" stroke-width="2"/>
+  <g font-family="Microsoft JhengHei, PingFang TC, sans-serif">
+    <text x="32" y="38" font-size="23" font-weight="700" fill="#17334b">快照與日誌共享一個切點</text>
+    <path d="M205 112 H266" fill="none" stroke="#356684" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M205 129 H230 V205 H266" fill="none" stroke="#356684" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M470 93 H521" fill="none" stroke="#356684" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M471 205 H521" fill="none" stroke="#356684" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(35 87)">
+      <rect width="170" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="85" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">來源數據庫</text>
+      <text x="85" y="49" text-anchor="middle" font-size="15" fill="#36566a">一致讀取視圖</text>
+    </g>
+    <g transform="translate(274 61)">
+      <rect width="196" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="98" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">一致性快照</text>
+      <text x="98" y="49" text-anchor="middle" font-size="15" fill="#36566a">底本寫入暫存</text>
+    </g>
+    <g transform="translate(529 61)">
+      <rect width="194" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="97" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">驗收再發布</text>
+      <text x="97" y="49" text-anchor="middle" font-size="15" fill="#36566a">讀者才看新版</text>
+    </g>
+    <g transform="translate(274 174)">
+      <rect width="197" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="98.5" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">變更日誌</text>
+      <text x="98.5" y="49" text-anchor="middle" font-size="15" fill="#36566a">從匹配位置接續</text>
+    </g>
+    <g transform="translate(529 174)">
+      <rect width="194" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="97" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">重播增量</text>
+      <text x="97" y="49" text-anchor="middle" font-size="15" fill="#36566a">按鍵與版本寫入</text>
+    </g>
+    <path d="M32 267H728" stroke="#c3d3de"/>
+    <text x="32" y="291" font-size="16" fill="#36566a">先確立切點，再驗證交界的更新與刪除。</text>
+  </g>
+</svg>

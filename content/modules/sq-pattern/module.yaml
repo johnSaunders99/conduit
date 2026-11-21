@@ -1,0 +1,18 @@
+id: sq-pattern
+track: sql
+stage: 2
+order: 200
+title: SQL 面試題型
+subtitle: 把常見手寫題還原成小步驟
+summary: SQL 面試題型：把常見手寫題還原成小步驟。從「分組 Top N」練到「分層驗算與盲寫」。
+outcomes:
+- 說明固定筆數與保留平手的兩種答案
+- 以同秒進出反例驗證峰值沒有虛高
+- 從題意寫出會讓錯解失敗的最小數據
+prereqs:
+- sq-window
+roles:
+- warehouse
+- modern
+- stream
+hours: 5.5

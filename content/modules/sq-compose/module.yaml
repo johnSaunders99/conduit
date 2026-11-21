@@ -1,0 +1,18 @@
+id: sq-compose
+track: sql
+stage: 1
+order: 120
+title: SQL 子查詢與集合
+subtitle: 把一張難懂報表拆成三問
+summary: SQL 子查詢與集合：把一張難懂報表拆成三問。從「標量子查詢」練到「遞迴 CTE」。
+outcomes:
+- 驗證標量子查詢必須能提供單一值
+- 逐層記下筆數並找出第一個改變粒度的步驟
+- 以根節點作終止條件追蹤主管關係
+prereqs:
+- sq-join
+roles:
+- warehouse
+- modern
+- stream
+hours: 4.0

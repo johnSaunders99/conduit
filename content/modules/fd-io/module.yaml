@@ -1,0 +1,20 @@
+id: fd-io
+track: foundations
+stage: 1
+order: 110
+title: Python 數據交換
+subtitle: 讓壞輸入有地方可去
+summary: Python 數據交換：讓壞輸入有地方可去。從「CSV 與引號」練到「例外與隔離」。
+outcomes:
+- 讀含引號逗號及空欄的 CSV 而不錯位
+- 用最後一頁不滿額的範例驗證終止
+- 讓壞列保留行號與原因而不吞掉錯誤
+prereqs:
+- fd-data
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 3.5
+skippable: true

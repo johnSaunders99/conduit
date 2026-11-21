@@ -1,0 +1,18 @@
+id: cl-dbt
+track: cloud
+stage: 3
+order: 370
+title: dbt 分析工程
+subtitle: 把報表 SQL 變成有人敢改的模型
+summary: dbt 分析工程：把報表 SQL 變成有人敢改的模型。從「模型與來源」練到「模型部署與選擇器」。
+outcomes:
+- 從一份原始訂單構建第一個暫存模型
+- 使已結帳日的晚退款也能進入增量
+- 以依賴選取這次發布必須重跑的模型
+prereqs:
+- cl-wh
+- sq-compose
+roles:
+- modern
+- platform
+hours: 4

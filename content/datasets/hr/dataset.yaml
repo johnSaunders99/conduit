@@ -1,0 +1,43 @@
+id: hr
+title: 部門與薪級歷史
+summary: 4 個部門、15 位員工、25 筆薪級版本；4 號部門沒有員工。薪級有效期含起日、不含迄日，NULL 迄日表示目前有效。
+tables:
+- name: departments
+  summary: 每列一個部門。
+  columns:
+  - name: dept_id
+    type: INTEGER
+    note: 部門鍵
+  - name: dept_name
+    type: VARCHAR
+    note: 部門名稱
+- name: employees
+  summary: 目前編制，不是歷史調動表。
+  columns:
+  - name: employee_id
+    type: INTEGER
+    note: 員工鍵
+  - name: employee_code
+    type: VARCHAR
+    note: 虛構代碼
+  - name: dept_id
+    type: INTEGER
+    note: 目前部門
+  - name: manager_id
+    type: INTEGER
+    note: 主管鍵，無主管為 NULL
+- name: salary_history
+  summary: 每列一段薪級。
+  columns:
+  - name: employee_id
+    type: INTEGER
+    note: 員工鍵
+  - name: valid_from
+    type: DATE
+    note: 含起日
+  - name: valid_to
+    type: DATE
+    note: 不含迄日，現行為 NULL
+  - name: monthly_pay
+    type: INTEGER
+    note: 月薪，元

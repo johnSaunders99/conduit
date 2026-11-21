@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 254" role="img" aria-labelledby="title desc">
+<title id="title">兩路同號屏障，切出可一起恢復的狀態</title><desc id="desc">A 先到屏障 7，停住屏障後資料；B 隨後到屏障 7，再對這個共同切點快照。</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#52708a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect x="1" y="1" width="818" height="252" rx="18" fill="#f3f7fa" stroke="#d4e0eb"/>
+<g font-family="'Microsoft JhengHei UI','Noto Sans TC',system-ui,sans-serif">
+<text x="26" y="33" fill="#1d5c8f" font-size="13" font-weight="700" font-family="Consolas, monospace">FLINK / 06</text>
+<text x="26" y="61" fill="#162d42" font-size="25" font-weight="700">兩路同號屏障，切出可一起恢復的狀態</text>
+<path d="M26 77H794" fill="none" stroke="#d4e0eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="26" y="102" width="51" height="39" rx="10" fill="#fff" stroke="#d4e0eb"/>
+<text x="51" y="128" fill="#162d42" font-size="18" font-weight="700" font-family="Consolas, monospace" text-anchor="middle">A</text>
+<rect x="26" y="155" width="51" height="39" rx="10" fill="#fff" stroke="#d4e0eb"/>
+<text x="51" y="181" fill="#162d42" font-size="18" font-weight="700" font-family="Consolas, monospace" text-anchor="middle">B</text>
+<rect x="94" y="102" width="136" height="39" rx="10" fill="#fff" stroke="#d4e0eb"/>
+<text x="162" y="128" fill="#36546e" font-size="16" text-anchor="middle">已處理事件</text>
+<path d="M230 122H267" fill="none" stroke="#1d5c8f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="270" y="102" width="77" height="39" rx="10" fill="#e5f0fb" stroke="#d4e0eb"/>
+<text x="309" y="128" fill="#162d42" font-size="16" font-weight="700" text-anchor="middle">屏障 7</text>
+<path d="M347 122H457" fill="none" stroke="#1d5c8f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5"/>
+<text x="382" y="114" fill="#536b80" font-size="15">先等待</text>
+<rect x="94" y="155" width="136" height="39" rx="10" fill="#fff" stroke="#d4e0eb"/>
+<text x="162" y="181" fill="#36546e" font-size="16" text-anchor="middle">已處理事件</text>
+<path d="M230 175H334" fill="none" stroke="#1d5c8f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="337" y="155" width="77" height="39" rx="10" fill="#e5f0fb" stroke="#d4e0eb"/>
+<text x="376" y="181" fill="#162d42" font-size="16" font-weight="700" text-anchor="middle">屏障 7</text>
+<path d="M414 175H535" fill="none" stroke="#1d5c8f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5"/>
+<text x="466" y="167" fill="#536b80" font-size="15">到達</text>
+<path d="M457 122H548V162H581 M535 175H548V162" fill="none" stroke="#1d5c8f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M550 162H580" fill="none" stroke="#1d5c8f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="583" y="114" width="210" height="81" rx="10" fill="#e2f4ef" stroke="#d4e0eb"/>
+<text x="600" y="142" fill="#0a6b63" font-size="18" font-weight="700">檢查點 7</text>
+<text x="600" y="172" fill="#36546e" font-size="16">來源位置 + 算子狀態</text>
+<text x="26" y="233" fill="#36546e" font-size="16">作業故障時，從同一成功切點恢復兩者，不混用較新的位置與較舊的狀態。</text>
+</g></svg>

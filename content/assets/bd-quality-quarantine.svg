@@ -1,0 +1,36 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 308" role="img" aria-labelledby="title description">
+  <title id="title">一筆輸入，只走一條路</title>
+  <desc id="description">同一規則先判斷，通過進候選輸出，拒收留下原值與理由。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#356684"/></marker>
+  </defs>
+  <rect x="1" y="1" width="758" height="306" rx="18" fill="#f3f7fa" stroke="#ccd9e4" stroke-width="2"/>
+  <g font-family="Microsoft JhengHei, PingFang TC, sans-serif">
+    <text x="32" y="38" font-size="23" font-weight="700" fill="#17334b">一筆輸入，只走一條路</text>
+    <path d="M180 154 H247" fill="none" stroke="#356684" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M425 144 H478 V94 H524" fill="none" stroke="#356684" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M425 164 H478 V214 H524" fill="none" stroke="#356684" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(34 122)">
+      <rect width="146" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="73" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">輸入批次</text>
+      <text x="73" y="49" text-anchor="middle" font-size="15" fill="#36566a">4 列</text>
+    </g>
+    <g transform="translate(255 122)">
+      <rect width="170" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="85" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">標記規則</text>
+      <text x="85" y="49" text-anchor="middle" font-size="15" fill="#36566a">件數必須大於 0</text>
+    </g>
+    <g transform="translate(532 62)">
+      <rect width="191" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="95.5" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">通過</text>
+      <text x="95.5" y="49" text-anchor="middle" font-size="15" fill="#36566a">2 列待驗收</text>
+    </g>
+    <g transform="translate(532 182)">
+      <rect width="191" height="64" rx="9" fill="#fff1df" stroke="#ba8646"/>
+      <text x="95.5" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">隔離</text>
+      <text x="95.5" y="49" text-anchor="middle" font-size="15" fill="#36566a">2 列附原因</text>
+    </g>
+    <path d="M32 267H728" stroke="#c3d3de"/>
+    <text x="32" y="291" font-size="16" fill="#36566a">讀入 4 = 通過 2 + 隔離 2；發布仍需符合交付契約。</text>
+  </g>
+</svg>

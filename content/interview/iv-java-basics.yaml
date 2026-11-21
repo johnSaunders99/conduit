@@ -1,0 +1,121 @@
+id: iv-java-basics
+title: Java 基礎與數據作業面試
+track: foundations
+questions:
+- id: iv-java-basics-q01
+  lesson: fd-java-05
+  question: 兩筆訂單編號相同但內容不同，用 List、Set 還是 Map？
+  points:
+  - 先定義每種結構保存什麼
+  - 重送與衝突不可混為一談
+  answer: 用 List 保存收到的兩列與順序，便於查核。以訂單號作為 Map 的鍵找出既有值；內容相同可依口徑視為重送，不同則要隔離或按明訂的版本規則處理。Set 可記錄看過的鍵，但只用它會遺失兩筆內容的差異。
+  tags:
+  - list
+  - map
+  - set
+- id: iv-java-basics-q02
+  lesson: fd-java-05
+  question: 自訂訂單鍵放進 HashMap 後查不到，先看什麼？
+  points:
+  - hashCode 與 equals 的契約
+  - 碰撞仍要比 equals
+  - 鍵不應在入表後變動
+  answer: 查詢先靠雜湊定位到桶，再按相等性判斷是否同一鍵。equals 相等的物件必須有相同 hashCode；反過來不成立。如果鍵欄位在放入後改變，查詢可能跑到另一個桶。用不變的訂單鍵，並用兩個值相等但不是同一物件的鍵做測試。
+  tags:
+  - hashmap
+  - hashcode
+  - equals
+- id: iv-java-basics-q03
+  lesson: fd-java-05
+  question: HashMap 查找為何常說接近 O(1)，何時會變慢？
+  points:
+  - 平均情況需要良好分布
+  - 碰撞與擴容成本
+  - 不承諾迭代順序
+  answer: 雜湊分布良好時通常只查很短的桶。大量碰撞時同桶要比對更多鍵；實作在一定條件下會把過長的桶改成樹，但不是所有負載都保證固定時間。超過負載門檻時擴容也有搬移成本。若輸出要固定順序，另行排序或選擇保證所需順序的結構。
+  tags:
+  - hashmap
+  - collision
+  - resize
+- id: iv-java-basics-q04
+  lesson: fd-java-04
+  question: 把訂單寫成 record，整個物件就一定不能變嗎？
+  points:
+  - 元件參考不能重新賦值
+  - 可變元件的內容仍可變
+  - 必要時防禦性複製
+  answer: record 會依元件產生存取方法和相等性，但不是深度不可變。如果某個元件是可變 List，外部仍可能改到共享內容。需要穩定鍵時先複製或改用不可變元件，並確認巢狀物件也符合契約。
+  tags:
+  - record
+  - immutability
+- id: iv-java-basics-q05
+  lesson: fd-java-06
+  question: 讀檔失敗，關檔也拋例外，如何保留真正的原因？
+  points:
+  - try-with-resources 自動按反序關閉
+  - 以原始例外為主，關閉失敗為 suppressed
+  answer: 用 try-with-resources 宣告可關閉資源。正文先拋例外時，正文的例外是主要錯誤，後續關閉失敗附在 suppressed 列表，不會蓋掉讀檔原因。按批次號記錄主錯誤和附加錯誤；不要捕捉後回傳成功。
+  tags:
+  - exception
+  - autocloseable
+- id: iv-java-basics-q06
+  lesson: fd-java-12
+  question: mvn package 成功，拿到另一臺機器卻無法 java -jar，怎麼排查？
+  points:
+  - 有無正確 Main-Class
+  - 確認啟動時的依賴與 Java 版本
+  - 乾淨目錄重現
+  answer: 先用 jar 檢查是否含主類別及正確的資訊清單，再核對 JDK 支援的類別版本。若缺依賴，不要假設普通 JAR 會內含相依套件；依交付契約準備類別路徑或可獨立運行的產物。在乾淨目錄用同一命令重試，避免本機 IDE 的設定掩蓋問題。
+  tags:
+  - maven
+  - jar
+  - classpath
+- id: iv-java-basics-q07
+  lesson: fd-java-09
+  question: 把迴圈改寫成 Stream，為何只呼叫 filter 沒看到輸出？
+  points:
+  - 中間操作是惰性的
+  - 終端操作消費管道
+  - 不要靠副作用驗證結果
+  answer: filter 描述一個中間步驟，不執行完整管道；collect、count 等終端操作才會消費。用有重複和空集合的測資比對結果。若 filter 裡順手更新共享清單，可能遇到未執行、短路或並行順序改變，不要以這個副作用當交付。
+  tags:
+  - stream
+  - lambda
+  - lazy
+- id: iv-java-basics-q08
+  lesson: fd-java-10
+  question: 把共用計數器宣告 volatile，兩個執行緒做 count++ 還會漏嗎？
+  points:
+  - 可見性不等於原子性
+  - 讀取、加一、寫回可交錯
+  - 選同步區段或原子計數
+  answer: 會。兩個執行緒都可讀到同一個舊值，各自加一後都寫回同一個新值。volatile 能建立可見性，不能把三步合成原子操作。可用相同鎖保護更新，或用適合的原子計數器；若多欄位要一起更新，要保護整個不變條件。
+  tags:
+  - volatile
+  - synchronized
+  - atomicity
+- id: iv-java-basics-q09
+  lesson: fd-java-10
+  question: 上游每秒來 500 筆，執行緒池只能處理 300 筆，怎麼避免越積越多？
+  points:
+  - 觀察排隊、處理速率與延遲
+  - 佇列需設上限和滿載策略
+  - 關閉時處理未完成任務
+  answer: 先量到達率與完成率，再看排隊長度，不能只盲目加執行緒。設定有界佇列，滿載時依契約限速、讓上游等候，或明確拒絕並可重試，而非悄悄丟單。停機時停止收新任務，等待已接受工作，超時則記下未完成項目供重跑。
+  tags:
+  - thread-pool
+  - queue
+  - backpressure
+- id: iv-java-basics-q10
+  lesson: fd-java-11
+  question: 批次作業 OOM，增大堆積就能解決嗎？
+  points:
+  - 從錯誤訊息確認是哪種資源
+  - 區分峰值負載和持續保留
+  - GC 日誌與固定輸入可驗證
+  answer: 先看錯誤是 Java heap space 還是其他資源，而不是見 OOM 就調堆積。用固定輸入重跑，觀察 GC 之後的堆積基線與停頓：若基線一批批上升，找仍被引用的物件；若基線正常但單批過大，再評估限批、減少中間物件或調整預算。
+  tags:
+  - jvm
+  - heap
+  - gc
+  - oom

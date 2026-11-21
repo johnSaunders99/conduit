@@ -1,0 +1,22 @@
+id: logins
+title: 會員登入紀錄
+summary: 312 筆登入，涵蓋 2026-01-01 至 2026-03-01 的 60 個日曆日，其中 58 天有登入。留存用 login_at（事件時間）歸日，不能用接收日代替。
+tables:
+- name: login_log
+  summary: 每列一次登入，同人同日可重複。
+  columns:
+  - name: login_id
+    type: INTEGER
+    note: 唯一事件鍵
+  - name: user_id
+    type: INTEGER
+    note: 虛構會員編號
+  - name: login_at
+    type: TIMESTAMP
+    note: 業務本地時間
+  - name: received_at
+    type: TIMESTAMP
+    note: 收到紀錄的時間
+  - name: channel
+    type: VARCHAR
+    note: app 或 web

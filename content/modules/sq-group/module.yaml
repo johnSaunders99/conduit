@@ -1,0 +1,18 @@
+id: sq-group
+track: sql
+stage: 1
+order: 60
+title: SQL 聚合
+subtitle: 交付一張不重複計數的日報
+summary: SQL 聚合：交付一張不重複計數的日報。從「COUNT 與缺值」練到「加權平均」。
+outcomes:
+- 比較計全部列與計非空欄位的差異
+- 用同人兩筆訂單驗證人數只增加一次
+- 由總金額和總筆數重算跨日客單價
+prereqs:
+- sq-expr
+roles:
+- warehouse
+- modern
+- stream
+hours: 4.0

@@ -1,0 +1,16 @@
+id: shop
+title: 小店訂單
+summary: 兩個門市的交易明細。
+tables:
+- name: orders
+  summary: 兩個門市的交易明細。
+  columns:
+  - name: order_id
+    type: INTEGER
+    note: 訂單編號
+  - name: city
+    type: VARCHAR
+    note: 門市城市
+  - name: amount
+    type: DECIMAL(8,2)
+    note: 金額，單位為元

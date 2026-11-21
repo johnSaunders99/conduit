@@ -1,0 +1,105 @@
+:root {
+  color-scheme: light;
+  --bg: #F3F5F7;
+  --surface: #FFFFFF;
+  --surface-2: #F8FAFB;
+  --border: #DFE4E9;
+  --border-strong: #C9D1D9;
+  --text: #16202A;
+  --text-2: #4F5B67;
+  --text-3: #7F8A95;
+  --brand: #1D5C8F;
+  --brand-ink: #FFFFFF;
+  --track-stone: #7A6A55;
+  --track-indigo: #4338CA;
+  --track-teal: #0F766E;
+  --track-amber: #B45309;
+  --track-vermilion: #C2410C;
+  --track-slate: #475569;
+  --rate-again: #C2410C;
+  --rate-hard: #B7791F;
+  --rate-good: #1F7A5C;
+  --rate-easy: #1D5C8F;
+  --ok: #1F7A5C;
+  --err: #B42318;
+  --ui: "Segoe UI Variable Text","Segoe UI","Microsoft JhengHei UI","Microsoft JhengHei","PingFang TC","Noto Sans TC",system-ui,sans-serif;
+  --mono: "Cascadia Mono","Cascadia Code","JetBrains Mono",Consolas,monospace;
+  --body-size: 17px;
+  --reading: 720px;
+  --tint: color-mix(in srgb,var(--brand) 9%,var(--surface));
+  --chart-fill: color-mix(in srgb,var(--brand) 63%,var(--surface));
+  --track: var(--brand);
+  --shadow: 0 8px 24px rgba(0,0,0,.08);
+}
+:root[data-theme=dark] {
+  color-scheme: dark;
+  --bg: #0F1419;
+  --surface: #161C23;
+  --surface-2: #1C232B;
+  --border: #28313B;
+  --border-strong: #36414D;
+  --text: #E4E8EC;
+  --text-2: #A2ACB6;
+  --text-3: #6C7782;
+  --brand: #5BA8E0;
+  --brand-ink: #0A1A28;
+  --track-stone: #C2AE90;
+  --track-indigo: #A5B4FC;
+  --track-teal: #2DD4BF;
+  --track-amber: #F2B35B;
+  --track-vermilion: #FB8A5A;
+  --track-slate: #94A3B8;
+  --rate-again: #FB8A5A;
+  --rate-hard: #E0B050;
+  --rate-good: #4FB39B;
+  --rate-easy: #5BA8E0;
+  --ok: #4FB39B;
+  --err: #F38B7E;
+}
+@media(prefers-color-scheme:dark) {
+:root[data-theme=system] {
+  color-scheme: dark;
+  --bg: #0F1419;
+  --surface: #161C23;
+  --surface-2: #1C232B;
+  --border: #28313B;
+  --border-strong: #36414D;
+  --text: #E4E8EC;
+  --text-2: #A2ACB6;
+  --text-3: #6C7782;
+  --brand: #5BA8E0;
+  --brand-ink: #0A1A28;
+  --track-stone: #C2AE90;
+  --track-indigo: #A5B4FC;
+  --track-teal: #2DD4BF;
+  --track-amber: #F2B35B;
+  --track-vermilion: #FB8A5A;
+  --track-slate: #94A3B8;
+  --rate-again: #FB8A5A;
+  --rate-hard: #E0B050;
+  --rate-good: #4FB39B;
+  --rate-easy: #5BA8E0;
+  --ok: #4FB39B;
+  --err: #F38B7E;
+}}
+[data-font=small] {
+  --body-size: 15px;
+}
+[data-font=large] {
+  --body-size: 19px;
+}
+[data-width=narrow] {
+  --reading: 640px;
+}
+[data-width=wide] {
+  --reading: 820px;
+}
+.tone-stone { --track:var(--track-stone); --track-tint:color-mix(in srgb,var(--track) 10%,transparent); }
+.tone-indigo { --track:var(--track-indigo); --track-tint:color-mix(in srgb,var(--track) 10%,transparent); }
+.tone-teal { --track:var(--track-teal); --track-tint:color-mix(in srgb,var(--track) 10%,transparent); }
+.tone-amber { --track:var(--track-amber); --track-tint:color-mix(in srgb,var(--track) 10%,transparent); }
+.tone-vermilion { --track:var(--track-vermilion); --track-tint:color-mix(in srgb,var(--track) 10%,transparent); }
+.tone-slate { --track:var(--track-slate); --track-tint:color-mix(in srgb,var(--track) 10%,transparent); }
+
+/* Code must show exactly what the learner types: no programming ligatures (!= must not render as ≠). */
+code, pre, kbd, samp, .cm-editor, .cm-editor * { font-variant-ligatures: none; font-feature-settings: "liga" 0, "calt" 0, "dlig" 0; }

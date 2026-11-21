@@ -1,0 +1,20 @@
+id: cr-code
+track: career
+stage: 2
+order: 270
+title: Python 面試演練
+subtitle: 邊說邊寫一個能測的解法
+summary: Python 面試演練：邊說邊寫一個能測的解法。從「澄清輸入與輸出」練到「模擬程式面試」。
+outcomes:
+- 先定義無輸入與重複鍵的預期輸出
+- 說明候選容量與新增元素的更新成本
+- 在限時內交付可執行解法及最小反例
+prereqs:
+- fd-algo
+- fd-lab
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 2.5

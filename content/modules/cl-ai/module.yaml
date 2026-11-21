@@ -1,0 +1,18 @@
+id: cl-ai
+track: cloud
+stage: 3
+order: 450
+title: 供 AI 使用的數據管道
+subtitle: 原文撤回時答案也要跟著變
+summary: 供 AI 使用的數據管道：原文撤回時答案也要跟著變。從「非結構化數據與來源鍵」練到「刪除傳播與評估集」。
+outcomes:
+- 給改名文件一個不變的來源識別鍵
+- 用反例區別語義接近與事實正確
+- 用已撤回文件驗證索引與回應不再洩出內容
+prereqs:
+- bd-quality
+- cl-cloud
+roles:
+- modern
+- platform
+hours: 3

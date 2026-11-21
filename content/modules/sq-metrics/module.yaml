@@ -1,0 +1,19 @@
+id: sq-metrics
+track: sql
+stage: 2
+order: 250
+title: 數倉分層與指標
+subtitle: 同一張營收報表只能有一種口徑
+summary: 數倉分層與指標：同一張營收報表只能有一種口徑。從「ODS 原始層」練到「權限與最小揭露」。
+outcomes:
+- 保留每列的來源與批次切點
+- 從一次業務動作延伸時間與維度條件
+- 為報表讀者去掉不必要的識別欄位
+prereqs:
+- sq-model
+- sq-window
+roles:
+- warehouse
+- modern
+- stream
+hours: 4.5

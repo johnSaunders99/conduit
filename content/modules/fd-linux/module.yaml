@@ -1,0 +1,20 @@
+id: fd-linux
+track: foundations
+stage: 1
+order: 160
+title: Linux 與 Shell
+subtitle: 讓清洗腳本能準時留下紀錄
+summary: Linux 與 Shell：讓清洗腳本能準時留下紀錄。從「WSL 與檔案邊界」練到「排程與環境」。
+outcomes:
+- 解釋 Windows 與 WSL 路徑各由誰管理
+- 保留日期參數的完整字串
+- 在精簡環境重現找不到相對路徑的錯誤
+prereqs:
+- fd-io
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 3.5
+skippable: true

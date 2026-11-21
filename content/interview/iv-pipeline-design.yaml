@@ -1,0 +1,94 @@
+id: iv-pipeline-design
+title: 管道設計：從需求到恢復
+track: career
+questions:
+- id: iv-pipeline-design-q01
+  lesson: cr-design-05
+  question: 零售日報一定要上實時架構嗎？
+  points:
+  - 問使用決策與期限
+  - 比較維運成本
+  answer: 若每日開店前才決策，先用定時批次與對帳即可。只有延遲真的改變補貨決策時，再引入事件流，並估算重播與監控成本。
+  tags:
+  - 時效取捨
+- id: iv-pipeline-design-q02
+  lesson: cr-design-03
+  question: 每天一千萬筆事件，每筆約五百位元組，怎樣估儲存？
+  points:
+  - 先估原始量再列放大因子
+  - 區分十進與二進
+  answer: 未壓縮原始量約每日五十億位元組，即十進位 5 GB。再乘保留天數，分別列複本、索引、中間產物及峰值，不把壓縮比當保證。
+  tags:
+  - 容量估算
+- id: iv-pipeline-design-q03
+  lesson: bd-ingest-02
+  question: 上游只給更新時間，如何判斷能否安全同步？
+  points:
+  - 同時刻多鍵
+  - 重疊抽取與去重
+  answer: 可用更新時間加唯一鍵接續分頁，並以有限回看重抓和按鍵冪等合併；仍會漏掉越過回看窗口的晚提交，而且無法從消失的列判斷硬刪。若不能容忍漏數，需來源日誌或定期全量對帳。
+  tags:
+  - 增量同步
+- id: iv-pipeline-design-q04
+  lesson: cl-ai-05
+  question: 客戶要求刪一筆資訊，哪些下游也要處理？
+  points:
+  - 畫血緣和保留政策
+  - 驗證查不到不是只隱藏介面
+  answer: 從來源沿明細、快照、索引到匯出檔列出副本；各層依授權政策處理並記錄完成狀態。另列不能即時改寫的備份保留期限及恢復後再套用流程。
+  tags:
+  - 刪除傳播
+- id: iv-pipeline-design-q05
+  lesson: cl-contract-02
+  question: 輸入新增一欄和改掉已有欄的型別，風險相同嗎？
+  points:
+  - 可相容變更與破壞性變更
+  - 雙版本切換
+  answer: 新增可空欄通常較易兼容；改型別可能讓舊讀者直接失敗。先測所有消費者，必要時並存新舊欄，遷移後才移除舊版。
+  tags:
+  - 欄位契約
+- id: iv-pipeline-design-q06
+  lesson: bd-kafka-06
+  question: 斷線八小時後，該從最新位置還是上次成功處恢復？
+  points:
+  - 比較保留窗口與成功切點
+  - 追趕與實時並存
+  answer: 先確認來源仍保留未處理數據，再從最後一致切點恢復；若超過保留期要改用快照與增量銜接。不能為了看板變綠而跳過八小時。
+  tags:
+  - 斷點恢復
+- id: iv-pipeline-design-q07
+  lesson: cl-cloud-05
+  question: 成本突然翻倍而流量沒變，設計上怎麼追？
+  points:
+  - 區分儲存掃描與傳輸
+  - 追到作業與分區
+  answer: 先按費用類別和作業標籤定位，再比掃描位元組、分區範圍與回填批次。只看總帳單不能判斷是查詢掃全表還是閒置倉庫沒停。
+  tags:
+  - 成本診斷
+- id: iv-pipeline-design-q08
+  lesson: bd-orch-08
+  question: 兩個團隊同時讀測試中的結果，如何發布？
+  points:
+  - 隔離建置與讀取
+  - 驗收後切換
+  answer: 寫到帶版本的新位置，核對完整性後再切換讀者指標或視圖。保留上一版供回復，不讓讀者看到只寫一半的新舊混合。
+  tags:
+  - 安全發布
+- id: iv-pipeline-design-q09
+  lesson: cl-ai-02
+  question: 接收原始文件做檢索，如何知道索引過時？
+  points:
+  - 來源版本和切片鍵
+  - 追蹤刪除與增量
+  answer: 索引記來源文件鍵、版本及切片規則；按鍵比對目前來源清單。文件刪除或改權限時不能只重建新片段，也要清掉或封鎖舊片段。
+  tags:
+  - 索引新鮮度
+- id: iv-pipeline-design-q10
+  lesson: cr-design-06
+  question: 單機示範如何說明未驗證的生產邊界？
+  points:
+  - 區分語義與容量
+  - 列下一個壓測假設
+  answer: 單機可驗證去重、順序和重跑，不代表能承受跨機故障或尖峰吞吐。我會交付輸入大小、記憶體上限與下一次應測的失敗點，而非自稱高可用。
+  tags:
+  - 驗證邊界

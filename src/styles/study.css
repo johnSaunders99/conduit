@@ -1,0 +1,112 @@
+/* Display type is optional; code and body keep their original system stacks. */
+:root { --display: var(--ui); }
+[data-heading-font=serif] { --display: "Conduit Display TC","Noto Serif TC","PMingLiU",var(--ui); }
+.page-title h1,.reader h1,.reader h2,.today-band h2,.module-main h3,.reference-section-title h2 {
+  font-family:var(--display);
+  font-weight:700;
+}
+.reader h2,.module-main h3,.reference-section-title h2 {font-weight:600}
+
+.channel-band {
+  --channel-ink:var(--track);
+  position:relative;isolation:isolate;overflow:hidden;min-height:140px;min-width:0;
+  padding:clamp(16px,2.5vw,28px);border:1px solid color-mix(in srgb,var(--channel-ink) 24%,var(--border));
+  border-radius:14px;
+  background:linear-gradient(106deg,var(--surface) 28%,color-mix(in srgb,var(--channel-ink) 11%,var(--surface)) 100%);
+}
+.channel-band .eyebrow {color:var(--channel-ink)}
+.channel-band > .track-art-band,.channel-band > .trail-art {
+  position:absolute;z-index:-1;inset:0 0 0 auto;width:71%;height:100%;color:var(--channel-ink);
+  opacity:.40;pointer-events:none;
+  mask-image:linear-gradient(90deg,transparent,#000 40%);
+}
+.channel-flow {
+  stroke:currentColor;stroke-width:2px;stroke-linecap:round;
+  stroke-dasharray:12 88;animation:channel-current 8s linear infinite;
+}
+@keyframes channel-current {from{stroke-dashoffset:100}to{stroke-dashoffset:0}}
+[data-tab-visibility=hidden] .channel-flow {animation-play-state:paused}
+[data-motion=reduce] .channel-flow {animation:none;visibility:hidden}
+.module-band {display:grid;align-items:center;margin:12px 0 22px}
+.module-band .page-title {margin:0;max-width:82%;align-items:flex-start}
+.module-band h1 {overflow-wrap:anywhere}
+.module-band .page-title p {margin-bottom:0}
+.lesson-heading.channel-band {padding-block:18px 21px;margin-top:10px;gap:1.1rem}
+.lesson-heading > .lesson-heading-copy {display:grid;gap:5px;min-width:0;max-width:90%}
+.lesson-heading .lesson-heading-copy h1 {margin:0;overflow-wrap:anywhere}
+.lesson-heading .lesson-subtitle {margin-block:0}
+.lesson-heading .lesson-read {flex:none;align-self:flex-end;position:relative;z-index:1}
+.lesson-heading .completion-channel {bottom:1px}
+.lesson-facts {margin-top:12px}
+.desk.today-band {--channel-ink:var(--brand);padding:clamp(20px,2.6vw,30px);border-radius:14px}
+.today-band .trail-art {max-width:100%;opacity:.52}
+.today-band > div {position:relative;z-index:0}
+.stage .stage-toggle {min-height:51px}
+.stage-art .track-art {width:clamp(32px,7vw,106px)}
+.module-grid .module-card {position:relative;isolation:isolate;padding-bottom:19px}
+.module-card .track-art-card {
+  position:absolute;z-index:-1;right:9px;top:6px;bottom:8px;width:58%;height:calc(100% - 14px);
+  opacity:.14;pointer-events:none;mask-image:linear-gradient(90deg,transparent,#000 56%)
+}
+.module-card .ring {color:var(--track)}
+.module-channel {position:absolute;inset:auto 10px 0;height:3px;background:color-mix(in srgb,var(--track) 15%,var(--surface));border-radius:6px;overflow:hidden}
+.module-channel i {display:block;height:100%;background:var(--track)}
+.module-main h3 a {overflow-wrap:anywhere}
+
+.lesson-prose .callout {
+  --note-ink:var(--brand);position:relative;margin-inline:0;padding:14px 17px 14px 44px;
+  border:1px solid color-mix(in srgb,var(--note-ink) 20%,var(--border));border-left:3px solid var(--note-ink);
+  background:color-mix(in srgb,var(--note-ink) 9%,var(--surface));
+}
+.lesson-prose .callout::before {color:var(--note-ink);margin-bottom:3px}
+.lesson-prose .callout::after {
+  content:"";position:absolute;inset:15px auto auto 14px;width:18px;height:18px;background:var(--note-ink);
+  mask:var(--note-icon) center/contain no-repeat;
+}
+.lesson-prose .tip {--note-ink:var(--ok);--note-icon:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' stroke='black' stroke-width='2' fill='none' stroke-linecap='round'%3E%3Cpath d='M9 18h6m-5 4h4m-5-8c0-2-3-3-3-7a6 6 0 1 1 12 0c0 4-3 5-3 7z'/%3E%3C/svg%3E")}
+.lesson-prose .note {--note-icon:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' stroke='black' stroke-width='2' fill='none' stroke-linecap='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M12 11v5m0-8h.01'/%3E%3C/svg%3E")}
+.lesson-prose .warn {--note-ink:var(--err);--note-icon:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' stroke='black' stroke-width='2' fill='none' stroke-linejoin='round' stroke-linecap='round'%3E%3Cpath d='M12 3 2.5 20h19L12 3zm0 6v4m0 3h.01'/%3E%3C/svg%3E")}
+.lesson-prose .speech-part + .speech-part {position:relative;border-top:1px solid var(--border);margin-top:27px;padding-top:15px}
+.lesson-prose .speech-part + .speech-part::before {
+  position:absolute;content:"";width:7px;height:7px;top:-4px;left:0;border:1px solid var(--brand);border-radius:50%;background:var(--bg);
+}
+.lesson-prose .speech-part + .speech-part > h2:first-child {margin-top:.2em}
+.lesson-prose .speech-part:first-child > p:first-of-type {font-size:1.11em;line-height:1.78}
+.lesson-prose :not(pre)>code {
+  background:color-mix(in srgb,var(--brand) 10%,var(--surface));color:var(--text);border:1px solid var(--border);
+  border-radius:4px;padding:.07em .32em;font-size:.87em;overflow-wrap:anywhere;
+}
+.lesson-prose .table-scroll {overflow:auto;margin:0 0 1em}
+.lesson-prose table {min-width:100%;width:max-content;max-width:100%}
+.lesson-prose th,.lesson-prose td {max-width:25rem}
+.lesson-prose th {background:color-mix(in srgb,var(--brand) 12%,var(--surface))}
+.lesson-prose tbody tr:nth-child(even) {background:var(--surface-2)}
+
+.session .review-track {border-top:3px solid var(--track)}
+.session .review-channel {position:relative;height:4px;overflow:visible;margin-inline:6px;background:var(--border)}
+.review-channel::before,.review-channel::after {
+  content:"";position:absolute;top:50%;width:8px;height:8px;border:1px solid var(--track);
+  border-radius:50%;background:var(--surface);transform:translateY(-50%);pointer-events:none;
+}
+.review-channel::before {left:-5px;background:var(--track)}
+.review-channel::after {right:-5px}
+.session .review-channel i {background:var(--track);transition:width .35s ease}
+.sql-pass-fill {animation:sql-channel-fill .64s ease-out}
+@keyframes sql-channel-fill {from{box-shadow:inset 0 3px 0 var(--ok);background:color-mix(in srgb,var(--ok) 17%,var(--surface))}to{box-shadow:inset 0 0 0 transparent}}
+[data-motion=reduce] .review-channel i {transition:none}
+[data-motion=reduce] .sql-pass-fill {animation:none}
+@media (prefers-reduced-motion:reduce) {
+  .channel-flow {animation:none;visibility:hidden}
+  .session .review-channel i {transition:none}
+  .sql-pass-fill {animation:none}
+}
+@media (max-width:767px) {
+  .channel-band {min-height:96px;padding:14px 16px}
+  .channel-band > .track-art-band,.channel-band > .trail-art {width:86%;opacity:.30}
+  .lesson-heading.channel-band {padding:14px 14px 16px;align-items:flex-start;gap:8px}
+  .lesson-heading .lesson-heading-copy h1 {font-size:clamp(21px,6vw,28px);line-height:1.28}
+  .lesson-heading .lesson-read {padding-inline:.55rem;gap:.3rem}
+  .module-band .page-title {max-width:100%}
+  .stage-art .track-art {width:clamp(24px,7vw,54px)}
+  .lesson-prose .table-scroll {scrollbar-width:thin}
+}

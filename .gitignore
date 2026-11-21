@@ -1,0 +1,10 @@
+node_modules/
+dist/
+public/content/
+userdata/
+.npm/
+coverage/
+.cache/
+*.tsbuildinfo
+*.log
+.vite/

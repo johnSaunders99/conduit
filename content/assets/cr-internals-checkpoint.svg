@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 864 423" role="img" aria-labelledby="title desc" lang="zh-Hant">
+  <title id="title">恢復位置與狀態要對回同一時點</title>
+  <desc id="desc">來源送到算子，算子再到寫端。檢查點 C 同時保留下一位置 51 與合計 300；背壓由寫端往回傳。</desc>
+  <defs>
+    <marker id="forward" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#305B7C"/></marker>
+    <marker id="caution" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#9A5F18"/></marker>
+  </defs>
+  <g font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif">
+    <rect x="1" y="1" width="862" height="421" rx="18" fill="#F3F7FA" stroke="#A5B7C6" stroke-width="2"/>
+    <text x="32" y="34" fill="#315E83" font-size="14" font-weight="700" letter-spacing="1.1">05 / FLINK · 檢查點</text>
+    <text x="32" y="67" fill="#162C3C" font-size="27" font-weight="700">恢復位置與狀態要對回同一時點</text>
+    <text x="32" y="94" fill="#3C5569" font-size="16">恢復時不能混用不同時刻的進度和合計。</text>
+    <path d="M32 111 H832" stroke="#B9C8D3"/>
+    <path d="M259 181 H313" fill="none" stroke="#305B7C" stroke-width="2.25" marker-end="url(#forward)"/>
+    <path d="M545 181 H599" fill="none" stroke="#305B7C" stroke-width="2.25" marker-end="url(#forward)"/>
+    <path d="M716 226 V248 H442 V232" fill="none" stroke="#9A5F18" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#caution)"/>
+    <path d="M140 226 V311 H209" fill="none" stroke="#305B7C" stroke-width="2.25" marker-end="url(#forward)"/>
+    <path d="M380 226 V262" fill="none" stroke="#305B7C" stroke-width="2.25" marker-end="url(#forward)"/>
+    <g transform="translate(32 138)">
+      <rect width="227" height="88" rx="12" fill="#E1EEF9" stroke="#8AB1CF" stroke-width="1.2"/>
+      <text x="14" y="23" fill="#174A75" font-size="12.5" font-weight="700" letter-spacing=".5">01 · SOURCE</text>
+      <text x="14" y="49" fill="#172C3C" font-size="19" font-weight="700">來源位置</text>
+      <text x="14" y="73" fill="#334D61" font-size="14">位置 50 已納入切點</text>
+    </g>
+    <g transform="translate(319 138)">
+      <rect width="226" height="88" rx="12" fill="#E1EEF9" stroke="#8AB1CF" stroke-width="1.2"/>
+      <text x="14" y="23" fill="#174A75" font-size="12.5" font-weight="700" letter-spacing=".5">02 · OPERATOR</text>
+      <text x="14" y="49" fill="#172C3C" font-size="19" font-weight="700">算子狀態</text>
+      <text x="14" y="73" fill="#334D61" font-size="14">此時門市合計 300</text>
+    </g>
+    <g transform="translate(605 138)">
+      <rect width="227" height="88" rx="12" fill="#FFF1DD" stroke="#DCB77D" stroke-width="1.2"/>
+      <text x="14" y="23" fill="#744507" font-size="12.5" font-weight="700" letter-spacing=".5">03 · SINK</text>
+      <text x="14" y="49" fill="#172C3C" font-size="19" font-weight="700">外部寫端</text>
+      <text x="14" y="73" fill="#334D61" font-size="14">慢寫可能造成背壓</text>
+    </g>
+    <g transform="translate(215 268)">
+      <rect width="334" height="83" rx="12" fill="#E0F3EE" stroke="#89C2B5" stroke-width="1.2"/>
+      <text x="14" y="23" fill="#075D50" font-size="12.5" font-weight="700" letter-spacing=".5">C · CHECKPOINT</text>
+      <text x="14" y="49" fill="#172C3C" font-size="19" font-weight="700">同一個完成檢查點</text>
+      <text x="14" y="73" fill="#334D61" font-size="14">下次讀 51；先把合計恢復成 300</text>
+    </g>
+    <path d="M32 368 H832" stroke="#B9C8D3"/>
+    <text x="32" y="398" fill="#2D4860" font-size="15" font-weight="600">重播位置 51 加 20 → 狀態 320；外部寫入是否只生效一次要另驗。</text>
+  </g>
+</svg>

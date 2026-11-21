@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 261" role="img" aria-labelledby="title desc">
+<title id="title">把常一起查的列放近一點</title><desc id="desc">某數據片段先按 shop_id 排序，再按 event_id 排序；帶店號前綴時，其他門市的區塊可以排除。</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#52708a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect x="1" y="1" width="818" height="259" rx="18" fill="#f3f7fa" stroke="#d4e0eb"/>
+<g font-family="'Microsoft JhengHei UI','Noto Sans TC',system-ui,sans-serif">
+<text x="26" y="33" fill="#1d5c8f" font-size="13" font-weight="700" font-family="Consolas, monospace">SERVE / 01</text>
+<text x="26" y="61" fill="#162d42" font-size="25" font-weight="700">把常一起查的列放近一點</text>
+<path d="M26 77H794" fill="none" stroke="#d4e0eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="26" y="107" fill="#36546e" font-size="17" font-weight="700">排序鍵  (shop_id, event_id)</text>
+<rect x="26" y="126" width="179" height="77" rx="10" fill="#fff" stroke="#d4e0eb"/>
+<text x="41" y="154" fill="#536b80" font-size="18" font-weight="700" font-family="Consolas, monospace">shop_id = 0</text>
+<text x="41" y="183" fill="#536b80" font-size="16">略過此區塊</text>
+<rect x="220" y="126" width="179" height="77" rx="10" fill="#fff" stroke="#d4e0eb"/>
+<text x="235" y="154" fill="#536b80" font-size="18" font-weight="700" font-family="Consolas, monospace">shop_id = 1</text>
+<text x="235" y="183" fill="#536b80" font-size="16">略過此區塊</text>
+<rect x="414" y="126" width="179" height="77" rx="10" fill="#e2f4ef" stroke="#d4e0eb"/>
+<text x="429" y="154" fill="#0a6b63" font-size="18" font-weight="700" font-family="Consolas, monospace">shop_id = 2</text>
+<text x="429" y="183" fill="#0a6b63" font-size="16">候選，還要再篩</text>
+<rect x="608" y="126" width="179" height="77" rx="10" fill="#fff" stroke="#d4e0eb"/>
+<text x="623" y="154" fill="#536b80" font-size="18" font-weight="700" font-family="Consolas, monospace">shop_id = 3</text>
+<text x="623" y="183" fill="#536b80" font-size="16">略過此區塊</text>
+<text x="26" y="240" fill="#36546e" font-size="16">條件含 shop_id = 2：查找會先縮到該店，再依 event_id 篩選。</text>
+</g></svg>

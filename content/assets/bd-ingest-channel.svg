@@ -1,0 +1,42 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 308" role="img" aria-labelledby="title description">
+  <title id="title">讀取成功，不等於已經落地</title>
+  <desc id="description">Reader 從來源取數，經 Channel 傳遞與轉換，由 Writer 寫出；壞列另記拒收。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#356684"/></marker>
+  </defs>
+  <rect x="1" y="1" width="758" height="306" rx="18" fill="#f3f7fa" stroke="#ccd9e4" stroke-width="2"/>
+  <g font-family="Microsoft JhengHei, PingFang TC, sans-serif">
+    <text x="32" y="38" font-size="23" font-weight="700" fill="#17334b">讀取成功，不等於已經落地</text>
+    <path d="M171 120 H202" fill="none" stroke="#356684" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M348 120 H379" fill="none" stroke="#356684" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M525 120 H556" fill="none" stroke="#356684" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M456 153 V217 H493" fill="none" stroke="#356684" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(33 88)">
+      <rect width="138" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="69" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">讀端</text>
+      <text x="69" y="49" text-anchor="middle" font-size="15" fill="#36566a">Reader</text>
+    </g>
+    <g transform="translate(210 88)">
+      <rect width="138" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="69" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">通道</text>
+      <text x="69" y="49" text-anchor="middle" font-size="15" fill="#36566a">Channel</text>
+    </g>
+    <g transform="translate(387 88)">
+      <rect width="138" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="69" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">轉換</text>
+      <text x="69" y="49" text-anchor="middle" font-size="15" fill="#36566a">規則判斷</text>
+    </g>
+    <g transform="translate(564 88)">
+      <rect width="161" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="80.5" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">寫端</text>
+      <text x="80.5" y="49" text-anchor="middle" font-size="15" fill="#36566a">Writer</text>
+    </g>
+    <g transform="translate(501 185)">
+      <rect width="224" height="64" rx="9" fill="#fff1df" stroke="#ba8646"/>
+      <text x="112" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">拒收清單</text>
+      <text x="112" y="49" text-anchor="middle" font-size="15" fill="#36566a">原值與原因</text>
+    </g>
+    <path d="M32 267H728" stroke="#c3d3de"/>
+    <text x="32" y="291" font-size="16" fill="#36566a">分別記讀取、拒收與確認寫入的筆數。</text>
+  </g>
+</svg>

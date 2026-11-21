@@ -1,0 +1,20 @@
+id: fd-system
+track: foundations
+stage: 1
+order: 170
+title: 電腦系統與網路
+subtitle: 分清是磁碟慢還是連不上
+summary: 電腦系統與網路：分清是磁碟慢還是連不上。從「行程與執行緒」練到「JVM 與垃圾回收」。
+outcomes:
+- 區分作業行程與其內部執行緒
+- 用批量大小解釋吞吐與延遲拉扯
+- 從日誌標記暫停時間並對照工作延遲
+prereqs:
+- fd-linux
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 3.5
+skippable: true

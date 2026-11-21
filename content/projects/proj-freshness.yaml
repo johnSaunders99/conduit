@@ -1,0 +1,30 @@
+id: proj-freshness
+track: career
+title: 批流時效決策書
+summary: Windows 本機 DuckDB、PySpark local 分時執行，預留 4 GB。
+why: 把已實測的延遲與推算的生產容量寫在不同欄位，讓評審能挑戰假設。
+modules:
+- cr-design
+- bd-bench
+- bd-quality
+level: 4
+hours: 12
+milestones:
+- id: proj-freshness-m1
+  title: 固定樣本與事件時序，做兩種更新間隔
+  checks:
+  - 兩份方案使用同一份輸入與時鐘。
+  - 標出兩種更新間隔各自可用的切點。
+- id: proj-freshness-m2
+  title: 測三輪並記錄延遲分位數與修復工作量
+  checks:
+  - 分列冷啟動與暖快取。
+  - 至少三次運行，保留原始執行時間而非只報最快值。
+- id: proj-freshness-m3
+  title: 用同一退款對帳再提交選型建議
+  checks:
+  - 同一退款在兩種方案下對帳一致。
+  - 交代成本與延遲門檻，指出何時改選另一方案。
+stretch:
+- 把一份新輸入交給沒有參與製作的人，記下首次重跑卡住之處並修訂交接說明。
+showcase: 用兩分鐘說明為什麼較快的方案未必值得上線，並指出哪個條件改變會讓你改選。

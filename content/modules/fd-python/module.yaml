@@ -1,0 +1,20 @@
+id: fd-python
+track: foundations
+stage: 0
+order: 40
+title: Python 程式入門
+subtitle: 用十幾行程式整理到貨單
+summary: Python 程式入門：用十幾行程式整理到貨單。從「Python 與直譯器」練到「函式與回傳」。
+outcomes:
+- 在 Windows 以 py 執行一份本機腳本
+- 預測兩個邊界值比較後的布林值
+- 驗證呼叫端取得總額而非只有螢幕輸出
+prereqs:
+- fd-desk
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 4
+skippable: true

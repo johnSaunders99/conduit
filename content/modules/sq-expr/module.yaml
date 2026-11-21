@@ -1,0 +1,18 @@
+id: sq-expr
+track: sql
+stage: 1
+order: 50
+title: SQL 運算與類型
+subtitle: 把原始欄位變成可核對的數字
+summary: SQL 運算與類型：把原始欄位變成可核對的數字。從「欄位別名與算式」練到「精度與除法」。
+outcomes:
+- 在輸出明確命名金額欄與計價單位
+- 在缺分隔符號時檢查拆解結果
+- 用不能整除的分子驗出精度流失
+prereqs:
+- sq-read
+roles:
+- warehouse
+- modern
+- stream
+hours: 4.0

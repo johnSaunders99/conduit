@@ -1,0 +1,14 @@
+id: sq-lab
+track: query
+title: SQL 查詢入門
+subtitle: 從一張訂單表認識查詢
+summary: 把收銀明細變成能核對的總數。
+stage: 1
+order: 15
+outcomes:
+- 讀取欄位、排序與聚合
+prereqs:
+- fd-demo
+roles:
+- warehouse
+hours: 1

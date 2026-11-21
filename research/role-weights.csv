@@ -1,0 +1,23 @@
+﻿role,skill,sample_families,any_of_tags,postings,core_or_duty,any_mention,weight
+warehouse,SQL 查詢與轉換,離線數倉,sql,31,27,28,3
+warehouse,數倉建模與分層,離線數倉,data-modeling;dimensional-modeling;warehouse,31,28,28,3
+warehouse,批次引擎與調校,離線數倉,hadoop;hive;spark,31,21,25,3
+warehouse,質量檢查與對帳,離線數倉,data-quality,31,19,19,3
+warehouse,湖倉表格式,離線數倉,delta;hudi;iceberg;paimon,31,4,6,1
+stream,實時事件與順序,實時數據,streaming,6,6,6,3
+stream,SQL 與串流程式,實時數據,python;sql,6,6,6,3
+stream,串流引擎與消息系統,實時數據,flink;kafka,6,4,5,3
+stream,質量與一致性驗收,實時數據,data-quality,6,3,3,2
+stream,Java 與 JVM 作業,實時數據,java;scala,6,3,3,2
+platform,程式與工具開發,數據平台,java;python;scala,23,19,20,3
+platform,分散式處理,數據平台,flink;hadoop;spark,23,13,16,3
+platform,作業排程,數據平台,airflow;dolphinscheduler;orchestration,23,6,10,2
+platform,質量與穩定性,數據平台,data-quality,23,15,15,3
+platform,非結構化檢索管道,數據平台,rag,23,4,4,1
+modern,SQL 與分析模型,雲端與現代數據棧|分析工程,data-modeling;sql,22,21,21,3
+modern,雲端儲存與數倉,雲端與現代數據棧|分析工程,aws;azure;bigquery;databricks;gcp;snowflake,22,16,19,3
+modern,程式化轉換,雲端與現代數據棧|分析工程,etl;python,22,18,19,3
+modern,可測試的數據產品,雲端與現代數據棧|分析工程,data-quality,22,17,17,3
+modern,dbt 模型工程,雲端與現代數據棧|分析工程,dbt,22,6,6,2
+modern,批流與增量,雲端與現代數據棧|分析工程,streaming,22,5,5,2
+platform,依職缺實作 Java 作業,數據平台,java,23,11,12,2

@@ -1,0 +1,94 @@
+id: iv-sql-scenarios
+title: SQL 手寫前的十個問題
+track: sql
+questions:
+- id: iv-sql-scenarios-q01
+  lesson: sq-pattern-01
+  question: 求每組前兩名，看到並列先問什麼？
+  points:
+  - 固定筆數或名次
+  - 說明平手鍵
+  answer: 先問兩名同分要不要都留下。若固定兩筆就依分數和唯一鍵排序，再用 ROW_NUMBER 編序號；若保留同分並取前兩個不同分數，用 DENSE_RANK；若取前兩個位置並保留並列，則用 RANK。
+  tags:
+  - 分組排名
+- id: iv-sql-scenarios-q02
+  lesson: sq-time-05
+  question: 為什麼每天的去重人數不能直接加成月活？
+  points:
+  - 同人可跨日
+  - 先按月去重
+  answer: 若同一人週一與週二都登入，日活加總是二，月活卻是一。先限定月份和業務時區，再對會員鍵計不同值。
+  tags:
+  - 去重人數
+- id: iv-sql-scenarios-q03
+  lesson: sq-pattern-02
+  question: 連續登入至少三天，重送事件怎麼處理？
+  points:
+  - 先去重到用戶日
+  - 再找連段
+  answer: 先按約定時區把登入事件時間歸到報表日，每人每天留一列。再用前日差標段或用日期減排序序號分組，對每段計日數；不能在未去重的事件上直接數三筆。
+  tags:
+  - 連續登入
+- id: iv-sql-scenarios-q04
+  lesson: sq-pattern-03
+  question: 次日留存率的分母怎麼固定？
+  points:
+  - 固定同批首次用戶
+  - 排除尚未觀察完的日子
+  answer: 先找每人的首次日，再以該批人數為分母。分子只算同批在隔天活動的人，沒有回來的人不能因內連接而從分母消失。
+  tags:
+  - 留存率
+- id: iv-sql-scenarios-q05
+  lesson: sq-pattern-04
+  question: 瀏覽、加購、付款三步漏斗能分開數人頭嗎？
+  points:
+  - 限制同一主體與順序
+  - 定義窗口與重複
+  answer: 不能只數三個獨立集合。先決定按用戶或會話及允許時長，再找每個主體依序出現的事件；付款在瀏覽前不能補成成功。
+  tags:
+  - 漏斗
+- id: iv-sql-scenarios-q06
+  lesson: sq-join-08
+  question: 沒有訂單的門市也要留下，條件寫哪裡？
+  points:
+  - 門市做左表
+  - 避免 WHERE 排除缺值
+  answer: 先保留完整門市集合，把訂單日期條件放在右側子查詢或連接條件。只在最後篩訂單日期，沒配對的門市也會被排掉。
+  tags:
+  - 外連接
+- id: iv-sql-scenarios-q07
+  lesson: sq-pattern-06
+  question: 計算峰值同時在線人數，同秒離開與進入怎麼算？
+  points:
+  - 先定義半開區間
+  - 同時刻先合併變動
+  answer: 令每段在線是含起點、不含終點。將進入記正一、離開記負一，先彙總同一時刻的淨變化再累加取峰值，避免同秒製造虛高。
+  tags:
+  - 同時在線
+- id: iv-sql-scenarios-q08
+  lesson: sq-time-06
+  question: 連接薪級歷史後訂單多一倍，怎麼查？
+  points:
+  - 檢查有效期條件
+  - 找重疊的鍵
+  answer: 不能只用員工鍵連接，還需讓業務時間落在該版有效期。若仍多配，列出同一訂單命中的區間，追查歷史表是否有重疊。
+  tags:
+  - 拉鏈區間
+- id: iv-sql-scenarios-q09
+  lesson: sq-pattern-05
+  question: 如何把三類事件轉成三欄計數？
+  points:
+  - 確定輸出粒度
+  - 用條件聚合處理零值
+  answer: 先定義每列是一日或一店，再為各類別做條件計數。若沒事件的日子也要出現，要先補日期集合，而不只是讓條件回傳零。
+  tags:
+  - 列欄轉換
+- id: iv-sql-scenarios-q10
+  lesson: sq-pattern-07
+  question: 求等待時間中位數，要問什麼方言差異？
+  points:
+  - 偶數筆的定義
+  - 離散或連續百分位
+  answer: 先問偶數筆取中間兩筆平均還是取實際觀測值。用四個不同數值手算，再選引擎支援的連續或離散函式；不能拿平均等待時間交差。
+  tags:
+  - 中位數

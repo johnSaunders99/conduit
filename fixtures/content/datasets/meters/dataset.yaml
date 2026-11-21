@@ -1,0 +1,16 @@
+id: meters
+title: 水量讀數
+summary: 兩個測站每日的讀數，空值表示未回報。
+tables:
+- name: readings
+  summary: 兩個測站每日的讀數，空值表示未回報。
+  columns:
+  - name: station
+    type: VARCHAR
+    note: 測站代碼
+  - name: day
+    type: DATE
+    note: 觀察日期
+  - name: litres
+    type: INTEGER
+    note: 公升數

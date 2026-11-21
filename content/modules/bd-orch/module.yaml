@@ -1,0 +1,19 @@
+id: bd-orch
+track: bigdata
+stage: 2
+order: 330
+title: 工作流排程
+subtitle: 凌晨兩點失敗後只補該補的日子
+summary: 工作流排程：凌晨兩點失敗後只補該補的日子。從「DAG 與依賴」練到「發布與回滾」。
+outcomes:
+- 畫出任務依賴並找出不存在的前置
+- 傳遞產物位置而不是整份數據
+- 切回上一版輸出後驗證下游恢復
+prereqs:
+- bd-ingest
+- sq-metrics
+roles:
+- warehouse
+- stream
+- platform
+hours: 4.0

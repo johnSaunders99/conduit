@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="489" viewBox="0 0 820 489" role="img" aria-labelledby="diagram-title diagram-desc">
+<title id="diagram-title">拆熱鍵再合回</title><desc id="diagram-desc">鍵 7 的 80 列分成四份。鍵 7 · 80 列，用列級識別碼決定鹽值，hot。鹽 0，20 列；鹽 1，20 列；鹽 2，20 列；鹽 3，20 列。第二階段移除鹽值，按原鍵加總：20 + 20 + 20 + 20 = 80。</desc>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#2b668b"/></marker><marker id="hot" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#a65416"/></marker></defs>
+<rect x="1" y="1" width="818" height="487" rx="16" fill="#fff" stroke="#dce5eb"/>
+<g font-family="Segoe UI, Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif">
+<text x="30" y="40" font-size="24" font-weight="700" fill="#172d3d">拆熱鍵再合回</text>
+<text x="30" y="66" font-size="15" fill="#4b6171">鍵 7 的 80 列分成四份</text>
+<path d="M30 81H790" stroke="#dce5eb"/>
+<rect x="30" y="216" width="248" height="58" rx="10" fill="#fff4e8" stroke="#d9b28c"/><text x="44" y="240" font-size="16" font-weight="700" fill="#823e0b">鍵 7 · 80 列</text><text x="44" y="261" font-size="14" fill="#465868">用列級識別碼決定鹽值</text>
+<rect x="542" y="99" width="248" height="58" rx="10" fill="#f6fafc" stroke="#a8c2d3"/><text x="556" y="123" font-size="16" font-weight="700" fill="#14374e">鹽 0</text><text x="556" y="144" font-size="14" fill="#465868">20 列</text>
+<rect x="542" y="177" width="248" height="58" rx="10" fill="#f6fafc" stroke="#a8c2d3"/><text x="556" y="201" font-size="16" font-weight="700" fill="#14374e">鹽 1</text><text x="556" y="222" font-size="14" fill="#465868">20 列</text>
+<rect x="542" y="255" width="248" height="58" rx="10" fill="#f6fafc" stroke="#a8c2d3"/><text x="556" y="279" font-size="16" font-weight="700" fill="#14374e">鹽 2</text><text x="556" y="300" font-size="14" fill="#465868">20 列</text>
+<rect x="542" y="333" width="248" height="58" rx="10" fill="#f6fafc" stroke="#a8c2d3"/><text x="556" y="357" font-size="16" font-weight="700" fill="#14374e">鹽 3</text><text x="556" y="378" font-size="14" fill="#465868">20 列</text>
+<path d="M283 245 C383 245 437 128 536 128" fill="none" stroke="#2b668b" stroke-width="1.8" marker-end="url(#arrow)"/><text x="409" y="181.5" text-anchor="middle" fill="#23485d" stroke="white" stroke-width="5" paint-order="stroke" font-size="14">20</text>
+<path d="M283 245 C383 245 437 206 536 206" fill="none" stroke="#2b668b" stroke-width="1.8" marker-end="url(#arrow)"/><text x="409" y="220.5" text-anchor="middle" fill="#23485d" stroke="white" stroke-width="5" paint-order="stroke" font-size="14">20</text>
+<path d="M283 245 C383 245 437 284 536 284" fill="none" stroke="#2b668b" stroke-width="1.8" marker-end="url(#arrow)"/><text x="409" y="259.5" text-anchor="middle" fill="#23485d" stroke="white" stroke-width="5" paint-order="stroke" font-size="14">20</text>
+<path d="M283 245 C383 245 437 362 536 362" fill="none" stroke="#2b668b" stroke-width="1.8" marker-end="url(#arrow)"/><text x="409" y="298.5" text-anchor="middle" fill="#23485d" stroke="white" stroke-width="5" paint-order="stroke" font-size="14">20</text>
+<rect x="30" y="421" width="760" height="38" rx="8" fill="#edf5f9"/>
+<text x="46" y="445" font-size="14" fill="#254a62">第二階段移除鹽值，按原鍵加總：20 + 20 + 20 + 20 = 80。</text>
+</g></svg>

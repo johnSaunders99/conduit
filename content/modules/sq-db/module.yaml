@@ -1,0 +1,19 @@
+id: sq-db
+track: sql
+stage: 2
+order: 230
+title: 關聯式數據庫
+subtitle: 讓錯誤訂單進不了正式表
+summary: 關聯式數據庫：讓錯誤訂單進不了正式表。從「主鍵與外鍵」練到「按列儲存與欄式儲存」。
+outcomes:
+- 用不合法外鍵展示參照完整性
+- 用兩個連線重現讀取差異
+- 比較窄欄分析與單列更新的讀寫代價
+prereqs:
+- sq-compose
+- fd-docker
+roles:
+- warehouse
+- modern
+- stream
+hours: 4.5

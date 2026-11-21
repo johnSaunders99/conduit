@@ -1,0 +1,18 @@
+id: cl-wh
+track: cloud
+stage: 3
+order: 360
+title: 雲端數倉與 ELT
+subtitle: 先估價再決定在哪裡轉換
+summary: 雲端數倉與 ELT：先估價再決定在哪裡轉換。從「ETL 與 ELT」練到「Kubernetes 讀圖」。
+outcomes:
+- 根據敏感欄位與運算位置選 ETL 或 ELT
+- 從分布鍵猜測哪次連接需要搬移數據
+- 讀取工作、容器與記憶體限制的關係
+prereqs:
+- cl-cloud
+- sq-metrics
+roles:
+- modern
+- platform
+hours: 4

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 864 345" role="img" aria-labelledby="title desc" lang="zh-Hant">
+  <title id="title">快照切點之後，才接變更</title>
+  <desc id="desc">在位置 200 取得一致快照，套用 201 到 203。只有寫端完成並確認沒有缺口才推進進度。</desc>
+  <defs>
+    <marker id="forward" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#305B7C"/></marker>
+    <marker id="caution" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#9A5F18"/></marker>
+  </defs>
+  <g font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif">
+    <rect x="1" y="1" width="862" height="343" rx="18" fill="#F3F7FA" stroke="#A5B7C6" stroke-width="2"/>
+    <text x="32" y="34" fill="#315E83" font-size="14" font-weight="700" letter-spacing="1.1">02 / CDC · 交接</text>
+    <text x="32" y="67" fill="#162C3C" font-size="27" font-weight="700">快照切點之後，才接變更</text>
+    <text x="32" y="94" fill="#3C5569" font-size="16">先固定來源位置，再重播。抵達順序不等於來源順序。</text>
+    <path d="M32 111 H832" stroke="#B9C8D3"/>
+    <path d="M209 181 H233" fill="none" stroke="#305B7C" stroke-width="2.25" marker-end="url(#forward)"/>
+    <path d="M416 181 H440" fill="none" stroke="#305B7C" stroke-width="2.25" marker-end="url(#forward)"/>
+    <path d="M623 181 H647" fill="none" stroke="#305B7C" stroke-width="2.25" marker-end="url(#forward)"/>
+    <path d="M741 225 V264 H330 V232" fill="none" stroke="#9A5F18" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#caution)"/>
+    <g transform="translate(32 137)">
+      <rect width="177" height="88" rx="12" fill="#E1EEF9" stroke="#8AB1CF" stroke-width="1.2"/>
+      <text x="14" y="23" fill="#174A75" font-size="12.5" font-weight="700" letter-spacing=".5">01 · BASE</text>
+      <text x="14" y="49" fill="#172C3C" font-size="19" font-weight="700">一致快照</text>
+      <text x="14" y="73" fill="#334D61" font-size="14">位置 200／鍵 7</text>
+    </g>
+    <g transform="translate(239 137)">
+      <rect width="177" height="88" rx="12" fill="#E1EEF9" stroke="#8AB1CF" stroke-width="1.2"/>
+      <text x="14" y="23" fill="#174A75" font-size="12.5" font-weight="700" letter-spacing=".5">02 · REPLAY</text>
+      <text x="14" y="49" fill="#172C3C" font-size="19" font-weight="700">變更 201–203</text>
+      <text x="14" y="73" fill="#334D61" font-size="14">鍵 7 更新、刪除</text>
+    </g>
+    <g transform="translate(446 137)">
+      <rect width="177" height="88" rx="12" fill="#E0F3EE" stroke="#89C2B5" stroke-width="1.2"/>
+      <text x="14" y="23" fill="#075D50" font-size="12.5" font-weight="700" letter-spacing=".5">03 · COMMIT</text>
+      <text x="14" y="49" fill="#172C3C" font-size="19" font-weight="700">目的端提交</text>
+      <text x="14" y="73" fill="#334D61" font-size="14">可見鍵只剩 8</text>
+    </g>
+    <g transform="translate(653 137)">
+      <rect width="179" height="88" rx="12" fill="#E0F3EE" stroke="#89C2B5" stroke-width="1.2"/>
+      <text x="14" y="23" fill="#075D50" font-size="12.5" font-weight="700" letter-spacing=".5">04 · ACK</text>
+      <text x="14" y="49" fill="#172C3C" font-size="19" font-weight="700">保存位置 203</text>
+      <text x="14" y="73" fill="#334D61" font-size="14">確認前應能重播</text>
+    </g>
+    <path d="M32 290 H832" stroke="#B9C8D3"/>
+    <text x="32" y="320" fill="#2D4860" font-size="15" font-weight="600">故障未確認位置 → 重播同一段。203 的刪除應壓住重送的 201。</text>
+  </g>
+</svg>

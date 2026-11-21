@@ -1,0 +1,36 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 308" role="img" aria-labelledby="title description">
+  <title id="title">候選版本與讀者指標分開</title>
+  <desc id="description">保留已驗收的舊版；新版本先驗收，再改讀取指標；必要時可指回舊版。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#356684"/></marker>
+  </defs>
+  <rect x="1" y="1" width="758" height="306" rx="18" fill="#f3f7fa" stroke="#ccd9e4" stroke-width="2"/>
+  <g font-family="Microsoft JhengHei, PingFang TC, sans-serif">
+    <text x="32" y="38" font-size="23" font-weight="700" fill="#17334b">候選版本與讀者指標分開</text>
+    <path d="M212 94 H263 V144 H304" fill="none" stroke="#356684" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M212 214 H263 V163 H304" fill="none" stroke="#356684" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M478 154 H548" fill="none" stroke="#356684" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(34 62)">
+      <rect width="178" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="89" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">候選 v2</text>
+      <text x="89" y="49" text-anchor="middle" font-size="15" fill="#36566a">先驗收</text>
+    </g>
+    <g transform="translate(34 182)">
+      <rect width="178" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="89" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">已驗收 v1</text>
+      <text x="89" y="49" text-anchor="middle" font-size="15" fill="#36566a">保留上一版</text>
+    </g>
+    <g transform="translate(312 122)">
+      <rect width="166" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="83" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">讀取指標</text>
+      <text x="83" y="49" text-anchor="middle" font-size="15" fill="#36566a">只指向一版</text>
+    </g>
+    <g transform="translate(556 122)">
+      <rect width="169" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="84.5" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">下游讀者</text>
+      <text x="84.5" y="49" text-anchor="middle" font-size="15" fill="#36566a">讀回驗證</text>
+    </g>
+    <path d="M32 267H728" stroke="#c3d3de"/>
+    <text x="32" y="291" font-size="16" fill="#36566a">若讀者已儲存衍生結果，回切後還要重驗或補跑。</text>
+  </g>
+</svg>

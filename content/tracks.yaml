@@ -1,0 +1,35 @@
+- id: foundations
+  title: 共同基礎
+  short: 基礎
+  prefix: fd
+  color: stone
+  career: false
+  summary: 在 Windows 從第一筆訂單走到可交付的 Python 小管道。
+- id: sql
+  title: SQL 與數據建模
+  short: SQL
+  prefix: sq
+  color: indigo
+  career: false
+  summary: 從瀏覽器裡的第一個查詢，到能對帳的數倉與指標。
+- id: bigdata
+  title: 大數據與管道
+  short: 管道
+  prefix: bd
+  color: teal
+  career: false
+  summary: 先學拆分與恢復，再用批次、實時工具交付可重跑的數據。
+- id: cloud
+  title: 雲端與現代數據棧
+  short: 雲端
+  prefix: cl
+  color: amber
+  career: false
+  summary: 先設預算，用本機模型練習雲端數倉與分析工程。
+- id: career
+  title: 求職實戰
+  short: 求職
+  prefix: cr
+  color: vermilion
+  career: true
+  summary: 用職缺校準目標，以手寫、作品及故障答辯驗收。

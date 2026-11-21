@@ -1,0 +1,82 @@
+id: shop
+title: 茶舖訂單
+summary: 30 位會員、8 項商品、100 張訂單、200 筆品項明細及 17 筆退款。取消單保留明細；城市缺值為 NULL，並非空字串。金額均以元計。
+tables:
+- name: users
+  summary: 每列一個會員。
+  columns:
+  - name: user_id
+    type: INTEGER
+    note: 唯一會員鍵
+  - name: city
+    type: VARCHAR
+    note: 城市，未填為 NULL
+  - name: signup_date
+    type: DATE
+    note: 註冊日
+- name: products
+  summary: 每列一項商品。
+  columns:
+  - name: product_id
+    type: INTEGER
+    note: 唯一商品鍵
+  - name: product_name
+    type: VARCHAR
+    note: 品名
+  - name: category
+    type: VARCHAR
+    note: 分類
+  - name: price
+    type: INTEGER
+    note: 標價，元
+  - name: stock
+    type: INTEGER
+    note: 可用庫存，件
+- name: orders
+  summary: 一列一張單，不是一個品項。
+  columns:
+  - name: order_id
+    type: INTEGER
+    note: 唯一訂單鍵
+  - name: user_id
+    type: INTEGER
+    note: 會員鍵
+  - name: order_date
+    type: DATE
+    note: 營業日
+  - name: status
+    type: VARCHAR
+    note: paid 或 cancelled
+- name: order_items
+  summary: 每張單可含多個品項。
+  columns:
+  - name: order_id
+    type: INTEGER
+    note: 所屬訂單
+  - name: line_no
+    type: INTEGER
+    note: 單內行號
+  - name: product_id
+    type: INTEGER
+    note: 商品鍵
+  - name: qty
+    type: INTEGER
+    note: 成交件數
+  - name: unit_price
+    type: INTEGER
+    note: 成交單價，元
+- name: refunds
+  summary: 每列一筆已退款金額。
+  columns:
+  - name: refund_id
+    type: INTEGER
+    note: 退款事件鍵
+  - name: order_id
+    type: INTEGER
+    note: 原訂單
+  - name: refund_date
+    type: DATE
+    note: 入帳日
+  - name: amount
+    type: INTEGER
+    note: 退回金額，元

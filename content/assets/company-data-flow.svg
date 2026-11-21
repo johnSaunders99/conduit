@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 490" role="img" aria-labelledby="title desc" font-family="Segoe UI, Microsoft JhengHei, PingFang TC, sans-serif">
+<title id="title">一筆交易如何成為可用的數據</title>
+<desc id="desc">業務數據庫與 App 埋點日誌經採集與同步進入數倉。數倉由原始層 ODS、明細層 DWD、彙總層 DWS、應用層 ADS 組成；共用維度 DIM 為明細和彙總提供口徑。下游包括報表、BI、推薦與 AI。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" fill="#1d5c8f"/></marker></defs>
+<rect x="1" y="1" width="838" height="488" rx="24" fill="#f2f6fa" stroke="#b9ccdc" stroke-width="2"/>
+<g fill="#162e44">
+<text x="32" y="39" font-size="24" font-weight="700">一筆交易如何成為可用的數據</text>
+<text x="33" y="68" font-size="16" fill="#425f77">來源記下事實，數倉整理口徑，下游依需要取用。</text>
+</g>
+<g fill="white" stroke="#9bb8d0" stroke-width="1.5">
+<rect x="35" y="93" width="210" height="67" rx="12"/><rect x="268" y="93" width="210" height="67" rx="12"/>
+<rect x="580" y="93" width="224" height="67" rx="12"/>
+</g>
+<g font-size="19" font-weight="650" fill="#123b5d" text-anchor="middle">
+<text x="140" y="119">業務數據庫</text><text x="373" y="119">App 埋點日誌</text><text x="692" y="119">採集與同步</text>
+</g>
+<g font-size="15" fill="#425f77" text-anchor="middle">
+<text x="140" y="145">付款、退款</text><text x="373" y="145">瀏覽、加購物車</text><text x="692" y="145">來源鍵、到達時間</text>
+</g>
+<g fill="none" stroke="#1d5c8f" stroke-width="2.3" stroke-linejoin="round" marker-end="url(#arrow)">
+<path d="M140 161v16h393v-50h42"/><path d="M479 127h54"/>
+</g>
+<rect x="35" y="207" width="769" height="179" rx="16" fill="#e3edf7" stroke="#9bb8d0" stroke-width="1.5"/>
+<g font-size="17" font-weight="650" fill="#123b5d"><text x="53" y="234">數據倉庫</text></g>
+<g fill="white" stroke="#9bb8d0">
+<rect x="53" y="251" width="160" height="58" rx="9"/><rect x="244" y="251" width="160" height="58" rx="9"/>
+<rect x="435" y="251" width="160" height="58" rx="9"/><rect x="626" y="251" width="160" height="58" rx="9"/>
+<rect x="244" y="337" width="351" height="33" rx="9" fill="#fffaf1" stroke="#b99157"/>
+</g>
+<g font-size="17" fill="#123b5d" font-weight="650" text-anchor="middle">
+<text x="133" y="275">ODS · 原始</text><text x="324" y="275">DWD · 明細</text><text x="515" y="275">DWS · 彙總</text><text x="706" y="275">ADS · 應用</text>
+<text x="419" y="359" fill="#664616">DIM · 共用商品、門市、日期維度</text>
+</g>
+<g font-size="14" fill="#425f77" text-anchor="middle">
+<text x="133" y="296">保留來源紀錄</text><text x="324" y="296">一列一筆退款</text><text x="515" y="296">按門市與時段</text><text x="706" y="296">交付日報用表</text>
+</g>
+<g fill="none" stroke="#1d5c8f" stroke-width="2.3" marker-end="url(#arrow)" stroke-linejoin="round">
+<path d="M692 161v27H133v58"/>
+<path d="M215 280h24"/><path d="M406 280h24"/><path d="M597 280h24"/>
+<path d="M324 334v-20" stroke-dasharray="3 3"/><path d="M515 334v-20" stroke-dasharray="3 3"/>
+<path d="M706 310v96"/>
+</g>
+<rect x="35" y="411" width="769" height="48" rx="11" fill="#17496f"/>
+<text x="54" y="441" font-size="18" font-weight="700" fill="#fff">數據供應</text>
+<text x="190" y="441" font-size="17" fill="#fff">報表、BI、推薦、AI · 下游依用途選用數據</text>
+</svg>

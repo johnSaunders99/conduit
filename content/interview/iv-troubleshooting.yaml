@@ -1,0 +1,94 @@
+id: iv-troubleshooting
+title: 管道故障排查
+track: bigdata
+questions:
+- id: iv-troubleshooting-q01
+  lesson: sq-audit-06
+  question: 今天報表空白，第一步看哪個數？
+  points:
+  - 確認上游是否到達
+  - 找第一個筆數變零的邊界
+  answer: 先看指定營業日來源筆數與接收時間，再逐層比較同一切點的筆數。源頭就是空的與連接條件把人篩光，修法完全不同。
+  tags:
+  - 空表排錯
+- id: iv-troubleshooting-q02
+  lesson: bd-orch-03
+  question: 重跑後筆數剛好兩倍，會直接刪掉一半嗎？
+  points:
+  - 保留現場與識別鍵
+  - 修正寫入策略
+  answer: 不會。拿一個重複鍵查批次編號與寫入時間，確認是否追加同一批。先從正確來源重建受影響分區，再改冪等覆寫並重跑驗收。
+  tags:
+  - 重複寫入
+- id: iv-troubleshooting-q03
+  lesson: bd-quality-04
+  question: 同一張表兩邊筆數相同，為何總額不同？
+  points:
+  - 按鍵與金額一起比
+  - 檢查單位與退款
+  answer: 先確認幣別、最小單位、退款口徑與切點。按穩定鍵找差額最大的幾筆；相同筆數可能同時漏一筆又多一筆，不能視為通過。
+  tags:
+  - 數據對帳
+- id: iv-troubleshooting-q04
+  lesson: bd-hive-08
+  question: 某個分區特別慢，如何驗證是空鍵集中？
+  points:
+  - 看鍵分布與分區體積
+  - 保住空鍵語義
+  answer: 先列空鍵占比與長任務輸入量，再測隔離空鍵後的長尾。不能直接丟空鍵；若業務允許另走一路，仍需合併並對帳。
+  tags:
+  - 數據傾斜
+- id: iv-troubleshooting-q05
+  lesson: bd-flink-03
+  question: 窗口一直沒輸出，但日誌證明事件有進來，查什麼？
+  points:
+  - 檢查各分區浮水印
+  - 區分閒置與真延遲
+  answer: 看每個分區的事件時間與浮水印，是否有閒置分區拖住最小進度。只有確認閒置才設定判定時間，不能隨便調快浮水印而漏掉真遲到事件。
+  tags:
+  - 浮水印
+- id: iv-troubleshooting-q06
+  lesson: bd-kafka-09
+  question: 消費積壓上升，是否立刻增加十個讀者？
+  points:
+  - 讀者受分區數限制
+  - 查下游背壓
+  answer: 先分辨積壓是所有分區還是單一熱點，檢查目的端吞吐與等待。讀者超過可分配分區數不會有效加速，還可能放大下游壓力。
+  tags:
+  - 消費積壓
+- id: iv-troubleshooting-q07
+  lesson: cl-contract-06
+  question: 排程顯示成功，下游讀到昨天的表，怎麼驗？
+  points:
+  - 對照數據切點與發布版本
+  - 區分作業綠燈與交付成功
+  answer: 看成功的是哪個邏輯日期、寫到哪個版本、下游指標指向何處。加入新鮮度與業務日期檢查，不把程式零結束碼當作完整交付。
+  tags:
+  - 新鮮度
+- id: iv-troubleshooting-q08
+  lesson: bd-orch-04
+  question: 補三天結果卻改了四天，先驗哪個假設？
+  points:
+  - 對照時區與半開邊界
+  - 檢查目的端覆寫範圍
+  answer: 列出實際讀寫分區及其最早最晚時間，拿午夜前後各一筆測試。確認時區換算、含不含迄日，及動態覆寫是否選到額外分區。
+  tags:
+  - 業務日
+- id: iv-troubleshooting-q09
+  lesson: sq-audit-02
+  question: 升級後同一 SQL 結果換了列順序，是錯帳嗎？
+  points:
+  - 比較多重集合與排序契約
+  - 檢查平手鍵
+  answer: 先看業務是否要求順序，再比較值和重複次數。沒有排序契約時順序不同未必錯；有排序要求則驗證同值時是否以唯一鍵打破平手。
+  tags:
+  - 列序保證
+- id: iv-troubleshooting-q10
+  lesson: bd-orch-08
+  question: 修好主表後為何看板仍然不對？
+  points:
+  - 追蹤下游快取與集市
+  - 完成端到端驗收
+  answer: 沿血緣找最後一次發布的彙總表、快取和報表時間戳。只在受影響窗口依序刷新，用原始小票對到最終畫面，才宣布恢復。
+  tags:
+  - 下游修復

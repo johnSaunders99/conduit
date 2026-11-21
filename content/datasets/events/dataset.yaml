@@ -1,0 +1,28 @@
+id: events
+title: 茶舖 App 事件
+summary: 166 筆接收紀錄、161 個不同事件鍵。event_id 可能重送，raw_id 才是接收列唯一鍵；含缺會話鍵、跳步購買及跨日接收。
+tables:
+- name: app_events
+  summary: 每列一次接收；同一行為可能被收到兩次。
+  columns:
+  - name: raw_id
+    type: INTEGER
+    note: 接收列識別碼
+  - name: event_id
+    type: VARCHAR
+    note: 重送沿用的事件鍵
+  - name: user_id
+    type: INTEGER
+    note: 虛構會員
+  - name: session_id
+    type: VARCHAR
+    note: 來源會話鍵，可為 NULL
+  - name: step
+    type: VARCHAR
+    note: view、cart 或 pay
+  - name: event_at
+    type: TIMESTAMP
+    note: 事件時間（業務本地時間）
+  - name: received_at
+    type: TIMESTAMP
+    note: 接收時間（與事件時間使用同一業務時區）

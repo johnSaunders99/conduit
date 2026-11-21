@@ -1,0 +1,21 @@
+id: cr-design
+track: career
+stage: 4
+order: 460
+title: 數倉與管道設計面試
+subtitle: 從紙上一條線走到可復原的系統
+summary: 數倉與管道設計面試：從紙上一條線走到可復原的系統。從「需求與服務目標」練到「設計答辯與反問」。
+outcomes:
+- 將看板要求換成可測量的時效與完整度
+- 在位移與寫入間插入一次故障
+- 說清楚哪個新需求會推翻原本選型
+prereqs:
+- bd-quality
+- bd-kafka
+- sq-model
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 2.5

@@ -1,0 +1,36 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 308" role="img" aria-labelledby="title description">
+  <title id="title">訂單和退款可以並行</title>
+  <desc id="description">訂單和退款分別連往對帳；只有對帳通過才連到發布。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#356684"/></marker>
+  </defs>
+  <rect x="1" y="1" width="758" height="306" rx="18" fill="#f3f7fa" stroke="#ccd9e4" stroke-width="2"/>
+  <g font-family="Microsoft JhengHei, PingFang TC, sans-serif">
+    <text x="32" y="38" font-size="23" font-weight="700" fill="#17334b">訂單和退款可以並行</text>
+    <path d="M189 94 H234 V144 H279" fill="none" stroke="#356684" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M189 214 H234 V163 H279" fill="none" stroke="#356684" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M453 154 H546" fill="none" stroke="#356684" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(33 62)">
+      <rect width="156" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="78" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">訂單到齊</text>
+      <text x="78" y="49" text-anchor="middle" font-size="15" fill="#36566a">輸入 A</text>
+    </g>
+    <g transform="translate(33 182)">
+      <rect width="156" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="78" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">退款到齊</text>
+      <text x="78" y="49" text-anchor="middle" font-size="15" fill="#36566a">輸入 B</text>
+    </g>
+    <g transform="translate(287 122)">
+      <rect width="166" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="83" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">對帳</text>
+      <text x="83" y="49" text-anchor="middle" font-size="15" fill="#36566a">等待兩份輸入</text>
+    </g>
+    <g transform="translate(554 122)">
+      <rect width="168" height="64" rx="9" fill="#ffffff" stroke="#8eaec5"/>
+      <text x="84" y="26" text-anchor="middle" font-size="19" font-weight="650" fill="#163650">發布</text>
+      <text x="84" y="49" text-anchor="middle" font-size="15" fill="#36566a">對帳必須通過</text>
+    </g>
+    <path d="M32 267H728" stroke="#c3d3de"/>
+    <text x="32" y="291" font-size="16" fill="#36566a">邊表示必須等到的產物，不是固定的完成順序。</text>
+  </g>
+</svg>

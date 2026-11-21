@@ -1,0 +1,48 @@
+- id: warehouse
+  title: 離線數倉工程師
+  summary: 整理交易紀錄，交付能核對的報表。
+  skills:
+    - id: skill-warehouse-1
+      title: 操作工作目錄
+      weight: 1
+      modules:
+        - fd-demo
+    - id: skill-warehouse-2
+      title: 設計可讀的範例
+      weight: 2
+      modules:
+        - fd-demo
+    - id: skill-warehouse-3
+      title: 驗證報表欄位
+      weight: 3
+      modules:
+        - fs-demo
+    - id: skill-warehouse-4
+      title: 說明工程判斷
+      weight: 2
+      modules:
+        - cr-demo
+- id: streaming
+  title: 實時數據工程師
+  summary: 觀察事件何時抵達，處理延遲與重複。
+  skills:
+    - id: skill-streaming-1
+      title: 操作工作目錄
+      weight: 1
+      modules:
+        - fd-demo
+    - id: skill-streaming-2
+      title: 設計可讀的範例
+      weight: 2
+      modules:
+        - fd-demo
+    - id: skill-streaming-3
+      title: 比較批次與即時輸出
+      weight: 3
+      modules:
+        - ai-demo
+    - id: skill-streaming-4
+      title: 說明工程判斷
+      weight: 2
+      modules:
+        - cr-demo

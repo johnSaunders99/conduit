@@ -1,0 +1,18 @@
+id: sq-join
+track: sql
+stage: 1
+order: 100
+title: SQL 數據表連接
+subtitle: 分清少掉一筆與多算一筆
+summary: SQL 數據表連接：分清少掉一筆與多算一筆。從「INNER JOIN」練到「連接與篩選順序」。
+outcomes:
+- 列出無匹配明細時會消失的訂單
+- 將員工與主管的鍵配成一列
+- 以無訂單會員驗證條件放置位置
+prereqs:
+- sq-group
+roles:
+- warehouse
+- modern
+- stream
+hours: 4.0

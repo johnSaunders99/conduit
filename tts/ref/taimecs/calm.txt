@@ -1,0 +1,1 @@
+資安團隊提醒我們，任何 credential 都不能 hardcode 在 source code 裡，這是最基本的安全常識。

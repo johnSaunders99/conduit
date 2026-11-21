@@ -1,0 +1,21 @@
+id: bd-jvm
+track: bigdata
+stage: 3
+order: 405
+title: JVM 數據作業實作
+subtitle: 依同一份測資核對三段程式
+summary: 用原生 Java 編寫並註冊 Hive UDF、執行及測試本機 Flink DataStream，再讀 Spark 的 Scala 轉換。不把 Java 設為 Flink SQL 或 PySpark 的先備。
+outcomes:
+- 註冊並驗算處理缺值的 Hive 自訂函式
+- 本機執行 Java DataStream 作業，用固定輸入驗收
+- 說明 Scala 與 PySpark 的同一段轉換是否保留相同口徑
+prereqs:
+- fd-java
+- bd-hive
+- bd-spark
+- bd-flink
+roles:
+- warehouse
+- stream
+- platform
+hours: 2.5

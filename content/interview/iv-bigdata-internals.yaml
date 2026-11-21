@@ -1,0 +1,94 @@
+id: iv-bigdata-internals
+title: 大數據引擎機制
+track: bigdata
+questions:
+- id: iv-bigdata-internals-q01
+  lesson: bd-distrib-06
+  question: Spark 的群組加總為什麼需要 Shuffle？
+  points:
+  - 同鍵必須合流
+  - 先局部聚合
+  answer: 同一商品可能分散在多個輸入分區，完整總額要把同鍵結果集中。同一分區可先算小計再交換，降低搬移量，但不會消除最後的合流。
+  tags:
+  - Shuffle
+- id: iv-bigdata-internals-q02
+  lesson: cr-internals-01
+  question: 幾百個任務只剩一個跑很久，一定是傾斜嗎？
+  points:
+  - 用分區量與耗時比對
+  - 排除節點或重試
+  answer: 先看長任務讀入筆數、Shuffle 大小與失敗重試。若同鍵分區量異常才支持傾斜；同量不同時間還要看磁碟、網路與記憶體。
+  tags:
+  - 長尾任務
+- id: iv-bigdata-internals-q03
+  lesson: bd-spark-08
+  question: 廣播連接什麼時候反而危險？
+  points:
+  - 各執行器都要容納小側
+  - 注意解碼後大小
+  answer: 小側需送到執行器，磁碟上的壓縮大小不等於記憶體占用。統計過期或多個廣播同時存在時，可能使任務反覆失敗。
+  tags:
+  - 廣播連接
+- id: iv-bigdata-internals-q04
+  lesson: bd-hive-02
+  question: Hive 日期分區為何沒省到掃描？
+  points:
+  - 確認篩到分區鍵
+  - 對照執行計畫與檔數
+  answer: 若只篩事件時間而沒限制對應的分區欄，引擎可能仍列出整年檔案。查實際裁剪分區與掃描數，而非只看查詢傳回一天的結果。
+  tags:
+  - 分區裁剪
+- id: iv-bigdata-internals-q05
+  lesson: bd-hive-07
+  question: 很多小 Parquet 檔為何讀得慢？
+  points:
+  - 檔案開啟與排程成本
+  - 檢查合併後可並行性
+  answer: 每個小檔都有列舉、開啟與讀取元數據的固定成本。合併前後比較檔數和掃描耗時，同時避免只留一個超大檔讓工作無法平行。
+  tags:
+  - 小檔案
+- id: iv-bigdata-internals-q06
+  lesson: bd-kafka-01
+  question: Kafka 對同一主題保證全域順序嗎？
+  points:
+  - 保證邊界是分區
+  - 鍵與分區配置
+  answer: 不能把不同分區的位移拿來比先後。需要同單有序時用穩定鍵送到同一分區，並審查擴分區和生產者重試設定。
+  tags:
+  - 分區順序
+- id: iv-bigdata-internals-q07
+  lesson: bd-kafka-05
+  question: 消費者先提交位移、再寫數倉，在哪裡會丟？
+  points:
+  - 指出故障窗口
+  - 說明反向順序也有代價
+  answer: 若位移已前進而寫入尚未成功便停機，恢復時會跳過該筆。先寫再提交通常可重送，但要靠冪等鍵或交易防止重複。
+  tags:
+  - 位移提交
+- id: iv-bigdata-internals-q08
+  lesson: bd-flink-06
+  question: Flink 檢查點到底保存了什麼？
+  points:
+  - 狀態與來源位置一致
+  - 目的端仍有條件
+  answer: 它讓作業狀態及對應輸入位置形成可恢復切點。只能以相容來源與合適的目的端提交策略，才能把一致性延伸到外部結果。
+  tags:
+  - 檢查點
+- id: iv-bigdata-internals-q09
+  lesson: bd-flink-03
+  question: 浮水印到十二點，十一點五十九的事件一定不會再來嗎？
+  points:
+  - 進度估計不是保證
+  - 指出遲到政策
+  answer: 仍可能到。需要定義允許遲到、更新結果、旁路或回補策略；越早關窗延遲越低，但後來修正的機會成本越高。
+  tags:
+  - 浮水印
+- id: iv-bigdata-internals-q10
+  lesson: bd-flink-10
+  question: Flink 與 Kafka 都說精確一次，寫外部表就不會重複嗎？
+  points:
+  - 確認保證涵蓋的邊界
+  - 故意中斷驗收
+  answer: 不能直接推出。要看來源能否重播、狀態是否恢復一致，還要看寫端是否參與提交或能按穩定鍵去重。測試應在寫入後、提交前中斷。
+  tags:
+  - 精確一次

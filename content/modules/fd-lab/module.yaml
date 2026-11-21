@@ -1,0 +1,21 @@
+id: fd-lab
+track: foundations
+stage: 1
+order: 140
+title: 批次腳本交付
+subtitle: 把第一次訂單摘要交給另一個人
+summary: 批次腳本交付：把第一次訂單摘要交給另一個人。從「輸入契約」練到「乾淨環境重現」。
+outcomes:
+- 為幣別、欄位型別與壞列寫輸入契約
+- 中斷輸出時保留上一版可用檔案
+- 讓另一個目錄中的環境重現相同摘要
+prereqs:
+- fd-tools
+- sq-join
+- fd-git
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 3.0

@@ -1,0 +1,29 @@
+id: proj-analytics
+track: cloud
+title: 可測試的 dbt 指標集市
+summary: Windows Python 虛擬環境、dbt 與本機 DuckDB 適配器，預留 2 GB；雲端只做對照，不需帳戶。
+why: 讓指標定義、依賴和測試成為能被他人審查的交付物。
+modules:
+- cl-dbt
+- cl-contract
+level: 3
+hours: 18
+milestones:
+- id: proj-analytics-m1
+  title: 建立來源、暫存及事實模型並產出依賴圖
+  checks:
+  - 每個模型都標出粒度及唯一鍵。
+  - 從一個指標能沿依賴圖找到來源。
+- id: proj-analytics-m2
+  title: 加上晚退款的增量策略與歷史快照
+  checks:
+  - 遲來退款會更正舊月份。
+  - 增量與全量在同一切點結果一致。
+- id: proj-analytics-m3
+  title: 發布文件與測試紀錄
+  checks:
+  - 故意引入重複鍵時能指出錯列。
+  - 文件列入口徑及維護者職責，修復後模型才通過。
+stretch:
+- 把一份新輸入交給沒有參與製作的人，記下首次重跑卡住之處並修訂交接說明。
+showcase: 從營收欄點回來源和測試，現場解釋為什麼這次退款沒有重算整年。

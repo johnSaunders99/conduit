@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 262" role="img" aria-labelledby="title desc">
+<title id="title">合併進度跟著最慢的活躍輸入</title><desc id="desc">A 12:08、B 12:03 時合併取最小值。B 判為閒置後，只剩 A 參與，合併可推到 12:08。</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#52708a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect x="1" y="1" width="818" height="260" rx="18" fill="#f3f7fa" stroke="#d4e0eb"/>
+<g font-family="'Microsoft JhengHei UI','Noto Sans TC',system-ui,sans-serif">
+<text x="26" y="33" fill="#1d5c8f" font-size="13" font-weight="700" font-family="Consolas, monospace">FLINK / 03</text>
+<text x="26" y="61" fill="#162d42" font-size="25" font-weight="700">合併進度跟著最慢的活躍輸入</text>
+<path d="M26 77H794" fill="none" stroke="#d4e0eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="26" y="93" width="165" height="114" rx="10" fill="#fff" stroke="#d4e0eb"/>
+<text x="42" y="120" fill="#162d42" font-size="18" font-weight="700">兩路活躍</text>
+<text x="42" y="151" fill="#0a6b63" font-size="18" font-family="Consolas, monospace">A  12:08</text>
+<text x="42" y="181" fill="#8b460c" font-size="18" font-family="Consolas, monospace">B  12:03</text>
+<path d="M191 151H238" fill="none" stroke="#1d5c8f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="240" y="118" width="130" height="67" rx="10" fill="#fff1de" stroke="#d4e0eb"/>
+<text x="305" y="144" fill="#8b460c" font-size="15" text-anchor="middle">取最小值</text>
+<text x="305" y="167" fill="#162d42" font-size="18" font-weight="700" font-family="Consolas, monospace" text-anchor="middle">12:03</text>
+<path d="M411 98V206" fill="none" stroke="#d4e0eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="448" y="93" width="164" height="114" rx="10" fill="#fff" stroke="#d4e0eb"/>
+<text x="464" y="120" fill="#162d42" font-size="18" font-weight="700">B 判為閒置</text>
+<text x="464" y="151" fill="#0a6b63" font-size="18" font-family="Consolas, monospace">A  12:08</text>
+<text x="464" y="181" fill="#536b80" font-size="16">B  不參與</text>
+<path d="M612 151H659" fill="none" stroke="#1d5c8f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="661" y="118" width="132" height="67" rx="10" fill="#e2f4ef" stroke="#d4e0eb"/>
+<text x="727" y="144" fill="#0a6b63" font-size="15" text-anchor="middle">進度可前進</text>
+<text x="727" y="167" fill="#162d42" font-size="18" font-weight="700" font-family="Consolas, monospace" text-anchor="middle">12:08</text>
+<text x="26" y="242" fill="#36546e" font-size="16">窗口結到 12:05；B 再送來 12:06 的舊事件，進度也不倒退。</text>
+</g></svg>

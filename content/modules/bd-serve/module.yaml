@@ -1,0 +1,19 @@
+id: bd-serve
+track: bigdata
+stage: 3
+order: 410
+title: 分析引擎與實時數倉
+subtitle: 讓看板既夠快又對得起帳
+summary: 分析引擎與實時數倉：讓看板既夠快又對得起帳。從「ClickHouse 排序鍵」練到「尾端延遲與容量」。
+outcomes:
+- 用排序鍵與過濾條件解釋可跳過哪些區塊
+- 估算預先計算省下的讀取與新增寫入
+- 報告慢分位而非只交平均值
+prereqs:
+- bd-flink
+- bd-hive
+roles:
+- warehouse
+- stream
+- platform
+hours: 4.5

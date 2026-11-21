@@ -1,0 +1,3 @@
+- lesson: fd-demo-01-files
+  tools: [wsl, docker]
+  note: 這筆測試通知只核對本機工具的顯示名稱。

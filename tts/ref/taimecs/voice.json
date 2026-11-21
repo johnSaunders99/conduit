@@ -1,0 +1,10 @@
+{
+  "label": "臺灣華語（TaiMECS 暫用）",
+  "sourceRevision": "83f397e41840ba187cc6833e1320bd2e5fa858f1",
+  "calm": {
+    "audio": "calm.wav",
+    "transcript": "calm.txt",
+    "source": "010.mp3",
+    "seconds": 7.512
+  }
+}

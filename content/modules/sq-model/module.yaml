@@ -1,0 +1,18 @@
+id: sq-model
+track: sql
+stage: 2
+order: 240
+title: 維度建模
+subtitle: 先決定一列訂單到底代表什麼
+summary: 維度建模：先決定一列訂單到底代表什麼。從「OLTP 與 OLAP」練到「Data Vault」。
+outcomes:
+- 分清收款系統與分析日報要保證什麼
+- 為出貨與退款標出可共用的日期維度
+- 辨認核心業務鍵、關係與歷史描述三部分
+prereqs:
+- sq-join
+roles:
+- warehouse
+- modern
+- stream
+hours: 5.5

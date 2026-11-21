@@ -1,0 +1,29 @@
+id: proj-quality
+track: bigdata
+title: 數據質量守門員
+summary: 本機 Python 與 DuckDB，預留 1 GB。
+why: 將可信度變成具體的失敗證據，而不是一張全綠截圖。
+modules:
+- sq-audit
+- bd-quality
+level: 2
+hours: 12
+milestones:
+- id: proj-quality-m1
+  title: 設計唯一鍵、完整性和新鮮度規則
+  checks:
+  - 每項規則各有一筆會通過與一筆會失敗的測資。
+  - 以規則識別碼定位問題，不只回傳通過或失敗。
+- id: proj-quality-m2
+  title: 保存批次狀態與壞列隔離清單
+  checks:
+  - 沒有輸入不同於合法零異常。
+  - 壞列附來源批次與規則。
+- id: proj-quality-m3
+  title: 建立修復後的再驗收
+  checks:
+  - 原異常批次未被覆蓋。
+  - 修復後從警報可追到更正過的對帳結果。
+stretch:
+- 把一份新輸入交給沒有參與製作的人，記下首次重跑卡住之處並修訂交接說明。
+showcase: 請對方任挑一種故障；先展示告警，再用一條查詢還原問題列。

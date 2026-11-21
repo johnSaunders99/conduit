@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 282" role="img" aria-labelledby="title desc">
+<title id="title">一個時間段，由一條路徑回答</title><desc id="desc">原始事件分流做批次結算和實時暫定。服務層以批次 100 取代同一段暫定 98，再加新段 20，得到 120。</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#52708a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect x="1" y="1" width="818" height="280" rx="18" fill="#f3f7fa" stroke="#d4e0eb"/>
+<g font-family="'Microsoft JhengHei UI','Noto Sans TC',system-ui,sans-serif">
+<text x="26" y="33" fill="#1d5c8f" font-size="13" font-weight="700" font-family="Consolas, monospace">SERVE / 06</text>
+<text x="26" y="61" fill="#162d42" font-size="25" font-weight="700">一個時間段，由一條路徑回答</text>
+<path d="M26 77H794" fill="none" stroke="#d4e0eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="26" y="120" width="140" height="73" rx="10" fill="#fff" stroke="#d4e0eb"/>
+<text x="96" y="151" fill="#162d42" font-size="18" font-weight="700" text-anchor="middle">原始事件</text>
+<text x="96" y="176" fill="#536b80" font-size="15" text-anchor="middle">保留供對帳</text>
+<path d="M166 157H197V121H226" fill="none" stroke="#1d5c8f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M197 157V203H226" fill="none" stroke="#1d5c8f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="229" y="94" width="220" height="57" rx="10" fill="#e5f0fb" stroke="#d4e0eb"/>
+<text x="244" y="117" fill="#1d5c8f" font-size="18" font-weight="700">批次：結算 100</text>
+<text x="244" y="138" fill="#36546e" font-size="15" font-family="Consolas, monospace">09:00–10:00</text>
+<rect x="229" y="169" width="220" height="64" rx="10" fill="#e2f4ef" stroke="#d4e0eb"/>
+<text x="244" y="194" fill="#0a6b63" font-size="18" font-weight="700">實時：暫定 20</text>
+<text x="244" y="218" fill="#36546e" font-size="15" font-family="Consolas, monospace">10:00–10:30</text>
+<path d="M449 122H493V154H540" fill="none" stroke="#1d5c8f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M449 201H493V154" fill="none" stroke="#1d5c8f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="543" y="111" width="251" height="100" rx="10" fill="#fff" stroke="#d4e0eb"/>
+<text x="559" y="142" fill="#162d42" font-size="22" font-weight="700">服務層　120</text>
+<text x="559" y="169" fill="#36546e" font-size="17">結算 100 ＋ 暫定 20</text>
+<text x="559" y="192" fill="#536b80" font-size="15">原暫定 98 不再計入</text>
+<text x="26" y="262" fill="#36546e" font-size="16">切點 10:00：前一段不含切點，後一段自切點開始。</text>
+</g></svg>

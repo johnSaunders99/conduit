@@ -1,0 +1,19 @@
+id: cr-sql
+track: career
+stage: 2
+order: 210
+title: SQL 手寫與口述
+subtitle: 先說清分母再限時寫答案
+summary: SQL 手寫與口述：先說清分母再限時寫答案。從「題意與測試樣本」練到「SQL 模擬面試」。
+outcomes:
+- 把模糊題目轉成明確欄位與邊界
+- 用一位沒有回訪的新客測試分母
+- 分別驗證答案的筆數、數值及列順序
+prereqs:
+- sq-pattern
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 2

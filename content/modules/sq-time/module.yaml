@@ -1,0 +1,18 @@
+id: sq-time
+track: sql
+stage: 2
+order: 220
+title: SQL 時間序列分析
+subtitle: 遇到跨月和空窗也不改口徑
+summary: SQL 時間序列分析：遇到跨月和空窗也不改口徑。從「業務日與截點」練到「生效時間連接」。
+outcomes:
+- 把午夜前後兩個事件歸到正確的業務日
+- 先決定閏日與缺失對照日的口徑
+- 用起訖時點找出交易當時唯一商品價
+prereqs:
+- sq-pattern
+roles:
+- warehouse
+- modern
+- stream
+hours: 3.0

@@ -1,0 +1,20 @@
+id: fd-docker
+track: foundations
+stage: 1
+order: 180
+title: Docker 本機實驗室
+subtitle: 讓兩個服務在同一台電腦對話
+summary: Docker 本機實驗室：讓兩個服務在同一台電腦對話。從「映像與容器」練到「資源上限與停止」。
+outcomes:
+- 分清映像、容器與容器內的可寫資料
+- 改以服務名連接同一網路的容器
+- 停止自己的實驗並核對資源已釋放
+prereqs:
+- fd-system
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 3.0
+skippable: true

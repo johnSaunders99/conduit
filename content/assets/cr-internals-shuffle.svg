@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 864 414" role="img" aria-labelledby="title desc" lang="zh-Hant">
+  <title id="title">同鍵會合，熱門鍵可能拖尾</title>
+  <desc id="desc">兩個上游分區各有門市 A，經過交換都送到下游相同分區；B 與 C 也依分派規則去各自分區。</desc>
+  <defs>
+    <marker id="forward" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#305B7C"/></marker>
+    <marker id="caution" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4 L0 8 Z" fill="#9A5F18"/></marker>
+  </defs>
+  <g font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif">
+    <rect x="1" y="1" width="862" height="412" rx="18" fill="#F3F7FA" stroke="#A5B7C6" stroke-width="2"/>
+    <text x="32" y="34" fill="#315E83" font-size="14" font-weight="700" letter-spacing="1.1">03 / SPARK · SHUFFLE</text>
+    <text x="32" y="67" fill="#162C3C" font-size="27" font-weight="700">同鍵會合，熱門鍵可能拖尾</text>
+    <text x="32" y="94" fill="#3C5569" font-size="16">各分區可先局部彙總，跨分區交換時才讓相同鍵會合。</text>
+    <path d="M32 111 H832" stroke="#B9C8D3"/>
+    <path d="M240 182 H280 L307 221 H331" fill="none" stroke="#305B7C" stroke-width="2.25" marker-end="url(#forward)"/>
+    <path d="M240 290 H280 L307 246 H331" fill="none" stroke="#305B7C" stroke-width="2.25" marker-end="url(#forward)"/>
+    <path d="M527 221 H558 L587 182 H618" fill="none" stroke="#305B7C" stroke-width="2.25" marker-end="url(#forward)"/>
+    <path d="M527 246 H558 L587 290 H618" fill="none" stroke="#305B7C" stroke-width="2.25" marker-end="url(#forward)"/>
+    <g transform="translate(32 138)">
+      <rect width="208" height="88" rx="12" fill="#E1EEF9" stroke="#8AB1CF" stroke-width="1.2"/>
+      <text x="14" y="23" fill="#174A75" font-size="12.5" font-weight="700" letter-spacing=".5">上游 · PART 0</text>
+      <text x="14" y="49" fill="#172C3C" font-size="19" font-weight="700">門市 A、B</text>
+      <text x="14" y="73" fill="#334D61" font-size="14">分桶後寫中間結果</text>
+    </g>
+    <g transform="translate(32 246)">
+      <rect width="208" height="88" rx="12" fill="#E1EEF9" stroke="#8AB1CF" stroke-width="1.2"/>
+      <text x="14" y="23" fill="#174A75" font-size="12.5" font-weight="700" letter-spacing=".5">上游 · PART 1</text>
+      <text x="14" y="49" fill="#172C3C" font-size="19" font-weight="700">門市 A、C</text>
+      <text x="14" y="73" fill="#334D61" font-size="14">分桶後寫中間結果</text>
+    </g>
+    <g transform="translate(337 189)">
+      <rect width="190" height="88" rx="12" fill="#F0EAFB" stroke="#B5A3D7" stroke-width="1.2"/>
+      <text x="14" y="23" fill="#543680" font-size="12.5" font-weight="700" letter-spacing=".5">界線 · EXCHANGE</text>
+      <text x="14" y="49" fill="#172C3C" font-size="19" font-weight="700">重分布</text>
+      <text x="14" y="73" fill="#334D61" font-size="14">按鍵送往目標分區</text>
+    </g>
+    <g transform="translate(624 138)">
+      <rect width="208" height="88" rx="12" fill="#FFF1DD" stroke="#DCB77D" stroke-width="1.2"/>
+      <text x="14" y="23" fill="#744507" font-size="12.5" font-weight="700" letter-spacing=".5">下游 · PART X</text>
+      <text x="14" y="49" fill="#172C3C" font-size="19" font-weight="700">門市 A、A</text>
+      <text x="14" y="73" fill="#334D61" font-size="14">熱鍵集中，可能拖尾</text>
+    </g>
+    <g transform="translate(624 246)">
+      <rect width="208" height="88" rx="12" fill="#E0F3EE" stroke="#89C2B5" stroke-width="1.2"/>
+      <text x="14" y="23" fill="#075D50" font-size="12.5" font-weight="700" letter-spacing=".5">下游 · 其他分區</text>
+      <text x="14" y="49" fill="#172C3C" font-size="19" font-weight="700">門市 B 或 C</text>
+      <text x="14" y="73" fill="#334D61" font-size="14">依目標分派繼續算</text>
+    </g>
+    <path d="M32 359 H832" stroke="#B9C8D3"/>
+    <text x="32" y="389" fill="#2D4860" font-size="15" font-weight="600">先核對同一 Stage 的逐任務讀量；不能只用慢任務的耗時斷定傾斜。</text>
+  </g>
+</svg>

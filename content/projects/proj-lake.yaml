@@ -1,0 +1,29 @@
+id: proj-lake
+track: bigdata
+title: CDC 歷史湖倉
+summary: WSL 本機 PostgreSQL 與單機 Spark、Iceberg 本機倉庫分段執行；預留 6 GB，不啟動常駐分散式叢集。
+why: 讓「變更」包含刪除、順序和舊版本查詢，而非只把 CSV 轉格式。
+modules:
+- bd-ingest
+- bd-lake
+level: 3
+hours: 22
+milestones:
+- id: proj-lake-m1
+  title: 固定一份基準快照並保存來源切點
+  checks:
+  - 起始列數與抽樣金額和來源一致。
+  - 保存快照切點及其對應日誌位置。
+- id: proj-lake-m2
+  title: 以本機變更日誌或課內合成的解碼事件套用新增、修改與刪除
+  checks:
+  - 相同鍵兩次修改按來源順序生效。
+  - 已刪除鍵從現行表消失。
+- id: proj-lake-m3
+  title: 建立快照差異與中斷重播驗收
+  checks:
+  - 舊快照仍可查，現行結果逐鍵對上來源。
+  - 報告區別模擬事件與真的啟用 CDC 捕獲。
+stretch:
+- 把一份新輸入交給沒有參與製作的人，記下首次重跑卡住之處並修訂交接說明。
+showcase: 用同一個鍵示範昨天有、今天刪、重播仍不復活；附上版本查詢。

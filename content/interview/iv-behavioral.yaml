@@ -1,0 +1,94 @@
+id: iv-behavioral
+title: 行為面試：用證據說明判斷
+track: career
+questions:
+- id: iv-behavioral-q01
+  lesson: cr-behavior-03
+  question: 你發布的報表少算退款，會先做什麼？
+  points:
+  - 圈出使用者與日期
+  - 先標示錯誤再修復
+  answer: 我會標記受影響的日期並通知依這張表決策的人，保留舊輸出。用一張退款單追到第一個差異，修好後重算那幾天，請使用者核對更正值。
+  tags:
+  - 事故回應
+- id: iv-behavioral-q02
+  lesson: cr-behavior-02
+  question: 業務兩邊對活躍用戶的定義不同，怎麼開會？
+  points:
+  - 先舉同一個反例
+  - 寫清用途與擁有者
+  answer: 拿一個只開 App 沒登入的人，讓雙方先決定各自會不會算。如果用途確實不同就給兩個名字，不以多數決抹掉差異；留下口徑與生效日。
+  tags:
+  - 口徑協商
+- id: iv-behavioral-q03
+  lesson: cr-portfolio-04
+  question: 你的作品只有本機數據，如何回答規模問題？
+  points:
+  - 實測與推估分開
+  - 指出失效條件
+  answer: 我只報告實際跑過的列數、記憶體與耗時。若流量乘十，最可能先卡住哪一段是推測；我會說明能用哪個計數器或基準測試驗證。
+  tags:
+  - 能力邊界
+- id: iv-behavioral-q04
+  lesson: cr-design-01
+  question: 明天下午就要看板，只能完成部分功能，怎麼選？
+  points:
+  - 先確認最低可用結果
+  - 說明省略的代價
+  answer: 我會先問哪個決定非明天做不可。先交一個已對帳且標有切點的日指標，延後細分圖表；如果輸入未到齊，就交來源狀態而不是假裝數字完整。
+  tags:
+  - 需求取捨
+- id: iv-behavioral-q05
+  lesson: bd-orch-03
+  question: 同事認為重跑會重複入帳，你怎麼回應？
+  points:
+  - 接受可檢查的質疑
+  - 用小反例比較輸出
+  answer: 我會請對方選一個曾失敗的時間點，在測試輸入上重跑兩次，對照相同鍵的筆數與金額。有差就修覆寫策略；沒差也把測試留下。
+  tags:
+  - 重跑驗證
+- id: iv-behavioral-q06
+  lesson: cr-behavior-01
+  question: 一個作品中哪些部分是你自己做的？
+  points:
+  - 區分工具預設與個人決定
+  - 拿出可重現證據
+  answer: 我會展示工具原本提供的讀寫功能，再展示自己定義的粒度、退單例子和斷點測試。用一次故障演示自己的判斷，而不把框架功能列成個人成果。
+  tags:
+  - 個人貢獻
+- id: iv-behavioral-q07
+  lesson: cr-design-06
+  question: 面試官點名你沒用過的引擎，怎麼接？
+  points:
+  - 坦承使用邊界
+  - 提出最小驗證
+  answer: 我不會說已經用過。先問對方關心查詢延遲還是更新語義，再用熟悉的引擎說明相同問題，最後提出能區分兩種方案的測試。
+  tags:
+  - 技術溝通
+- id: iv-behavioral-q08
+  lesson: bd-quality-03
+  question: 如何向非技術同事解釋今天的數字還會變？
+  points:
+  - 給出可用範圍
+  - 交代下一次確認時間
+  answer: 我會說目前包含哪個時間以前收到的付款，還缺哪一批退款；這個數字可以看趨勢，還不能結帳。下一個切點到時我會用對帳結果更新狀態。
+  tags:
+  - 延遲說明
+- id: iv-behavioral-q09
+  lesson: fd-start-03
+  question: AI 產生的轉換腳本通過了，你怎麼交接？
+  points:
+  - 說明測試誰寫的
+  - 記錄反例與限制
+  answer: 我會用獨立手算資料驗證同價、重送、缺值，再解釋每一個影響筆數的步驟。交接記錄標明哪段由工具建議，哪些條件尚未測，而非只交綠色畫面。
+  tags:
+  - AI驗算
+- id: iv-behavioral-q10
+  lesson: cr-portfolio-04
+  question: 如果能重做一次專案，你會刪什麼？
+  points:
+  - 連回原始目標
+  - 保留關鍵驗收
+  answer: 若需求只有每日結帳，我會先拿掉沒有使用者的實時看板，把時間給補數與復原。是否成功以隔天能否交出可信的昨日數字衡量，不以部署多少服務衡量。
+  tags:
+  - 專案復盤

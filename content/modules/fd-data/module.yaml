@@ -1,0 +1,20 @@
+id: fd-data
+track: foundations
+stage: 1
+order: 90
+title: Python 數據結構
+subtitle: 選一個容器裝下這批訂單
+summary: Python 數據結構：選一個容器裝下這批訂單。從「切片與元組」練到「檔案讀寫」。
+outcomes:
+- 用不可變欄位對描述一個複合鍵
+- 用次要鍵處理同價平手
+- 用指定字元編碼讀回先前寫入的輸出
+prereqs:
+- fd-python
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 4.0
+skippable: true

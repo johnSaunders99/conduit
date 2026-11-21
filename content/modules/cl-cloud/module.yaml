@@ -1,0 +1,18 @@
+id: cl-cloud
+track: cloud
+stage: 2
+order: 290
+title: 雲端成本與物件儲存
+subtitle: 不刷卡也能完成第一份成本估算
+summary: 雲端成本與物件儲存：不刷卡也能完成第一份成本估算。從「免費額度與預算」練到「資源清冊與關閉」。
+outcomes:
+- 列出預算警示無法即時阻止哪些費用
+- 比較轉冷、提早取回與刪除的成本
+- 盤點關閉後仍保留的磁碟或物件
+prereqs:
+- fd-system
+- sq-model
+roles:
+- modern
+- platform
+hours: 3.0

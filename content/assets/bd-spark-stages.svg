@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="255" viewBox="0 0 820 255" role="img" aria-labelledby="diagram-title diagram-desc">
+<title id="diagram-title">交換切開上下游</title><desc id="diagram-desc">把實體計畫上的 Exchange 對到任務指標。上游 Stage，選欄 → 各分區小計。下游 Stage，讀交換結果 → 按鍵合計。到 Spark UI，找上游 Shuffle Write 與下游 Shuffle Read。</desc>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#2b668b"/></marker><marker id="hot" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#a65416"/></marker></defs>
+<rect x="1" y="1" width="818" height="253" rx="16" fill="#fff" stroke="#dce5eb"/>
+<g font-family="Segoe UI, Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif">
+<text x="30" y="40" font-size="24" font-weight="700" fill="#172d3d">交換切開上下游</text>
+<text x="30" y="66" font-size="15" fill="#4b6171">把實體計畫上的 Exchange 對到任務指標</text>
+<path d="M30 81H790" stroke="#dce5eb"/>
+<rect x="30" y="99" width="248" height="58" rx="10" fill="#f6fafc" stroke="#a8c2d3"/><text x="44" y="123" font-size="16" font-weight="700" fill="#14374e">上游 Stage</text><text x="44" y="144" font-size="14" fill="#465868">選欄 → 各分區小計</text>
+<rect x="542" y="99" width="248" height="58" rx="10" fill="#f6fafc" stroke="#a8c2d3"/><text x="556" y="123" font-size="16" font-weight="700" fill="#14374e">下游 Stage</text><text x="556" y="144" font-size="14" fill="#465868">讀交換結果 → 按鍵合計</text>
+<path d="M283 128 C383 128 437 128 536 128" fill="none" stroke="#a65416" stroke-width="1.8" marker-end="url(#hot)"/><text x="409" y="120" text-anchor="middle" fill="#23485d" stroke="white" stroke-width="5" paint-order="stroke" font-size="14">Shuffle Exchange</text>
+<rect x="30" y="187" width="760" height="38" rx="8" fill="#edf5f9"/>
+<text x="46" y="211" font-size="14" fill="#254a62">到 Spark UI，找上游 Shuffle Write 與下游 Shuffle Read。</text>
+</g></svg>

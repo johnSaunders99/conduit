@@ -1,0 +1,62 @@
+- id: projection
+  term: 投影
+  en: projection
+  aliases: []
+  cn: 投影
+  tw: 投影
+  short: 只選出需要的欄位。
+  lesson: sq-lab-01-counter
+  tags:
+  - 查詢
+- id: null-value
+  term: 空值
+  en: 'null'
+  aliases:
+  - 缺值
+  cn: 空值
+  tw: 空值
+  short: 表示數值不存在或尚未知，不等於零。
+  lesson: sq-lab-01-counter
+  tags:
+  - 查詢
+- id: ordering
+  term: 排序
+  en: ordering
+  aliases: []
+  cn: 排序
+  tw: 排序
+  short: 依指定欄位排列結果。
+  lesson: sq-lab-01-counter
+  tags:
+  - 查詢
+- id: aggregation
+  term: 聚合
+  en: aggregation
+  aliases:
+  - 彙總
+  cn: 聚合
+  tw: 彙總
+  short: 把一組列算成一個結果。
+  lesson: sq-lab-01-counter
+  tags:
+  - 查詢
+- id: table
+  term: 數據表
+  en: table
+  aliases: []
+  cn: 數據表
+  tw: 資料表
+  short: 以列與欄保存紀錄的結構。
+  lesson: sq-lab-01-counter
+  tags:
+  - 查詢
+- id: query
+  term: 查詢
+  en: query
+  aliases: []
+  cn: 查詢
+  tw: 查詢
+  short: 用條件描述要讀取或計算的數據。
+  lesson: sq-lab-01-counter
+  tags:
+  - 查詢

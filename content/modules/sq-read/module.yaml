@@ -1,0 +1,19 @@
+id: sq-read
+track: sql
+stage: 0
+order: 20
+title: SQL 查詢入門
+subtitle: 不用安裝就能查店裡的訂單
+summary: SQL 查詢入門：不用安裝就能查店裡的訂單。從「SELECT 與 FROM」練到「LIKE 與萬用字元」。
+outcomes:
+- 從商品表只讀指定欄並核對欄序
+- 區分重複城市與重複會員
+- 用兩組品名分開測試單字元與多字元匹配
+prereqs:
+- fd-start
+roles:
+- warehouse
+- modern
+- stream
+hours: 4
+skippable: true

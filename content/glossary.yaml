@@ -1,0 +1,8871 @@
+- id: absolute-path
+  term: 絕對路徑
+  en: absolute path
+  aliases: []
+  cn: 絕對路徑
+  tw: 絕對路徑
+  short: 從磁碟機或檔案系統根部指定的位置。
+  lesson: fd-desk-05
+  tags:
+  - 基礎
+- id: acceptance
+  term: 交付驗收
+  en: acceptance
+  aliases: []
+  cn: 交付驗收
+  tw: 交付驗收
+  short: 以約定的結構、數字及真實使用路徑判定能否發布。
+  lesson: cl-contract-06
+  tags:
+  - 雲端
+- id: access-control-list-acl
+  term: 存取控制清單
+  en: access control list (ACL)
+  aliases: []
+  cn: 訪問控制列表
+  tw: 存取控制清單
+  short: 列出哪些主體可存取指定內容。
+  lesson: cl-ai-04
+  tags:
+  - 雲端
+- id: accumulating-snapshot
+  term: 累積快照
+  en: accumulating snapshot
+  aliases: []
+  cn: 累積快照
+  tw: 累積快照
+  short: 一次過程一列，沿里程碑更新同一列。
+  lesson: sq-model-07
+  tags:
+  - 數倉
+- id: accumulation
+  term: 累計
+  en: accumulation
+  aliases: []
+  cn: 累計
+  tw: 累計
+  short: 把每次處理的結果加入先前的總值。
+  lesson: fd-python-09
+  tags:
+  - Python
+- id: acknowledgement
+  term: 確認回覆
+  en: Acknowledgement
+  aliases: []
+  cn: 確認回覆
+  tw: 確認回覆
+  short: 系統對已達到某個接收或持久化條件的回應，範圍依設定而定。
+  lesson: bd-kafka-03
+  tags:
+  - 實時
+- id: action
+  term: 動作
+  en: action
+  aliases:
+  - 行動算子
+  cn: 行動 ／ Action
+  tw: 動作
+  short: 需要回傳結果或寫出檔案，因而觸發計畫執行。
+  lesson: bd-spark-03
+  tags:
+  - Spark
+- id: activation
+  term: 啟用
+  en: activation
+  aliases: []
+  cn: 激活
+  tw: 啟用
+  short: 讓目前終端優先找到某個虛擬環境的執行指令。
+  lesson: fd-tools-04
+  tags:
+  - 基礎
+- id: adapter
+  term: 適配器
+  en: adapter
+  aliases: []
+  cn: 適配器
+  tw: 轉接器
+  short: 替 dbt 連線並實作特定數據平台操作的元件。
+  lesson: cl-dbt-01
+  tags:
+  - dbt
+- id: adaptive-query-execution
+  term: 自適應查詢執行
+  en: Adaptive query execution
+  aliases:
+  - AQE
+  cn: 自適應查詢執行
+  tw: 調適性查詢執行
+  short: 利用執行時統計調整後續分區或連接策略。
+  lesson: bd-spark-09
+  tags:
+  - 批次
+- id: additive-measure
+  term: 可加總度量
+  en: additive measure
+  aliases: []
+  cn: 可加性度量
+  tw: 可加總量值
+  short: 可在相關維度上對互不重疊的觀測相加。
+  lesson: sq-model-03
+  tags:
+  - 數倉
+- id: address
+  term: 位址
+  en: address
+  aliases: []
+  cn: 地址
+  tw: 位址
+  short: 在指定網路範圍內識別目的的數值或標記。
+  lesson: fd-system-05
+  tags:
+  - 基礎
+- id: address-bar
+  term: 位址列
+  en: address bar
+  aliases: []
+  cn: 地址欄
+  tw: 位址列
+  short: 顯示或輸入檔案總管所在位置的欄位。
+  lesson: fd-desk-01
+  tags:
+  - 基礎
+- id: adjacency-list
+  term: 鄰接串列
+  en: adjacency list
+  aliases: []
+  cn: 鄰接表
+  tw: 鄰接串列
+  short: 對每個頂點記錄直接相鄰的頂點。
+  lesson: fd-algo-09
+  tags:
+  - 基礎
+- id: affected-keys
+  term: 受影響鍵
+  en: affected keys
+  aliases: []
+  cn: 受影響鍵
+  tw: 受影響鍵
+  short: 本輪變更需要重算的訂單、業務日等識別值。
+  lesson: sq-audit-04
+  tags:
+  - SQL
+- id: aggregate-function
+  term: 聚合函式
+  en: aggregate function
+  aliases: []
+  cn: 聚合函數
+  tw: 彙總函式
+  short: 將一群輸入列算成一個摘要值，例如筆數、總額或平均。
+  lesson: sq-group-02
+  tags:
+  - SQL
+- id: aggregate-key
+  term: 聚合鍵
+  en: Aggregate Key
+  aliases: []
+  cn: 聚合模型
+  tw: 聚合鍵
+  short: Doris 依鍵及欄位指定函式合併的表模型。
+  lesson: bd-serve-02
+  tags:
+  - 管道
+- id: aggregation
+  term: 聚合
+  en: Aggregation
+  aliases: []
+  cn: 聚合
+  tw: 彙總
+  short: 把多列歸成一組，計算筆數、總額等摘要值。
+  lesson: sq-group-03
+  tags:
+  - SQL
+- id: airflow-worker
+  term: Airflow 工作者
+  en: Airflow worker
+  aliases:
+  - worker
+  cn: 執行節點
+  tw: 工作者
+  short: 接到指派後實際執行任務的程序或節點。
+  lesson: bd-orch-05
+  tags:
+  - 排程
+- id: aligned-checkpoint
+  term: 對齊檢查點
+  en: aligned checkpoint
+  aliases: []
+  cn: 對齊檢查點
+  tw: 對齊檢查點
+  short: 多路輸入等待同號屏障後擷取的切點。
+  lesson: bd-flink-06
+  tags:
+  - Flink
+- id: amazon-resource-name-arn
+  term: 資源名稱
+  en: Amazon Resource Name (ARN)
+  aliases: []
+  cn: Amazon 資源名稱
+  tw: Amazon 資源名稱
+  short: AWS 用來表示資源的識別字串。
+  lesson: cl-cloud-02
+  tags:
+  - 雲端
+- id: amortized-analysis
+  term: 均攤分析
+  en: amortized analysis
+  aliases: []
+  cn: 均攤分析
+  tw: 攤銷分析
+  short: 把一串操作的總成本攤開，不把偶發高成本視作每次都發生。
+  lesson: fd-algo-02
+  tags:
+  - 基礎
+- id: amount-refund-rate
+  term: 退款金額率
+  en: amount refund rate
+  aliases: []
+  cn: 退款金額率
+  tw: 退款金額率
+  short: 同一批訂單的累計退款額除以成交額。
+  lesson: sq-metrics-06
+  tags:
+  - 數倉
+- id: anchor-member
+  term: 起始項
+  en: anchor member
+  aliases: []
+  cn: 起始項
+  tw: 錨點成員
+  short: 遞迴 CTE 不引用自身的部分，提供第一輪輸入。
+  lesson: sq-compose-08
+  tags:
+  - SQL
+- id: anti-join
+  term: 反連接
+  en: Anti join
+  aliases: []
+  cn: 反連接
+  tw: 反聯結
+  short: 只傳回左側在右側找不到任何匹配的列。
+  lesson: sq-join-06
+  tags:
+  - SQL
+- id: api-pagination
+  term: API 分頁
+  en: API pagination
+  aliases:
+  - pagination
+  cn: 分頁
+  tw: 分頁
+  short: 將大型查詢結果拆成多次取回的小份回應。
+  lesson: fd-io-04
+  tags:
+  - 基礎
+- id: append-only-log
+  term: 只追加日誌
+  en: append-only log
+  aliases: []
+  cn: 追加日誌
+  tw: 僅附加日誌
+  short: 新紀錄加在尾端，不原地覆寫既有紀錄。
+  lesson: bd-kafka-01
+  tags:
+  - Kafka
+- id: application-data-service
+  term: 應用數據層
+  en: Application data service
+  aliases:
+  - ADS
+  cn: 應用數據層
+  tw: 應用層
+  short: 面向具體報表或應用的交付結果。
+  lesson: sq-metrics-04
+  tags:
+  - 數倉
+- id: application-funnel
+  term: 投遞漏斗
+  en: application funnel
+  aliases: []
+  cn: 投遞漏斗
+  tw: 求職投遞漏斗
+  short: 按同一批申請追蹤投遞、篩選、面試至錄用的階段。
+  lesson: cr-search-05
+  tags:
+  - 面試
+- id: application-programming-interface
+  term: 應用程式介面
+  en: application programming interface
+  aliases: []
+  cn: 應用程序編程接口
+  tw: 應用程式介面
+  short: 約定其他程式能如何使用某個功能或取得數據。
+  lesson: fd-io-03
+  tags:
+  - 基礎
+- id: applicationmaster
+  term: 應用管理器
+  en: ApplicationMaster
+  aliases: []
+  cn: 應用管理器
+  tw: 應用管理器
+  short: YARN 中為一個應用請求資源並追蹤任務的程序。
+  lesson: bd-distrib-04
+  tags:
+  - 管道
+- id: approximate-nearest-neighbor
+  term: 近似最近鄰
+  en: approximate nearest neighbor
+  aliases: []
+  cn: 近似最近鄰
+  tw: 近似最近鄰
+  short: 少比較一部分候選換取速度，可能錯過精確排名。
+  lesson: cl-ai-03
+  tags:
+  - 雲端
+- id: architecture-decision-record
+  term: 架構決策紀錄
+  en: architecture decision record
+  aliases: []
+  cn: 架構決策記錄
+  tw: 架構決策紀錄
+  short: 寫明背景、選擇、取捨及重新評估條件。
+  lesson: cr-design-06
+  tags:
+  - 面試
+- id: argument
+  term: 引數
+  en: argument
+  aliases:
+  - 實參、實際參數
+  cn: 實參
+  tw: 引數
+  short: 呼叫函式時實際提供的值。
+  lesson: fd-data-06
+  tags:
+  - 基礎
+- id: array
+  term: 陣列
+  en: array
+  aliases: []
+  cn: 數組
+  tw: 陣列
+  short: 可用索引定位元素的一列位置。
+  lesson: fd-algo-02
+  tags:
+  - 基礎
+- id: artifact-coordinates
+  term: 座標
+  en: artifact coordinates
+  aliases: []
+  cn: 構件坐標
+  tw: 封裝座標
+  short: 以組織、成品名與版本等資訊定位依賴物件。
+  lesson: fd-java-07
+  tags:
+  - Java
+- id: as-of-join
+  term: 生效時間連接
+  en: as-of join
+  aliases: []
+  cn: 生效時間連接
+  tw: 依時點連接
+  short: 為每筆事實找不晚於該時點的最近版本；有迄日還須檢查是否有效。
+  lesson: sq-time-06
+  tags:
+  - SQL
+- id: assertion
+  term: 斷言
+  en: assertion
+  aliases: []
+  cn: 斷言
+  tw: 斷言
+  short: 宣告某條件必須成立，不成立時以失敗回報。
+  lesson: fd-tools-06
+  tags:
+  - 基礎
+- id: assignment
+  term: 賦值
+  en: assignment
+  aliases: []
+  cn: 賦值
+  tw: 指定、賦值
+  short: 取得右側的值，與左側的名稱或位置建立對應。
+  lesson: fd-python-03
+  tags:
+  - Python
+- id: at-least-once-delivery
+  term: 至少一次交付
+  en: At-least-once delivery
+  aliases: []
+  cn: 至少一次交付
+  tw: 至少一次傳遞
+  short: 故障時可能重送；下游必須能處理重複。
+  lesson: bd-kafka-07
+  tags:
+  - 實時
+- id: at-most-once-delivery
+  term: 至多一次
+  en: at-most-once
+  aliases: []
+  cn: 至多一次
+  tw: 至多一次
+  short: 允許漏做，但不重做。
+  lesson: bd-kafka-07
+  tags:
+  - Kafka
+- id: atomic-commit
+  term: 原子提交
+  en: atomic commit
+  aliases: []
+  cn: 原子提交
+  tw: 原子提交
+  short: 一組更新一起可見，或全部不生效。
+  lesson: bd-lake-01
+  tags:
+  - 湖倉
+- id: atomic-metric
+  term: 原子指標
+  en: Atomic metric
+  aliases: []
+  cn: 原子指標
+  tw: 原子指標
+  short: 對單一業務動作定義最基本的度量，例如付款金額。
+  lesson: sq-metrics-05
+  tags:
+  - 數倉
+- id: atomic-replacement
+  term: 原子替換
+  en: atomic replacement
+  aliases: []
+  cn: 原子替換
+  tw: 原子替換
+  short: 以完整新檔替換目的檔名，使讀者不讀到半寫的目的檔。
+  lesson: fd-lab-04
+  tags:
+  - 基礎
+- id: atomicity
+  term: 原子性
+  en: atomicity
+  aliases: []
+  cn: 原子性
+  tw: 原子性
+  short: 不可分割的保證；交易要全部成功或都不生效，並行操作則不能只看到操作做了一半。
+  lesson: fd-java-10
+  tags:
+  - Java
+- id: attribute
+  term: 屬性
+  en: attribute
+  aliases: []
+  cn: 屬性
+  tw: 屬性
+  short: 經物件之下的名稱取用的值或操作。
+  lesson: fd-tools-01
+  tags:
+  - 基礎
+- id: authorization-filtering
+  term: 授權過濾
+  en: authorization filtering
+  aliases: []
+  cn: 授權過濾
+  tw: 授權過濾
+  short: 依已驗證身分及權限排除不可讀候選。
+  lesson: cl-ai-04
+  tags:
+  - 雲端
+- id: auto-resume
+  term: 自動恢復
+  en: auto-resume
+  aliases: []
+  cn: 自動恢復
+  tw: 自動恢復
+  short: 有工作需要時重新啟用暫停的運算資源。
+  lesson: cl-wh-03
+  tags:
+  - 雲端
+- id: auto-save
+  term: 自動儲存
+  en: Auto Save
+  aliases: []
+  cn: 自動保存
+  tw: 自動儲存
+  short: 工具按設定時機把編輯內容寫回磁碟。
+  lesson: fd-desk-03
+  tags:
+  - 基礎
+- id: auto-suspend
+  term: 自動暫停
+  en: auto-suspend
+  aliases: []
+  cn: 自動掛起
+  tw: 自動暫停
+  short: 虛擬倉庫閒置符合設定時暫停。
+  lesson: cl-wh-03
+  tags:
+  - 雲端
+- id: autocommit
+  term: 自動提交
+  en: autocommit
+  aliases: []
+  cn: 自動提交
+  tw: 自動提交
+  short: 由引擎或連線自動提交未顯式分組的語句。
+  lesson: sq-db-04
+  tags:
+  - SQL
+- id: b-tree-index
+  term: B-tree 索引
+  en: B-tree index
+  aliases: []
+  cn: B 樹索引
+  tw: B 樹索引
+  short: 利用有序的樹形結構支援查找與範圍查詢。
+  lesson: sq-db-06
+  tags:
+  - SQL
+- id: backfill
+  term: 回填
+  en: Backfill
+  aliases: []
+  cn: 回填
+  tw: 補算
+  short: 以指定版本和區間重新計算缺少或錯誤的歷史產物。
+  lesson: bd-orch-04
+  tags:
+  - 排程
+- id: backlog
+  term: 積壓
+  en: backlog
+  aliases: []
+  cn: 積壓
+  tw: 待處理累積
+  short: 尚未被管道處理的工作或事件。
+  lesson: cr-behavior-04
+  tags:
+  - 面試
+- id: backoff
+  term: 退避
+  en: backoff
+  aliases: []
+  cn: 退避
+  tw: 退避
+  short: 失敗後延長再嘗試的等待間隔以降低負載。
+  lesson: bd-orch-03
+  tags:
+  - 排程
+- id: backpressure
+  term: 背壓
+  en: Backpressure
+  aliases: []
+  cn: 背壓
+  tw: 反壓
+  short: 下游消化過慢，造成上游無法繼續正常速度輸出。
+  lesson: bd-flink-10
+  tags:
+  - 實時
+- id: backup
+  term: 備份
+  en: backup
+  aliases: []
+  cn: 備份
+  tw: 備份
+  short: 供獨立恢復舊狀態所保留的數據。
+  lesson: bd-distrib-02
+  tags:
+  - 管道
+- id: base-case
+  term: 基底情況
+  en: base case
+  aliases: []
+  cn: 遞歸終止條件
+  tw: 基底情況
+  short: 無須再呼叫遞迴就可作答的情況。
+  lesson: fd-algo-10
+  tags:
+  - 基礎
+- id: batch
+  term: 批次
+  en: batch
+  aliases: []
+  cn: 批次
+  tw: 批次
+  short: 可在同一輸入範圍和截點下執行或重跑的一組數據。
+  lesson: sq-metrics-01
+  tags:
+  - 數倉
+- id: batch-completeness
+  term: 批次完成狀態
+  en: batch completeness
+  aliases: []
+  cn: 批次完整性
+  tw: 批次完整性
+  short: 以獨立清冊或進度確認預計的來源已到齊。
+  lesson: sq-audit-05
+  tags:
+  - SQL
+- id: batch-id
+  term: 批次編號
+  en: batch ID
+  aliases: []
+  cn: 批次編號
+  tw: 批次識別碼
+  short: 將一批輸入、日誌與產物對應起來的識別值。
+  lesson: fd-lab-03
+  tags:
+  - 基礎
+- id: batch-manifest
+  term: 批次清單
+  en: Batch manifest
+  aliases:
+  - manifest
+  cn: 批次清單
+  tw: 批次清冊
+  short: 記錄某批的輸入、切點、筆數與驗收證據。
+  lesson: bd-ingest-01
+  tags:
+  - 採集
+- id: batch-processing
+  term: 批次處理
+  en: Batch processing
+  aliases: []
+  cn: 批次處理
+  tw: 批次處理
+  short: 針對有界的一批數據執行計算與交付。
+  lesson: bd-flink-01
+  tags:
+  - 採集
+- id: behavioral-interview
+  term: 行為面試
+  en: behavioral interview
+  aliases: []
+  cn: 行為面試
+  tw: 行為面試
+  short: 以具體過往行動了解候選人如何工作。
+  lesson: cr-behavior-01
+  tags:
+  - 面試
+- id: benchmark
+  term: 比較基準
+  en: benchmark
+  aliases: []
+  cn: 基準測試
+  tw: 效能基準
+  short: 比較方案時同用的工作量、量法與環境。
+  lesson: cr-portfolio-03
+  tags:
+  - 面試
+- id: benchmark-workload
+  term: 基準負載
+  en: benchmark workload
+  aliases: []
+  cn: 基準負載
+  tw: 基準工作負載
+  short: 固定輸入、動作及條件，以供效能公平比較。
+  lesson: bd-bench-01
+  tags:
+  - 管道
+- id: big-o-notation
+  term: 大 O 記號
+  en: Big O notation
+  aliases: []
+  cn: 大 O 記號
+  tw: 大 O 記號
+  short: 表示成長率漸近上界的寫法。
+  lesson: fd-algo-01
+  tags:
+  - 基礎
+- id: binary-search
+  term: 二分搜尋
+  en: binary search
+  aliases: []
+  cn: 二分查找
+  tw: 二分搜尋
+  short: 用有序或單調條件反覆排除一半候選。
+  lesson: fd-algo-06
+  tags:
+  - 基礎
+- id: bind
+  term: 綁定
+  en: bind
+  aliases: []
+  cn: 綁定
+  tw: 綁定
+  short: 把通訊端指定到本機的位址與連接埠。
+  lesson: fd-system-05
+  tags:
+  - 基礎
+- id: bind-mount
+  term: 主機目錄掛載
+  en: bind mount
+  aliases: []
+  cn: 綁定掛載
+  tw: 主機目錄掛載
+  short: 將指定的主機檔案或目錄放到容器的指定路徑。
+  lesson: fd-docker-03
+  tags:
+  - Docker
+- id: binlog
+  term: 二進位日誌
+  en: binary log
+  aliases:
+  - 二進制日誌
+  cn: 二進位日誌
+  tw: 二進位日誌
+  short: MySQL 記錄數據庫變更的日誌，簡稱 binlog。
+  lesson: bd-ingest-06
+  tags:
+  - 採集
+- id: blameless-postmortem
+  term: 無責備復盤
+  en: blameless postmortem
+  aliases: []
+  cn: 無責備復盤
+  tw: 無責備事後檢討
+  short: 不以指責個人取代找出可改善的系統條件。
+  lesson: cr-behavior-03
+  tags:
+  - 面試
+- id: blast-radius
+  term: 故障範圍
+  en: blast radius
+  aliases: []
+  cn: 故障影響範圍
+  tw: 故障影響範圍
+  short: 故障導致哪些使用者的哪些承諾不再成立。
+  lesson: cr-design-04
+  tags:
+  - 面試
+- id: block
+  term: HDFS 區塊
+  en: HDFS block
+  aliases:
+  - Block
+  cn: 區塊
+  tw: 區塊
+  short: 檔案系統分配或傳輸的片段；HDFS 把檔案拆為區塊儲存。
+  lesson: bd-distrib-03
+  tags:
+  - 分散式
+- id: block-report
+  term: 區塊報告
+  en: block report
+  aliases: []
+  cn: 塊報告
+  tw: 區塊報告
+  short: 儲存節點向名稱服務回報持有哪些區塊。
+  lesson: bd-distrib-03
+  tags:
+  - 管道
+- id: boolean
+  term: 布林值
+  en: boolean
+  aliases: []
+  cn: 布爾值
+  tw: 布林值
+  short: 表示真或假的值。
+  lesson: fd-python-06
+  tags:
+  - Python
+- id: boundary-value
+  term: 邊界值
+  en: boundary value
+  aliases: []
+  cn: 邊界值
+  tw: 邊界值
+  short: 接近不同判斷結果交界處的數值。
+  lesson: fd-python-06
+  tags:
+  - Python
+- id: bounded-stream
+  term: 有界流
+  en: bounded stream
+  aliases:
+  - 有界來源
+  - bounded source
+  - 有界數據源
+  cn: 有界流
+  tw: 有界串流
+  short: 有明確可知終點的輸入。
+  lesson: bd-flink-01
+  tags:
+  - Flink
+- id: branch
+  term: 分支
+  en: branch
+  aliases: []
+  cn: 分支
+  tw: 分支
+  short: 指向一筆提交、可隨新提交前進的名稱。
+  lesson: fd-git-05
+  tags:
+  - Git
+- id: breadth-first-search
+  term: 廣度優先搜尋
+  en: breadth-first search
+  aliases: []
+  cn: 廣度優先搜索
+  tw: 廣度優先搜尋
+  short: 先走較近的一層，再走下一層。
+  lesson: fd-algo-08
+  tags:
+  - 基礎
+- id: bridge-role
+  term: 橋接職務
+  en: bridge role
+  aliases: []
+  cn: 過渡職位
+  tw: 橋接職務
+  short: 能在現有能力上累積目標職務交付經驗的工作。
+  lesson: cr-search-02
+  tags:
+  - 面試
+- id: broadcast-join
+  term: 廣播連接
+  en: Broadcast join
+  aliases: []
+  cn: 廣播連接
+  tw: 廣播聯結
+  short: 把足夠小的一側送到各節點，減少搬動大表。
+  lesson: bd-spark-08
+  tags:
+  - 批次
+- id: broker
+  term: 代理節點
+  en: broker
+  aliases: []
+  cn: 代理節點
+  tw: 代理節點
+  short: 提供分區儲存及讀寫的 Kafka 伺服器。
+  lesson: bd-kafka-01
+  tags:
+  - Kafka
+- id: bucketing
+  term: 分桶
+  en: Bucketing
+  aliases: []
+  cn: 分桶
+  tw: 分桶
+  short: 按鍵的雜湊把列放進固定數量的桶，有別於依日期建立目錄。
+  lesson: bd-hive-03
+  tags:
+  - 批次
+- id: budget-alert
+  term: 預算警示
+  en: budget alert
+  aliases: []
+  cn: 預算告警
+  tw: 預算警示
+  short: 在成本符合門檻時通知，不等於停止工作。
+  lesson: cl-cloud-01
+  tags:
+  - 雲端
+- id: buffer
+  term: 緩衝區
+  en: buffer
+  aliases: []
+  cn: 緩衝區
+  tw: 緩衝區
+  short: 暫時保存尚未交付給下一層的數據。
+  lesson: fd-system-04
+  tags:
+  - 基礎
+- id: build-lifecycle
+  term: 建置生命週期
+  en: build lifecycle
+  aliases: []
+  cn: 構建生命週期
+  tw: 建置生命週期
+  short: 依序執行一組編譯、測試或封裝階段。
+  lesson: fd-java-07
+  tags:
+  - Java
+- id: build-tool
+  term: 建置工具
+  en: build tool
+  aliases: []
+  cn: 構建工具
+  tw: 建置工具
+  short: 依專案設定執行編譯、測試與封裝。
+  lesson: fd-java-07
+  tags:
+  - Java
+- id: bus-matrix
+  term: 匯流排矩陣
+  en: Bus matrix
+  aliases:
+  - 總線矩陣
+  cn: 匯流排矩陣
+  tw: 匯流排矩陣
+  short: 用業務過程為列、維度為欄，找出跨事實表可共用的維度。
+  lesson: sq-model-06
+  tags:
+  - 建模
+- id: business-day
+  term: 業務日
+  en: Business day
+  aliases:
+  - business date
+  - 業務日期
+  cn: 業務日
+  tw: 營業歸屬日
+  short: 依業務日切歸屬的報表日期，不等於工作日。
+  lesson: sq-time-01
+  tags:
+  - SQL
+- id: business-intelligence
+  term: 商業智慧
+  en: business intelligence
+  aliases: []
+  cn: 商業智能
+  tw: 商業智慧
+  short: 以報表、數據模型與分析支援業務決策。
+  lesson: cr-search-02
+  tags:
+  - 面試
+- id: business-process
+  term: 業務過程
+  en: business process
+  aliases: []
+  cn: 業務過程
+  tw: 業務流程
+  short: 數倉要描述的一類可觀測的業務活動。
+  lesson: sq-model-02
+  tags:
+  - 數倉
+- id: byte-order-mark
+  term: 檔首標記
+  en: byte order mark
+  aliases: []
+  cn: 字節順序標記
+  tw: 位元組順序記號
+  short: 可出現在 Unicode 文字檔開頭的標記；UTF-8 讀取可明確略過。
+  lesson: fd-lab-01
+  tags:
+  - 基礎
+- id: bytecode
+  term: 位元組碼
+  en: bytecode
+  aliases: []
+  cn: 字節碼
+  tw: 位元組碼
+  short: 編譯後由虛擬機執行的指令格式。
+  lesson: fd-java-02
+  tags:
+  - Java
+- id: bytes-scanned
+  term: 掃描量
+  en: bytes scanned
+  aliases: []
+  cn: 掃描數據量
+  tw: 掃描量
+  short: 引擎為計算查詢而實際讀取或估計需讀的位元組。
+  lesson: cl-cloud-05
+  tags:
+  - 雲端
+- id: cache
+  term: 快取
+  en: cache
+  aliases: []
+  cn: 緩存
+  tw: 快取
+  short: 保留已算結果供後續工作重用。
+  lesson: bd-spark-07
+  tags:
+  - Spark
+- id: call
+  term: 呼叫
+  en: call
+  aliases: []
+  cn: 調用
+  tw: 呼叫
+  short: 讓一段已定義的函式用這次的輸入執行。
+  lesson: fd-python-10
+  tags:
+  - Python
+- id: call-stack
+  term: 呼叫堆疊
+  en: call stack
+  aliases: []
+  cn: 調用棧
+  tw: 呼叫堆疊
+  short: 記錄執行緒尚未返回的呼叫與局部執行狀態。
+  lesson: fd-system-01
+  tags:
+  - 基礎
+- id: campus-recruitment
+  term: 校招
+  en: campus recruitment
+  aliases: []
+  cn: 校園招聘
+  tw: 校園招募
+  short: 針對公告所列在學或畢業屆別的招聘渠道。
+  lesson: cr-search-03
+  tags:
+  - 面試
+- id: candidate-key
+  term: 候選鍵
+  en: candidate key
+  aliases: []
+  cn: 候選鍵
+  tw: 候選鍵
+  short: 能唯一識別一列而無法再刪欄的欄位組合。
+  lesson: sq-db-02
+  tags:
+  - SQL
+- id: capacity-estimation
+  term: 容量估算
+  en: capacity estimation
+  aliases: []
+  cn: 容量估算
+  tw: 容量估算
+  short: 從負載、單筆大小與保存規則推算資源量級。
+  lesson: cr-design-03
+  tags:
+  - 面試
+- id: cardinality
+  term: 基數
+  en: Cardinality
+  aliases:
+  - 匹配基數
+  - join cardinality
+  - 連接基數
+  cn: 基數
+  tw: 相異值數
+  short: 欄位基數可指相異值數，結果基數指列數；談連接基數時，則要問一側的一個鍵可匹配另一側幾列。
+  lesson: bd-hive-05
+  tags:
+  - SQL
+- id: cartesian-product
+  term: 笛卡兒積
+  en: Cartesian product
+  aliases: []
+  cn: 笛卡兒積
+  tw: 笛卡兒積、直積
+  short: 兩個來源所有列的成對組合；總列數等於兩側筆數相乘。
+  lesson: sq-join-04
+  tags:
+  - SQL
+- id: cast
+  term: 類型轉換
+  en: Cast
+  aliases: []
+  cn: 類型轉換
+  tw: 型別轉換
+  short: 按指定目標類型重新解讀一個值；不合法的輸入可能失敗。
+  lesson: sq-expr-02
+  tags:
+  - SQL
+- id: catalog
+  term: 中繼目錄
+  en: Catalog
+  aliases:
+  - 目錄服務
+  cn: 目錄
+  tw: 中繼目錄
+  short: 管理數據表的名稱、結構與位置；在湖倉也負責指向表的目前元數據。
+  lesson: bd-hive-01
+  tags:
+  - 管道
+- id: catchup
+  term: 追趕
+  en: catchup
+  aliases: []
+  cn: 追趕
+  tw: 追趕
+  short: 依既有排程為尚未建立的歷史區間建立執行。
+  lesson: bd-orch-04
+  tags:
+  - 排程
+- id: change-data-capture
+  term: 變更數據捕獲
+  en: Change data capture
+  aliases:
+  - CDC
+  cn: 變更數據捕獲
+  tw: 異動資料擷取
+  short: 擷取新增、更新與刪除等變化，使下游能增量跟隨來源。
+  lesson: bd-ingest-06
+  tags:
+  - 採集
+- id: changelog
+  term: 變更日誌
+  en: changelog
+  aliases: []
+  cn: 變更日誌
+  tw: 變更紀錄
+  short: 依序表示結果列新增、更新、撤回及刪除。
+  lesson: bd-flink-08
+  tags:
+  - Flink
+- id: channel
+  term: 通道
+  en: channel
+  aliases: []
+  cn: 通道
+  tw: 通道
+  short: 在同步元件之間傳遞記錄的路徑。
+  lesson: bd-ingest-03
+  tags:
+  - 採集
+- id: character-encoding
+  term: 字元編碼
+  en: character encoding
+  aliases: []
+  cn: 字符編碼
+  tw: 字元編碼
+  short: 將文字和位元組互相對應的規則。
+  lesson: fd-desk-02
+  tags:
+  - 基礎
+- id: checked-exception
+  term: 受檢例外
+  en: checked exception
+  aliases: []
+  cn: 受檢異常
+  tw: 受檢例外
+  short: Java 要求編譯時能找到捕捉或宣告的例外。
+  lesson: fd-java-06
+  tags:
+  - Java
+- id: checkpoint
+  term: 檢查點
+  en: Checkpoint
+  aliases:
+  - Delta 日誌檢查點
+  - Flink 狀態檢查點
+  cn: 檢查點
+  tw: 查核點
+  short: Flink 保存一致的來源進度與狀態以便復原；Delta 的日誌檢查點用於加速重建表狀態，兩者用途不同。
+  lesson: bd-flink-06
+  tags:
+  - 實時
+- id: checkpoint-barrier
+  term: 屏障
+  en: checkpoint barrier
+  aliases:
+  - barrier
+  cn: 檢查點屏障
+  tw: 檢查點屏障
+  short: 在流上標記一致快照的前後分界。
+  lesson: bd-flink-06
+  tags:
+  - Flink
+- id: checksum
+  term: 校驗值
+  en: checksum
+  aliases: []
+  cn: 校驗值
+  tw: 檢查碼
+  short: 用來比對內容是否改變的值，不等於來源身分。
+  lesson: cl-ai-01
+  tags:
+  - 雲端
+- id: child-node
+  term: 子節點
+  en: child node
+  aliases: []
+  cn: 子節點
+  tw: 子節點
+  short: 有根樹中從某父節點直接連到的下一層。
+  lesson: fd-algo-08
+  tags:
+  - 基礎
+- id: class
+  term: 類別
+  en: class
+  aliases: []
+  cn: 類
+  tw: 類別
+  short: 宣告一類物件的欄位、建構與行為。
+  lesson: fd-java-02
+  tags:
+  - Java
+- id: class-path
+  term: 類別路徑
+  en: class path
+  aliases: []
+  cn: 類路徑
+  tw: 類別路徑
+  short: Java 尋找類別與資源的目錄或封裝清單。
+  lesson: fd-java-02
+  tags:
+  - Java
+- id: clickhouse-granule
+  term: ClickHouse 區塊
+  en: ClickHouse granule
+  aliases:
+  - granule
+  cn: 粒度塊
+  tw: 區塊
+  short: ClickHouse 依標記掃描的一小段相鄰列。
+  lesson: bd-serve-01
+  tags:
+  - 管道
+- id: client
+  term: 用戶端
+  en: client
+  aliases: []
+  cn: 客戶端
+  tw: 用戶端
+  short: 向服務或 Docker 引擎發出請求的程式。
+  lesson: fd-docker-01
+  tags:
+  - Docker
+- id: clone
+  term: 複製儲存庫
+  en: clone
+  aliases: []
+  cn: 克隆
+  tw: 複製儲存庫
+  short: 由指定來源建立另一份可用的儲存庫。
+  lesson: fd-git-07
+  tags:
+  - Git
+- id: closed-book-practice
+  term: 盲寫
+  en: closed-book practice
+  aliases: []
+  cn: 盲寫
+  tw: 不看解答手寫
+  short: 只看題目，依自訂反例寫出查詢，再執行與核對。
+  lesson: sq-pattern-11
+  tags:
+  - SQL
+- id: closed-interval
+  term: 閉區間
+  en: closed interval
+  aliases: []
+  cn: 閉區間
+  tw: 閉區間
+  short: 起點與終點都算入範圍。
+  lesson: sq-read-08
+  tags:
+  - SQL
+- id: cloud-credit
+  term: 抵用金
+  en: credit
+  aliases: []
+  cn: 抵扣金
+  tw: 抵用金
+  short: 依規則抵扣指定帳項的金額。
+  lesson: cl-cloud-01
+  tags:
+  - 雲端
+- id: coalesce
+  term: 合併分區
+  en: coalesce
+  aliases: []
+  cn: 合併分區
+  tw: 合併分區
+  short: 將既有分區併成更少份，通常不做完整重分配。
+  lesson: bd-spark-10
+  tags:
+  - Spark
+- id: code-block
+  term: 程式區塊
+  en: Code block
+  aliases:
+  - 區塊
+  - block
+  cn: 代碼塊
+  tw: 程式區塊
+  short: 按語法被視為一組的指令。
+  lesson: fd-python-07
+  tags:
+  - Python
+- id: codec
+  term: 編解碼器
+  en: codec
+  aliases: []
+  cn: 編解碼器
+  tw: 編解碼器
+  short: 依特定方法編碼、壓縮或還原位元組。
+  lesson: bd-hive-05
+  tags:
+  - Hive
+- id: cohort
+  term: 同期群
+  en: Cohort
+  aliases:
+  - 同類群組
+  cn: 同期群
+  tw: 隊列
+  short: 依首次行為或共同特徵固定的一批對象，便於跨期比較。
+  lesson: sq-pattern-03
+  tags:
+  - 分析
+- id: collation
+  term: 字串定序
+  en: collation
+  aliases: []
+  cn: 排序規則
+  tw: 字串定序
+  short: 決定文字的比較與排列，例如是否區分大小寫。
+  lesson: sq-read-09
+  tags:
+  - SQL
+- id: colocation
+  term: 共置
+  en: colocation
+  aliases: []
+  cn: 共置
+  tw: 共置
+  short: 使需要互相比對的數據落在同一運算位置。
+  lesson: cl-wh-04
+  tags:
+  - 雲端
+- id: column
+  term: 欄
+  en: Column
+  aliases:
+  - 字段
+  - field
+  cn: 列
+  tw: 欄位
+  short: 同一屬性的一整欄，例如價格。大陸教材常稱「列」或「字段」。
+  lesson: sq-read-01
+  tags:
+  - SQL
+- id: column-alias
+  term: 欄位別名
+  en: column alias
+  aliases: []
+  cn: 列別名
+  tw: 欄位別名
+  short: 為某次查詢的欄位或算式命名，不修改原表。
+  lesson: sq-expr-01
+  tags:
+  - SQL
+- id: column-chunk
+  term: 欄位區塊
+  en: Column chunk
+  aliases:
+  - 欄塊
+  cn: 列塊
+  tw: 欄位區塊
+  short: Parquet 一個列群組內的單欄數據。
+  lesson: sq-db-09
+  tags:
+  - SQL
+- id: column-level-lineage
+  term: 欄位血緣
+  en: column lineage
+  aliases:
+  - 欄位級血緣
+  - column-level lineage
+  - 欄位級資料血緣
+  cn: 欄位血緣
+  tw: 欄位血緣
+  short: 記錄輸出欄位依賴的輸入欄位及轉換。
+  lesson: sq-metrics-08
+  tags:
+  - 數倉
+- id: column-pruning
+  term: 欄位裁剪
+  en: column pruning
+  aliases: []
+  cn: 列裁剪
+  tw: 欄位裁剪
+  short: 不讀查詢不需要的欄位。
+  lesson: bd-bench-03
+  tags:
+  - 管道
+- id: columnar-storage
+  term: 欄式儲存
+  en: Columnar storage
+  aliases:
+  - 按欄儲存
+  - 列式存儲
+  - column-oriented storage
+  cn: 列式儲存
+  tw: 欄式儲存
+  short: 把同一欄的數值放在一起，分析查詢可只讀需要的欄。
+  lesson: sq-db-09
+  tags:
+  - 批次
+- id: combiner
+  term: 局部合併器
+  en: Combiner
+  aliases: []
+  cn: Combiner
+  tw: 局部合併器
+  short: 將部分 Map 中間結果先合併，減少後續傳輸。
+  lesson: bd-distrib-05
+  tags:
+  - 管道
+- id: comma-separated-values-csv
+  term: CSV
+  en: comma-separated values
+  aliases: []
+  cn: 逗號分隔值
+  tw: 逗號分隔值
+  short: 用逗號分欄、用引號保護含標點欄值的文字表格格式。
+  lesson: fd-io-01
+  tags:
+  - 基礎
+- id: command-line-interface
+  term: 命令列介面
+  en: command-line interface
+  aliases:
+  - 命令行介面
+  cn: 命令行接口
+  tw: 命令列介面
+  short: 透過終端命令和引數使用程式的介面。
+  lesson: fd-lab-02
+  tags:
+  - 基礎
+- id: committed-offset
+  term: 提交位移
+  en: committed offset
+  aliases: []
+  cn: 已提交偏移量
+  tw: 已提交偏移量
+  short: 組保存的分區接續位置。
+  lesson: bd-kafka-05
+  tags:
+  - Kafka
+- id: common-table-expression
+  term: 公用表運算式
+  en: Common table expression
+  aliases:
+  - CTE
+  cn: 公用表運算式
+  tw: 通用資料表運算式
+  short: 為同一陳述式內的中間查詢命名，可供後續查詢引用。
+  lesson: sq-compose-04
+  tags:
+  - SQL
+- id: compaction
+  term: 壓實
+  en: Compaction
+  aliases:
+  - log compaction
+  - 壓縮
+  cn: 壓實
+  tw: 壓縮整理
+  short: 按鍵保留較新狀態或重寫檔案以降低負擔，不是壓縮編碼。
+  lesson: bd-kafka-06
+  tags:
+  - 實時
+- id: comparison
+  term: 比較
+  en: comparison
+  aliases: []
+  cn: 比較
+  tw: 比較
+  short: 依相等、大小等規則判斷兩個值。
+  lesson: fd-python-06
+  tags:
+  - Python
+- id: compilation
+  term: 編譯
+  en: compilation
+  aliases: []
+  cn: 編譯
+  tw: 編譯
+  short: 先檢查語法與類型，再將原始碼轉成目標格式。
+  lesson: fd-java-07
+  tags:
+  - Java
+- id: composite-index
+  term: 複合索引
+  en: composite index
+  aliases: []
+  cn: 複合索引
+  tw: 複合索引
+  short: 以有序的欄位組合作索引鍵。
+  lesson: sq-db-06
+  tags:
+  - SQL
+- id: composite-key
+  term: 複合鍵
+  en: composite key
+  aliases: []
+  cn: 複合鍵
+  tw: 複合鍵
+  short: 結合兩個以上欄位才能唯一辨認一列的鍵。
+  lesson: sq-model-02
+  tags:
+  - 數倉
+- id: composite-metric
+  term: 複合指標
+  en: Composite metric
+  aliases:
+  - 比率指標
+  - 衍生比率
+  cn: 複合指標
+  tw: 複合指標
+  short: 用既有指標再運算得到的值，例如退款金額除以付款金額；不同於在原子指標加限定的派生指標。
+  lesson: sq-metrics-06
+  tags:
+  - 數倉
+- id: composite-primary-key
+  term: 複合主鍵
+  en: composite primary key
+  aliases: []
+  cn: 複合主鍵
+  tw: 複合主鍵
+  short: 用多欄共同識別一列，鍵內各值不得空。
+  lesson: sq-db-01
+  tags:
+  - SQL
+- id: composition
+  term: 組合
+  en: composition
+  aliases: []
+  cn: 組合
+  tw: 組合
+  short: 將不同責任交給元件，再讓它們按約定協作。
+  lesson: fd-tools-02
+  tags:
+  - 基礎
+- id: compute-node
+  term: 運算節點
+  en: compute node
+  aliases: []
+  cn: 計算節點
+  tw: 運算節點
+  short: 實際承接部分數據處理的節點。
+  lesson: cl-wh-04
+  tags:
+  - 雲端
+- id: concatenation
+  term: 串接
+  en: concatenation
+  aliases: []
+  cn: 拼接
+  tw: 串接
+  short: 依序把幾段文字接成一段。
+  lesson: fd-python-02
+  tags:
+  - Python
+- id: conditional-aggregation
+  term: 條件聚合
+  en: conditional aggregation
+  aliases: []
+  cn: 條件聚合
+  tw: 條件彙總
+  short: 在同一批輸入中，依每個指標的條件個別計數或加總。
+  lesson: sq-group-06
+  tags:
+  - SQL
+- id: conditional-branch
+  term: 條件分支
+  en: conditional branch
+  aliases: []
+  cn: 條件分支
+  tw: 條件分支
+  short: 依真假選擇執行的程式路線。
+  lesson: fd-python-07
+  tags:
+  - Python
+- id: conditional-expression
+  term: 條件運算式
+  en: conditional expression
+  aliases: []
+  cn: 條件表達式
+  tw: 條件運算式
+  short: 按條件選出結果；CASE 採第一個為真的分支。
+  lesson: sq-expr-03
+  tags:
+  - SQL
+- id: conformed-dimension
+  term: 一致維度
+  en: Conformed dimension
+  aliases:
+  - 一致性維度
+  cn: 一致維度
+  tw: 共用維度
+  short: 在多個業務流程中使用相同含義、鍵對應與屬性的維度。
+  lesson: sq-model-06
+  tags:
+  - 建模
+- id: connector
+  term: 連接器
+  en: connector
+  aliases: []
+  cn: 連接器
+  tw: 連接器
+  short: 介接外部來源或目的端的元件。
+  lesson: bd-kafka-08
+  tags:
+  - Kafka
+- id: consistent-snapshot
+  term: 一致性快照
+  en: consistent snapshot
+  aliases: []
+  cn: 一致性快照
+  tw: 一致性快照
+  short: 固定讀取視圖，讓多筆可見數據對應同一切點。
+  lesson: bd-ingest-01
+  tags:
+  - 採集
+- id: constraint
+  term: 約束
+  en: Constraint
+  aliases: []
+  cn: 約束
+  tw: 限制條件
+  short: 由數據庫強制檢查的規則，例如唯一性或必填。
+  lesson: sq-db-03
+  tags:
+  - 數據庫
+- id: constructor
+  term: 建構式
+  en: constructor
+  aliases: []
+  cn: 構造方法
+  tw: 建構式
+  short: 建立物件時初始化狀態的宣告。
+  lesson: fd-java-04
+  tags:
+  - Java
+- id: consumer
+  term: 消費者
+  en: consumer
+  aliases: []
+  cn: 消費者
+  tw: 消費者
+  short: 讀取主題紀錄的客戶端。
+  lesson: bd-kafka-04
+  tags:
+  - Kafka
+- id: consumer-group
+  term: 消費者組
+  en: Consumer group
+  aliases: []
+  cn: 消費者組
+  tw: 消費者群組
+  short: 協作讀同一主題的讀者集合；同組一個分區同時指派給一名成員。
+  lesson: bd-kafka-04
+  tags:
+  - 實時
+- id: consumer-lag
+  term: 消費積壓
+  en: consumer lag
+  aliases: []
+  cn: 消費滯後
+  tw: 消費落後量
+  short: 常以分區末端減組提交位置估算。
+  lesson: bd-kafka-09
+  tags:
+  - Kafka
+- id: consumer-position
+  term: 讀取位置
+  en: consumer position
+  aliases: []
+  cn: 消費位置
+  tw: 讀取位置
+  short: 此消費者下一個要讀的位置。
+  lesson: bd-kafka-05
+  tags:
+  - Kafka
+- id: container
+  term: 容器
+  en: container
+  aliases: []
+  cn: 容器
+  tw: 容器
+  short: 以映像建立、帶獨立執行設定與可寫層的實例。
+  lesson: fd-docker-01
+  tags:
+  - Docker
+- id: container-id
+  term: 容器識別碼
+  en: container ID
+  aliases: []
+  cn: 容器 ID
+  tw: 容器識別碼
+  short: 識別 Docker 某一容器實例的值。
+  lesson: fd-docker-01
+  tags:
+  - Docker
+- id: continuous-percentile
+  term: 連續百分位
+  en: continuous percentile
+  aliases: []
+  cn: 連續百分位數
+  tw: 連續百分位數
+  short: 排序位置在兩筆之間時插值，不一定等於樣本中的值。
+  lesson: sq-pattern-07
+  tags:
+  - SQL
+- id: converter
+  term: 轉換器
+  en: converter
+  aliases: []
+  cn: 轉換器
+  tw: 轉換器
+  short: 轉換 Connect 內部表示與 Kafka 紀錄的鍵和值。
+  lesson: bd-kafka-08
+  tags:
+  - Kafka
+- id: coordinated-universal-time-utc
+  term: 世界協調時間
+  en: Coordinated Universal Time (UTC)
+  aliases: []
+  cn: 協調世界時
+  tw: 世界協調時間
+  short: 共用時間基準，可換算成各地本地時鐘。
+  lesson: sq-expr-07
+  tags:
+  - SQL
+- id: coordinator
+  term: 協調器
+  en: coordinator
+  aliases: []
+  cn: 協調節點
+  tw: 協調器
+  short: 接收查詢並負責規劃、派工作。
+  lesson: bd-serve-04
+  tags:
+  - 管道
+- id: copy-on-write
+  term: 寫時複製
+  en: copy-on-write
+  aliases: []
+  cn: 寫時拷貝
+  tw: 寫入時複製
+  short: 在更新時寫出新的基礎檔。
+  lesson: bd-lake-05
+  tags:
+  - 湖倉
+- id: core-second
+  term: 核心秒
+  en: core-second
+  aliases: []
+  cn: 核秒
+  tw: 核心秒
+  short: 佔用核心數乘時間；不等於帳單或 CPU 使用率。
+  lesson: bd-bench-06
+  tags:
+  - 管道
+- id: correlated-subquery
+  term: 相關子查詢
+  en: correlated subquery
+  aliases: []
+  cn: 相關子查詢
+  tw: 關聯子查詢
+  short: 內層引用外層欄位，答案可隨外層目前列而變。
+  lesson: sq-compose-02
+  tags:
+  - SQL
+- id: cosine-similarity
+  term: 餘弦相似度
+  en: cosine similarity
+  aliases: []
+  cn: 餘弦相似度
+  tw: 餘弦相似度
+  short: 以兩向量方向的接近程度表示相似。
+  lesson: cl-ai-03
+  tags:
+  - 雲端
+- id: cost-budget
+  term: 成本預算
+  en: cost budget
+  aliases: []
+  cn: 成本預算
+  tw: 成本預算
+  short: 指定範圍與期間的支出監看基準。
+  lesson: cl-cloud-01
+  tags:
+  - 雲端
+- id: cpu-quota
+  term: CPU 配額
+  en: CPU quota
+  aliases: []
+  cn: CPU 配額
+  tw: CPU 配額
+  short: 限制指定工作在一段時間內可使用多少 CPU 執行時間。
+  lesson: fd-docker-06
+  tags:
+  - Docker
+- id: crontab
+  term: 使用者排程表
+  en: crontab
+  aliases: []
+  cn: crontab 排程表
+  tw: crontab 排程表
+  short: 記錄 cron 何時執行哪些命令的設定。
+  lesson: fd-linux-07
+  tags:
+  - 基礎
+- id: cross-join
+  term: 交叉連接
+  en: Cross join
+  aliases: []
+  cn: 交叉連接
+  tw: 交叉聯結
+  short: 把左側每列與右側每列一一配對，形成乘積。
+  lesson: sq-join-04
+  tags:
+  - SQL
+- id: cross-layer-reconciliation
+  term: 跨層對帳
+  en: cross-layer reconciliation
+  aliases: []
+  cn: 跨層對帳
+  tw: 跨層對帳
+  short: 在共同口徑下比較來源、明細與集市，定位偏差。
+  lesson: bd-quality-04
+  tags:
+  - 數據質量
+- id: cumulative-distinct-count
+  term: 累計去重
+  en: cumulative distinct count
+  aliases: []
+  cn: 累計去重
+  tw: 累計不重複計數
+  short: 從指定起點到當期只數每個鍵一次，不能將每日去重數直接相加。
+  lesson: sq-time-05
+  tags:
+  - SQL
+- id: current-working-directory
+  term: 目前工作目錄
+  en: current working directory
+  aliases: []
+  cn: 當前工作目錄
+  tw: 目前工作目錄
+  short: 解譯器解讀相對路徑的起點。
+  lesson: fd-desk-04
+  tags:
+  - 基礎
+- id: cursor
+  term: 游標
+  en: cursor
+  aliases: []
+  cn: 游標
+  tw: 游標
+  short: 保存已處理列的排序位置，讓下一批接續讀取。
+  lesson: bd-ingest-02
+  tags:
+  - 採集
+- id: cycle
+  term: 循環
+  en: cycle
+  aliases: []
+  cn: 環
+  tw: 循環
+  short: 沿圖上的邊前進後可回到起點的路徑。
+  lesson: cr-code-05
+  tags:
+  - 面試
+- id: dag-run
+  term: 工作流執行
+  en: DAG run
+  aliases: []
+  cn: 工作流執行
+  tw: 工作流程執行
+  short: 依某份 DAG 定義建立的一次執行。
+  lesson: bd-orch-01
+  tags:
+  - 排程
+- id: daily-summary
+  term: 日摘要
+  en: daily summary
+  aliases: []
+  cn: 每日匯總
+  tw: 每日摘要
+  short: 按營業日發布的彙總輸出。
+  lesson: cr-behavior-04
+  tags:
+  - 面試
+- id: data-completeness
+  term: 數據完整度
+  en: Completeness
+  aliases:
+  - 數據完整性
+  - 完整性
+  cn: 完整度
+  tw: 數據完整度
+  short: 核對約定範圍內應到的批次和數據是否到齊，不同於鍵之間的參照完整性。
+  lesson: bd-quality-03
+  tags:
+  - 數據質量
+- id: data-contract
+  term: 數據契約
+  en: data contract
+  aliases: []
+  cn: 數據契約
+  tw: 資料契約
+  short: 明訂數據結構、語義、適用範圍與供應責任。
+  lesson: cl-contract-02
+  tags:
+  - 雲端
+- id: data-definition-language
+  term: 數據定義語言
+  en: data definition language
+  aliases: []
+  cn: 數據定義語言
+  tw: 資料定義語言
+  short: 定義或改變表等數據庫物件的語句。
+  lesson: sq-db-03
+  tags:
+  - SQL
+- id: data-engineer
+  term: 數據開發工程師
+  en: data engineer
+  aliases: []
+  cn: 數據開發工程師
+  tw: 資料工程師
+  short: 建置與維護可核對的數據模型、轉換或管道。
+  lesson: fd-start-01
+  tags:
+  - 面試
+- id: data-interval
+  term: 數據區間
+  en: data interval
+  aliases: []
+  cn: 數據區間
+  tw: 資料區間
+  short: 指定一次工作流執行要處理的時間範圍。
+  lesson: bd-orch-02
+  tags:
+  - 排程
+- id: data-manipulation-language
+  term: 數據操作語言
+  en: data manipulation language
+  aliases: []
+  cn: 數據操作語言
+  tw: 資料操作語言
+  short: 操作表中數據的語句，課程聚焦新增、修改與刪除。
+  lesson: sq-db-04
+  tags:
+  - SQL
+- id: data-mart
+  term: 數據集市
+  en: Data mart
+  aliases:
+  - 資料市集
+  cn: 數據集市
+  tw: 資料超市
+  short: 針對特定業務或分析對象整理的交付層。
+  lesson: sq-model-10
+  tags:
+  - 建模
+- id: data-minimization-for-disclosure
+  term: 最小揭露
+  en: data minimization for disclosure
+  aliases: []
+  cn: 最小披露
+  tw: 最小揭露
+  short: 只交付核可用途需要的欄位與粒度。
+  lesson: sq-metrics-09
+  tags:
+  - 數倉
+- id: data-part
+  term: 數據片段
+  en: data part
+  aliases: []
+  cn: 數據片段
+  tw: 數據片段
+  short: MergeTree 儲存及合併的有序單位。
+  lesson: bd-serve-01
+  tags:
+  - 管道
+- id: data-pipeline
+  term: 數據管道
+  en: Data pipeline
+  aliases: []
+  cn: 數據管道
+  tw: 資料管線
+  short: 把數據從來源送到使用端的一連串擷取、整理與交付步驟。
+  lesson: fd-start-01
+  tags:
+  - 入門
+- id: data-quality
+  term: 數據質量
+  en: Data quality
+  aliases: []
+  cn: 數據質量
+  tw: 資料品質
+  short: 數據是否滿足用途需要的正確性、完整性、一致性和時效。
+  lesson: bd-quality-01
+  tags:
+  - 質量
+- id: data-skew
+  term: 數據傾斜
+  en: Data skew
+  aliases: []
+  cn: 數據傾斜
+  tw: 資料偏斜
+  short: 鍵分布或單筆成本不均，造成少數分區特別慢。
+  lesson: bd-distrib-06
+  tags:
+  - 分散式
+- id: data-structure
+  term: 數據結構
+  en: data structure
+  aliases: []
+  cn: 數據結構
+  tw: 資料結構
+  short: 組織數據的方式，影響查找、加入與移除的成本。
+  lesson: fd-algo-02
+  tags:
+  - 基礎
+- id: data-test
+  term: 數據測試
+  en: Data test
+  aliases: []
+  cn: 數據測試
+  tw: 資料測試
+  short: 把數據規則寫成可反覆執行的檢查；失敗應能指出異常紀錄。
+  lesson: cl-dbt-06
+  tags:
+  - 分析工程
+- id: data-type
+  term: 數據類型
+  en: data type
+  aliases:
+  - 型別、資料型態
+  cn: 數據類型
+  tw: 資料型別
+  short: 決定某種值如何表示、比較及運算的規則，例如字串可保留前導零，整數可用來加總。
+  lesson: fd-python-02
+  tags:
+  - Java
+- id: data-vault
+  term: 數據保險庫
+  en: Data Vault
+  aliases: []
+  cn: 數據保險庫
+  tw: 資料保險庫
+  short: 以核心業務鍵、關係與歷史屬性分開管理整合數據的方法。
+  lesson: sq-model-11
+  tags:
+  - 建模
+- id: data-warehouse
+  term: 數據倉庫
+  en: Data warehouse
+  aliases:
+  - 數倉
+  cn: 數據倉庫
+  tw: 資料倉儲
+  short: 跨來源整合並保存歷史，供一致分析查詢的數據集合。
+  lesson: sq-model-01
+  tags:
+  - 建模
+- id: data-warehouse-detail
+  term: 明細數據層
+  en: Data warehouse detail
+  aliases:
+  - DWD
+  cn: 明細數據層
+  tw: 明細層
+  short: 清洗並統一粒度後的事實明細，作為後續聚合依據。
+  lesson: sq-metrics-02
+  tags:
+  - 數倉
+- id: data-warehouse-service
+  term: 彙總數據層
+  en: Data warehouse service
+  aliases:
+  - DWS
+  cn: 彙總數據層
+  tw: 彙總層
+  short: 面向主題整理可重用的統計結果，避免下游反覆重算。
+  lesson: sq-metrics-04
+  tags:
+  - 數倉
+- id: database
+  term: 數據庫
+  en: Database
+  aliases: []
+  cn: 數據庫
+  tw: 資料庫
+  short: 依既定結構儲存數據，讓程式可查詢及維護的集合。
+  lesson: sq-read-01
+  tags:
+  - SQL
+- id: dataframe
+  term: 數據框
+  en: DataFrame
+  aliases: []
+  cn: 數據框
+  tw: 資料框
+  short: 帶有欄名與類型的表狀數據，在 Spark 可分區執行轉換。
+  lesson: bd-spark-02
+  tags:
+  - 批次
+- id: dataframe-merge
+  term: 數據框合併
+  en: DataFrame merge
+  aliases:
+  - merge
+  cn: 合併
+  tw: 合併
+  short: 依共同欄位的鍵將兩份表的列或欄位匹配。
+  lesson: fd-io-06
+  tags:
+  - 基礎
+- id: datanode
+  term: DataNode
+  en: DataNode
+  aliases: []
+  cn: 數據節點
+  tw: 數據節點
+  short: 保存 HDFS 區塊，供客戶端讀寫並回報狀態的節點。
+  lesson: bd-distrib-03
+  tags:
+  - 管道
+- id: dataset
+  term: 數據集
+  en: Dataset
+  aliases: []
+  cn: 數據集
+  tw: 資料集
+  short: 為同一主題整理在一起、可供查詢的多張表或多份檔案。
+  lesson: sq-read-01
+  tags:
+  - SQL
+- id: date
+  term: 日期
+  en: date
+  aliases: []
+  cn: 日期
+  tw: 日期
+  short: 只記曆日，不包含日內時刻。
+  lesson: sq-expr-06
+  tags:
+  - SQL
+- id: date-spine
+  term: 日期骨架
+  en: date spine
+  aliases: []
+  cn: 日期骨架
+  tw: 日期骨架
+  short: 描述報表應出現哪些日期的清單，可與聚合結果左連接補齊。
+  lesson: sq-pattern-10
+  tags:
+  - SQL
+- id: day-boundary
+  term: 日切
+  en: day boundary
+  aliases: []
+  cn: 日切
+  tw: 換日截點
+  short: 一個業務日結束並開始下一業務日的當地鐘點。
+  lesson: sq-time-01
+  tags:
+  - SQL
+- id: daylight-saving-time
+  term: 夏令時間
+  en: daylight saving time
+  aliases: []
+  cn: 夏令時
+  tw: 夏令時間
+  short: 某些地區在一年中特定期間調整本地時鐘的制度。
+  lesson: sq-expr-07
+  tags:
+  - SQL
+- id: dead-letter-queue
+  term: 死信佇列
+  en: dead-letter queue
+  aliases: []
+  cn: 死信隊列
+  tw: 死信佇列
+  short: 隔離可捕捉失敗紀錄的獨立輸出。
+  lesson: bd-kafka-08
+  tags:
+  - Kafka
+- id: decimal
+  term: 定點小數
+  en: Decimal
+  aliases: []
+  cn: 定點小數
+  tw: 定點小數
+  short: 用明確精度與小數位數儲存十進位數值，常用於金額。
+  lesson: sq-expr-08
+  tags:
+  - SQL
+- id: decommissioning
+  term: 退場
+  en: decommissioning
+  aliases: []
+  cn: 下線
+  tw: 退場
+  short: 停用產生新用量的來源，移除不用的資源並核對保留與帳務。
+  lesson: cl-cloud-06
+  tags:
+  - 雲端
+- id: deduplicate-merge-engine
+  term: 去重合併引擎
+  en: deduplicate merge engine
+  aliases: []
+  cn: 去重合併引擎
+  tw: 去重合併引擎
+  short: 以鍵及合併順序選出最後邏輯版本。
+  lesson: bd-lake-07
+  tags:
+  - 湖倉
+- id: deduplication
+  term: 去重
+  en: deduplication
+  aliases:
+  - 去重、去除重複
+  cn: 去重
+  tw: 去除重複
+  short: 按指定欄位判定哪些列等價，只保留一列。
+  lesson: sq-read-05
+  tags:
+  - SQL
+- id: default-argument-value
+  term: 預設值
+  en: default argument value
+  aliases: []
+  cn: 默認參數值
+  tw: 預設參數值
+  short: 呼叫者省略對應引數時採用的值。
+  lesson: fd-data-06
+  tags:
+  - 基礎
+- id: deletion-propagation
+  term: 刪除傳播
+  en: deletion propagation
+  aliases: []
+  cn: 刪除傳播
+  tw: 刪除傳播
+  short: 逐層讓源端撤回對衍生副本生效。
+  lesson: cl-ai-05
+  tags:
+  - 雲端
+- id: deletion-vector
+  term: 刪除向量
+  en: deletion vector
+  aliases: []
+  cn: 刪除向量
+  tw: 刪除向量
+  short: 標記有效數據檔中不應再被讀出的列。
+  lesson: bd-lake-06
+  tags:
+  - 湖倉
+- id: delimiter
+  term: 分隔符號
+  en: delimiter
+  aliases: []
+  cn: 分隔符
+  tw: 分隔符號
+  short: 表示字串在哪裡分段的一個或多個字元。
+  lesson: sq-expr-05
+  tags:
+  - SQL
+- id: delivery-semantics
+  term: 交付語義
+  en: delivery semantics
+  aliases: []
+  cn: 交付語義
+  tw: 交付語義
+  short: 描述故障後可觀測到的遺漏、重做或單次效果。
+  lesson: bd-kafka-07
+  tags:
+  - Kafka
+- id: denormalization
+  term: 去正規化
+  en: denormalization
+  aliases: []
+  cn: 反正規化
+  tw: 去正規化
+  short: 為特定查詢保留可重建的冗餘，另行維護一致性。
+  lesson: sq-db-02
+  tags:
+  - SQL
+- id: dense-rank
+  term: 密集排名
+  en: Dense rank
+  aliases: []
+  cn: 密集排名
+  tw: 密集排名
+  short: 同值同名次，下一個不同值的名次不跳號。
+  lesson: sq-window-04
+  tags:
+  - SQL
+- id: deprecation
+  term: 棄用
+  en: deprecation
+  aliases: []
+  cn: 棄用
+  tw: 棄用
+  short: 在移除前公告舊介面停止支援的計畫並留出遷移時間。
+  lesson: cl-contract-06
+  tags:
+  - 雲端
+- id: depth-first-search
+  term: 深度優先搜尋
+  en: depth-first search
+  aliases: []
+  cn: 深度優先搜索
+  tw: 深度優先搜尋
+  short: 先沿一支路徑走深，再折返走其他分支。
+  lesson: fd-algo-08
+  tags:
+  - 基礎
+- id: derived-metric
+  term: 派生指標
+  en: Derived metric
+  aliases: []
+  cn: 派生指標
+  tw: 衍生指標
+  short: 在基本度量加上時間與業務篩選條件，例如近七天已付金額。
+  lesson: sq-metrics-05
+  tags:
+  - 數倉
+- id: determinism
+  term: 決定性
+  en: determinism
+  aliases: []
+  cn: 確定性
+  tw: 決定性
+  short: 同一輸入在相同條件下總是得到相同輸出。
+  lesson: bd-hive-06
+  tags:
+  - Hive
+- id: dictionary
+  term: 字典
+  en: dictionary
+  aliases: []
+  cn: 字典
+  tw: 字典
+  short: 以鍵查找對應值的 Python 容器。
+  lesson: fd-data-03
+  tags:
+  - 基礎
+- id: dictionary-encoding
+  term: 字典編碼
+  en: dictionary encoding
+  aliases: []
+  cn: 字典編碼
+  tw: 字典編碼
+  short: 把不同值存成字典，逐列以代號表示。
+  lesson: bd-hive-05
+  tags:
+  - Hive
+- id: diff
+  term: 逐行差異
+  en: diff
+  aliases: []
+  cn: 差異
+  tw: 逐行差異
+  short: 呈現兩版間新增和移除的文字行。
+  lesson: fd-git-03
+  tags:
+  - Git
+- id: dimension-table
+  term: 維度表
+  en: Dimension table
+  aliases: []
+  cn: 維度表
+  tw: 維度表
+  short: 儲存描述分析對象的屬性，例如商品類別與門市區域。
+  lesson: sq-model-04
+  tags:
+  - 建模
+- id: directed-acyclic-graph
+  term: 有向無環圖
+  en: Directed acyclic graph
+  aliases:
+  - DAG
+  cn: 有向無環圖
+  tw: 有向無環圖
+  short: 以有方向的邊表示依賴，從任何點都不能沿邊繞回自身。
+  lesson: bd-orch-01
+  tags:
+  - 排程
+- id: directed-graph
+  term: 有向圖
+  en: directed graph
+  aliases: []
+  cn: 有向圖
+  tw: 有向圖
+  short: 各條邊都有起點與終點的圖。
+  lesson: fd-algo-09
+  tags:
+  - 基礎
+- id: dirty-read
+  term: 髒讀
+  en: dirty read
+  aliases: []
+  cn: 髒讀
+  tw: 髒讀
+  short: 讀到其他交易未提交的變更。
+  lesson: sq-db-05
+  tags:
+  - SQL
+- id: discrete-percentile
+  term: 離散百分位
+  en: discrete percentile
+  aliases: []
+  cn: 離散百分位數
+  tw: 離散百分位數
+  short: 取使累積樣本比例到達門檻的實際樣本值。
+  lesson: sq-pattern-07
+  tags:
+  - SQL
+- id: disk-input-output
+  term: 磁碟 I/O
+  en: disk input/output
+  aliases: []
+  cn: 磁盤 I/O
+  tw: 磁碟 I/O
+  short: 讀取或寫入儲存設備數據的操作。
+  lesson: fd-system-03
+  tags:
+  - 基礎
+- id: distinct-count
+  term: 去重計數
+  en: Distinct count
+  aliases: []
+  cn: 去重計數
+  tw: 相異計數
+  short: 在指定範圍內，同一個非空值只計一次。
+  lesson: sq-group-05
+  tags:
+  - SQL
+- id: distributed-execution
+  term: 分散式執行
+  en: distributed execution
+  aliases: []
+  cn: 分布式執行
+  tw: 分散式執行
+  short: 將工作拆到多個執行單位，共同完成處理。
+  lesson: cr-portfolio-04
+  tags:
+  - 面試
+- id: distribution
+  term: 發行版
+  en: distribution
+  aliases: []
+  cn: 發行版
+  tw: 發行版
+  short: 包含核心、工具與套件的可使用 Linux 系統組合。
+  lesson: fd-linux-01
+  tags:
+  - 基礎
+- id: distribution-key
+  term: 分布鍵
+  en: distribution key
+  aliases: []
+  cn: 分佈鍵
+  tw: 分布鍵
+  short: 決定數據列以哪個欄值分派至切片。
+  lesson: cl-wh-04
+  tags:
+  - 雲端
+- id: document-chunking
+  term: 文件切片
+  en: Document chunking
+  aliases:
+  - chunking
+  cn: 切分
+  tw: 切片
+  short: 把長文切成可個別索引與檢索的片段。
+  lesson: cl-ai-02
+  tags:
+  - 雲端
+- id: domain-name-system-dns
+  term: 網域名稱系統
+  en: Domain Name System (DNS)
+  aliases: []
+  cn: 域名系統
+  tw: 網域名稱系統
+  short: 查詢網域名稱相關記錄的系統，例如取得 IP 位址。
+  lesson: fd-system-05
+  tags:
+  - 基礎
+- id: double-ended-queue
+  term: 雙端佇列
+  en: double-ended queue
+  aliases: []
+  cn: 雙端隊列
+  tw: 雙端佇列
+  short: 允許從任一端加入或取出元素的容器。
+  lesson: fd-algo-05
+  tags:
+  - 基礎
+- id: dp-state
+  term: 狀態
+  en: state
+  aliases: []
+  cn: 狀態
+  tw: 狀態
+  short: 某個子問題所需的資訊，決定那一格答案的含義。
+  lesson: fd-algo-10
+  tags:
+  - 基礎
+- id: drill-across
+  term: 跨事實查詢
+  en: drill-across
+  aliases: []
+  cn: 跨事實查詢
+  tw: —
+  short: 各事實先按相同粒度彙總，再依一致維度對齊。
+  lesson: sq-model-06
+  tags:
+  - 數倉
+- id: driver
+  term: 驅動程式
+  en: driver
+  aliases: []
+  cn: 驅動器
+  tw: 驅動程式
+  short: 建立應用、規劃及協調分散式工作。
+  lesson: bd-spark-01
+  tags:
+  - Spark
+- id: dry-run
+  term: 乾跑
+  en: dry run
+  aliases: []
+  cn: 試運行
+  tw: 試跑
+  short: 不正式執行變更或工作，只顯示預期動作或估算。
+  lesson: cl-wh-02
+  tags:
+  - 雲端
+- id: duplicate-key
+  term: 明細鍵
+  en: Duplicate Key
+  aliases: []
+  cn: 明細模型
+  tw: 明細鍵
+  short: Doris 保留多筆同鍵原始明細的表模型。
+  lesson: bd-serve-02
+  tags:
+  - 管道
+- id: dynamic-programming
+  term: 動態規劃
+  en: dynamic programming
+  aliases: []
+  cn: 動態規劃
+  tw: 動態規劃
+  short: 保存並重用子問題結果，依狀態轉移得到答案。
+  lesson: fd-algo-10
+  tags:
+  - 基礎
+- id: dynamic-table
+  term: 動態表
+  en: dynamic table
+  aliases: []
+  cn: 動態表
+  tw: 動態表
+  short: 隨輸入持續新增、更新或刪除列的表。
+  lesson: bd-flink-08
+  tags:
+  - Flink
+- id: edge
+  term: 邊
+  en: edge
+  aliases: []
+  cn: 邊
+  tw: 邊
+  short: 兩個頂點間的一項連接；有向圖要區分方向。
+  lesson: fd-algo-09
+  tags:
+  - 基礎
+- id: editor-tab
+  term: 編輯器分頁
+  en: Editor tab
+  aliases:
+  - tab
+  cn: 選項卡
+  tw: 分頁
+  short: 同一個工具視窗內可切換的內容區。
+  lesson: fd-desk-03
+  tags:
+  - 基礎
+- id: effective-date
+  term: 生效日期
+  en: effective date
+  aliases: []
+  cn: 生效日期
+  tw: 生效日期
+  short: 新口徑開始適用的業務日期。
+  lesson: sq-metrics-07
+  tags:
+  - 數倉
+- id: egress
+  term: 出站傳輸
+  en: Egress
+  aliases: []
+  cn: 出站傳輸
+  tw: 輸出流量
+  short: 數據離開指定服務或區域時的傳輸，可能另外計費。
+  lesson: cl-cloud-05
+  tags:
+  - 雲端
+- id: elapsed-time
+  term: 經過時間
+  en: elapsed time
+  aliases: []
+  cn: 經過時間
+  tw: 經過時間
+  short: 從工作開始到結束的總時間，包含等待。
+  lesson: fd-system-01
+  tags:
+  - 基礎
+- id: eligible-leader-replicas
+  term: 可接管領導的複本
+  en: eligible leader replicas
+  aliases: []
+  cn: 合格領導者副本
+  tw: 可接管領導的複本
+  short: 不在 ISR、仍符合安全接管條件的複本。
+  lesson: bd-kafka-03
+  tags:
+  - Kafka
+- id: elt
+  term: 擷取載入轉換
+  en: ELT
+  aliases: []
+  cn: 擷取載入轉換
+  tw: 擷取載入轉換
+  short: 先載入原始數據，再用目標引擎轉換與建模。
+  lesson: cl-wh-01
+  tags:
+  - 雲端
+- id: embedding
+  term: 嵌入向量
+  en: Embedding
+  aliases: []
+  cn: 嵌入向量
+  tw: 向量嵌入
+  short: 用一組數值表示內容特徵，可比對相近程度但不能保證內容為真。
+  lesson: cl-ai-03
+  tags:
+  - AI
+- id: empty-result
+  term: 空結果
+  en: empty result
+  aliases: []
+  cn: 空結果
+  tw: 空結果
+  short: 查詢回傳 0 列，不同於有列而欄位是 NULL。
+  lesson: sq-audit-05
+  tags:
+  - SQL
+- id: end-to-end-latency
+  term: 端到端延遲
+  en: end-to-end latency
+  aliases: []
+  cn: 端到端延遲
+  tw: 端到端延遲
+  short: 從進入管道到對端可使用的時間。
+  lesson: fd-system-04
+  tags:
+  - 基礎
+- id: endpoint
+  term: 端點
+  en: endpoint
+  aliases: []
+  cn: 端點
+  tw: 端點
+  short: 程式可以送出請求的指定介面位置。
+  lesson: fd-io-03
+  tags:
+  - 基礎
+- id: engine
+  term: 引擎
+  en: engine
+  aliases: []
+  cn: 引擎
+  tw: 引擎
+  short: 管理映像、容器、網路與儲存並執行容器的 Docker 元件。
+  lesson: fd-docker-01
+  tags:
+  - Docker
+- id: entry-point
+  term: 入口
+  en: entry point
+  aliases: []
+  cn: 入口點
+  tw: 進入點
+  short: 啟動環境開始執行程式的位置。
+  lesson: fd-java-12
+  tags:
+  - Java
+- id: environment-variable
+  term: 環境變數
+  en: environment variable
+  aliases: []
+  cn: 環境變量
+  tw: 環境變數
+  short: 啟動程式時可隨環境傳遞的名稱與值。
+  lesson: fd-linux-04
+  tags:
+  - 基礎
+- id: escape-character
+  term: 跳脫字元
+  en: escape character
+  aliases: []
+  cn: 轉義字符
+  tw: 跳脫字元
+  short: 在模式中使下一個特殊字元按字面解讀。
+  lesson: sq-read-09
+  tags:
+  - SQL
+- id: etl
+  term: 擷取轉換載入
+  en: ETL
+  aliases: []
+  cn: 擷取轉換載入
+  tw: 擷取轉換載入
+  short: 先在載入目標以前整理來源數據，再交給目的地。
+  lesson: cl-wh-01
+  tags:
+  - 雲端
+- id: evaluation-set
+  term: 評估集
+  en: evaluation set
+  aliases: []
+  cn: 評估集
+  tw: 評估集
+  short: 固定的輸入、角色、允許證據及預期結果。
+  lesson: cl-ai-05
+  tags:
+  - 雲端
+- id: event-deduplication
+  term: 事件去重
+  en: event deduplication
+  aliases: []
+  cn: 事件去重
+  tw: 事件去重
+  short: 同一業務事件被接收多次時，依事件鍵和明定規則保留代表紀錄。
+  lesson: sq-compose-05
+  tags:
+  - SQL
+- id: event-envelope
+  term: 事件封套
+  en: event envelope
+  aliases: []
+  cn: 事件封套
+  tw: 事件封裝
+  short: 包住事件操作、前後影像及來源資訊的結構。
+  lesson: bd-ingest-07
+  tags:
+  - 採集
+- id: event-key
+  term: 事件鍵
+  en: event key
+  aliases: []
+  cn: 事件鍵
+  tw: 事件鍵
+  short: 識別同一次業務行為，重送時沿用。
+  lesson: sq-metrics-01
+  tags:
+  - 數倉
+- id: event-session
+  term: 會話
+  en: session
+  aliases: []
+  cn: 會話
+  tw: 工作階段
+  short: 一次造訪或活動中的一組事件；來源會話和依閒置時間推算的會話不必相同。
+  lesson: sq-pattern-09
+  tags:
+  - SQL
+- id: event-time
+  term: 事件時間
+  en: Event time
+  aliases: []
+  cn: 事件時間
+  tw: 事件時間
+  short: 行為實際發生的時間，可能早於接收或處理時間。
+  lesson: sq-expr-07
+  tags:
+  - 實時
+- id: exactly-once-effect
+  term: 精確一次效果
+  en: Exactly-once effect
+  aliases:
+  - exactly-once
+  - 恰好一次
+  cn: 精確一次效果
+  tw: 恰好一次效果
+  short: 在聲明的輸入與輸出邊界，每筆事件只產生一次可見效果。
+  lesson: bd-kafka-07
+  tags:
+  - 實時
+- id: exception-handling
+  term: 例外處理
+  en: exception handling
+  aliases: []
+  cn: 異常處理
+  tw: 例外處理
+  short: 程式辨識指定錯誤後執行相應處理流程。
+  lesson: fd-io-07
+  tags:
+  - 基礎
+- id: exchange
+  term: 交換節點
+  en: exchange
+  aliases: []
+  cn: 交換節點
+  tw: 交換節點
+  short: 執行計畫中改變下游數據分派的位置。
+  lesson: cr-internals-01
+  tags:
+  - 面試
+- id: executable-search-path
+  term: 可執行檔搜尋路徑
+  en: Executable search path (PATH)
+  aliases:
+  - 搜尋路徑
+  - 路徑環境變量
+  - PATH
+  cn: 可執行文件搜索路徑
+  tw: 可執行檔搜尋路徑
+  short: 終端尋找指令時依序查驗的目錄清單。
+  lesson: fd-linux-04
+  tags:
+  - 基礎
+- id: execution-plan
+  term: 執行計畫
+  en: Execution plan
+  aliases: []
+  cn: 執行計畫
+  tw: 執行計畫
+  short: 引擎預計或實際採用的掃描、連接、聚合等運算步驟。
+  lesson: sq-db-07
+  tags:
+  - 數據庫
+- id: executor
+  term: 執行器
+  en: executor
+  aliases: []
+  cn: 執行器
+  tw: 執行器
+  short: 執行任務並保存部分中間結果的程序。
+  lesson: bd-spark-01
+  tags:
+  - Spark
+- id: existence-test
+  term: 存在判斷
+  en: existence test
+  aliases: []
+  cn: 存在性判斷
+  tw: 存在判斷
+  short: 以 EXISTS 檢查子查詢是否至少回傳一列，不讀欄值。
+  lesson: sq-compose-03
+  tags:
+  - SQL
+- id: exit-code
+  term: 結束碼
+  en: exit status
+  aliases:
+  - exit code
+  - 退出碼
+  cn: 退出狀態
+  tw: 結束狀態
+  short: 命令結束時傳回呼叫端的狀態；零通常表示成功。
+  lesson: fd-linux-05
+  tags:
+  - 基礎
+- id: expected-zero
+  term: 預期零值
+  en: expected zero
+  aliases: []
+  cn: 預期零值
+  tw: 預期零值
+  short: 來源到齊後，確認無符合事件而得到的零。
+  lesson: sq-audit-05
+  tags:
+  - SQL
+- id: explicit-deny
+  term: 明確拒絕
+  en: explicit deny
+  aliases: []
+  cn: 顯式拒絕
+  tw: 明確拒絕
+  short: 適用時會覆蓋允許的拒絕陳述。
+  lesson: cl-cloud-02
+  tags:
+  - 雲端
+- id: expression
+  term: 運算式
+  en: expression
+  aliases: []
+  cn: 表達式
+  tw: 運算式
+  short: 由值、欄位、運算子或函式組成，可求出一個結果。
+  lesson: sq-expr-01
+  tags:
+  - SQL
+- id: external-table
+  term: 外部表
+  en: External table
+  aliases: []
+  cn: 外部表
+  tw: 外部資料表
+  short: 表定義引用外部檔案；刪表是否刪檔仍需確認引擎與設定。
+  lesson: bd-hive-01
+  tags:
+  - 批次
+- id: fact-table
+  term: 事實表
+  en: Fact table
+  aliases: []
+  cn: 事實表
+  tw: 事實表
+  short: 以明確粒度記錄業務事件或狀態，並連到相關維度。
+  lesson: sq-model-03
+  tags:
+  - 建模
+- id: factless-fact-table
+  term: 無度量事實表
+  en: factless fact table
+  aliases: []
+  cn: 無事實度量表
+  tw: —
+  short: 以一列記錄事件或覆蓋關係，未必含數值欄。
+  lesson: sq-model-03
+  tags:
+  - 數倉
+- id: failure-domain
+  term: 故障域
+  en: failure domain
+  aliases: []
+  cn: 故障域
+  tw: 故障域
+  short: 可能因同一事件一起失效的元件集合。
+  lesson: bd-distrib-02
+  tags:
+  - 管道
+- id: fallback-value
+  term: 替代值
+  en: fallback value
+  aliases: []
+  cn: 回退值
+  tw: 替代值
+  short: 首選值不可用時採用的候選值，不代表原本有該值。
+  lesson: sq-expr-04
+  tags:
+  - SQL
+- id: fast-forward
+  term: 快轉
+  en: fast-forward
+  aliases: []
+  cn: 快進
+  tw: 快轉
+  short: 把接收分支直接移到其後代提交，不另建合併提交。
+  lesson: fd-git-05
+  tags:
+  - Git
+- id: fault-injection
+  term: 故障注入
+  en: fault injection
+  aliases: []
+  cn: 故障注入
+  tw: 故障注入
+  short: 刻意模擬某種失敗，以檢查程式的保護與復原行為。
+  lesson: fd-lab-05
+  tags:
+  - 基礎
+- id: federated-query
+  term: 聯邦查詢
+  en: federated query
+  aliases: []
+  cn: 聯邦查詢
+  tw: 聯合查詢
+  short: 由查詢引擎連接不同系統取得結果。
+  lesson: bd-serve-04
+  tags:
+  - 管道
+- id: field-id
+  term: 欄位 ID
+  en: field ID
+  aliases: []
+  cn: 字段 ID
+  tw: 欄位 ID
+  short: 解讀更名或換序前後同一欄位的穩定識別。
+  lesson: bd-lake-03
+  tags:
+  - 湖倉
+- id: file
+  term: 檔案
+  en: file
+  aliases: []
+  cn: 文件
+  tw: 檔案
+  short: 在儲存裝置上有名稱、可讀寫的一份內容。
+  lesson: fd-desk-01
+  tags:
+  - 基礎
+- id: file-descriptor
+  term: 檔案描述元
+  en: file descriptor
+  aliases: []
+  cn: 文件描述符
+  tw: 檔案描述元
+  short: 行程用來指向已開啟檔案、管道等 I/O 通道的整數。
+  lesson: fd-linux-03
+  tags:
+  - 基礎
+- id: file-extension
+  term: 副檔名
+  en: file extension
+  aliases: []
+  cn: 文件擴展名
+  tw: 副檔名
+  short: 檔名末尾提示檔案類型的部分，不改變檔案內容。
+  lesson: fd-desk-02
+  tags:
+  - 基礎
+- id: file-format
+  term: 檔案格式
+  en: file format
+  aliases: []
+  cn: 文件格式
+  tw: 檔案格式
+  short: 說明檔案內容如何組織的約定。
+  lesson: fd-desk-02
+  tags:
+  - 基礎
+- id: file-mode
+  term: 檔案模式
+  en: file mode
+  aliases: []
+  cn: 文件模式
+  tw: 檔案模式
+  short: 檔案系統記錄的權限等模式位元；清單通常與檔案種類並列顯示。
+  lesson: fd-linux-02
+  tags:
+  - 基礎
+- id: file-permission-group
+  term: 群組
+  en: group
+  aliases: []
+  cn: 組
+  tw: 群組
+  short: 在檔案權限中可另外獲得一組權限的使用者集合。
+  lesson: bd-hive-04
+  tags:
+  - Hive
+- id: file-permission-others
+  term: 其他人
+  en: others
+  aliases: []
+  cn: 其他用戶
+  tw: 其他使用者
+  short: 在基本權限模型中，不是擁有者且不屬該檔案群組的使用者。
+  lesson: fd-linux-02
+  tags:
+  - 基礎
+- id: filter
+  term: 篩選
+  en: filter
+  aliases:
+  - 過濾
+  cn: 篩選
+  tw: 篩選
+  short: 依條件決定哪些輸入項目進入結果。
+  lesson: fd-data-04
+  tags:
+  - 基礎
+- id: first-in-first-out
+  term: 先進先出
+  en: first in, first out
+  aliases: []
+  cn: 先進先出
+  tw: 先進先出
+  short: 最早加入且還在容器中的項目先取出。
+  lesson: fd-algo-05
+  tags:
+  - 基礎
+- id: first-normal-form
+  term: 第一正規形
+  en: first normal form
+  aliases: []
+  cn: 第一範式
+  tw: 第一正規形
+  short: 一格一值，不在欄位內塞可重複群組。
+  lesson: sq-db-02
+  tags:
+  - SQL
+- id: first-seen-date
+  term: 首次出現日
+  en: first-seen date
+  aliases: []
+  cn: 首次出現日
+  tw: 首次出現日
+  short: 所選觀測範圍中第一次看到該業務鍵的日期，不一定是實際歷史首日。
+  lesson: sq-time-05
+  tags:
+  - SQL
+- id: first-value
+  term: 首值
+  en: first value
+  aliases: []
+  cn: 首值
+  tw: 首值
+  short: FIRST_VALUE 取排序後窗口框內第一列的欄值。
+  lesson: sq-window-09
+  tags:
+  - SQL
+- id: fixture
+  term: 固定測資
+  en: fixture
+  aliases:
+  - test fixture
+  - 測試固件
+  cn: 測試夾具
+  tw: 固定測資
+  short: 為測試準備的可重建數據、環境或初始狀態。
+  lesson: fd-tools-07
+  tags:
+  - 基礎
+- id: floating-point-number
+  term: 浮點數
+  en: floating-point number
+  aliases:
+  - 浮點
+  cn: 浮點數
+  tw: 浮點數
+  short: 用有限有效位數表示不同量級的數值，某些十進位小數只能近似。
+  lesson: sq-expr-08
+  tags:
+  - SQL
+- id: folder-directory
+  term: 資料夾
+  en: folder, directory
+  aliases: []
+  cn: 文件夾、目錄
+  tw: 資料夾、目錄
+  short: 收納檔案與下層資料夾的位置。
+  lesson: fd-desk-01
+  tags:
+  - 基礎
+- id: follower
+  term: 追隨複本
+  en: follower
+  aliases: []
+  cn: 跟隨者副本
+  tw: 追隨複本
+  short: 從領導複本同步紀錄的分區複本。
+  lesson: bd-kafka-03
+  tags:
+  - Kafka
+- id: forecasted-cost
+  term: 預測成本
+  en: forecasted cost
+  aliases: []
+  cn: 預測成本
+  tw: 預估成本
+  short: 估計預算期間結束時的花費。
+  lesson: cl-cloud-01
+  tags:
+  - 雲端
+- id: foreign-key
+  term: 外鍵
+  en: Foreign key
+  aliases: []
+  cn: 外鍵
+  tw: 外鍵
+  short: 要求本表中的參照鍵在被參照表中有合法對象的約束。
+  lesson: sq-db-01
+  tags:
+  - 數據庫
+- id: format-specifier
+  term: 格式規格
+  en: format specifier
+  aliases: []
+  cn: 格式說明符
+  tw: 格式規格
+  short: 指定值轉成文字時的位數、寬度或樣式。
+  lesson: fd-python-05
+  tags:
+  - Python
+- id: formatted-string-literal-f-string
+  term: 格式化字串
+  en: formatted string literal (f-string)
+  aliases: []
+  cn: 格式化字符串
+  tw: 格式化字串
+  short: 以 f 開頭、可在大括號內嵌入值或運算式的字串。
+  lesson: fd-python-05
+  tags:
+  - Python
+- id: free-tier
+  term: 免費額度
+  en: free tier
+  aliases: []
+  cn: 免費額度
+  tw: 免費額度
+  short: 符合帳戶、服務、期限及用量條件才適用的優惠。
+  lesson: cl-cloud-01
+  tags:
+  - 雲端
+- id: freshness
+  term: 新鮮度
+  en: Freshness
+  aliases: []
+  cn: 新鮮度
+  tw: 時效性
+  short: 比較應到切點與最新可用數據的時間差。
+  lesson: bd-quality-03
+  tags:
+  - 質量
+- id: full-load
+  term: 全量載入
+  en: Full load
+  aliases: []
+  cn: 全量載入
+  tw: 完整載入
+  short: 在指定切點重新讀取整個目標範圍。
+  lesson: bd-ingest-01
+  tags:
+  - 採集
+- id: full-outer-join
+  term: 完整外連接
+  en: Full outer join
+  aliases:
+  - 完整外聯結
+  cn: 全外連接
+  tw: 完整外部聯結
+  short: 除了匹配列，也保留任一側找不到匹配的列，缺少的一側補 NULL。
+  lesson: sq-join-03
+  tags:
+  - SQL
+- id: full-reconciliation
+  term: 全量比對
+  en: full reconciliation
+  aliases: []
+  cn: 全量對賬
+  tw: 全量對帳
+  short: 在同一截點對照整個約定範圍的結果。
+  lesson: sq-audit-04
+  tags:
+  - SQL
+- id: function
+  term: 函式
+  en: function
+  aliases: []
+  cn: 函數
+  tw: 函式
+  short: 可由名稱呼叫、可接收輸入並回傳結果的一段程式。
+  lesson: fd-python-10
+  tags:
+  - Python
+- id: functional-dependency
+  term: 函數相依
+  en: functional dependency
+  aliases: []
+  cn: 函數依賴
+  tw: 函數相依
+  short: 左側值固定後，規則也固定右側的值。
+  lesson: sq-db-02
+  tags:
+  - SQL
+- id: funnel
+  term: 轉換漏斗
+  en: Funnel
+  aliases: []
+  cn: 轉換漏斗
+  tw: 轉換漏斗
+  short: 依指定步驟、順序與時間窗統計到達各階段的對象。
+  lesson: sq-pattern-04
+  tags:
+  - 分析
+- id: future
+  term: 待取結果
+  en: Future
+  aliases: []
+  cn: 異步結果
+  tw: 非同步結果
+  short: 代表可能尚未完成的任務，之後可以取得值或失敗。
+  lesson: fd-java-10
+  tags:
+  - Java
+- id: gaps-and-islands
+  term: 間斷與連續段
+  en: Gaps and islands
+  aliases: []
+  cn: 間斷與連續段
+  tw: 間隙與群島
+  short: 依排序標記中斷點，再把連續紀錄分成一段一段。
+  lesson: sq-pattern-02
+  tags:
+  - 分析
+- id: garbage-collection-gc
+  term: 垃圾回收
+  en: garbage collection (GC)
+  aliases: []
+  cn: 垃圾回收
+  tw: 垃圾回收
+  short: 回收程式不再可達的物件所占記憶體。
+  lesson: fd-system-07
+  tags:
+  - 基礎
+- id: gc-root
+  term: 根參照
+  en: GC root
+  aliases: []
+  cn: GC 根
+  tw: GC 根參照
+  short: 垃圾回收判斷物件可達性時的起點。
+  lesson: fd-java-11
+  tags:
+  - Java
+- id: generator
+  term: 生成器
+  en: generator
+  aliases: []
+  cn: 生成器
+  tw: 產生器
+  short: 可在每次交出值時暫停、之後從原處繼續的迭代器。
+  lesson: fd-tools-03
+  tags:
+  - 基礎
+- id: generics
+  term: 泛型
+  en: generics
+  aliases: []
+  cn: 泛型
+  tw: 泛型
+  short: 讓類別和方法以參數宣告所用類型。
+  lesson: fd-java-05
+  tags:
+  - Java
+- id: git-commit
+  term: Git 提交
+  en: Git commit
+  aliases:
+  - commit
+  cn: 提交
+  tw: 提交
+  short: 保存一次選定的快照、訊息與歷史關係。
+  lesson: fd-git-02
+  tags:
+  - Git
+- id: git-merge
+  term: Git 合併
+  en: Git merge
+  aliases:
+  - merge
+  cn: 合併
+  tw: 合併
+  short: 把另一條版本路線的更改整合到目前路線。
+  lesson: fd-git-05
+  tags:
+  - Git
+- id: git-snapshot
+  term: Git 快照
+  en: Git snapshot
+  aliases: []
+  cn: Git 快照
+  tw: Git 快照
+  short: 某一筆提交中已選定的完整檔案狀態。
+  lesson: fd-git-02
+  tags:
+  - Git
+- id: git-staging-area
+  term: Git 暫存區
+  en: Git staging area
+  aliases:
+  - 暫存區
+  - staging area, index
+  cn: 暫存區、索引
+  tw: 暫存區、索引
+  short: 預備成為下一筆提交的內容。
+  lesson: fd-git-02
+  tags:
+  - Git
+- id: glob-pattern
+  term: 檔名比對樣式
+  en: Glob pattern
+  aliases:
+  - pattern
+  cn: 匹配模式
+  tw: 比對樣式
+  short: 用一組符號描述要匹配的文字或路徑。
+  lesson: fd-git-04
+  tags:
+  - Git
+- id: global-transaction-identifier
+  term: 全域交易識別碼
+  en: global transaction identifier
+  aliases: []
+  cn: 全域事務標識
+  tw: 全域交易識別碼
+  short: MySQL 用於跨複本辨認來源交易的識別碼。
+  lesson: bd-ingest-06
+  tags:
+  - 採集
+- id: graduation-window
+  term: 畢業窗口
+  en: graduation window
+  aliases: []
+  cn: 畢業時間範圍
+  tw: 畢業時間範圍
+  short: 雇主在某職缺允許的畢業日期或屆別。
+  lesson: cr-search-03
+  tags:
+  - 面試
+- id: grain
+  term: 粒度
+  en: Grain
+  aliases: []
+  cn: 粒度
+  tw: 顆粒度
+  short: 用一句話說清楚事實表一列代表哪件事、細到哪一層。
+  lesson: sq-model-02
+  tags:
+  - 建模
+- id: grouping-key
+  term: 分組鍵
+  en: grouping key
+  aliases: []
+  cn: 分組鍵
+  tw: 分組鍵
+  short: 決定哪些輸入列歸到同一組的一個或多個值。
+  lesson: sq-group-03
+  tags:
+  - SQL
+- id: hadoop-distributed-file-system
+  term: HDFS
+  en: Hadoop Distributed File System
+  aliases: []
+  cn: Hadoop 分佈式檔案系統
+  tw: Hadoop 分散式檔案系統
+  short: 以多個節點共同保存並提供檔案的系統。
+  lesson: bd-distrib-03
+  tags:
+  - 管道
+- id: half-open-interval
+  term: 半開區間
+  en: half-open interval
+  aliases: []
+  cn: 半開區間
+  tw: 半開區間
+  short: 只包含一個端點的區間；課內日期範圍通常含起點、不含終點。
+  lesson: sq-time-02
+  tags:
+  - SQL
+- id: handoff
+  term: 交接
+  en: handoff
+  aliases:
+  - 交班
+  cn: 交接
+  tw: 交接
+  short: 移交必要檔案、操作入口、驗收與復原方式。
+  lesson: cr-portfolio-05
+  tags:
+  - 面試
+- id: handshake
+  term: 交握
+  en: handshake
+  aliases: []
+  cn: 握手
+  tw: 交握
+  short: 通訊兩端在正式交換數據前協商並確認必要條件。
+  lesson: fd-system-06
+  tags:
+  - 基礎
+- id: hash
+  term: 雜湊
+  en: hash
+  aliases: []
+  cn: 哈希
+  tw: 雜湊
+  short: 以固定規則將一個值對應成整數或較短表示。
+  lesson: bd-hive-03
+  tags:
+  - Hive
+- id: hash-bucket
+  term: 雜湊桶
+  en: Hash bucket
+  aliases:
+  - bucket
+  cn: 桶
+  tw: 桶
+  short: 雜湊容器用來縮小候選鍵範圍的位置。
+  lesson: fd-java-05
+  tags:
+  - Java
+- id: hash-collision
+  term: 雜湊碰撞
+  en: hash collision
+  aliases: []
+  cn: 哈希衝突
+  tw: 雜湊碰撞
+  short: 不同鍵得到相同雜湊值或落入同一查找位置。
+  lesson: fd-algo-03
+  tags:
+  - 基礎
+- id: hash-key
+  term: 雜湊鍵
+  en: hash key
+  aliases: []
+  cn: 哈希鍵
+  tw: 雜湊鍵
+  short: 以明訂的正規化與雜湊函式由鍵欄推導的識別值。
+  lesson: sq-model-11
+  tags:
+  - 數倉
+- id: hash-table
+  term: 雜湊表
+  en: hash table
+  aliases: []
+  cn: 哈希表、散列表
+  tw: 雜湊表
+  short: 以雜湊值找候選位置，再用鍵相等與否查找。
+  lesson: fd-algo-03
+  tags:
+  - 基礎
+- id: hashable
+  term: 可雜湊
+  en: hashable
+  aliases: []
+  cn: 可哈希
+  tw: 可雜湊
+  short: 有穩定雜湊值、可用作集合成員或字典鍵。
+  lesson: fd-data-02
+  tags:
+  - 基礎
+- id: head
+  term: 頭節點
+  en: head
+  aliases: []
+  cn: 頭節點
+  tw: 頭節點
+  short: 鏈結結構中走訪開始的位置；有些實作另設哨兵。
+  lesson: fd-algo-02
+  tags:
+  - 基礎
+- id: header
+  term: 表頭
+  en: header
+  aliases: []
+  cn: 表頭
+  tw: 表頭
+  short: 表格檔中標示欄位名稱的一列。
+  lesson: fd-io-01
+  tags:
+  - 基礎
+- id: health-check
+  term: 健康檢查
+  en: health check
+  aliases: []
+  cn: 健康檢查
+  tw: 健康檢查
+  short: 定期執行以判斷服務能否完成指定測試的命令。
+  lesson: fd-docker-05
+  tags:
+  - Docker
+- id: heap-data-structure
+  term: 堆積結構
+  en: Heap data structure
+  aliases:
+  - heap
+  cn: 堆
+  tw: 堆積
+  short: 用親子順序維護最小或最大候選的結構。
+  lesson: fd-algo-07
+  tags:
+  - 基礎
+- id: heartbeat
+  term: 心跳
+  en: heartbeat
+  aliases: []
+  cn: 心跳
+  tw: 心跳
+  short: 表示程序或節點仍可回應的週期訊息。
+  lesson: bd-distrib-03
+  tags:
+  - 管道
+- id: hidden-partitioning
+  term: 隱藏分區
+  en: hidden partitioning
+  aliases: []
+  cn: 隱藏分區
+  tw: 隱藏分割
+  short: 讀者可從來源欄條件推導分區，不需自行寫分區鍵。
+  lesson: bd-lake-03
+  tags:
+  - 湖倉
+- id: high-availability
+  term: 高可用
+  en: high availability
+  aliases: []
+  cn: 高可用
+  tw: 高可用性
+  short: 部分元件失效後仍能維持服務的能力。
+  lesson: bd-distrib-03
+  tags:
+  - 管道
+- id: high-water-mark
+  term: 高水位標記
+  en: High-water mark
+  aliases: []
+  cn: 高水位標記
+  tw: 進度標記
+  short: 批次已成功處理的進度界線，與流處理的浮水印不同。
+  lesson: bd-ingest-02
+  tags:
+  - 採集
+- id: hive-metastore
+  term: Hive 中繼數據服務
+  en: Hive Metastore
+  aliases: []
+  cn: Hive 元數據服務
+  tw: Hive 中繼數據服務
+  short: 儲存並提供 Hive 表與分區描述的服務。
+  lesson: bd-hive-01
+  tags:
+  - Hive
+- id: hot-key
+  term: 熱鍵
+  en: hot key
+  aliases: []
+  cn: 熱鍵
+  tw: 熱鍵
+  short: 出現過於頻繁、容易讓單一分區負載過重的鍵。
+  lesson: bd-distrib-01
+  tags:
+  - 管道
+- id: hub
+  term: 核心鍵表
+  en: Hub
+  aliases: []
+  cn: 中心表
+  tw: —
+  short: Data Vault 中登記並辨認業務鍵的表。
+  lesson: sq-model-11
+  tags:
+  - 數倉
+- id: hypertext-transfer-protocol
+  term: HTTP
+  en: Hypertext Transfer Protocol
+  aliases:
+  - 超文本傳輸協定
+  cn: 超文本傳輸協議
+  tw: 超文字傳輸協定
+  short: 用請求與回應交換內容的網路協定。
+  lesson: fd-io-03
+  tags:
+  - 基礎
+- id: idempotency
+  term: 冪等性
+  en: Idempotency
+  aliases: []
+  cn: 冪等性
+  tw: 等冪性
+  short: 同一輸入重做多次，對外可見的最終效果與執行一次相同。
+  lesson: bd-orch-03
+  tags:
+  - 排程
+- id: idempotent-producer
+  term: 冪等生產者
+  en: idempotent producer
+  aliases: []
+  cn: 冪等生產者
+  tw: 冪等生產者
+  short: 協議層能辨認同一筆生產重試的生產者。
+  lesson: bd-kafka-07
+  tags:
+  - Kafka
+- id: identity-and-access-management
+  term: 身分與存取管理
+  en: identity and access management
+  aliases: []
+  cn: 身份與訪問管理
+  tw: 身分與存取管理
+  short: 管理身分及對資源的授權。
+  lesson: cl-cloud-02
+  tags:
+  - 雲端
+- id: idleness
+  term: 閒置
+  en: idleness
+  aliases: []
+  cn: 空閒
+  tw: 閒置
+  short: 來源一段時間無輸入，可暫時不參與進度合併。
+  lesson: bd-flink-03
+  tags:
+  - Flink
+- id: ignore-rule
+  term: 忽略規則
+  en: ignore rule
+  aliases: []
+  cn: 忽略規則
+  tw: 忽略規則
+  short: 決定 Git 預設不用列出哪些未追蹤路徑的規則。
+  lesson: fd-git-04
+  tags:
+  - Git
+- id: image
+  term: 映像
+  en: image
+  aliases: []
+  cn: 鏡像
+  tw: 映像
+  short: 包含檔案系統層與預設設定、可用於建立容器的唯讀範本。
+  lesson: fd-docker-01
+  tags:
+  - Docker
+- id: image-digest
+  term: 映像摘要
+  en: image digest
+  aliases: []
+  cn: 鏡像摘要
+  tw: 映像摘要
+  short: 依內容計算，用來精確識別映像內容的值。
+  lesson: fd-docker-01
+  tags:
+  - Docker
+- id: image-tag
+  term: 映像標籤
+  en: image tag
+  aliases: []
+  cn: 鏡像標籤
+  tw: 映像標籤
+  short: 給映像使用的可讀名字，可能日後指向不同內容。
+  lesson: fd-docker-01
+  tags:
+  - Docker
+- id: immutable
+  term: 不可變
+  en: immutable
+  aliases: []
+  cn: 不可變
+  tw: 不可變
+  short: 不能在原處更改值的內容。
+  lesson: fd-python-04
+  tags:
+  - Python
+- id: immutable-binding
+  term: 不可重新指派的繫結
+  en: immutable binding
+  aliases: []
+  cn: 不可變綁定
+  tw: 不可重新指派的繫結
+  short: 名稱不可重新指定，但被指向的物件可能可變。
+  lesson: bd-jvm-05
+  tags:
+  - 管道
+- id: impact-analysis
+  term: 影響分析
+  en: impact analysis
+  aliases: []
+  cn: 影響分析
+  tw: 影響分析
+  short: 沿依賴確認異常數據或變更可能影響的產物與讀者。
+  lesson: bd-quality-06
+  tags:
+  - 數據質量
+- id: implicit-commit
+  term: 隱式提交
+  en: implicit commit
+  aliases: []
+  cn: 隱式提交
+  tw: 隱含提交
+  short: 某些語句觸發提交，不用另執行 COMMIT。
+  lesson: sq-db-08
+  tags:
+  - SQL
+- id: import
+  term: 匯入
+  en: import
+  aliases: []
+  cn: 導入
+  tw: 匯入
+  short: 載入可重用的程式定義，並在目前程式提供名稱。
+  lesson: fd-data-07
+  tags:
+  - 基礎
+- id: in-degree
+  term: 入度
+  en: in-degree
+  aliases: []
+  cn: 入度
+  tw: 入度
+  short: 指向一個頂點的邊數；排程中用以追蹤未解除的前置。
+  lesson: fd-algo-09
+  tags:
+  - 基礎
+- id: in-sync-replicas
+  term: 同步複本集合
+  en: in-sync replicas
+  aliases: []
+  cn: 同步副本集合
+  tw: 同步複本集合
+  short: 當前算作與領導複本同步的成員。
+  lesson: bd-kafka-03
+  tags:
+  - Kafka
+- id: incident-postmortem
+  term: 事件復盤
+  en: incident postmortem
+  aliases: []
+  cn: 事故復盤
+  tw: 事件事後檢討
+  short: 記錄影響、時間線、成因證據及可驗收後續行動。
+  lesson: cr-behavior-03
+  tags:
+  - 面試
+- id: incremental-load
+  term: 增量載入
+  en: Incremental load
+  aliases: []
+  cn: 增量載入
+  tw: 差異載入
+  short: 只傳輸上次成功切點之後新增或變更的內容。
+  lesson: bd-ingest-02
+  tags:
+  - 採集
+- id: incremental-model
+  term: 增量模型
+  en: incremental model
+  aliases: []
+  cn: 增量模型
+  tw: 增量模型
+  short: 首輪建表、後續依變更範圍更新既有結果的模型。
+  lesson: cl-dbt-04
+  tags:
+  - dbt
+- id: incremental-query
+  term: 增量查詢
+  en: incremental query
+  aliases: []
+  cn: 增量查詢
+  tw: 增量查詢
+  short: 只看指定進度區間內變動的記錄。
+  lesson: bd-lake-05
+  tags:
+  - 湖倉
+- id: incremental-reconciliation
+  term: 增量比對
+  en: incremental reconciliation
+  aliases: []
+  cn: 增量對賬
+  tw: 增量對帳
+  short: 由變更找出需覆核的範圍，再按同口徑比較。
+  lesson: sq-audit-04
+  tags:
+  - SQL
+- id: incremental-snapshot
+  term: 增量快照
+  en: incremental snapshot
+  aliases: []
+  cn: 增量快照
+  tw: 增量快照
+  short: 依區塊掃描並銜接期間的來源變更。
+  lesson: bd-flink-09
+  tags:
+  - Flink
+- id: indentation
+  term: 縮排
+  en: indentation
+  aliases: []
+  cn: 縮進
+  tw: 縮排
+  short: 以行首空格表示程式區塊的層級。
+  lesson: fd-python-07
+  tags:
+  - Python
+- id: index
+  term: 索引
+  en: Index
+  aliases: []
+  cn: 索引
+  tw: 索引
+  short: 額外維護的存取結構，用寫入與儲存成本交換部分查詢速度。
+  lesson: sq-db-06
+  tags:
+  - 數據庫
+- id: ingestion-staging-area
+  term: 採集暫存區
+  en: Ingestion staging area
+  aliases:
+  - staging area
+  cn: 暫存區
+  tw: 暫存區
+  short: 發布前存放候選輸出或中間數據的位置。
+  lesson: bd-ingest-01
+  tags:
+  - 採集
+- id: ingestion-time
+  term: 接收時間
+  en: Ingestion time
+  aliases:
+  - ingestion time
+  - 接入時間
+  - arrival time
+  - 到達時間
+  - 入庫時間
+  cn: 接收時間
+  tw: 接收時間
+  short: 管道收到一筆紀錄的時間；可晚於事件時間，不等於引擎實際處理的時間。
+  lesson: bd-flink-02
+  tags:
+  - SQL
+- id: inheritance
+  term: 繼承
+  en: inheritance
+  aliases: []
+  cn: 繼承
+  tw: 繼承
+  short: 類別沿用另一個類別的行為與介面的機制。
+  lesson: fd-tools-06
+  tags:
+  - 基礎
+- id: initial-snapshot
+  term: 初始全量快照
+  en: initial snapshot
+  aliases: []
+  cn: 初始全量快照
+  tw: 初始全量快照
+  short: 可和後續變更日誌銜接的初始一致讀取。
+  lesson: bd-lake-08
+  tags:
+  - 湖倉
+- id: inner-join
+  term: 內連接
+  en: Inner join
+  aliases: []
+  cn: 內連接
+  tw: 內部聯結
+  short: 只組合兩側符合連接條件的列。
+  lesson: sq-join-01
+  tags:
+  - SQL
+- id: input-contract
+  term: 輸入契約
+  en: input contract
+  aliases: []
+  cn: 輸入約定
+  tw: 輸入契約
+  short: 約定來源格式、每列意義、有效值及不合規處理方式。
+  lesson: fd-lab-01
+  tags:
+  - 基礎
+- id: input-output-contract
+  term: 輸入／輸出契約
+  en: input/output contract
+  aliases: []
+  cn: 輸入輸出契約
+  tw: 輸入／輸出契約
+  short: 約定接受的輸入、回傳內容與空況或錯誤的行為。
+  lesson: cr-code-01
+  tags:
+  - 面試
+- id: instance
+  term: 實例
+  en: instance
+  aliases: []
+  cn: 實例
+  tw: 實例
+  short: 依類別建立的一個具體物件。
+  lesson: fd-tools-01
+  tags:
+  - 基礎
+- id: instance-method
+  term: 實例方法
+  en: instance method
+  aliases: []
+  cn: 實例方法
+  tw: 實例方法
+  short: 通過特定實例呼叫並接收該實例作為第一個引數的方法。
+  lesson: fd-tools-01
+  tags:
+  - 基礎
+- id: integer
+  term: 整數
+  en: integer
+  aliases: []
+  cn: 整數
+  tw: 整數
+  short: 沒有小數部分的數值。
+  lesson: fd-python-02
+  tags:
+  - Python
+- id: integer-division
+  term: 整數除法
+  en: integer division
+  aliases: []
+  cn: 整數除法
+  tw: 整數除法
+  short: 取整數商；例如 DuckDB 的 3 // 5 得到 0。
+  lesson: sq-expr-08
+  tags:
+  - SQL
+- id: integration-test
+  term: 整合測試
+  en: integration test
+  aliases: []
+  cn: 集成測試
+  tw: 整合測試
+  short: 驗證多個元件或實際入口如何一起產生結果。
+  lesson: fd-tools-08
+  tags:
+  - 基礎
+- id: interactive-mode
+  term: 互動模式
+  en: interactive mode
+  aliases: []
+  cn: 交互模式
+  tw: 互動模式
+  short: 一段一段輸入程式並立即取得回應的模式。
+  lesson: fd-python-01
+  tags:
+  - Python
+- id: interface
+  term: 介面
+  en: interface
+  aliases: []
+  cn: 接口
+  tw: 介面
+  short: 描述呼叫者可依賴、由實作提供的契約。
+  lesson: fd-java-04
+  tags:
+  - Java
+- id: intermediate-operation
+  term: 中間操作
+  en: intermediate operation
+  aliases: []
+  cn: 中間操作
+  tw: 中間操作
+  short: 建立新串流步驟，通常延遲到終端操作時執行。
+  lesson: fd-java-09
+  tags:
+  - Java
+- id: interpolation
+  term: 插值
+  en: interpolation
+  aliases: []
+  cn: 插值
+  tw: 內插
+  short: 依相鄰兩點及位置估算兩點之間的值。
+  lesson: sq-pattern-07
+  tags:
+  - SQL
+- id: interpreter
+  term: 直譯器
+  en: interpreter
+  aliases: []
+  cn: 解釋器
+  tw: 直譯器
+  short: 讀取並執行程式的工具。
+  lesson: fd-python-01
+  tags:
+  - Python
+- id: intersection
+  term: 交集
+  en: intersection
+  aliases: []
+  cn: 交集
+  tw: 交集
+  short: 兩份結果都出現的相同整列，普通 INTERSECT 預設去重。
+  lesson: sq-compose-07
+  tags:
+  - SQL
+- id: interval
+  term: 時間間隔
+  en: interval
+  aliases: []
+  cn: 時間間隔
+  tw: 時間區間
+  short: 可加到日期或時間戳上的時間量，例如 1 天或 8 小時。
+  lesson: sq-expr-06
+  tags:
+  - SQL
+- id: interview-debrief
+  term: 面試復盤
+  en: interview debrief
+  aliases: []
+  cn: 面試復盤
+  tw: 面試回顧
+  short: 把已觀察的回答缺口轉成可重做的練習。
+  lesson: cr-behavior-05
+  tags:
+  - 面試
+- id: invariant
+  term: 不變量
+  en: invariant
+  aliases: []
+  cn: 不變式
+  tw: 不變量
+  short: 在程式每個指定步驟後都必須成立的敘述。
+  lesson: cr-code-03
+  tags:
+  - 面試
+- id: isolation
+  term: 隔離性
+  en: Isolation
+  aliases: []
+  cn: 隔離性
+  tw: 隔離性
+  short: 界定同時進行的交易能看見彼此哪些改動。
+  lesson: sq-db-05
+  tags:
+  - 數據庫
+- id: iterator
+  term: 迭代器
+  en: iterator
+  aliases: []
+  cn: 迭代器
+  tw: 疊代器
+  short: 記得走訪位置，依要求交出下一個值的物件。
+  lesson: fd-tools-03
+  tags:
+  - 基礎
+- id: jar-manifest
+  term: JAR 資訊清單
+  en: JAR manifest
+  aliases:
+  - manifest
+  cn: 清單文件
+  tw: 資訊清單
+  short: JAR 內記錄入口等封裝中繼資訊的檔案。
+  lesson: fd-java-12
+  tags:
+  - Java
+- id: java-archive-jar
+  term: Java 封裝檔
+  en: Java archive (JAR)
+  aliases: []
+  cn: JAR 包
+  tw: Java 封裝檔
+  short: 以 ZIP 格式封裝 Java 類別及資源。
+  lesson: fd-java-12
+  tags:
+  - Java
+- id: java-development-kit-jdk
+  term: Java 開發套件
+  en: Java Development Kit (JDK)
+  aliases: []
+  cn: Java 開發工具包
+  tw: Java 開發套件
+  short: 含 Java 編譯、執行與診斷工具的開發套件。
+  lesson: fd-java-01
+  tags:
+  - Java
+- id: java-home
+  term: JDK 根目錄設定
+  en: JAVA_HOME
+  aliases: []
+  cn: JDK 根目錄環境變量
+  tw: JDK 根目錄環境變數
+  short: 部分建置工具用來選擇 JDK 的環境變數。
+  lesson: fd-java-01
+  tags:
+  - Java
+- id: java-list
+  term: Java 清單
+  en: Java List
+  aliases:
+  - list
+  cn: 列表
+  tw: 清單
+  short: 保留位置、通常允許重複的容器。
+  lesson: fd-java-05
+  tags:
+  - Java
+- id: java-stream
+  term: Java 串流
+  en: Java Stream
+  aliases: []
+  cn: Java 流
+  tw: Java 串流
+  short: 對數據序列描述篩選、轉換及終端取結果的 API。
+  lesson: fd-java-09
+  tags:
+  - Java
+- id: java-virtual-machine-jvm
+  term: Java 虛擬機
+  en: Java Virtual Machine (JVM)
+  aliases: []
+  cn: Java 虛擬機
+  tw: Java 虛擬機器
+  short: 執行 Java 位元組碼並管理其執行狀態的環境。
+  lesson: fd-system-07
+  tags:
+  - 基礎
+- id: javascript-object-notation
+  term: JSON
+  en: JavaScript Object Notation
+  aliases: []
+  cn: JSON
+  tw: JSON
+  short: 能用物件、陣列及純量表達數據的文字格式。
+  lesson: fd-io-02
+  tags:
+  - 基礎
+- id: jitter
+  term: 隨機抖動
+  en: jitter
+  aliases: []
+  cn: 隨機抖動
+  tw: 隨機抖動
+  short: 在重試等待時間上加少量隨機差異，避免同時間湧入。
+  lesson: bd-orch-03
+  tags:
+  - 排程
+- id: job
+  term: 作業
+  en: job
+  aliases: []
+  cn: 作業
+  tw: 工作／作業
+  short: 從執行需求展開的一組相依階段。
+  lesson: bd-spark-05
+  tags:
+  - Spark
+- id: job-graph
+  term: 工作圖
+  en: job graph
+  aliases: []
+  cn: 作業圖
+  tw: 工作圖
+  short: 描述一個引擎作業的操作及相依關係。
+  lesson: bd-jvm-03
+  tags:
+  - 管道
+- id: job-posting-coding
+  term: 職缺編碼
+  en: job posting coding
+  aliases: []
+  cn: 職位編碼
+  tw: 職缺編碼
+  short: 把公告語句標成職責、基本條件、加分或待確認。
+  lesson: cr-search-01
+  tags:
+  - 面試
+- id: job-sampling
+  term: 職缺取樣
+  en: job sampling
+  aliases: []
+  cn: 職位抽樣
+  tw: 職缺抽樣
+  short: 從可回查的公告選一組樣本並標明限制。
+  lesson: cr-search-01
+  tags:
+  - 面試
+- id: join-fanout
+  term: 連接膨脹
+  en: Join fanout
+  aliases:
+  - 連接放大
+  - 聯結放大
+  - 多對多膨脹
+  - fan-out
+  - 扇出
+  cn: 連接膨脹
+  tw: 聯結膨脹
+  short: 一對多或多對多配對令來源列重複，直接加總可能高估。
+  lesson: sq-join-07
+  tags:
+  - SQL
+- id: join-key
+  term: 連接鍵
+  en: join key
+  aliases: []
+  cn: 連接鍵
+  tw: 聯結鍵
+  short: 用來判斷兩個來源的列是否配對的一欄或多欄。
+  lesson: sq-join-01
+  tags:
+  - SQL
+- id: json-lines
+  term: JSON Lines
+  en: JSON Lines
+  aliases: []
+  cn: 按行分隔的 JSON
+  tw: 按行分隔的 JSON
+  short: 每個文字行保存一個完整 JSON 值，便於逐行讀取。
+  lesson: fd-io-07
+  tags:
+  - 基礎
+- id: jvm-stack
+  term: JVM 堆疊
+  en: JVM stack
+  aliases: []
+  cn: 虛擬機棧
+  tw: JVM 堆疊
+  short: 保存各執行緒的方法框架及運算狀態。
+  lesson: fd-java-11
+  tags:
+  - Java
+- id: kafka-connect-worker
+  term: Kafka Connect 工作者
+  en: Kafka Connect worker
+  aliases:
+  - 工作者／工作節點
+  - worker
+  cn: 工作節點
+  tw: 工作節點
+  short: 執行處理任務的程序或節點。
+  lesson: bd-serve-04
+  tags:
+  - 管道
+- id: kafka-offset-auto-commit
+  term: 自動提交位移
+  en: auto commit
+  aliases: []
+  cn: 自動提交偏移量
+  tw: 自動提交偏移量
+  short: 客戶端依自身機制定期提交，不代替外部寫入完成證明。
+  lesson: bd-kafka-05
+  tags:
+  - Kafka
+- id: kappa-architecture
+  term: Kappa 架構
+  en: Kappa architecture
+  aliases: []
+  cn: Kappa 架構
+  tw: Kappa 架構
+  short: 以同一串流邏輯回放歷史並接續新事件。
+  lesson: bd-serve-07
+  tags:
+  - 管道
+- id: kernel
+  term: 核心
+  en: kernel
+  aliases: []
+  cn: 內核
+  tw: 核心
+  short: 管理記憶體、行程與設備的作業系統核心部分。
+  lesson: fd-system-01
+  tags:
+  - 基礎
+- id: key
+  term: 鍵
+  en: key
+  aliases: []
+  cn: 鍵
+  tw: 鍵
+  short: 用來辨認紀錄、分組或決定分派的值。
+  lesson: bd-distrib-01
+  tags:
+  - 管道
+- id: key-mapping
+  term: 鍵映射
+  en: key mapping
+  aliases: []
+  cn: 鍵映射
+  tw: 鍵對應
+  short: 以來源與原碼找到共用的實體鍵。
+  lesson: sq-metrics-03
+  tags:
+  - 數倉
+- id: key-model
+  term: 鍵模型
+  en: key model
+  aliases: []
+  cn: 鍵模型
+  tw: 鍵模型
+  short: 決定同鍵列保留、替換或聚合的表設計。
+  lesson: bd-serve-02
+  tags:
+  - 管道
+- id: key-value-pair
+  term: 鍵值對
+  en: key-value pair
+  aliases: []
+  cn: 鍵值對
+  tw: 鍵值對
+  short: 一個鍵與它所對應的一個值。
+  lesson: fd-data-03
+  tags:
+  - 基礎
+- id: keyed-state
+  term: 鍵控狀態
+  en: Keyed state
+  aliases: []
+  cn: 鍵控狀態
+  tw: 依鍵狀態
+  short: 依事件鍵獨立保存、在後續事件到來時繼續使用的中間結果。
+  lesson: bd-flink-05
+  tags:
+  - 實時
+- id: keyword-argument
+  term: 關鍵字引數
+  en: keyword argument
+  aliases: []
+  cn: 關鍵字參數
+  tw: 關鍵字引數
+  short: 呼叫時以參數名稱指定要傳入的值。
+  lesson: fd-data-06
+  tags:
+  - 基礎
+- id: lag
+  term: 前一列取值
+  en: Lag
+  aliases: []
+  cn: 前一列取值
+  tw: 前一列取值
+  short: 依窗口排序取得先前位置的值，適合比較相鄰事件。
+  lesson: sq-window-05
+  tags:
+  - SQL
+- id: lakehouse
+  term: 湖倉一體
+  en: Lakehouse
+  aliases:
+  - 湖倉
+  cn: 湖倉一體
+  tw: 湖倉架構
+  short: 在物件檔案上加入表、交易與治理能力的分析架構。
+  lesson: bd-lake-01
+  tags:
+  - 湖倉
+- id: lambda-architecture
+  term: Lambda 架構
+  en: Lambda architecture
+  aliases: []
+  cn: Lambda 架構
+  tw: Lambda 架構
+  short: 批流分開計算，服務層按覆蓋範圍提供結果。
+  lesson: bd-serve-06
+  tags:
+  - 管道
+- id: lambda-expression
+  term: Lambda 表達式
+  en: lambda expression
+  aliases: []
+  cn: Lambda 表達式
+  tw: Lambda 運算式
+  short: 以簡短語法寫下可傳遞的函式行為。
+  lesson: fd-java-09
+  tags:
+  - Java
+- id: last-in-first-out
+  term: 後進先出
+  en: last in, first out
+  aliases: []
+  cn: 後進先出
+  tw: 後進先出
+  short: 最後加入的項目先取出。
+  lesson: fd-algo-05
+  tags:
+  - 基礎
+- id: last-value
+  term: 尾值
+  en: last value
+  aliases: []
+  cn: 尾值
+  tw: 尾值
+  short: LAST_VALUE 取排序後窗口框內最後一列的欄值；不一定是整個分區的最後一列。
+  lesson: sq-window-09
+  tags:
+  - SQL
+- id: layer-by-layer-tracing
+  term: 逐層定位
+  en: layer-by-layer tracing
+  aliases: []
+  cn: 逐層定位
+  tw: 逐層追查
+  short: 由彙總一路核對到明細，找差異最早出現的步驟。
+  lesson: sq-audit-06
+  tags:
+  - SQL
+- id: layered-validation
+  term: 分層驗算
+  en: layered validation
+  aliases: []
+  cn: 分層驗算
+  tw: 分層驗算
+  short: 從查詢中間結果開始，按各層粒度、鍵與預期值逐層核對。
+  lesson: sq-pattern-11
+  tags:
+  - SQL
+- id: lazy-evaluation
+  term: 惰性求值
+  en: Lazy evaluation
+  aliases: []
+  cn: 惰性求值
+  tw: 延遲求值
+  short: 先建立運算計畫，到需要結果時才執行。
+  lesson: bd-spark-03
+  tags:
+  - 批次
+- id: lead
+  term: 後一列取值
+  en: lead
+  aliases: []
+  cn: 後一行取值
+  tw: 後一列取值
+  short: 按窗口次序取後方位置的欄值，跨出組尾時預設回缺值。
+  lesson: sq-window-05
+  tags:
+  - SQL
+- id: leader-replica
+  term: 領導者
+  en: leader
+  aliases:
+  - 領導複本
+  - 領導者副本
+  cn: 主副本
+  tw: 領導者複本
+  short: Kafka 分區中協調寫入、日誌順序與複製的複本。
+  lesson: cr-internals-03
+  tags:
+  - 面試
+- id: leaf-node
+  term: 葉節點
+  en: leaf node
+  aliases: []
+  cn: 葉子節點
+  tw: 葉節點
+  short: 沒有子節點的節點。
+  lesson: fd-algo-08
+  tags:
+  - 基礎
+- id: least-privilege
+  term: 最小權限
+  en: Least privilege
+  aliases: []
+  cn: 最小權限
+  tw: 最小權限
+  short: 只授予完成指定工作所需的操作與範圍。
+  lesson: cl-cloud-02
+  tags:
+  - 雲端
+- id: left-outer-join
+  term: 左外連接
+  en: Left outer join
+  aliases:
+  - 左連接
+  - left join
+  cn: 左外連接
+  tw: 左外部聯結
+  short: 保留全部左列，無匹配時以缺值補右欄。
+  lesson: sq-join-02
+  tags:
+  - SQL
+- id: lifecycle-rule
+  term: 生命週期規則
+  en: lifecycle rule
+  aliases: []
+  cn: 生命週期規則
+  tw: 生命週期規則
+  short: 按條件對物件或版本執行轉換或到期。
+  lesson: cl-cloud-04
+  tags:
+  - 雲端
+- id: lineage
+  term: 數據血緣
+  en: Lineage
+  aliases: []
+  cn: 數據血緣
+  tw: 資料血緣
+  short: 連起來源、轉換與產物的依賴關係，支援追溯與影響分析。
+  lesson: sq-metrics-08
+  tags:
+  - 數倉
+- id: link
+  term: 關係表
+  en: Link
+  aliases: []
+  cn: 鏈接表
+  tw: —
+  short: Data Vault 中記錄業務鍵彼此關係的表。
+  lesson: sq-model-11
+  tags:
+  - 數倉
+- id: linked-list
+  term: 鏈結列表
+  en: linked list
+  aliases: []
+  cn: 鏈表
+  tw: 鏈結串列
+  short: 以節點及彼此的參照串接元素。
+  lesson: fd-algo-02
+  tags:
+  - 基礎
+- id: list
+  term: Python 列表
+  en: Python list
+  aliases:
+  - 串列
+  - list
+  cn: 列表
+  tw: 串列、列表
+  short: 可以有順序地保存與更改多個值的 Python 類型。
+  lesson: fd-python-08
+  tags:
+  - Python
+- id: list-comprehension
+  term: 列表推導式
+  en: list comprehension
+  aliases: []
+  cn: 列表推導式
+  tw: 串列生成式
+  short: 使用運算式、走訪與可選條件建立新列表。
+  lesson: fd-data-04
+  tags:
+  - 基礎
+- id: listen
+  term: 監聽
+  en: listen
+  aliases: []
+  cn: 監聽
+  tw: 監聽
+  short: 讓已綁定的 TCP 通訊端開始等候新連線。
+  lesson: fd-system-05
+  tags:
+  - 基礎
+- id: load-factor
+  term: 負載因子
+  en: load factor
+  aliases: []
+  cn: 負載因子
+  tw: 負載因子
+  short: 影響雜湊表何時按元素數與容量擴充的比值。
+  lesson: fd-java-05
+  tags:
+  - Java
+- id: local-mode
+  term: 本機模式
+  en: local mode
+  aliases: []
+  cn: 本地模式
+  tw: 本機模式
+  short: 用一台機器的執行緒運行 Spark 工作。
+  lesson: bd-spark-01
+  tags:
+  - Spark
+- id: log
+  term: 日誌
+  en: log
+  aliases:
+  - 日誌、紀錄
+  cn: 日誌
+  tw: 紀錄檔
+  short: 供診斷與追蹤程式過程的時序紀錄。
+  lesson: fd-lab-03
+  tags:
+  - 基礎
+- id: log-end-offset
+  term: 日誌末端
+  en: log end offset
+  aliases: []
+  cn: 日誌末端偏移量
+  tw: 日誌末端偏移量
+  short: 分區寫入尾端的下一個位置。
+  lesson: bd-kafka-09
+  tags:
+  - Kafka
+- id: log-position
+  term: 日誌位置
+  en: log position
+  aliases: []
+  cn: 日誌位置
+  tw: 日誌位置
+  short: 用來源協定的座標辨識變更來自哪個位置。
+  lesson: bd-ingest-06
+  tags:
+  - 採集
+- id: logical-date
+  term: 邏輯日期
+  en: Logical date
+  aliases: []
+  cn: 邏輯日期
+  tw: 邏輯日期
+  short: 用來標記工作流對應數據區間的日期，不等於實際啟動時刻。
+  lesson: bd-orch-02
+  tags:
+  - 排程
+- id: logical-operator
+  term: 邏輯運算子
+  en: logical operator
+  aliases: []
+  cn: 邏輯運算符
+  tw: 邏輯運算子
+  short: 用 AND、OR、NOT 組合或反轉判斷結果。
+  lesson: sq-read-07
+  tags:
+  - SQL
+- id: logical-processor
+  term: 邏輯處理器
+  en: logical processor
+  aliases: []
+  cn: 邏輯處理器
+  tw: 邏輯處理器
+  short: 作業系統視為可分派執行工作的 CPU 單位。
+  lesson: fd-system-01
+  tags:
+  - 基礎
+- id: logical-query-processing-order
+  term: 邏輯查詢順序
+  en: logical query processing order
+  aliases: []
+  cn: 查詢邏輯處理順序
+  tw: 查詢邏輯處理順序
+  short: 用來判斷各子句何時能看見哪些列或欄的語意順序，不是實際計畫。
+  lesson: sq-join-08
+  tags:
+  - SQL
+- id: long-term-support-lts
+  term: 長期支援版
+  en: long-term support (LTS)
+  aliases: []
+  cn: 長期支持版
+  tw: 長期支援版
+  short: 由發行者承諾較長維護週期的版本。
+  lesson: fd-java-01
+  tags:
+  - Java
+- id: lookback-window
+  term: 回看窗口
+  en: lookback window
+  aliases: []
+  cn: 回看窗口
+  tw: 回看視窗
+  short: 重讀進度之前的一小段，以納入可能晚到的數據。
+  lesson: bd-ingest-02
+  tags:
+  - 採集
+- id: loop
+  term: 迴圈
+  en: loop
+  aliases: []
+  cn: 循環
+  tw: 迴圈
+  short: 重複執行一段程式的結構。
+  lesson: fd-python-09
+  tags:
+  - Python
+- id: loopback-address
+  term: 回送位址
+  en: loopback address
+  aliases: []
+  cn: 回環地址
+  tw: 回送位址
+  short: 將網路流量送回目前網路環境自身的位址。
+  lesson: fd-system-05
+  tags:
+  - 基礎
+- id: lower-bound
+  term: 下界
+  en: lower bound
+  aliases: []
+  cn: 下界
+  tw: 下界
+  short: 本課指升序中首個不小於門檻的插入位置。
+  lesson: fd-algo-06
+  tags:
+  - 基礎
+- id: managed-table
+  term: 內部表
+  en: managed table
+  aliases: []
+  cn: 內部表
+  tw: 受管理表
+  short: 由數倉或目錄管理數據檔案生命週期的表。
+  lesson: bd-hive-01
+  tags:
+  - Hive
+- id: map
+  term: 鍵值對映
+  en: map
+  aliases: []
+  cn: 映射
+  tw: 鍵值對映
+  short: 每個鍵最多對到一個值的容器。
+  lesson: fd-java-05
+  tags:
+  - Java
+- id: mapper
+  term: 映射任務
+  en: mapper
+  aliases: []
+  cn: 映射任務
+  tw: 映射任務
+  short: 在 MapReduce 中負責處理一份輸入分片的任務。
+  lesson: bd-ingest-05
+  tags:
+  - 採集
+- id: mapreduce
+  term: 映射歸約
+  en: MapReduce
+  aliases: []
+  cn: 映射歸約
+  tw: 映射歸約
+  short: 先對輸入分片產生鍵值，再把同鍵數據彙到歸約端處理。
+  lesson: bd-distrib-05
+  tags:
+  - 分散式
+- id: materialization
+  term: 物化
+  en: Materialization
+  aliases: []
+  cn: 物化
+  tw: 實體化
+  short: 決定模型成為表、視圖或其他產物的方式。
+  lesson: cl-dbt-03
+  tags:
+  - 分析工程
+- id: materialized-view
+  term: 物化視圖
+  en: materialized view
+  aliases: []
+  cn: 物化視圖
+  tw: 實體化檢視表
+  short: 實際維護可查的預算結果。
+  lesson: bd-serve-05
+  tags:
+  - 管道
+- id: maximum-bytes-billed
+  term: 最大計費位元組
+  en: maximum bytes billed
+  aliases: []
+  cn: 最大計費字節數
+  tw: 最大計費位元組
+  short: BigQuery 按需查詢可設的單次計費量上限。
+  lesson: cl-wh-02
+  tags:
+  - 雲端
+- id: measure
+  term: 度量
+  en: measure
+  aliases: []
+  cn: 度量
+  tw: 量值
+  short: 在明確粒度上可計量或聚合的數值。
+  lesson: sq-model-03
+  tags:
+  - 數倉
+- id: median
+  term: 中位數
+  en: median
+  aliases: []
+  cn: 中位數
+  tw: 中位數
+  short: 排序後的中間值；偶數筆的數值樣本以兩筆中間值取平均。
+  lesson: sq-pattern-07
+  tags:
+  - SQL
+- id: memoization
+  term: 記憶化
+  en: memoization
+  aliases: []
+  cn: 記憶化
+  tw: 記憶化
+  short: 保存已求出的子問題結果，遇到相同輸入就重用。
+  lesson: fd-algo-10
+  tags:
+  - 基礎
+- id: memory-heap
+  term: 記憶體堆積
+  en: Memory heap
+  aliases:
+  - heap
+  cn: 堆
+  tw: 堆積
+  short: JVM 中供物件與陣列配置的共享記憶體區域。
+  lesson: fd-java-11
+  tags:
+  - Java
+- id: memory-limit
+  term: 記憶體限制
+  en: memory limit
+  aliases: []
+  cn: 內存限制
+  tw: 記憶體限制
+  short: 在執行時由系統施行的記憶體上限。
+  lesson: cl-wh-07
+  tags:
+  - 雲端
+- id: memory-request
+  term: 記憶體請求
+  en: memory request
+  aliases: []
+  cn: 內存請求量
+  tw: 記憶體請求
+  short: 容器在排程時提出的記憶體需求。
+  lesson: cl-wh-07
+  tags:
+  - 雲端
+- id: merge-base
+  term: 共同祖先
+  en: merge base
+  aliases: []
+  cn: 合併基點
+  tw: 共同祖先
+  short: Git 比較兩條分支變更時使用的共同歷史基準。
+  lesson: fd-git-06
+  tags:
+  - Git
+- id: merge-conflict
+  term: 合併衝突
+  en: merge conflict
+  aliases: []
+  cn: 合併衝突
+  tw: 合併衝突
+  short: 版本差異無法自動整合、須確認最終內容的狀態。
+  lesson: fd-git-06
+  tags:
+  - Git
+- id: merge-on-read
+  term: 讀時合併
+  en: merge-on-read
+  aliases: []
+  cn: 讀時合併
+  tw: 讀取時合併
+  short: 在讀取時結合基礎檔和尚未壓實的變更。
+  lesson: bd-lake-05
+  tags:
+  - 湖倉
+- id: merge-on-write
+  term: 寫入合併
+  en: merge-on-write
+  aliases: []
+  cn: 寫時合併
+  tw: 寫入時合併
+  short: 在寫入時處理同鍵舊列的可見性。
+  lesson: bd-serve-02
+  tags:
+  - 管道
+- id: metadata
+  term: 元數據
+  en: Metadata
+  aliases:
+  - 中繼資料
+  cn: 元數據
+  tw: 詮釋資料
+  short: 描述欄位、類型、擁有者、更新時間等數據本身的數據。
+  lesson: sq-metrics-08
+  tags:
+  - 數倉
+- id: metadata-database
+  term: 元數據庫
+  en: metadata database
+  aliases: []
+  cn: 元數據庫
+  tw: 中繼資料庫
+  short: 保存工作流定義與執行狀態等控制資訊的數據庫。
+  lesson: bd-orch-05
+  tags:
+  - 排程
+- id: metaspace
+  term: 元空間
+  en: Metaspace
+  aliases: []
+  cn: 元空間
+  tw: 中繼數據空間
+  short: HotSpot 使用原生記憶體保存類別中繼數據的區域。
+  lesson: fd-java-11
+  tags:
+  - Java
+- id: method
+  term: 方法
+  en: method
+  aliases: []
+  cn: 方法
+  tw: 方法
+  short: 透過某個值或物件使用的操作。
+  lesson: fd-python-04
+  tags:
+  - Python
+- id: method-area
+  term: 方法區
+  en: method area
+  aliases: []
+  cn: 方法區
+  tw: 方法區
+  short: JVM 規格中保存每類別結構的共享區域。
+  lesson: fd-java-11
+  tags:
+  - Java
+- id: metric-definition
+  term: 計算口徑
+  en: Metric definition
+  aliases: []
+  cn: 計算口徑
+  tw: 指標定義
+  short: 固定對象、條件、單位與時間界線，說明一個指標究竟算什麼。
+  lesson: fd-start-01
+  tags:
+  - 入門
+- id: metric-dictionary
+  term: 指標字典
+  en: metric dictionary
+  aliases: []
+  cn: 指標字典
+  tw: 指標字典
+  short: 記錄口徑、來源、時區、版本與負責角色的目錄。
+  lesson: sq-metrics-07
+  tags:
+  - 數倉
+- id: micro-batch
+  term: 微批次
+  en: micro-batch
+  aliases: []
+  cn: 微批處理
+  tw: 微批次
+  short: 將持續到達的數據切成短批次處理。
+  lesson: cr-design-05
+  tags:
+  - 面試
+- id: min-heap
+  term: 最小堆
+  en: min-heap
+  aliases: []
+  cn: 最小堆
+  tw: 最小堆積
+  short: 父節點不大於子節點，根是整個堆的最小值。
+  lesson: fd-algo-07
+  tags:
+  - 基礎
+- id: minimal-reproducer
+  term: 最小反例
+  en: minimal reproducer
+  aliases: []
+  cn: 最小反例
+  tw: 最小重現案例
+  short: 僅保留可穩定觸發同一錯誤的輸入與步驟。
+  lesson: bd-quality-07
+  tags:
+  - 數據質量
+- id: minimum-storage-duration
+  term: 最低儲存期限
+  en: minimum storage duration
+  aliases: []
+  cn: 最短存儲時長
+  tw: 最低儲存期限
+  short: 提早刪除或轉換也可能承擔的最短計費期限。
+  lesson: cl-cloud-04
+  tags:
+  - 雲端
+- id: model-contract
+  term: 模型契約
+  en: model contract
+  aliases: []
+  cn: 模型契約
+  tw: 模型契約
+  short: 聲明模型輸出的欄位與型別；另以測試驗證值與口徑。
+  lesson: cl-contract-02
+  tags:
+  - 雲端
+- id: model-owner
+  term: 模型擁有者
+  en: model owner
+  aliases: []
+  cn: 模型負責人
+  tw: 模型擁有者
+  short: 為模型定義、變更及事故處理提供責任入口。
+  lesson: cl-contract-03
+  tags:
+  - 雲端
+- id: model-version
+  term: 模型版本
+  en: model version
+  aliases: []
+  cn: 模型版本
+  tw: 模型版本
+  short: 可併存並由下游明確指定的模型介面。
+  lesson: cl-contract-02
+  tags:
+  - 雲端
+- id: module
+  term: 模組
+  en: module
+  aliases: []
+  cn: 模塊
+  tw: 模組
+  short: 可被匯入的具名程式單元，例如單一 Python 檔。
+  lesson: fd-data-07
+  tags:
+  - 基礎
+- id: month-age
+  term: 月齡
+  en: month age
+  aliases: []
+  cn: 月齡
+  tw: 入組後月數
+  short: 觀測月與入組月相隔的日曆月數，入組月為 0。
+  lesson: sq-time-03
+  tags:
+  - SQL
+- id: mount
+  term: 掛載
+  en: mount
+  aliases: []
+  cn: 掛載
+  tw: 掛載
+  short: 在指定路徑接上另一個檔案系統或儲存來源。
+  lesson: fd-docker-03
+  tags:
+  - Docker
+- id: moving-average
+  term: 移動平均
+  en: moving average
+  aliases: []
+  cn: 移動平均
+  tw: 移動平均
+  short: 每移到一列便重算鄰近範圍的平均；分母取決於實際納入的非空數值。
+  lesson: sq-window-08
+  tags:
+  - SQL
+- id: multiset
+  term: 多重集合
+  en: Multiset
+  aliases: []
+  cn: 多重集合
+  tw: 多重集合
+  short: 元素可以重複；比較時相同元素出現的次數也必須相等。
+  lesson: sq-compose-06
+  tags:
+  - SQL
+- id: mutable
+  term: 可變
+  en: mutable
+  aliases:
+  - 可變物件
+  - mutable object
+  - 可變對象
+  cn: 可變
+  tw: 可變
+  short: 允許在原處更改值的內容。
+  lesson: fd-python-08
+  tags:
+  - Python
+- id: named-volume
+  term: 具名磁碟區
+  en: named volume
+  aliases: []
+  cn: 具名卷
+  tw: 具名磁碟區
+  short: 以名稱持續識別、可掛到新容器的 Docker 磁碟區。
+  lesson: fd-docker-03
+  tags:
+  - Docker
+- id: namenode
+  term: 名稱節點
+  en: NameNode
+  aliases: []
+  cn: 名稱節點
+  tw: 名稱節點
+  short: 維護 HDFS 檔案命名空間和區塊位置，不代替所有節點存內容。
+  lesson: bd-distrib-03
+  tags:
+  - 分散式
+- id: namespace
+  term: 命名空間
+  en: namespace
+  aliases: []
+  cn: 命名空間
+  tw: 命名空間
+  short: 管理檔案路徑、名稱及其對應中繼數據的組織範圍。
+  lesson: bd-distrib-03
+  tags:
+  - 管道
+- id: narrow-dependency
+  term: 窄相依
+  en: narrow dependency
+  aliases: []
+  cn: 窄依賴
+  tw: 窄相依
+  short: 不需將同一上游分區廣泛重新分派的相依關係。
+  lesson: bd-spark-05
+  tags:
+  - Spark
+- id: natural-key
+  term: 業務鍵
+  en: Natural key
+  aliases:
+  - 自然鍵
+  cn: 業務鍵
+  tw: 自然鍵
+  short: 來源業務原本使用的識別碼，例如店內商品號。
+  lesson: sq-model-04
+  tags:
+  - 建模
+- id: nearest-rank
+  term: 最近秩法
+  en: nearest rank
+  aliases: []
+  cn: 最近秩法
+  tw: 最近秩法
+  short: 排序後取序位向上取整的分位數算法。
+  lesson: bd-bench-04
+  tags:
+  - 管道
+- id: network-port
+  term: 連接埠
+  en: port
+  aliases:
+  - 埠
+  cn: 端口
+  tw: 連接埠
+  short: 同一主機與傳輸協定下用來區分通訊端點的號碼。
+  lesson: fd-system-05
+  tags:
+  - 基礎
+- id: node
+  term: 節點
+  en: node
+  aliases: []
+  cn: 節點
+  tw: 節點
+  short: 鏈結、樹或圖上保存值或關係的單位。
+  lesson: fd-algo-02
+  tags:
+  - 基礎
+- id: nodemanager
+  term: 節點管理器
+  en: NodeManager
+  aliases: []
+  cn: 節點管理器
+  tw: 節點管理器
+  short: YARN 中在單一節點啟動並監看容器的程序。
+  lesson: bd-distrib-04
+  tags:
+  - 管道
+- id: non-additive-measure
+  term: 不可加總度量
+  en: non-additive measure
+  aliases: []
+  cn: 不可加性度量
+  tw: 不可加總量值
+  short: 不能直接相加；比率常需各自彙總分子和分母。
+  lesson: sq-model-03
+  tags:
+  - 數倉
+- id: none
+  term: 無值（None）
+  en: None
+  aliases: []
+  cn: 空值（None）
+  tw: 無值（None）
+  short: Python 表示沒有提供一般結果的特殊值，不是數值零。
+  lesson: fd-python-10
+  tags:
+  - Python
+- id: nonrepeatable-read
+  term: 不可重複讀
+  en: nonrepeatable read
+  aliases: []
+  cn: 不可重複讀
+  tw: 不可重複讀
+  short: 重讀一列時看到其他交易中途提交的新值。
+  lesson: sq-db-05
+  tags:
+  - SQL
+- id: normalization
+  term: 正規化
+  en: Normalization
+  aliases: []
+  cn: 範式化
+  tw: 正規化
+  short: 依鍵與依賴拆表，降低重複儲存導致的更新異常。
+  lesson: sq-db-02
+  tags:
+  - 數據庫
+- id: not-null
+  term: 非空
+  en: not null
+  aliases: []
+  cn: 非空
+  tw: 不可為空值
+  short: 指定欄位不得是 SQL 的 NULL。
+  lesson: bd-quality-01
+  tags:
+  - 數據質量
+- id: 'null'
+  term: 缺值
+  en: 'Null'
+  aliases:
+  - missing value
+  cn: 缺值
+  tw: 空值
+  short: 表示沒有已知值的記號；不同於數字零與空字串。
+  lesson: sq-read-04
+  tags:
+  - SQL
+- id: null-safe-comparison
+  term: 空值安全比較
+  en: null-safe comparison
+  aliases: []
+  cn: 空值安全比較
+  tw: 空值安全比較
+  short: 明確區分雙空與單空，不將結果留成未知。
+  lesson: sq-audit-03
+  tags:
+  - SQL
+- id: numeric-precision
+  term: 數值精度
+  en: numeric precision
+  aliases: []
+  cn: 數值精度
+  tw: 數值精度
+  short: 數值可保留的有效資訊；定點小數另以尺度指明小數位數。
+  lesson: sq-expr-08
+  tags:
+  - SQL
+- id: object
+  term: 物件
+  en: object
+  aliases: []
+  cn: 對象
+  tw: 物件
+  short: 程式中具有類型、可攜帶狀態及操作的值。
+  lesson: fd-tools-01
+  tags:
+  - 基礎
+- id: object-delete-marker
+  term: 物件刪除標記
+  en: Object delete marker
+  aliases:
+  - delete marker
+  cn: 刪除標記
+  tw: 刪除標記
+  short: 遮住普通讀取的現行標記，不表示舊版本已清除。
+  lesson: cl-cloud-04
+  tags:
+  - 雲端
+- id: object-key
+  term: 物件鍵
+  en: object key
+  aliases: []
+  cn: 對象鍵
+  tw: 物件鍵
+  short: 物件在其桶內的完整名稱。
+  lesson: cl-cloud-03
+  tags:
+  - 雲端
+- id: object-reference
+  term: 物件參照
+  en: object reference
+  aliases: []
+  cn: 對象引用
+  tw: 物件參照
+  short: 指向既有物件，而不是複製它的內容。
+  lesson: fd-algo-02
+  tags:
+  - 基礎
+- id: object-storage
+  term: 物件儲存
+  en: Object storage
+  aliases: []
+  cn: 對象存儲
+  tw: 物件儲存
+  short: 用鍵查找內容與元數據，不假定具有本機檔案系統的操作語義。
+  lesson: cl-cloud-03
+  tags:
+  - 雲端
+- id: object-storage-bucket
+  term: 物件儲存桶
+  en: Object storage bucket
+  aliases:
+  - 桶
+  - bucket
+  cn: 存儲桶
+  tw: 儲存貯體
+  short: 物件儲存中容納物件的範圍。
+  lesson: cl-cloud-03
+  tags:
+  - 雲端
+- id: object-storage-manifest
+  term: 物件清單檔
+  en: Object storage manifest
+  aliases:
+  - manifest
+  cn: 清單文件
+  tw: 清單檔
+  short: 列出應讀取或已驗證的檔案／物件鍵。
+  lesson: cl-cloud-03
+  tags:
+  - 雲端
+- id: object-versioning
+  term: 物件版本控制
+  en: Object versioning
+  aliases:
+  - versioning
+  cn: 版本控制
+  tw: 版本控制
+  short: 使同一鍵可保留及定位不同歷史版本。
+  lesson: cl-cloud-04
+  tags:
+  - 雲端
+- id: observability
+  term: 可觀察性
+  en: observability
+  aliases: []
+  cn: 可觀測性
+  tw: 可觀察性
+  short: 藉由日誌等外部訊號判斷內部正在發生什麼。
+  lesson: fd-lab-03
+  tags:
+  - 基礎
+- id: observation-window
+  term: 觀測窗
+  en: observation window
+  aliases: []
+  cn: 觀測窗口
+  tw: 觀測期間
+  short: 能確認數據完整的期間；窗外不能推定為無活動。
+  lesson: sq-time-03
+  tags:
+  - SQL
+- id: offset
+  term: 位移
+  en: Offset
+  aliases: []
+  cn: 位移
+  tw: 偏移量
+  short: 一個分區內的讀取位置，不能當作所有分區的全域序號。
+  lesson: bd-kafka-05
+  tags:
+  - 實時
+- id: olap
+  term: 線上分析處理
+  en: OLAP
+  aliases:
+  - online analytical processing
+  cn: 線上分析處理
+  tw: 線上分析處理
+  short: 為跨列掃描、分組與歷史比較等分析需求設計。
+  lesson: sq-model-01
+  tags:
+  - 建模
+- id: oltp
+  term: 線上交易處理
+  en: OLTP
+  aliases: []
+  cn: 線上交易處理
+  tw: 線上交易處理
+  short: 為大量短交易與可靠寫入設計，例如新增訂單與扣庫存。
+  lesson: sq-model-01
+  tags:
+  - 建模
+- id: oomkilled
+  term: 記憶體不足終止
+  en: OOMKilled
+  aliases: []
+  cn: 內存不足終止
+  tw: 記憶體不足終止
+  short: 容器被系統因記憶體不足而終止的狀態。
+  lesson: cl-wh-07
+  tags:
+  - 雲端
+- id: open-hiring
+  term: 社招
+  en: open hiring
+  aliases: []
+  cn: 社會招聘
+  tw: 一般招募
+  short: 不按特定校園渠道招聘；年資以公告為準。
+  lesson: cr-search-03
+  tags:
+  - 面試
+- id: operational-data-store
+  term: 原始數據層
+  en: Operational data store
+  aliases:
+  - ODS
+  cn: 原始數據層
+  tw: 原始資料層
+  short: 本課分層中保存來源紀錄以便重播；不同組織對 ODS 定義可能不同。
+  lesson: sq-metrics-01
+  tags:
+  - 數倉
+- id: operator
+  term: 算子
+  en: operator
+  aliases: []
+  cn: 算子
+  tw: 運算子
+  short: 數據流中執行計算的一個步驟。
+  lesson: bd-flink-06
+  tags:
+  - Flink
+- id: operator-precedence
+  term: 運算優先順序
+  en: operator precedence
+  aliases: []
+  cn: 運算符優先級
+  tw: 運算子優先順序
+  short: 無括號時決定運算先後的規則。
+  lesson: sq-read-07
+  tags:
+  - SQL
+- id: operator-uid
+  term: 算子識別碼
+  en: operator UID
+  aliases: []
+  cn: 算子唯一標識
+  tw: 運算子識別碼
+  short: 恢復時將保存的狀態配回正確算子。
+  lesson: bd-flink-07
+  tags:
+  - Flink
+- id: orc
+  term: ORC
+  en: ORC
+  aliases: []
+  cn: ORC
+  tw: ORC
+  short: 將數據分條帶與欄儲存的格式，可用索引與統計減少讀取。
+  lesson: bd-hive-04
+  tags:
+  - 批次
+- id: orchestration
+  term: 工作流編排
+  en: Orchestration
+  aliases: []
+  cn: 工作流編排
+  tw: 流程協調
+  short: 管理多個任務的依賴、重試、時程與狀態。
+  lesson: bd-orch-01
+  tags:
+  - 排程
+- id: order-refund-rate
+  term: 退單率
+  en: order refund rate
+  aliases: []
+  cn: 退單率
+  tw: 退單率
+  short: 同一批訂單中，至少退過一次款的訂單所占比例。
+  lesson: sq-metrics-06
+  tags:
+  - 數倉
+- id: orphan-file
+  term: 孤兒檔
+  en: orphan file
+  aliases: []
+  cn: 孤兒文件
+  tw: 孤兒檔案
+  short: 未被合法保留版本引用、需依安全窗口確認的實體檔。
+  lesson: bd-lake-04
+  tags:
+  - 湖倉
+- id: orphan-row
+  term: 孤兒列
+  en: orphan row
+  aliases: []
+  cn: 孤兒記錄
+  tw: 孤兒列
+  short: 子表的關聯鍵找不到被參照的父列。
+  lesson: sq-db-01
+  tags:
+  - SQL
+- id: out-of-memory-oom
+  term: 記憶體耗盡
+  en: out of memory (OOM)
+  aliases: []
+  cn: 內存溢出
+  tw: 記憶體不足
+  short: 執行環境無法滿足一次記憶體配置。
+  lesson: fd-java-11
+  tags:
+  - Java
+- id: outer-join
+  term: 外連接
+  en: Outer join
+  aliases: []
+  cn: 外連接
+  tw: 外部聯結
+  short: 除了匹配列，也保存指定側沒匹配的列，另一側以缺值補齊。
+  lesson: sq-join-02
+  tags:
+  - SQL
+- id: output-contract
+  term: 輸出契約
+  en: output contract
+  aliases: []
+  cn: 輸出契約
+  tw: 輸出契約
+  short: 查詢交付的列粒度、欄位、邊界、缺值與排序規則。
+  lesson: cr-sql-01
+  tags:
+  - 面試
+- id: outputcommitter
+  term: 輸出提交器
+  en: OutputCommitter
+  aliases: []
+  cn: 輸出提交器
+  tw: 輸出提交器
+  short: 協調各次嘗試的檔案輸出，決定何時正式提交。
+  lesson: bd-distrib-07
+  tags:
+  - 管道
+- id: overlap
+  term: 重疊
+  en: overlap
+  aliases: []
+  cn: 重疊
+  tw: 重疊
+  short: 由相鄰片段共同保存的一小段文字。
+  lesson: cl-ai-02
+  tags:
+  - 雲端
+- id: owner
+  term: 擁有者
+  en: owner
+  aliases: []
+  cn: 所有者
+  tw: 擁有者
+  short: 檔案系統記錄為擁有該項目的使用者。
+  lesson: fd-linux-02
+  tags:
+  - 基礎
+- id: package
+  term: 套件
+  en: package
+  aliases: []
+  cn: 軟件包
+  tw: 套件
+  short: 可安裝或匯入、供其他程式重用的程式集合。
+  lesson: fd-tools-04
+  tags:
+  - 基礎
+- id: page
+  term: 頁面
+  en: page
+  aliases: []
+  cn: 頁
+  tw: 頁面
+  short: 作業系統管理記憶體映射所用的區塊單位。
+  lesson: fd-system-02
+  tags:
+  - 基礎
+- id: page-cache
+  term: 頁面快取
+  en: page cache
+  aliases: []
+  cn: 頁緩存
+  tw: 頁面快取
+  short: 作業系統在記憶體中保留檔案內容的快取。
+  lesson: fd-system-03
+  tags:
+  - 基礎
+- id: page-fault
+  term: 缺頁
+  en: page fault
+  aliases: []
+  cn: 缺頁異常
+  tw: 缺頁
+  short: 程式碰到目前不可直接存取的頁面，由作業系統介入處理。
+  lesson: fd-system-02
+  tags:
+  - 基礎
+- id: page-file
+  term: 分頁檔
+  en: page file
+  aliases: []
+  cn: 分頁文件
+  tw: 分頁檔
+  short: Windows 為部分虛擬記憶體頁面提供磁碟後備的檔案。
+  lesson: fd-system-02
+  tags:
+  - 基礎
+- id: pagination-offset
+  term: 分頁略過列數
+  en: pagination offset
+  aliases: []
+  cn: 分頁偏移量
+  tw: 分頁位移量
+  short: 取指定頁前先略過的列數，不等同 Kafka 位移。
+  lesson: sq-read-06
+  tags:
+  - SQL
+- id: paging
+  term: 換頁
+  en: paging
+  aliases: []
+  cn: 分頁
+  tw: 換頁
+  short: 作業系統以頁面為單位管理、載入或移出頁面。
+  lesson: fd-system-02
+  tags:
+  - 基礎
+- id: parameter
+  term: 參數
+  en: parameter
+  aliases:
+  - 形參、形式參數
+  cn: 形參
+  tw: 參數
+  short: 函式定義中用來接收值的名稱。
+  lesson: fd-data-06
+  tags:
+  - 基礎
+- id: parameter-expansion
+  term: 參數展開
+  en: parameter expansion
+  aliases: []
+  cn: 參數展開
+  tw: 參數展開
+  short: 由殼層把參數表示式換成值，或依規則產生替代內容。
+  lesson: fd-linux-04
+  tags:
+  - 基礎
+- id: parent-commit
+  term: 父提交
+  en: parent commit
+  aliases: []
+  cn: 父提交
+  tw: 父提交
+  short: 一筆提交所連回的直接歷史前身。
+  lesson: fd-git-03
+  tags:
+  - Git
+- id: parent-directory
+  term: 父目錄
+  en: parent directory
+  aliases: []
+  cn: 父目錄
+  tw: 上層目錄
+  short: 直接包含目前資料夾的那一層。
+  lesson: fd-desk-05
+  tags:
+  - 基礎
+- id: parent-node
+  term: 父節點
+  en: parent node
+  aliases: []
+  cn: 父節點
+  tw: 父節點
+  short: 有根樹中直接連向某子節點的上一層。
+  lesson: fd-algo-08
+  tags:
+  - 基礎
+- id: parent-process-id-ppid
+  term: 親代識別碼
+  en: parent process ID (PPID)
+  aliases: []
+  cn: 父進程 ID
+  tw: 親代行程識別碼
+  short: 用來識別當前父行程的編號。
+  lesson: fd-linux-06
+  tags:
+  - 基礎
+- id: parquet
+  term: Parquet
+  en: Parquet
+  aliases: []
+  cn: Parquet
+  tw: Parquet
+  short: 含欄位統計的欄式檔案格式；可跳過不相關的行組。
+  lesson: bd-hive-04
+  tags:
+  - 批次
+- id: partition
+  term: 分區
+  en: Partition
+  aliases: []
+  cn: 分區
+  tw: 分割區
+  short: 依規則拆開的一塊數據，是平行處理或裁剪讀取的單位。
+  lesson: bd-distrib-01
+  tags:
+  - 分散式
+- id: partition-column
+  term: 分區欄
+  en: partition column
+  aliases: []
+  cn: 分區列
+  tw: 分區欄
+  short: 用來決定記錄所屬實體表分區的欄位。
+  lesson: bd-hive-02
+  tags:
+  - Hive
+- id: partition-evolution
+  term: 分區演進
+  en: partition evolution
+  aliases: []
+  cn: 分區演進
+  tw: 分割演進
+  short: 改變新寫入的分區規則，保留已有布局。
+  lesson: bd-lake-03
+  tags:
+  - 湖倉
+- id: partition-pruning
+  term: 分區裁剪
+  en: Partition pruning
+  aliases: []
+  cn: 分區裁剪
+  tw: 分割區修剪
+  short: 依查詢條件排除不可能命中的分區，減少讀取。
+  lesson: bd-hive-02
+  tags:
+  - 批次
+- id: partitioner
+  term: 分區器
+  en: partitioner
+  aliases: []
+  cn: 分區器
+  tw: 分割區選擇器
+  short: 決定一筆訊息要寫入哪個分區。
+  lesson: bd-kafka-02
+  tags:
+  - Kafka
+- id: path
+  term: 路徑
+  en: path
+  aliases: []
+  cn: 路徑
+  tw: 路徑
+  short: 描述如何定位一個檔案或資料夾。
+  lesson: fd-desk-05
+  tags:
+  - 基礎
+- id: peers
+  term: 同值列
+  en: peers
+  aliases: []
+  cn: 同值行
+  tw: 同值列
+  short: 窗口排序指定的各欄值都相同、因而平手的列。
+  lesson: sq-window-07
+  tags:
+  - SQL
+- id: percentile
+  term: 百分位數
+  en: Percentile
+  aliases: []
+  cn: 百分位數
+  tw: 百分位數
+  short: 在排序分布中對應某個比例位置的值；離散與插值算法可不同。
+  lesson: sq-pattern-07
+  tags:
+  - 分析
+- id: period-over-period-growth
+  term: 環比
+  en: period-over-period growth
+  aliases: []
+  cn: 環比
+  tw: 較上期成長率
+  short: 當期與緊鄰前一期的差額除以前一期值。
+  lesson: sq-time-04
+  tags:
+  - SQL
+- id: periodic-snapshot
+  term: 週期快照
+  en: Periodic snapshot
+  aliases: []
+  cn: 週期快照
+  tw: 週期快照
+  short: 固定間隔記錄某個時點的狀態，例如每日庫存餘額。
+  lesson: sq-model-07
+  tags:
+  - 建模
+- id: permissions-policy
+  term: 權限政策
+  en: permissions policy
+  aliases: []
+  cn: 權限策略
+  tw: 權限政策
+  short: 規範資源上的動作與條件。
+  lesson: cl-cloud-02
+  tags:
+  - 雲端
+- id: persistence
+  term: 持久化
+  en: persistence
+  aliases: []
+  cn: 持久化
+  tw: 持久化
+  short: Spark 按指定儲存等級保留中間結果，不等於永久入倉。
+  lesson: bd-spark-07
+  tags:
+  - Spark
+- id: phantom-read
+  term: 幻讀
+  en: phantom read
+  aliases: []
+  cn: 幻讀
+  tw: 幻讀
+  short: 重跑同一篩選時，符合條件的列集合改變。
+  lesson: sq-db-05
+  tags:
+  - SQL
+- id: pipeline-fan-out
+  term: 扇出
+  en: fan-out
+  aliases: []
+  cn: 扇出
+  tw: 扇出
+  short: 同一上游事件送往多個獨立下游，須分別估讀取、處理和重試成本；不同於多表配對造成的連接膨脹。
+  lesson: cr-design-03
+  tags:
+  - 面試
+- id: pipeline-sink
+  term: 目的端
+  en: sink
+  aliases:
+  - 輸出端
+  cn: 下沉端
+  tw: 目的端
+  short: 接收持續查詢或管道輸出的系統或算子。
+  lesson: bd-flink-10
+  tags:
+  - Flink
+- id: pipeline-source
+  term: 來源
+  en: source
+  aliases: []
+  cn: 數據源
+  tw: 資料來源
+  short: 管道中提供輸入事件的端點。
+  lesson: bd-jvm-03
+  tags:
+  - 管道
+- id: pivot-unpivot
+  term: 列欄轉換
+  en: pivot / unpivot
+  aliases: []
+  cn: 行列轉換
+  tw: 列欄轉換
+  short: 讓類別值變成欄位，或將多個欄位攤回類別和值。
+  lesson: sq-pattern-05
+  tags:
+  - SQL
+- id: plain-text
+  term: 純文字
+  en: plain text
+  aliases: []
+  cn: 純文本
+  tw: 純文字
+  short: 主要保留字元與換行，不保存字體或儲存格樣式。
+  lesson: fd-desk-02
+  tags:
+  - 基礎
+- id: pod-template
+  term: Pod 範本
+  en: Pod template
+  aliases: []
+  cn: Pod 模板
+  tw: Pod 範本
+  short: 控制器用來建立 Pod 的規格。
+  lesson: cl-wh-07
+  tags:
+  - 雲端
+- id: pointer
+  term: 讀取指標
+  en: pointer
+  aliases: []
+  cn: 讀取指標
+  tw: 讀取指標
+  short: 標明讀者目前應讀哪個已發布產物的參照。
+  lesson: bd-orch-08
+  tags:
+  - 排程
+- id: port-mapping
+  term: 連接埠對映
+  en: port mapping
+  aliases: []
+  cn: 端口映射
+  tw: 連接埠對映
+  short: 指定主機位址與埠如何轉到容器的目的埠。
+  lesson: fd-docker-02
+  tags:
+  - Docker
+- id: port-publishing
+  term: 發布連接埠
+  en: port publishing
+  aliases: []
+  cn: 端口發布
+  tw: 發布連接埠
+  short: 建立主機端可進入容器服務的網路入口。
+  lesson: fd-docker-02
+  tags:
+  - Docker
+- id: portfolio
+  term: 作品集
+  en: portfolio
+  aliases: []
+  cn: 作品集
+  tw: 作品集
+  short: 能讓讀者追查個人貢獻、輸入與結果的作品集合。
+  lesson: cr-portfolio-01
+  tags:
+  - 面試
+- id: postmortem
+  term: 事故復盤
+  en: postmortem
+  aliases: []
+  cn: 事故復盤
+  tw: 事故事後檢討
+  short: 整理事故時間線、影響、根因及可驗收的改進。
+  lesson: bd-quality-07
+  tags:
+  - 數據質量
+- id: powershell-pipeline
+  term: PowerShell 管道
+  en: PowerShell pipeline
+  aliases: []
+  cn: PowerShell 管道
+  tw: PowerShell 管線
+  short: 把前一個指令送出的值交給下一個指令。
+  lesson: fd-desk-06
+  tags:
+  - 基礎
+- id: pre-aggregation
+  term: 預聚合
+  en: pre-aggregation
+  aliases: []
+  cn: 預聚合
+  tw: 預先聚合
+  short: 預先計算指定粒度的小計或可合併中間量。
+  lesson: bd-serve-05
+  tags:
+  - 管道
+- id: predecessor
+  term: 前驅
+  en: predecessor
+  aliases: []
+  cn: 前驅
+  tw: 前驅
+  short: 在關係中直接位於目前節點之前的節點。
+  lesson: fd-algo-02
+  tags:
+  - 基礎
+- id: predicate
+  term: 判斷條件
+  en: Predicate
+  aliases: []
+  cn: 判斷條件
+  tw: 述詞
+  short: 對每列求出真、假或未知的運算式；篩選只留下真。
+  lesson: sq-read-02
+  tags:
+  - SQL
+- id: predicate-pushdown
+  term: 篩選下推
+  en: Predicate pushdown
+  aliases:
+  - filter pushdown
+  - 過濾條件下推
+  cn: 謂詞下推
+  tw: 篩選下推
+  short: 讓靠近來源的掃描先排除不符的數據，是否能跳過區塊仍取決於格式及統計。
+  lesson: sq-db-09
+  tags:
+  - 管道
+- id: prefix
+  term: 前綴
+  en: prefix
+  aliases: []
+  cn: 前綴
+  tw: 前綴
+  short: 用來選取一組完整鍵的開頭字串。
+  lesson: cl-cloud-03
+  tags:
+  - 雲端
+- id: primary-key
+  term: 主鍵
+  en: Primary key
+  aliases: []
+  cn: 主鍵
+  tw: 主鍵
+  short: 唯一識別表中每列的欄位組合，不能為缺值。
+  lesson: sq-db-01
+  tags:
+  - 數據庫
+- id: primary-key-table
+  term: 主鍵表
+  en: primary key table
+  aliases: []
+  cn: 主鍵表
+  tw: 主鍵資料表
+  short: 按唯一鍵維護可更新或刪除的目前列。
+  lesson: bd-serve-03
+  tags:
+  - 管道
+- id: primitive-type
+  term: 原始類型
+  en: primitive type
+  aliases: []
+  cn: 基本類型
+  tw: 基本型別
+  short: Java 直接表示布林或數值等的非參照類型。
+  lesson: fd-java-03
+  tags:
+  - Java
+- id: process
+  term: 行程
+  en: process
+  aliases: []
+  cn: 進程
+  tw: 行程
+  short: 執行中的程式實例，擁有資源及自己的位址空間。
+  lesson: fd-system-01
+  tags:
+  - 基礎
+- id: process-cpu-time
+  term: 行程 CPU 時間
+  en: process CPU time
+  aliases: []
+  cn: 進程 CPU 時間
+  tw: 行程 CPU 時間
+  short: 一個行程實際取得的 CPU 執行時間，不計睡眠。
+  lesson: fd-system-01
+  tags:
+  - 基礎
+- id: process-id-pid
+  term: 行程識別碼
+  en: process ID (PID)
+  aliases: []
+  cn: 進程 ID
+  tw: 行程識別碼
+  short: 系統識別當前行程的編號；行程退出後可能重用。
+  lesson: fd-linux-06
+  tags:
+  - 基礎
+- id: processing-time
+  term: 處理時間
+  en: Processing time
+  aliases: []
+  cn: 處理時間
+  tw: 處理時間
+  short: 引擎在本機執行運算時看到的時鐘時間。
+  lesson: bd-flink-02
+  tags:
+  - 實時
+- id: producer
+  term: 生產者
+  en: producer
+  aliases: []
+  cn: 生產者
+  tw: 生產者
+  short: 向主題送出紀錄的客戶端。
+  lesson: bd-kafka-02
+  tags:
+  - Kafka
+- id: program
+  term: 程式
+  en: program
+  aliases: []
+  cn: 程序
+  tw: 程式
+  short: 可交給電腦執行的一組指令，不等同於執行中的實例。
+  lesson: fd-system-01
+  tags:
+  - 基礎
+- id: program-execution
+  term: 程式執行
+  en: Program execution
+  aliases:
+  - execution
+  cn: 運行
+  tw: 執行
+  short: 啟動程式並依其指令處理輸入或產生結果。
+  lesson: fd-java-02
+  tags:
+  - Java
+- id: project-deep-dive
+  term: 專案深挖
+  en: project deep dive
+  aliases:
+  - 專案深入追問
+  cn: 項目深挖
+  tw: 專案深入問答
+  short: 從一個案例追問設計前提、個人貢獻、取捨和驗證。
+  lesson: cr-portfolio-04
+  tags:
+  - 面試
+- id: project-object-model-pom
+  term: 專案物件模型
+  en: Project Object Model (POM)
+  aliases: []
+  cn: 項目對象模型
+  tw: 專案物件模型
+  short: Maven 宣告座標、相依與建置設定的模型。
+  lesson: fd-java-07
+  tags:
+  - Java
+- id: projection
+  term: 投影
+  en: Projection
+  aliases: []
+  cn: 投影
+  tw: 投影
+  short: 只挑出查詢結果需要的欄或運算式，不等於篩選列。
+  lesson: sq-read-01
+  tags:
+  - SQL
+- id: projection-pushdown
+  term: 投影下推
+  en: projection pushdown
+  aliases: []
+  cn: 投影下推
+  tw: 投影下推
+  short: 將欄位選取交給掃描，只讀運算要用的欄。
+  lesson: sq-db-09
+  tags:
+  - SQL
+- id: prompt
+  term: 提示字元
+  en: prompt
+  aliases: []
+  cn: 提示符
+  tw: 提示字元
+  short: 解譯器顯示可以輸入下一條指令的文字。
+  lesson: fd-desk-04
+  tags:
+  - 基礎
+- id: push
+  term: 推送
+  en: push
+  aliases: []
+  cn: 推送
+  tw: 推送
+  short: 把指定分支所需的提交物件送到遠端。
+  lesson: fd-git-07
+  tags:
+  - Git
+- id: quarantine
+  term: 隔離區
+  en: Quarantine
+  aliases: []
+  cn: 隔離區
+  tw: 隔離區
+  short: 暫存未通過規則的輸入，保留原因與可修復的原始內容。
+  lesson: bd-quality-05
+  tags:
+  - 質量
+- id: queue
+  term: 佇列
+  en: queue
+  aliases: []
+  cn: 隊列
+  tw: 佇列
+  short: 從一端加入、另一端取出，先進先出。
+  lesson: fd-algo-05
+  tags:
+  - 基礎
+- id: r-sum
+  term: 履歷
+  en: résumé
+  aliases: []
+  cn: 簡歷
+  tw: 履歷
+  short: 以可核對的經歷與成果回應職務需求的摘要。
+  lesson: cr-search-04
+  tags:
+  - 面試
+- id: rag-deletion-marker
+  term: 文件撤回標記
+  en: RAG deletion marker
+  aliases:
+  - tombstone
+  cn: 墓碑標記
+  tw: 撤回標記
+  short: 記錄來源撤回及順序，防止舊事件重建內容。
+  lesson: cl-ai-05
+  tags:
+  - 雲端
+- id: random-sampling
+  term: 隨機抽樣
+  en: random sampling
+  aliases: []
+  cn: 隨機抽樣
+  tw: 隨機抽樣
+  short: 按隨機規則選取數據列，不是任取最前面幾列。
+  lesson: sq-read-06
+  tags:
+  - SQL
+- id: range-frame
+  term: 值域框
+  en: RANGE frame
+  aliases: []
+  cn: 值域窗口框
+  tw: 值域視窗框架
+  short: 依排序值定窗口框邊界，到目前值時納入同值列。
+  lesson: sq-window-07
+  tags:
+  - SQL
+- id: rank
+  term: 跳號排名
+  en: Rank (SQL RANK)
+  aliases:
+  - RANK
+  - 名次
+  cn: 排名
+  tw: 名次
+  short: 同值同名次，下一個不同的值跳過前面被占的位置。
+  lesson: sq-window-04
+  tags:
+  - SQL
+- id: ranking
+  term: 排名
+  en: ranking
+  aliases: []
+  cn: 排名
+  tw: 排名
+  short: 按排序條件給每列名次；並列與跳號取決於規則。
+  lesson: sq-pattern-01
+  tags:
+  - SQL
+- id: read-back
+  term: 回讀
+  en: read-back
+  aliases: []
+  cn: 回讀
+  tw: 回讀確認
+  short: 接手者重述時間、條件與行動以確認理解。
+  lesson: cr-behavior-04
+  tags:
+  - 面試
+- id: read-only-mount
+  term: 唯讀掛載
+  en: read-only mount
+  aliases: []
+  cn: 只讀掛載
+  tw: 唯讀掛載
+  short: 允許容器透過掛載看見內容，但不許從該入口寫入。
+  lesson: fd-docker-03
+  tags:
+  - Docker
+- id: reader
+  term: 讀端
+  en: reader
+  aliases: []
+  cn: 讀端
+  tw: 讀取端
+  short: 從來源讀取指定範圍與欄位的元件。
+  lesson: bd-ingest-03
+  tags:
+  - 採集
+- id: readiness
+  term: 就緒
+  en: readiness
+  aliases: []
+  cn: 就緒
+  tw: 就緒
+  short: 服務通過接受工作所需的判據，不只是行程已開始。
+  lesson: fd-docker-05
+  tags:
+  - Docker
+- id: readme
+  term: 說明檔
+  en: README
+  aliases: []
+  cn: 說明文件
+  tw: 說明檔
+  short: 交代用途、必要條件、執行入口與結果的第一份文件。
+  lesson: cr-portfolio-02
+  tags:
+  - 面試
+- id: reassignment
+  term: 重新賦值
+  en: reassignment
+  aliases: []
+  cn: 重新賦值
+  tw: 重新指定
+  short: 為已有的名稱指定另一個值。
+  lesson: fd-python-03
+  tags:
+  - Python
+- id: rebalance
+  term: 再平衡
+  en: Rebalance
+  aliases: []
+  cn: 再平衡
+  tw: 重新平衡
+  short: 成員或分區變動時，把分區的讀取責任重新分配。
+  lesson: bd-kafka-09
+  tags:
+  - 實時
+- id: receipt-key
+  term: 接收鍵
+  en: receipt key
+  aliases: []
+  cn: 接收鍵
+  tw: 接收鍵
+  short: 識別一次接收，以查回其來源或批次。
+  lesson: sq-metrics-01
+  tags:
+  - 數倉
+- id: reconciliation
+  term: 對帳
+  en: Reconciliation
+  aliases: []
+  cn: 對帳
+  tw: 對帳
+  short: 用鍵、筆數或金額比對兩處結果，找出不一致的範圍。
+  lesson: fd-start-01
+  tags:
+  - 入門
+- id: record-class
+  term: 紀錄類別
+  en: record class
+  aliases: []
+  cn: 記錄類
+  tw: 紀錄類別
+  short: 以元件宣告並提供預設存取與相等性的類別。
+  lesson: fd-java-04
+  tags:
+  - Java
+- id: record-key
+  term: 訊息鍵
+  en: record key
+  aliases: []
+  cn: 消息鍵
+  tw: 訊息鍵
+  short: 隨紀錄傳送，可用於路由或按鍵重建。
+  lesson: bd-kafka-02
+  tags:
+  - Kafka
+- id: recursion
+  term: 遞迴
+  en: recursion
+  aliases: []
+  cn: 遞歸
+  tw: 遞迴
+  short: 函式以同類但較小的輸入呼叫自身，直到可直接作答。
+  lesson: fd-algo-10
+  tags:
+  - 基礎
+- id: recursive-cte
+  term: 遞迴 CTE
+  en: recursive CTE
+  aliases: []
+  cn: 遞歸 CTE
+  tw: 遞迴 CTE
+  short: 以起始結果開始，反覆以目前結果產生下一輪，直到沒有新列。
+  lesson: sq-compose-08
+  tags:
+  - SQL
+- id: recursive-member
+  term: 遞迴項
+  en: recursive member
+  aliases: []
+  cn: 遞歸項
+  tw: 遞迴成員
+  short: 引用遞迴 CTE 上一輪結果，依規則產生下一輪的部分。
+  lesson: sq-compose-08
+  tags:
+  - SQL
+- id: redirection
+  term: 重新導向
+  en: redirection
+  aliases: []
+  cn: 重定向
+  tw: 重新導向
+  short: 指定命令某一路輸入、輸出或錯誤的來源與目的。
+  lesson: fd-linux-03
+  tags:
+  - 基礎
+- id: redshift-leader-node
+  term: 領導節點
+  en: leader node
+  aliases: []
+  cn: 領導節點
+  tw: 領導節點
+  short: Redshift 叢集中接收、規劃及協調查詢的節點。
+  lesson: cl-wh-04
+  tags:
+  - 雲端
+- id: redshift-slice
+  term: Redshift 切片
+  en: Redshift slice
+  aliases:
+  - slice (Redshift)
+  cn: 切片
+  tw: 切片
+  short: 運算節點內分擔數據和工作的一個平行單位。
+  lesson: cl-wh-04
+  tags:
+  - 雲端
+- id: reduce
+  term: 歸約
+  en: reduce
+  aliases: []
+  cn: 歸約／規約
+  tw: 歸約
+  short: 將同一鍵或範圍內的多個值合併為結果。
+  lesson: bd-distrib-05
+  tags:
+  - 管道
+- id: reference-baseline
+  term: 基準解
+  en: reference baseline
+  aliases: []
+  cn: 基準解法
+  tw: 基準解
+  short: 用易核對的直接方法為優化版本提供對照。
+  lesson: cr-code-01
+  tags:
+  - 面試
+- id: referential-integrity
+  term: 參照完整性
+  en: Referential integrity
+  aliases: []
+  cn: 參照完整性
+  tw: 參照完整性
+  short: 需要對應對象的鍵，必須能找到合法的被參照紀錄。
+  lesson: bd-quality-02
+  tags:
+  - 質量
+- id: refresh
+  term: 刷新
+  en: refresh
+  aliases: []
+  cn: 刷新
+  tw: 更新
+  short: 按規則重算或更新物化結果。
+  lesson: bd-serve-03
+  tags:
+  - 管道
+- id: regression-test
+  term: 回歸測試
+  en: regression test
+  aliases:
+  - 迴歸測試
+  cn: 回歸測試
+  tw: 回歸測試
+  short: 驗證新改動是否破壞已知且仍需維持的行為。
+  lesson: fd-lab-05
+  tags:
+  - 基礎
+- id: rejection-policy
+  term: 拒絕策略
+  en: rejection policy
+  aliases: []
+  cn: 拒絕策略
+  tw: 拒絕策略
+  short: 執行緒池無法接收新工作時採取的行為。
+  lesson: fd-java-10
+  tags:
+  - Java
+- id: relative-path
+  term: 相對路徑
+  en: relative path
+  aliases: []
+  cn: 相對路徑
+  tw: 相對路徑
+  short: 從已知起點描述的檔案或資料夾位置。
+  lesson: fd-desk-05
+  tags:
+  - 基礎
+- id: remote
+  term: 遠端
+  en: remote
+  aliases: []
+  cn: 遠程
+  tw: 遠端
+  short: 本機儲存庫記錄的另一個儲存庫連線名稱。
+  lesson: fd-git-07
+  tags:
+  - Git
+- id: repartition
+  term: 重分區
+  en: repartition
+  aliases: []
+  cn: 重分區
+  tw: 重分區
+  short: 以交換數據的方式增減或重新分派運算分區。
+  lesson: bd-spark-10
+  tags:
+  - Spark
+- id: replay
+  term: 重播
+  en: replay
+  aliases: []
+  cn: 重放
+  tw: 重播
+  short: 從可核對的位置重新讀取並執行轉換。
+  lesson: bd-serve-07
+  tags:
+  - 管道
+- id: replica
+  term: 複本
+  en: replica
+  aliases: []
+  cn: 副本
+  tw: 複本
+  short: 同一份數據在另一位置的拷貝。
+  lesson: bd-distrib-02
+  tags:
+  - 管道
+- id: replication
+  term: 複製
+  en: Replication
+  aliases: []
+  cn: 複製
+  tw: 複寫
+  short: 保存多份數據以容忍部分節點故障，仍需定義一致性邊界。
+  lesson: bd-distrib-02
+  tags:
+  - 分散式
+- id: replication-factor
+  term: 複本因子
+  en: replication factor
+  aliases: []
+  cn: 副本因子
+  tw: 複本數
+  short: 一份數據預期維持的總份數。
+  lesson: bd-distrib-02
+  tags:
+  - 管道
+- id: repository
+  term: 儲存庫
+  en: repository
+  aliases: []
+  cn: 倉庫
+  tw: 儲存庫
+  short: 保存檔案歷史與版本管理設定的位置。
+  lesson: fd-git-01
+  tags:
+  - Git
+- id: repository-root
+  term: 儲存庫根目錄
+  en: repository root
+  aliases: []
+  cn: 倉庫根目錄
+  tw: 儲存庫根目錄
+  short: 目前被這個儲存庫管理的最上層目錄。
+  lesson: fd-git-01
+  tags:
+  - Git
+- id: reproducibility
+  term: 可重現性
+  en: reproducibility
+  aliases: []
+  cn: 可復現性
+  tw: 可重現性
+  short: 依已說明的輸入、環境與步驟重新得到可比對的結果。
+  lesson: fd-lab-06
+  tags:
+  - 基礎
+- id: resource-inventory
+  term: 資源清冊
+  en: resource inventory
+  aliases: []
+  cn: 資源清單
+  tw: 資源清冊
+  short: 記錄資源位置、用途、擁有者與處置狀態。
+  lesson: cl-cloud-06
+  tags:
+  - 雲端
+- id: resource-manager
+  term: 資源管理器
+  en: Resource manager
+  aliases: []
+  cn: 資源管理器
+  tw: 資源管理器
+  short: 在 YARN 中仲裁應用可獲得的叢集資源。
+  lesson: bd-distrib-04
+  tags:
+  - 分散式
+- id: resume-from-checkpoint
+  term: 斷點續傳
+  en: resume from checkpoint
+  aliases: []
+  cn: 斷點續傳
+  tw: 從檢查點恢復
+  short: 從已確認的位置恢復讀寫，無須重做全部輸入。
+  lesson: bd-ingest-08
+  tags:
+  - 採集
+- id: retention
+  term: 留存率
+  en: Retention
+  aliases: []
+  cn: 留存率
+  tw: 留存率
+  short: 某一固定起始群體，到指定後續時間仍有目標行為的比例。
+  lesson: sq-pattern-03
+  tags:
+  - 分析
+- id: retention-matrix
+  term: 留存矩陣
+  en: retention matrix
+  aliases: []
+  cn: 留存矩陣
+  tw: 留存矩陣
+  short: 依同期群與日齡或月齡分格的留存表，分母取各同期群初始人數。
+  lesson: sq-time-03
+  tags:
+  - SQL
+- id: retention-policy
+  term: 保留策略
+  en: Retention policy
+  aliases: []
+  cn: 保留策略
+  tw: 保留策略
+  short: 依時間或容量決定事件日誌存留多久，不等同消費完就刪。
+  lesson: bd-kafka-06
+  tags:
+  - 實時
+- id: retrieval-augmented-generation
+  term: 檢索增強生成
+  en: Retrieval-augmented generation
+  aliases:
+  - RAG
+  cn: 檢索增強生成
+  tw: 檢索增強生成
+  short: 先找出可用且有權閱讀的來源片段，再供模型產生有依據的回答。
+  lesson: cl-ai-01
+  tags:
+  - AI
+- id: retrieval-practice
+  term: 回想練習
+  en: Retrieval practice
+  aliases: []
+  cn: 提取練習
+  tw: 提取練習
+  short: 不看答案先從記憶重建規則，再用回饋補上缺口。
+  lesson: fd-start-02
+  tags:
+  - 學習
+- id: retry
+  term: 重試
+  en: retry
+  aliases: []
+  cn: 重試
+  tw: 重試
+  short: 對同一請求或執行參數再嘗試一次。
+  lesson: bd-orch-03
+  tags:
+  - 排程
+- id: return-value
+  term: 回傳值
+  en: return value
+  aliases: []
+  cn: 返回值
+  tw: 回傳值
+  short: 函式交回呼叫處、可供下一步使用的值。
+  lesson: fd-python-10
+  tags:
+  - Python
+- id: reversible-experiment
+  term: 可逆試驗
+  en: reversible experiment
+  aliases: []
+  cn: 可逆實驗
+  tw: 可回復試驗
+  short: 在可還原範圍內比較方案，不讓正式環境承擔試錯。
+  lesson: cr-behavior-02
+  tags:
+  - 面試
+- id: revert
+  term: 反向提交
+  en: revert
+  aliases: []
+  cn: 還原提交
+  tw: 反向提交
+  short: 用一筆新提交抵銷目標提交的改動，保留既有歷史。
+  lesson: fd-git-08
+  tags:
+  - Git
+- id: right-outer-join
+  term: 右外連接
+  en: right outer join
+  aliases: []
+  cn: 右外連接
+  tw: 右外部聯結
+  short: 保留全部右列，無匹配時以缺值補左欄。
+  lesson: sq-join-03
+  tags:
+  - SQL
+- id: role-playing-dimension
+  term: 角色扮演維度
+  en: role-playing dimension
+  aliases: []
+  cn: 角色扮演維度
+  tw: 角色扮演維度
+  short: 同一套維度在事實中扮演不同角色，例如下單日與入帳日。
+  lesson: sq-model-06
+  tags:
+  - 數倉
+- id: rollback
+  term: 回滾
+  en: rollback
+  aliases:
+  - 回退
+  - 回復
+  cn: 回滾
+  tw: 回復上一版
+  short: 切回可用的程式、數據版本或已驗收的發布結果。
+  lesson: bd-orch-08
+  tags:
+  - 排程
+- id: root-node
+  term: 根節點
+  en: root node
+  aliases: []
+  cn: 根節點
+  tw: 根節點
+  short: 階層中沒有上級的節點；與有填上級但找不到的壞鍵不同。
+  lesson: sq-compose-08
+  tags:
+  - SQL
+- id: rounding
+  term: 捨入
+  en: rounding
+  aliases: []
+  cn: 舍入
+  tw: 捨入
+  short: 依指定規則把數值調到要求的精度，不等同截去小數。
+  lesson: sq-expr-08
+  tags:
+  - SQL
+- id: row
+  term: 列
+  en: Row
+  aliases:
+  - 紀錄
+  - 記錄
+  - 一筆
+  cn: 行
+  tw: 資料列
+  short: 一筆橫向紀錄。大陸教材常稱「行」或「記錄」，其中「列」通常表示欄。
+  lesson: sq-read-01
+  tags:
+  - SQL
+- id: row-group
+  term: 列群組
+  en: Row group
+  aliases:
+  - 列組
+  - 行群
+  cn: 行組
+  tw: 列群組
+  short: Parquet 檔案中一段連續的列；每個群組包含各欄的欄位區塊。
+  lesson: sq-db-09
+  tags:
+  - SQL
+- id: row-kind
+  term: 列類型
+  en: row kind
+  aliases: []
+  cn: 行類型
+  tw: 列類型
+  short: 指出一筆變更是新增、更新前後或刪除。
+  lesson: bd-lake-07
+  tags:
+  - 湖倉
+- id: row-limit
+  term: 列數上限
+  en: row limit
+  aliases: []
+  cn: 行數限制
+  tw: 列數上限
+  short: 限制最多回傳幾列；不指定排序或抽樣規則。
+  lesson: sq-read-06
+  tags:
+  - SQL
+- id: row-number
+  term: 列序號
+  en: row number
+  aliases: []
+  cn: 行號
+  tw: 列序號
+  short: ROW_NUMBER 給同一窗口分區內每列不同、從 1 起算的編號。
+  lesson: sq-window-03
+  tags:
+  - SQL
+- id: row-oriented-storage
+  term: 按列儲存
+  en: Row-oriented storage
+  aliases:
+  - 行式存儲
+  cn: 行式儲存
+  tw: 逐筆儲存
+  short: 把同一筆紀錄的各欄存放在一起。
+  lesson: sq-db-09
+  tags:
+  - SQL
+- id: rows-frame
+  term: 列數框
+  en: ROWS frame
+  aliases: []
+  cn: 行數窗口框
+  tw: 列數視窗框架
+  short: 依排序後的列位置決定窗口框邊界，需明定平手先後。
+  lesson: sq-window-07
+  tags:
+  - SQL
+- id: run-length-encoding
+  term: 遊程編碼
+  en: run-length encoding
+  aliases: []
+  cn: 遊程編碼
+  tw: 游程編碼
+  short: 以數值和重複次數表示一段相同值。
+  lesson: bd-hive-05
+  tags:
+  - Hive
+- id: running-total
+  term: 累計值
+  en: Running total
+  aliases: []
+  cn: 累計值
+  tw: 累積總和
+  short: 從指定起點到目前位置的累加結果。
+  lesson: sq-window-06
+  tags:
+  - SQL
+- id: salting
+  term: 加鹽
+  en: key salting
+  aliases:
+  - salting
+  cn: 加鹽
+  tw: 加鹽
+  short: 用子鍵攤開熱門原鍵，再依原粒度合併。
+  lesson: bd-bench-05
+  tags:
+  - 管道
+- id: satellite
+  term: 衛星表
+  en: Satellite
+  aliases: []
+  cn: 衛星表
+  tw: 衛星表
+  short: Data Vault 中記錄 Hub 或 Link 描述歷史的表。
+  lesson: sq-model-11
+  tags:
+  - 數倉
+- id: savepoint
+  term: 儲存點
+  en: Savepoint
+  aliases: []
+  cn: 儲存點
+  tw: 保存點
+  short: 主動建立並維護的狀態快照，常用於停止、遷移或升級作業。
+  lesson: bd-flink-07
+  tags:
+  - 實時
+- id: scalar-subquery
+  term: 標量子查詢
+  en: scalar subquery
+  aliases: []
+  cn: 標量子查詢
+  tw: 純量子查詢
+  short: 作為單一值使用的子查詢，只可回一欄、至多一列。
+  lesson: sq-compose-01
+  tags:
+  - SQL
+- id: scan
+  term: 掃描
+  en: scan
+  aliases: []
+  cn: 掃描
+  tw: 掃描
+  short: 以引擎選定的路徑讀取數據並送入後續運算。
+  lesson: sq-db-07
+  tags:
+  - SQL
+- id: scd-type-1
+  term: SCD 一型
+  en: SCD Type 1
+  aliases:
+  - 第一型
+  cn: 一型緩慢變化維
+  tw: 第一型緩慢變化維度
+  short: 改變時覆寫舊屬性，只保留目前值。
+  lesson: sq-model-08
+  tags:
+  - 數倉
+- id: scd-type-2
+  term: SCD 二型
+  en: SCD Type 2
+  aliases:
+  - 第二型
+  cn: 二型緩慢變化維
+  tw: 第二型緩慢變化維度
+  short: 屬性改變時增建新版本，保留有效區間；拉鏈表是常見實作。
+  lesson: sq-model-08
+  tags:
+  - 數倉
+- id: scheduler
+  term: 排程器
+  en: scheduler
+  aliases:
+  - 排程服務
+  cn: 調度器
+  tw: 排程器
+  short: 依依賴與資源狀態決定何時派發任務的元件。
+  lesson: bd-orch-05
+  tags:
+  - 排程
+- id: schema
+  term: 結構描述
+  en: Schema
+  aliases: []
+  cn: 模式
+  tw: 綱要
+  short: 描述數據表、欄位和類型等結構的約定。
+  lesson: sq-read-01
+  tags:
+  - SQL
+- id: schema-evolution
+  term: 結構演進
+  en: Schema evolution
+  aliases: []
+  cn: 結構演進
+  tw: 綱要演化
+  short: 在相容規則下改變表結構，使新舊數據仍可讀取。
+  lesson: bd-lake-03
+  tags:
+  - 湖倉
+- id: scope
+  term: 作用域
+  en: scope
+  aliases: []
+  cn: 作用域
+  tw: 作用範圍
+  short: 決定程式在哪裡能查到某個名稱的規則。
+  lesson: fd-data-06
+  tags:
+  - 基礎
+- id: script
+  term: 腳本
+  en: script
+  aliases: []
+  cn: 腳本
+  tw: 指令碼
+  short: 存到檔案、交由解譯器執行的命令或程式。
+  lesson: fd-linux-05
+  tags:
+  - 基礎
+- id: second-normal-form
+  term: 第二正規形
+  en: second normal form
+  aliases: []
+  cn: 第二範式
+  tw: 第二正規形
+  short: 符合第一正規形，非鍵屬性不只依賴候選鍵一部分。
+  lesson: sq-db-02
+  tags:
+  - SQL
+- id: selectivity
+  term: 選擇性
+  en: selectivity
+  aliases: []
+  cn: 選擇性
+  tw: 選擇性
+  short: 描述條件限縮候選列的程度；可報匹配列占比。
+  lesson: sq-db-06
+  tags:
+  - SQL
+- id: selector
+  term: 選擇器
+  en: selector
+  aliases: []
+  cn: 選擇器
+  tw: 選擇器
+  short: 用名稱、條件和依賴方向選出本次須處理的節點。
+  lesson: cl-dbt-07
+  tags:
+  - dbt
+- id: self-join
+  term: 自我連接
+  en: self join
+  aliases: []
+  cn: 自連接
+  tw: 自我聯結
+  short: 用不同別名引用同一張表，在不同角色間配對。
+  lesson: sq-join-05
+  tags:
+  - SQL
+- id: semantic-layer
+  term: 語義層
+  en: Semantic layer
+  aliases: []
+  cn: 語義層
+  tw: 語意層
+  short: 集中定義維度與指標的業務含義，讓多個消費端使用同一口徑。
+  lesson: cl-contract-04
+  tags:
+  - 分析工程
+- id: semi-additive-measure
+  term: 半可加總度量
+  en: semi-additive measure
+  aliases: []
+  cn: 半可加性度量
+  tw: 半可加總量值
+  short: 只可沿部分維度相加，例如庫存可跨店不跨時點。
+  lesson: sq-model-03
+  tags:
+  - 數倉
+- id: semi-join
+  term: 半連接
+  en: Semi join
+  aliases: []
+  cn: 半連接
+  tw: 半聯結
+  short: 只傳回左側至少能在右側找到一筆匹配的列，不複製右側明細。
+  lesson: sq-join-06
+  tags:
+  - SQL
+- id: sequence-index
+  term: 序列索引
+  en: sequence index
+  aliases: []
+  cn: 序列索引
+  tw: 序列索引
+  short: 用整數表示序列中一個元素的位置。
+  lesson: fd-python-08
+  tags:
+  - Python
+- id: sequence-slice
+  term: 序列切片
+  en: Sequence slice
+  aliases:
+  - slice
+  cn: 切片
+  tw: 切片
+  short: 由起點、排除的終點與步長取出序列的一部分。
+  lesson: fd-data-01
+  tags:
+  - 基礎
+- id: sequential-read
+  term: 順序讀取
+  en: sequential read
+  aliases: []
+  cn: 順序讀取
+  tw: 循序讀取
+  short: 沿接續位置向前讀，而不是反覆跳到不相鄰的位置。
+  lesson: fd-system-03
+  tags:
+  - 基礎
+- id: serialization
+  term: 序列化
+  en: serialization
+  aliases: []
+  cn: 序列化
+  tw: 序列化
+  short: 把程式中的值轉成便於儲存或交換的表示法。
+  lesson: fd-io-02
+  tags:
+  - 基礎
+- id: serialization-anomaly
+  term: 序列化異常
+  en: serialization anomaly
+  aliases: []
+  cn: 序列化異常
+  tw: 序列化異常
+  short: 並發結果無法解釋為這些交易以任一順序逐一執行。
+  lesson: sq-db-05
+  tags:
+  - SQL
+- id: serializer
+  term: 序列化器
+  en: serializer
+  aliases: []
+  cn: 序列化器
+  tw: 序列化器
+  short: 將狀態轉成可保存、讀回的位元組。
+  lesson: bd-flink-07
+  tags:
+  - Flink
+- id: service
+  term: 服務
+  en: service
+  aliases: []
+  cn: 服務
+  tw: 服務
+  short: Compose 以映像與參數定義的一種工作，由容器實例執行。
+  lesson: fd-docker-05
+  tags:
+  - Docker
+- id: service-level-agreement
+  term: 服務水準協議
+  en: Service level agreement
+  aliases:
+  - SLA
+  cn: 服務水準協議
+  tw: 服務水準協議
+  short: 提供者與使用者約定的交付標準，例如最晚可用時間。
+  lesson: bd-orch-07
+  tags:
+  - 排程
+- id: service-level-indicator
+  term: 服務水準指標
+  en: service level indicator
+  aliases: []
+  cn: 服務級別指標
+  tw: 服務水準指標
+  short: 按指定邊界測得的服務數值。
+  lesson: cr-design-01
+  tags:
+  - 面試
+- id: service-level-objective
+  term: 服務水準目標
+  en: service level objective
+  aliases: []
+  cn: 服務級別目標
+  tw: 服務水準目標
+  short: 對指標預先約定的門檻與觀察窗口。
+  lesson: cr-design-01
+  tags:
+  - 面試
+- id: serving-layer
+  term: 服務層
+  en: serving layer
+  aliases: []
+  cn: 服務層
+  tw: 服務層
+  short: 向使用者提供已匯整的查詢結果。
+  lesson: bd-serve-06
+  tags:
+  - 管道
+- id: session-variable
+  term: 工作階段變數
+  en: session variable
+  aliases: []
+  cn: 會話變數
+  tw: 工作階段變數
+  short: 保存在當前連線的暫時值，並非表中紀錄。
+  lesson: sq-db-04
+  tags:
+  - SQL
+- id: sessionization
+  term: 會話切分
+  en: Sessionization
+  aliases: []
+  cn: 會話劃分
+  tw: 工作階段切分
+  short: 依切分規則把事件流劃成一次次連續造訪。
+  lesson: sq-pattern-09
+  tags:
+  - 分析
+- id: set
+  term: 集合
+  en: set
+  aliases: []
+  cn: 集合
+  tw: 集合
+  short: 保存彼此不同的成員，不保證來源順序。
+  lesson: fd-data-02
+  tags:
+  - 基礎
+- id: set-difference
+  term: 差集
+  en: set difference
+  aliases:
+  - difference
+  cn: 差集
+  tw: 差集
+  short: 保留左側有且右側沒有的整列；交換左右會改變比較方向。
+  lesson: sq-compose-07
+  tags:
+  - SQL
+- id: shell
+  term: 殼層
+  en: shell
+  aliases:
+  - 命令解譯器
+  - 命令解釋器
+  cn: Shell
+  tw: 殼層
+  short: 讀取指令、展開參數並啟動程式的工具。
+  lesson: fd-linux-04
+  tags:
+  - 基礎
+- id: shell-pipeline
+  term: 管道
+  en: pipeline
+  aliases: []
+  cn: 管道
+  tw: 管線
+  short: 把上一個命令的標準輸出接到下一個命令的標準輸入。
+  lesson: fd-linux-03
+  tags:
+  - 基礎
+- id: shuffle
+  term: 重分布
+  en: Shuffle
+  aliases: []
+  cn: 重分布
+  tw: 洗牌
+  short: 為了依鍵計算，把原本在不同分區的數據重新交換分組。
+  lesson: bd-distrib-06
+  tags:
+  - 分散式
+- id: shuffle-read-bytes
+  term: Shuffle 讀量
+  en: shuffle read bytes
+  aliases: []
+  cn: Shuffle 讀取字節數
+  tw: Shuffle 讀取位元組數
+  short: 下游任務讀取重分布中間結果的量。
+  lesson: bd-bench-04
+  tags:
+  - 管道
+- id: side-effect
+  term: 副作用
+  en: side effect
+  aliases: []
+  cn: 副作用
+  tw: 副作用
+  short: 除了回傳值以外，對外部狀態造成的改變。
+  lesson: fd-java-09
+  tags:
+  - Java
+- id: side-output
+  term: 側輸出
+  en: side output
+  aliases: []
+  cn: 側輸出
+  tw: 側輸出
+  short: 主結果以外的獨立輸出路徑。
+  lesson: bd-flink-03
+  tags:
+  - Flink
+- id: signal
+  term: 訊號
+  en: signal
+  aliases: []
+  cn: 信號
+  tw: 訊號
+  short: 系統或其他行程發送給行程的事件通知。
+  lesson: fd-linux-06
+  tags:
+  - 基礎
+- id: sink-connector
+  term: 目的連接器
+  en: sink connector
+  aliases: []
+  cn: 下沉連接器
+  tw: 目的端連接器
+  short: 將 Kafka 數據交付到外部系統的連接器。
+  lesson: bd-kafka-08
+  tags:
+  - Kafka
+- id: situation-task-action-result
+  term: STAR
+  en: Situation, Task, Action, Result
+  aliases: []
+  cn: 情境、任務、行動、結果
+  tw: 情境、任務、行動、結果
+  short: 以四個位置整理可追問的行動經驗。
+  lesson: cr-behavior-01
+  tags:
+  - 面試
+- id: sliding-window
+  term: 滑動窗口
+  en: Sliding window
+  aliases: []
+  cn: 滑動窗口
+  tw: 滑動視窗
+  short: 按步長移動的窗口；步長小於寬度時同一事件可進多個窗口。
+  lesson: bd-flink-04
+  tags:
+  - 實時
+- id: slowly-changing-dimension
+  term: 緩慢變化維度
+  en: Slowly changing dimension
+  aliases:
+  - SCD
+  cn: 緩慢變化維度
+  tw: 緩慢變動維度
+  short: 對描述屬性的歷史變動，明訂覆寫或新增版本的策略。
+  lesson: sq-model-08
+  tags:
+  - 建模
+- id: small-cell-suppression
+  term: 小群抑制
+  en: small-cell suppression
+  aliases: []
+  cn: 小群組抑制
+  tw: 小群組抑制
+  short: 不公布低於門檻的群組數值，並另查能否間接推回。
+  lesson: sq-metrics-09
+  tags:
+  - 數倉
+- id: small-files
+  term: 小檔案
+  en: small files
+  aliases: []
+  cn: 小文件
+  tw: 小檔案
+  short: 內容很少，但每個都要付出列舉與開檔成本的檔案。
+  lesson: bd-hive-07
+  tags:
+  - Hive
+- id: snapshot
+  term: 快照
+  en: Snapshot
+  aliases: []
+  cn: 快照
+  tw: 快照
+  short: 某個提交時點所對應的完整表視圖，不必複製所有檔案。
+  lesson: bd-lake-02
+  tags:
+  - 湖倉
+- id: snowflake-credit
+  term: 扣點
+  en: credit (Snowflake)
+  aliases: []
+  cn: 信用點數
+  tw: 點數
+  short: Snowflake 用來計量部分服務消耗的單位；與抵用金分開。
+  lesson: cl-wh-03
+  tags:
+  - 雲端
+- id: snowflake-schema
+  term: 雪花模型
+  en: Snowflake schema
+  aliases: []
+  cn: 雪花模型
+  tw: 雪花綱要
+  short: 把維度進一步拆成相關表，減少重複但增加連接。
+  lesson: sq-model-05
+  tags:
+  - 建模
+- id: socket
+  term: 通訊端
+  en: socket
+  aliases: []
+  cn: 套接字
+  tw: 通訊端
+  short: 程式用來建立、接受或交換網路通訊的端點。
+  lesson: fd-system-05
+  tags:
+  - 基礎
+- id: sort-key
+  term: 排序鍵
+  en: Sort key
+  aliases: []
+  cn: 排序鍵
+  tw: 排序鍵
+  short: 排列列時依序比較的欄位或運算結果。
+  lesson: sq-read-03
+  tags:
+  - SQL
+- id: sort-merge-join
+  term: 排序合併連接
+  en: sort-merge join
+  aliases: []
+  cn: 排序合併連接
+  tw: 排序合併連接
+  short: 對兩份相容分佈與排序的數據按鍵前進配對。
+  lesson: bd-spark-08
+  tags:
+  - Spark
+- id: sorting
+  term: 排序
+  en: sorting
+  aliases: []
+  cn: 排序
+  tw: 排序
+  short: 依指定比較鍵排列元素。
+  lesson: fd-algo-06
+  tags:
+  - 基礎
+- id: source-connector
+  term: 來源連接器
+  en: source connector
+  aliases: []
+  cn: 源連接器
+  tw: 來源連接器
+  short: 將外部數據送進 Kafka 的連接器。
+  lesson: bd-kafka-08
+  tags:
+  - Kafka
+- id: source-id
+  term: 來源識別碼
+  en: source ID
+  aliases: []
+  cn: 來源標識
+  tw: 來源識別碼
+  short: 跨改名及內容版本仍能辨認同一來源的鍵。
+  lesson: cl-ai-01
+  tags:
+  - 雲端
+- id: source-system
+  term: 來源系統
+  en: Source system
+  aliases: []
+  cn: 來源系統
+  tw: 來源系統
+  short: 最先記下業務行為、可供後續取得紀錄的系統。
+  lesson: fd-start-01
+  tags:
+  - 入門
+- id: space-complexity
+  term: 空間複雜度
+  en: space complexity
+  aliases: []
+  cn: 空間複雜度
+  tw: 空間複雜度
+  short: 輸入變大時所需記憶體的成長；可另計額外空間。
+  lesson: fd-algo-01
+  tags:
+  - 基礎
+- id: spaced-repetition
+  term: 間隔複習
+  en: Spaced repetition
+  aliases: []
+  cn: 間隔複習
+  tw: 間隔複習
+  short: 把多次回想分散在不同日子，而非在一次閱讀中反覆看同一段。
+  lesson: fd-start-02
+  tags:
+  - 學習
+- id: spark-session
+  term: 工作階段
+  en: SparkSession
+  aliases: []
+  cn: Spark 會話
+  tw: Spark 工作階段
+  short: Spark 建立表格、讀檔及送出 SQL 查詢的入口。
+  lesson: bd-spark-01
+  tags:
+  - Spark
+- id: sparse-index
+  term: 稀疏索引
+  en: sparse index
+  aliases: []
+  cn: 稀疏索引
+  tw: 稀疏索引
+  short: 按區塊設標記，而非每列都有索引項目。
+  lesson: bd-serve-01
+  tags:
+  - 管道
+- id: speed-layer
+  term: 實時層
+  en: speed layer
+  aliases: []
+  cn: 實時層
+  tw: 即時層
+  short: 輸出最新但可能尚待結算的數據。
+  lesson: bd-serve-06
+  tags:
+  - 管道
+- id: spill
+  term: 溢寫
+  en: spill
+  aliases:
+  - 磁碟溢寫
+  cn: 溢寫
+  tw: 溢寫
+  short: 中間數據緩衝不足時暫寫到儲存。
+  lesson: bd-bench-04
+  tags:
+  - 管道
+- id: sql-dialect
+  term: SQL 方言
+  en: SQL dialect
+  aliases: []
+  cn: SQL 方言
+  tw: SQL 方言
+  short: 特定引擎採用的 SQL 語法與行為。
+  lesson: sq-db-08
+  tags:
+  - SQL
+- id: sql-like-pattern
+  term: LIKE 比對模式
+  en: LIKE pattern
+  aliases:
+  - pattern
+  cn: 匹配模式
+  tw: 比對模式
+  short: 用字面文字與萬用字元描述要比對的形式。
+  lesson: sq-read-09
+  tags:
+  - SQL
+- id: stable-sort
+  term: 排序穩定性
+  en: sorting stability
+  aliases:
+  - 穩定排序
+  - stable sort
+  cn: 排序穩定性
+  tw: 排序穩定性
+  short: 排序鍵相同的元素保持原相對次序。
+  lesson: fd-algo-06
+  tags:
+  - 基礎
+- id: stack
+  term: 堆疊
+  en: stack
+  aliases: []
+  cn: 棧
+  tw: 堆疊
+  short: 從同一端加入和取出，後進先出。
+  lesson: fd-algo-05
+  tags:
+  - 基礎
+- id: stack-frame
+  term: 框架
+  en: frame
+  aliases:
+  - 呼叫框架
+  - stack frame
+  cn: 棧幀
+  tw: 堆疊框架
+  short: 保存單次方法呼叫的區域變數與運算資訊。
+  lesson: cr-behavior-01
+  tags:
+  - 面試
+- id: stage
+  term: 運算階段
+  en: Stage
+  aliases: []
+  cn: 運算階段
+  tw: 階段
+  short: Spark 將可連續執行的一組任務劃在同段，通常由交換邊界拆分。
+  lesson: bd-spark-05
+  tags:
+  - 批次
+- id: staging-model
+  term: 暫存模型
+  en: staging model
+  aliases: []
+  cn: 暫存模型
+  tw: 暫存模型
+  short: 將來源欄位及值整理成下游可穩定重用的模型。
+  lesson: cl-dbt-01
+  tags:
+  - dbt
+- id: standalone
+  term: 單機模式
+  en: standalone
+  aliases: []
+  cn: 單機模式
+  tw: 獨立運作模式
+  short: 把多個服務角色放在同一程序或單機以便實驗。
+  lesson: bd-orch-06
+  tags:
+  - 排程
+- id: standard-error-stderr
+  term: 標準錯誤
+  en: standard error (stderr)
+  aliases: []
+  cn: 標準錯誤
+  tw: 標準錯誤
+  short: 獨立於正常結果的診斷輸出通道。
+  lesson: fd-linux-03
+  tags:
+  - 基礎
+- id: standard-input-stdin
+  term: 標準輸入
+  en: standard input (stdin)
+  aliases: []
+  cn: 標準輸入
+  tw: 標準輸入
+  short: 程式慣用的預設輸入通道。
+  lesson: fd-linux-03
+  tags:
+  - 基礎
+- id: standard-output-stdout
+  term: 標準輸出
+  en: standard output (stdout)
+  aliases: []
+  cn: 標準輸出
+  tw: 標準輸出
+  short: 程式慣用的正常結果輸出通道。
+  lesson: fd-linux-03
+  tags:
+  - 基礎
+- id: star-schema
+  term: 星型模型
+  en: Star schema
+  aliases: []
+  cn: 星型模型
+  tw: 星狀綱要
+  short: 以事實表為中心連接多張維度表的分析結構。
+  lesson: sq-model-05
+  tags:
+  - 建模
+- id: state-time-to-live
+  term: 狀態期限
+  en: state time-to-live
+  aliases: []
+  cn: 狀態生存時間
+  tw: 狀態存留期限
+  short: 狀態按條件與時間過期的規則。
+  lesson: bd-flink-05
+  tags:
+  - Flink
+- id: state-transition
+  term: 狀態轉移
+  en: state transition
+  aliases: []
+  cn: 狀態轉移
+  tw: 狀態轉移
+  short: 由較小或較早的狀態推得目前答案的規則。
+  lesson: fd-algo-10
+  tags:
+  - 基礎
+- id: stop-the-world-pause
+  term: 停止應用執行緒的暫停
+  en: stop-the-world pause
+  aliases: []
+  cn: 全局停頓
+  tw: 停止應用執行緒的暫停
+  short: 為完成部分 JVM 作業而暫時停止應用執行緒。
+  lesson: fd-system-07
+  tags:
+  - 基礎
+- id: storage-class
+  term: 儲存類別
+  en: storage class
+  aliases: []
+  cn: 存儲類型
+  tw: 儲存類別
+  short: 一組儲存、取回及計價條件。
+  lesson: cl-cloud-04
+  tags:
+  - 雲端
+- id: storage-level
+  term: 儲存等級
+  en: storage level
+  aliases: []
+  cn: 存儲級別
+  tw: 儲存等級
+  short: 決定快取分區放在記憶體、磁碟等位置的設定。
+  lesson: bd-spark-07
+  tags:
+  - Spark
+- id: streaming-input
+  term: 串流讀取
+  en: streaming input
+  aliases: []
+  cn: 流式讀取
+  tw: 串流讀取
+  short: 逐批或逐筆取得輸入，不必預先載入整份數據。
+  lesson: cr-code-04
+  tags:
+  - 面試
+- id: string
+  term: 字串
+  en: string
+  aliases: []
+  cn: 字符串
+  tw: 字串
+  short: 依序排列的文字字元。
+  lesson: fd-python-02
+  tags:
+  - Python
+- id: string-literal
+  term: 字串常值
+  en: String literal
+  aliases: []
+  cn: 字串常值
+  tw: 字串字面值
+  short: 直接寫在查詢中的文字值，不是表名或欄名。
+  lesson: sq-read-02
+  tags:
+  - SQL
+- id: stripe
+  term: 條帶
+  en: stripe
+  aliases: []
+  cn: 條帶
+  tw: 條帶
+  short: ORC 中一段獨立組織的欄式數據與索引。
+  lesson: bd-hive-04
+  tags:
+  - Hive
+- id: subprocess
+  term: 子程序
+  en: subprocess
+  aliases: []
+  cn: 子進程
+  tw: 子行程
+  short: 從目前執行中的程序另行啟動的程序。
+  lesson: fd-tools-08
+  tags:
+  - 基礎
+- id: subquery
+  term: 子查詢
+  en: Subquery
+  aliases: []
+  cn: 子查詢
+  tw: 子查詢
+  short: 放在另一個查詢中的查詢，可以傳回一個值、一列或多列。
+  lesson: sq-compose-01
+  tags:
+  - SQL
+- id: surrogate-key
+  term: 代理鍵
+  en: Surrogate key
+  aliases: []
+  cn: 代理鍵
+  tw: 替代鍵
+  short: 由系統賦予、不依賴業務含義的識別鍵。
+  lesson: sq-model-04
+  tags:
+  - 建模
+- id: swap
+  term: 交換空間
+  en: swap
+  aliases: []
+  cn: 交換空間
+  tw: 交換空間
+  short: 作業系統用來保存部分從實體記憶體換出的頁面。
+  lesson: fd-system-02
+  tags:
+  - 基礎
+- id: sweep-line
+  term: 掃描線
+  en: sweep line
+  aliases: []
+  cn: 掃描線
+  tw: 掃描線
+  short: 將區間拆成端點，沿順序累計變動，以求同時有效的數量。
+  lesson: sq-pattern-06
+  tags:
+  - SQL
+- id: table
+  term: 數據表
+  en: Table
+  aliases: []
+  cn: 數據表
+  tw: 資料表
+  short: 有欄位定義的數據集合；每列的業務含義應先講清楚。
+  lesson: sq-read-01
+  tags:
+  - SQL
+- id: table-alias
+  term: 表別名
+  en: table alias
+  aliases: []
+  cn: 表別名
+  tw: 表格別名
+  short: 在同一查詢中替數據表或中間結果取的短名，便於區分欄位來源。
+  lesson: sq-join-01
+  tags:
+  - SQL
+- id: table-format
+  term: 表格式
+  en: Table format
+  aliases: []
+  cn: 表格式
+  tw: 資料表格式
+  short: 定義檔案如何組成有版本的表；不同於單一檔案的編碼。
+  lesson: bd-lake-01
+  tags:
+  - 湖倉
+- id: tail-latency
+  term: 尾端延遲
+  en: tail latency
+  aliases: []
+  cn: 尾延遲
+  tw: 尾端延遲
+  short: 描述少數最慢請求的延遲分布。
+  lesson: bd-serve-08
+  tags:
+  - 管道
+- id: task
+  term: 任務
+  en: Task
+  aliases: []
+  cn: 任務
+  tw: 工作單元
+  short: 某階段中處理一個分區的最小執行單位。
+  lesson: bd-spark-06
+  tags:
+  - 批次
+- id: task-instance
+  term: 任務實例
+  en: task instance
+  aliases: []
+  cn: 任務實例
+  tw: 任務實例
+  short: 特定工作流執行中的一個任務，帶有自己的狀態。
+  lesson: bd-orch-01
+  tags:
+  - 排程
+- id: task-run
+  term: 任務執行
+  en: Task run
+  aliases:
+  - run
+  cn: 運行
+  tw: 執行
+  short: 任務的一次實際嘗試，可追查時間、狀態與數據版本。
+  lesson: bd-orch-02
+  tags:
+  - SQL
+- id: taskflow-api
+  term: TaskFlow
+  en: TaskFlow API
+  aliases: []
+  cn: TaskFlow API
+  tw: TaskFlow API
+  short: Airflow 用 Python 裝飾器定義任務與依賴的介面。
+  lesson: bd-orch-05
+  tags:
+  - 排程
+- id: temporary-credentials
+  term: 臨時憑證
+  en: temporary credentials
+  aliases: []
+  cn: 臨時憑證
+  tw: 臨時憑證
+  short: 僅在有限時段內可用的認證資訊。
+  lesson: cl-cloud-02
+  tags:
+  - 雲端
+- id: temporary-function
+  term: 暫時函式
+  en: temporary function
+  aliases: []
+  cn: 臨時函數
+  tw: 暫存函式
+  short: 只在建立它的 Hive 工作階段有效的函式名稱。
+  lesson: bd-jvm-02
+  tags:
+  - 管道
+- id: temporary-view
+  term: 暫存視圖
+  en: temporary view
+  aliases: []
+  cn: 臨時視圖
+  tw: 暫存視圖
+  short: 生命週期受限、用名稱指向查詢定義的物件。
+  lesson: bd-spark-04
+  tags:
+  - Spark
+- id: tenant
+  term: 租戶
+  en: tenant
+  aliases: []
+  cn: 租戶
+  tw: 租戶
+  short: 平台用來隔離身分、任務或資源的執行範圍。
+  lesson: bd-orch-06
+  tags:
+  - 排程
+- id: terminal
+  term: 終端機
+  en: terminal
+  aliases: []
+  cn: 終端
+  tw: 終端機
+  short: 接收指令輸入並顯示輸出的文字介面。
+  lesson: fd-desk-04
+  tags:
+  - 基礎
+- id: terminal-operation
+  term: 終端操作
+  en: terminal operation
+  aliases: []
+  cn: 終止操作
+  tw: 終端操作
+  short: 觸發串流計算並取結果或執行動作。
+  lesson: fd-java-09
+  tags:
+  - Java
+- id: text-editor
+  term: 文字編輯器
+  en: text editor
+  aliases: []
+  cn: 文本編輯器
+  tw: 文字編輯器
+  short: 開啟與改寫純文字檔案的工具。
+  lesson: fd-desk-03
+  tags:
+  - 基礎
+- id: thin-jar
+  term: 薄 JAR
+  en: thin JAR
+  aliases: []
+  cn: 瘦 JAR
+  tw: 薄 JAR
+  short: 只封裝程式本身，由環境另外提供執行依賴。
+  lesson: bd-jvm-02
+  tags:
+  - 管道
+- id: third-normal-form
+  term: 第三正規形
+  en: third normal form
+  aliases: []
+  cn: 第三範式
+  tw: 第三正規形
+  short: 在典型訂單模型中，移除非鍵屬性透過另一非鍵屬性對鍵的依賴。
+  lesson: sq-db-02
+  tags:
+  - SQL
+- id: thread
+  term: 執行緒
+  en: thread
+  aliases: []
+  cn: 線程
+  tw: 執行緒
+  short: 行程內可獨立排程的執行單位，共用該行程部分資源。
+  lesson: fd-system-01
+  tags:
+  - 基礎
+- id: thread-pool
+  term: 執行緒池
+  en: thread pool
+  aliases: []
+  cn: 線程池
+  tw: 執行緒池
+  short: 重用有限工作者、接收並分派任務。
+  lesson: fd-java-10
+  tags:
+  - Java
+- id: three-valued-logic
+  term: 三值邏輯
+  en: Three-valued logic
+  aliases: []
+  cn: 三值邏輯
+  tw: 三值邏輯
+  short: 條件可能傳回真、假或未知；一般比較遇到缺值通常是未知。
+  lesson: sq-read-04
+  tags:
+  - SQL
+- id: throughput
+  term: 吞吐
+  en: throughput
+  aliases: []
+  cn: 吞吐量
+  tw: 吞吐量
+  short: 單位時間能完成或傳輸的數量。
+  lesson: fd-system-04
+  tags:
+  - 基礎
+- id: tie-breaker
+  term: 平手規則
+  en: Tie breaker
+  aliases: []
+  cn: 平手規則
+  tw: 平手規則
+  short: 主要排序值相同時，進一步決定先後的規則。
+  lesson: sq-read-03
+  tags:
+  - SQL
+- id: time-complexity
+  term: 時間複雜度
+  en: time complexity
+  aliases: []
+  cn: 時間複雜度
+  tw: 時間複雜度
+  short: 輸入變大時，基本操作次數的成長關係。
+  lesson: fd-algo-01
+  tags:
+  - 基礎
+- id: time-to-first-byte-ttfb
+  term: 首位元組時間
+  en: time to first byte (TTFB)
+  aliases: []
+  cn: 首字節時間
+  tw: 首位元組時間
+  short: 從請求起點到開始收到回應第一個位元組的時間。
+  lesson: fd-system-06
+  tags:
+  - 基礎
+- id: time-travel
+  term: 時間旅行
+  en: Time travel
+  aliases: []
+  cn: 時間旅行
+  tw: 歷史版本查詢
+  short: 依版本或時間讀取先前快照，受保留與清理策略限制。
+  lesson: bd-lake-02
+  tags:
+  - 湖倉
+- id: time-zone
+  term: 時區
+  en: Time zone
+  aliases:
+  - 具名時區
+  cn: 時區
+  tw: 時區
+  short: 本地時鐘與瞬間的對應規則。渠成離線 DuckDB-WASM 不載入 ICU，練習用固定偏移，不代替會隨日期變動的時區。
+  lesson: sq-expr-07
+  tags:
+  - SQL
+- id: timebox
+  term: 時間盒
+  en: timebox
+  aliases: []
+  cn: 時間盒
+  tw: 時間盒
+  short: 為活動預留固定上限，先約定時間到要交付什麼。
+  lesson: cr-code-06
+  tags:
+  - 面試
+- id: timeline
+  term: 時間線
+  en: timeline
+  aliases: []
+  cn: 時間線
+  tw: 時間軸
+  short: Hudi 對表動作及其狀態的時間順序記錄。
+  lesson: bd-lake-05
+  tags:
+  - 湖倉
+- id: timestamp
+  term: 時間戳
+  en: Timestamp
+  aliases: []
+  cn: 時間戳
+  tw: 時間戳記
+  short: 記日期與時刻；辨認瞬間需看類型及來源時區約定。
+  lesson: sq-expr-07
+  tags:
+  - SQL
+- id: timetable
+  term: 排程規則
+  en: timetable
+  aliases: []
+  cn: 調度規則
+  tw: 排程規則
+  short: 定義何時啟動以及如何產生相應的數據區間。
+  lesson: bd-orch-02
+  tags:
+  - 排程
+- id: token
+  term: 詞元
+  en: token
+  aliases: []
+  cn: 詞元
+  tw: 詞元
+  short: 模型分解文字的單位，不一定是一字或一個詞。
+  lesson: cl-ai-02
+  tags:
+  - 雲端
+- id: tombstone
+  term: 刪除標記
+  en: Tombstone
+  aliases:
+  - 墓碑訊息
+  cn: 刪除標記
+  tw: 刪除標記
+  short: 表達某個鍵已刪除的紀錄；來源定義它是否是刪除事件、空值訊息或版本狀態。
+  lesson: bd-ingest-07
+  tags:
+  - 湖倉
+- id: top-k
+  term: 前 K 名
+  en: Top K
+  aliases: []
+  cn: 前 K 名
+  tw: 前 K 名
+  short: 按指定比較規則選出最前面的 K 筆。
+  lesson: fd-algo-07
+  tags:
+  - 基礎
+- id: top-n-per-group
+  term: 分組 Top N
+  en: Top N per group
+  aliases: []
+  cn: 分組 Top N
+  tw: 分組取前 N 名
+  short: 每組各自取前 N 筆、位置或不同值，須先約定平手規則。
+  lesson: sq-pattern-01
+  tags:
+  - SQL
+- id: topic
+  term: 主題
+  en: Topic
+  aliases: []
+  cn: 主題
+  tw: 主題
+  short: Kafka 中具名的事件日誌，可分成多個分區。
+  lesson: bd-kafka-01
+  tags:
+  - 實時
+- id: topological-sort
+  term: 拓撲排序
+  en: topological sort
+  aliases: []
+  cn: 拓撲排序
+  tw: 拓撲排序
+  short: 讓每條邊的來源都排在終點前的線性順序。
+  lesson: fd-algo-09
+  tags:
+  - 基礎
+- id: traceback
+  term: 錯誤堆疊
+  en: traceback
+  aliases: []
+  cn: 異常堆棧
+  tw: 錯誤堆疊
+  short: 從例外看見發生位置與相關的呼叫歷程。
+  lesson: fd-tools-05
+  tags:
+  - 基礎
+- id: trade-off
+  term: 取捨
+  en: trade-off
+  aliases: []
+  cn: 取捨
+  tw: 取捨
+  short: 在給定條件下為得到某項好處接受另一項代價。
+  lesson: cr-portfolio-04
+  tags:
+  - 面試
+- id: transaction
+  term: 交易
+  en: Transaction
+  aliases: []
+  cn: 事務
+  tw: 交易
+  short: 一組一起提交或一起撤銷的操作。
+  lesson: sq-db-04
+  tags:
+  - 數據庫
+- id: transaction-commit
+  term: 交易提交
+  en: Transaction commit
+  aliases:
+  - commit
+  cn: 提交
+  tw: 提交
+  short: 讓已完成的一組變更正式成為新版本。
+  lesson: cl-wh-06
+  tags:
+  - 雲端
+- id: transaction-fact-table
+  term: 交易事實表
+  en: transaction fact table
+  aliases: []
+  cn: 交易事實表
+  tw: 交易事實表
+  short: 每個業務交易事件有一列。
+  lesson: sq-model-07
+  tags:
+  - 數倉
+- id: transaction-log
+  term: 交易日誌
+  en: transaction log
+  aliases: []
+  cn: 事務日誌
+  tw: 交易日誌
+  short: 記下提交動作以供重建表狀態的日誌。
+  lesson: bd-lake-06
+  tags:
+  - 湖倉
+- id: transform
+  term: 轉換
+  en: transformation
+  aliases:
+  - transform
+  cn: 轉換
+  tw: 轉換
+  short: 從既有數據描述建立新計畫，不要求立刻取得結果。
+  lesson: bd-spark-03
+  tags:
+  - Spark
+- id: transmission-control-protocol-tcp
+  term: 傳輸控制協定
+  en: Transmission Control Protocol (TCP)
+  aliases: []
+  cn: 傳輸控制協議
+  tw: 傳輸控制協定
+  short: 提供有連線且有序的位元組流的傳輸協定。
+  lesson: fd-system-05
+  tags:
+  - 基礎
+- id: transport-layer-security-tls
+  term: 傳輸層安全性
+  en: Transport Layer Security (TLS)
+  aliases: []
+  cn: 傳輸層安全協議
+  tw: 傳輸層安全性
+  short: 以交握建立受驗證且受加密保護的通道。
+  lesson: fd-system-06
+  tags:
+  - 基礎
+- id: traversal
+  term: 走訪
+  en: traversal
+  aliases: []
+  cn: 遍歷
+  tw: 走訪
+  short: 按某種規則拜訪結構中的節點。
+  lesson: fd-algo-08
+  tags:
+  - 基礎
+- id: tree
+  term: 樹
+  en: tree
+  aliases: []
+  cn: 樹
+  tw: 樹
+  short: 以父子關係組成、從根到任一節點有唯一路徑的階層。
+  lesson: fd-algo-08
+  tags:
+  - 基礎
+- id: trust-policy
+  term: 信任政策
+  en: trust policy
+  aliases: []
+  cn: 信任策略
+  tw: 信任政策
+  short: 定義哪些主體依條件可擔任角色。
+  lesson: cl-cloud-02
+  tags:
+  - 雲端
+- id: try-with-resources
+  term: 自動關閉資源
+  en: try-with-resources
+  aliases: []
+  cn: 帶資源的 try
+  tw: 自動關閉資源的 try
+  short: 離開區塊時自動嘗試關閉所宣告的資源。
+  lesson: fd-java-06
+  tags:
+  - Java
+- id: tumbling-window
+  term: 滾動窗口
+  en: Tumbling window
+  aliases: []
+  cn: 滾動窗口
+  tw: 翻滾視窗
+  short: 固定長度且互不重疊的時間區間。
+  lesson: bd-flink-04
+  tags:
+  - 實時
+- id: tuple
+  term: 元組
+  en: tuple
+  aliases: []
+  cn: 元組
+  tw: 元組
+  short: 有順序、項目不能直接替換的 Python 容器。
+  lesson: fd-data-01
+  tags:
+  - 基礎
+- id: two-pointers
+  term: 雙指標
+  en: two pointers
+  aliases: []
+  cn: 雙指針
+  tw: 雙指標
+  short: 用兩個位置追蹤待處理範圍，依明確條件移動。
+  lesson: fd-algo-04
+  tags:
+  - 基礎
+- id: unaligned-checkpoint
+  term: 非對齊檢查點
+  en: unaligned checkpoint
+  aliases: []
+  cn: 非對齊檢查點
+  tw: 非對齊檢查點
+  short: 把在途數據一同保存、減少屏障對齊等待。
+  lesson: bd-flink-06
+  tags:
+  - Flink
+- id: unbounded-stream
+  term: 無界流
+  en: unbounded stream
+  aliases: []
+  cn: 無界流
+  tw: 無界串流
+  short: 持續有輸入且無自然終點。
+  lesson: bd-flink-01
+  tags:
+  - Flink
+- id: uniform-resource-locator
+  term: 網址
+  en: uniform resource locator
+  aliases:
+  - URL
+  cn: 統一資源定位符
+  tw: 網址
+  short: 指出如何與從何處存取資源的文字。
+  lesson: fd-io-03
+  tags:
+  - 基礎
+- id: union
+  term: 聯集
+  en: union
+  aliases: []
+  cn: 並集
+  tw: 聯集
+  short: 堆疊兩份查詢結果；普通 UNION 去除相同整列，UNION ALL 保留重複。
+  lesson: sq-compose-06
+  tags:
+  - SQL
+- id: unique-key
+  term: 唯一鍵
+  en: Unique Key
+  aliases: []
+  cn: 主鍵模型
+  tw: 唯一鍵
+  short: Doris 按相同鍵維護目前列的表模型。
+  lesson: bd-serve-02
+  tags:
+  - 管道
+- id: uniqueness
+  term: 唯一性
+  en: uniqueness
+  aliases: []
+  cn: 唯一性
+  tw: 唯一性
+  short: 指定的業務鍵在驗收範圍內不得重複。
+  lesson: bd-quality-01
+  tags:
+  - 數據質量
+- id: unit-test
+  term: 單元測試
+  en: unit test
+  aliases: []
+  cn: 單元測試
+  tw: 單元測試
+  short: 在隔離的小範圍檢查單個程式單元的規則。
+  lesson: fd-tools-06
+  tags:
+  - 基礎
+- id: unpacking
+  term: 拆包
+  en: unpacking
+  aliases: []
+  cn: 拆包
+  tw: 解包
+  short: 依序把一組值分配到多個變數。
+  lesson: fd-data-01
+  tags:
+  - 基礎
+- id: unstructured-data
+  term: 非結構化數據
+  en: unstructured data
+  aliases: []
+  cn: 非結構化數據
+  tw: 非結構化資料
+  short: 不以固定欄列表示的文字、圖像等內容。
+  lesson: cl-ai-01
+  tags:
+  - 雲端
+- id: untracked-file
+  term: 未追蹤檔
+  en: untracked file
+  aliases: []
+  cn: 未跟蹤文件
+  tw: 未追蹤檔案
+  short: 目前未加入 Git 索引的工作檔。
+  lesson: fd-git-01
+  tags:
+  - Git
+- id: update-anomaly
+  term: 更新異常
+  en: update anomaly
+  aliases: []
+  cn: 更新異常
+  tw: 更新異常
+  short: 同一事實有多份副本，只改部分而互相矛盾。
+  lesson: sq-db-02
+  tags:
+  - SQL
+- id: upsert
+  term: 衝突寫入
+  en: upsert
+  aliases:
+  - 更新或插入
+  - 更新插入
+  cn: 插入或更新
+  tw: 插入或更新
+  short: 先嘗試插入，符合指定衝突條件時改走更新規則。
+  lesson: sq-db-08
+  tags:
+  - SQL
+- id: upstream-branch
+  term: 上游分支
+  en: upstream branch
+  aliases: []
+  cn: 上游分支
+  tw: 上游分支
+  short: 本機分支設定為追蹤與比較的分支。
+  lesson: fd-git-07
+  tags:
+  - Git
+- id: user-defined-aggregate-function
+  term: 自訂聚合函式
+  en: user-defined aggregate function
+  aliases: []
+  cn: 自定義聚合函數
+  tw: 自訂聚合函式
+  short: 把輸入的一組列轉成單一聚合結果。
+  lesson: bd-hive-06
+  tags:
+  - Hive
+- id: user-defined-bridge-network
+  term: 自訂橋接網路
+  en: user-defined bridge network
+  aliases: []
+  cn: 自定義橋接網絡
+  tw: 自訂橋接網路
+  short: 將同主機的指定容器接在一起並提供名稱解析的虛擬網路。
+  lesson: fd-docker-04
+  tags:
+  - Docker
+- id: user-defined-function
+  term: 自訂函式
+  en: User-defined function
+  aliases:
+  - UDF
+  cn: 自訂函式
+  tw: 使用者定義函式
+  short: 引擎內建運算不夠時，由使用者新增的計算邏輯。
+  lesson: bd-hive-06
+  tags:
+  - 批次
+- id: user-defined-table-generating-function
+  term: 自訂表生成函式
+  en: user-defined table-generating function
+  aliases: []
+  cn: 自定義表生成函數
+  tw: 自訂表生成函式
+  short: 可從輸入產生多列或多欄的函式。
+  lesson: bd-hive-06
+  tags:
+  - Hive
+- id: validity-interval
+  term: 有效期區間
+  en: Validity interval
+  aliases: []
+  cn: 有效期區間
+  tw: 有效期區間
+  short: 記錄某版數據何時生效、何時失效；相鄰區間不能含混重疊。
+  lesson: sq-model-09
+  tags:
+  - 建模
+- id: value
+  term: 值
+  en: value
+  aliases: []
+  cn: 值
+  tw: 值
+  short: 程式可儲存或處理的一份內容。
+  lesson: fd-python-02
+  tags:
+  - Python
+- id: valuestate
+  term: 值狀態
+  en: ValueState
+  aliases: []
+  cn: 值狀態
+  tw: 值狀態
+  short: 每個鍵各保存一個可更新的狀態值。
+  lesson: bd-flink-05
+  tags:
+  - Flink
+- id: variable
+  term: 變數
+  en: variable
+  aliases: []
+  cn: 變量
+  tw: 變數
+  short: 用名稱保存可供程式取用的值。
+  lesson: fd-linux-04
+  tags:
+  - 基礎
+- id: variant
+  term: 變體
+  en: variant
+  aliases: []
+  cn: 變式
+  tw: 變化題
+  short: 更換練習輸入但保留同一判斷原則的題目。
+  lesson: cr-behavior-05
+  tags:
+  - 面試
+- id: vector-index
+  term: 向量索引
+  en: vector index
+  aliases: []
+  cn: 向量索引
+  tw: 向量索引
+  short: 為快速找近似向量所建的檢索結構。
+  lesson: cl-ai-03
+  tags:
+  - 雲端
+- id: version-control
+  term: 版本控制
+  en: version control
+  aliases: []
+  cn: 版本控制
+  tw: 版本控制
+  short: 保留可追查、比較與整合的變更歷史。
+  lesson: fd-git-01
+  tags:
+  - Git
+- id: vertex
+  term: 頂點
+  en: vertex
+  aliases: []
+  cn: 頂點
+  tw: 頂點
+  short: 圖中由邊相連的點。
+  lesson: fd-algo-09
+  tags:
+  - 基礎
+- id: view
+  term: 檢視表
+  en: View
+  aliases: []
+  cn: 視圖
+  tw: 檢視表
+  short: 有名稱的查詢。一般檢視表保存定義，不直接保存查詢的結果。
+  lesson: bd-spark-04
+  tags:
+  - 管道
+- id: virtual-environment
+  term: 虛擬環境
+  en: virtual environment
+  aliases: []
+  cn: 虛擬環境
+  tw: 虛擬環境
+  short: 讓專案使用自己的套件安裝位置與 Python 執行入口。
+  lesson: fd-tools-04
+  tags:
+  - 基礎
+- id: virtual-machine
+  term: 虛擬機
+  en: virtual machine
+  aliases: []
+  cn: 虛擬機
+  tw: 虛擬機器
+  short: 以軟體提供的獨立電腦環境，可執行自己的作業系統。
+  lesson: fd-linux-01
+  tags:
+  - 基礎
+- id: virtual-memory
+  term: 虛擬記憶體
+  en: virtual memory
+  aliases: []
+  cn: 虛擬內存
+  tw: 虛擬記憶體
+  short: 讓行程使用獨立虛擬位址、由系統映射實際儲存的機制。
+  lesson: fd-system-02
+  tags:
+  - 基礎
+- id: virtual-warehouse
+  term: 虛擬倉庫
+  en: virtual warehouse
+  aliases: []
+  cn: 虛擬倉庫
+  tw: 虛擬倉庫
+  short: Snowflake 供作業及查詢使用的運算資源。
+  lesson: cl-wh-03
+  tags:
+  - 雲端
+- id: visibility
+  term: 可見性
+  en: visibility
+  aliases: []
+  cn: 可見性
+  tw: 可見性
+  short: 說明某執行緒何時能看見另一執行緒的寫入。
+  lesson: fd-java-10
+  tags:
+  - Java
+- id: volume
+  term: 磁碟區
+  en: volume
+  aliases: []
+  cn: 卷
+  tw: 磁碟區
+  short: Docker 管理、可獨立於特定容器存在的儲存區。
+  lesson: fd-docker-03
+  tags:
+  - Docker
+- id: warehouse-layering
+  term: 數倉分層
+  en: warehouse layering
+  aliases: []
+  cn: 數倉分層
+  tw: —
+  short: 區分接收、統一明細、彙總與面向使用者的交付責任。
+  lesson: sq-model-10
+  tags:
+  - 數倉
+- id: warm-cache
+  term: 暖快取
+  en: warm cache
+  aliases: []
+  cn: 熱緩存
+  tw: 暖快取
+  short: 已有先前請求結果的快取，可用來測失效是否真正生效。
+  lesson: cl-ai-05
+  tags:
+  - 雲端
+- id: warm-up
+  term: 暖身
+  en: warm-up
+  aliases: []
+  cn: 預熱
+  tw: 暖身
+  short: 先跑執行路徑以初始化，與正式計時分開紀錄。
+  lesson: bd-bench-02
+  tags:
+  - 管道
+- id: watermark
+  term: 浮水印
+  en: Watermark
+  aliases:
+  - 水印
+  cn: 水位線
+  tw: 水位線
+  short: 表示事件時間進度的訊號；更早的事件仍有可能遲到。
+  lesson: bd-flink-03
+  tags:
+  - 實時
+- id: weight
+  term: 權重
+  en: weight
+  aliases: []
+  cn: 權重
+  tw: 權重
+  short: 一個值在合計或平均中代表的份量，例如一個日均所代表的訂單張數。
+  lesson: sq-group-08
+  tags:
+  - SQL
+- id: weighted-average
+  term: 加權平均
+  en: weighted average
+  aliases: []
+  cn: 加權平均
+  tw: 加權平均
+  short: 將各值乘權重後加總，再除以對應權重合計。
+  lesson: sq-group-08
+  tags:
+  - SQL
+- id: wide-dependency
+  term: 寬相依
+  en: wide dependency
+  aliases: []
+  cn: 寬依賴
+  tw: 寬相依
+  short: 上下游分區間較廣的相依，通常需要 Shuffle。
+  lesson: bd-spark-05
+  tags:
+  - Spark
+- id: wildcard
+  term: 萬用字元
+  en: wildcard
+  aliases: []
+  cn: 通配符
+  tw: 萬用字元
+  short: LIKE 中百分號代表零到多字元，底線代表恰好一個字元。
+  lesson: sq-read-09
+  tags:
+  - SQL
+- id: window-frame
+  term: 窗口框
+  en: Window frame
+  aliases: []
+  cn: 窗口框
+  tw: 視窗框架
+  short: 對目前列進行窗口計算時，實際納入的列範圍。
+  lesson: sq-window-07
+  tags:
+  - SQL
+- id: window-function
+  term: 窗口函式
+  en: Window function
+  aliases:
+  - 視窗函式
+  cn: 窗口函數
+  tw: 視窗函數
+  short: 跨一群相關列計算，同時保留每一列本身。
+  lesson: sq-window-01
+  tags:
+  - SQL
+- id: window-partition
+  term: 窗口分區
+  en: window partition
+  aliases: []
+  cn: 窗口分區
+  tw: 視窗分割區
+  short: 依分區欄把查詢輸入分組，讓窗口在組內計算，不改變表的存放。
+  lesson: sq-window-01
+  tags:
+  - SQL
+- id: window-table-valued-function
+  term: 窗口表值函式
+  en: window table-valued function
+  aliases: []
+  cn: 窗口表值函數
+  tw: 視窗表值函式
+  short: 把輸入列放入一個或多個具時間界線的窗口。
+  lesson: bd-flink-04
+  tags:
+  - Flink
+- id: working-set
+  term: 工作集
+  en: working set
+  aliases: []
+  cn: 工作集
+  tw: 工作集
+  short: 此處指行程目前在實體記憶體中的相關頁面。
+  lesson: fd-system-02
+  tags:
+  - 基礎
+- id: working-tree
+  term: 工作區
+  en: working tree
+  aliases: []
+  cn: 工作區、工作樹
+  tw: 工作區、工作目錄樹
+  short: 儲存庫中供使用者直接讀寫的一組工作檔。
+  lesson: fd-git-01
+  tags:
+  - Git
+- id: writable-layer
+  term: 可寫層
+  en: writable layer
+  aliases: []
+  cn: 可寫層
+  tw: 可寫層
+  short: 容器記下相對映像所做寫入的儲存層，不是獨立備份。
+  lesson: fd-docker-01
+  tags:
+  - Docker
+- id: writer
+  term: 寫端
+  en: writer
+  aliases: []
+  cn: 寫端
+  tw: 寫入端
+  short: 將記錄寫入目的系統並依其契約提交的元件。
+  lesson: bd-ingest-03
+  tags:
+  - 採集
+- id: wsl
+  term: 適用於 Linux 的 Windows 子系統
+  en: Windows Subsystem for Linux (WSL)
+  aliases: []
+  cn: 適用於 Linux 的 Windows 子系統
+  tw: 適用於 Linux 的 Windows 子系統
+  short: 在 Windows 上提供 Linux 執行環境的子系統。
+  lesson: fd-linux-01
+  tags:
+  - 基礎
+- id: xcom
+  term: 跨任務通訊
+  en: XCom
+  aliases: []
+  cn: 跨任務通訊
+  tw: 跨任務通訊
+  short: Airflow 在任務間交換少量值的機制。
+  lesson: bd-orch-05
+  tags:
+  - 排程
+- id: yarn-container
+  term: 資源容器
+  en: YARN container
+  aliases: []
+  cn: 容器
+  tw: 容器
+  short: YARN 分配給執行工作的資源與執行環境。
+  lesson: bd-distrib-04
+  tags:
+  - 管道
+- id: year-over-year-growth
+  term: 同比
+  en: year-over-year growth
+  aliases: []
+  cn: 同比
+  tw: 年增率
+  short: 當期與去年同一期間的差額除以去年基期值。
+  lesson: sq-time-04
+  tags:
+  - SQL
+- id: yet-another-resource-negotiator
+  term: YARN
+  en: Yet Another Resource Negotiator
+  aliases: []
+  cn: YARN
+  tw: YARN
+  short: 為多個應用分配並管理 Hadoop 叢集資源的系統。
+  lesson: bd-distrib-04
+  tags:
+  - 管道
+- id: zipper-table
+  term: 拉鏈表
+  en: Zipper table
+  aliases: []
+  cn: 拉鏈表
+  tw: 歷史區間表
+  short: 用業務鍵和起訖時間保留不同版本，可查任一時點的狀態。
+  lesson: sq-model-09
+  tags:
+  - 建模

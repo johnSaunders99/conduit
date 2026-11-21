@@ -1,0 +1,20 @@
+id: bd-kafka
+track: bigdata
+stage: 3
+order: 390
+title: Kafka 事件日誌
+subtitle: 消費慢了也能從原地接著讀
+summary: Kafka 事件日誌：消費慢了也能從原地接著讀。從「主題與分區」練到「再平衡與積壓」。
+outcomes:
+- 從主題映射到分區中單調前進的位置
+- 演示兩種提交次序各自的故障窗口
+- 以各分區落後量判斷是熱鍵還是下游慢
+prereqs:
+- bd-distrib
+- fd-docker
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 5.5

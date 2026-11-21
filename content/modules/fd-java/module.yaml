@@ -1,0 +1,19 @@
+id: fd-java
+track: foundations
+stage: 2
+order: 275
+title: Java 程式基礎
+subtitle: 把訂單腳本做成可測試的程式
+summary: 從熟悉的 Python 訂單案例換到 Java，從 Windows 安裝、編譯與測試走到併發、GC 與交付 JAR。
+outcomes:
+- 用 Java 改寫並測試一段訂單解析與去重程式
+- 用遺失更新反例說明可見性和原子性的差別
+- 在乾淨目錄執行打包產物，核對版本與依賴
+prereqs:
+- fd-tools
+roles:
+- warehouse
+- stream
+- platform
+skippable: true
+hours: 6.5

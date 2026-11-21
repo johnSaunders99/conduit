@@ -1,0 +1,29 @@
+id: proj-receipts
+track: foundations
+title: 第一條訂單管道
+summary: Windows Python 加本機 DuckDB，不開容器；預留 1 GB。
+why: 讓讀者從三筆原始憑證追到一個可信總額，驗證的不只是語法。
+modules:
+- fd-lab
+- sq-join
+level: 1
+hours: 10
+milestones:
+- id: proj-receipts-m1
+  title: 把 A、B 與重送的 A 放入虛構 CSV；寫清金額單位
+  checks:
+  - 虛構 A、B、A 三列皆可追到來源；第三列是重送。
+  - 按單號核回 105 元，而非直接把三列相加。
+- id: proj-receipts-m2
+  title: 用 Python 讀 CSV，將壞列另存並交給 SQL 加總
+  checks:
+  - 壞列附原因與批次號；合法金額未被吞掉。
+  - 輸入原檔仍完整。
+- id: proj-receipts-m3
+  title: 用第二份目錄重跑兩次
+  checks:
+  - 同一批跑兩次不增加總額。
+  - 從另一個資料夾依 README 可取得相同產物。
+stretch:
+- 把一份新輸入交給沒有參與製作的人，記下首次重跑卡住之處並修訂交接說明。
+showcase: 現場把 B 的金額改掉，再重送一次 A，請面試官先猜哪個數字應該動。

@@ -1,0 +1,100 @@
+# Frequent curriculum terms and context-specific Taiwan Mandarin hints.
+terms:
+  SQL: S Q L
+  DuckDB: Duck D B
+  PySpark: Pie Spark
+  Spark: Spark
+  Kafka: Kafka
+  Flink: Flink
+  Hive: Hive
+  dbt: D B T
+  ETL: E T L
+  ELT: E L T
+  ODS: O D S
+  DWD: D W D
+  DWS: D W S
+  ADS: A D S
+  DDL: D D L
+  DML: D M L
+  MySQL: My S Q L
+  PostgreSQL: Postgres S Q L
+  Docker: Docker
+  JDBC: J D B C
+  JVM: J V M
+  JDK: J D K
+  JAR: jar
+  IDE: I D E
+  CLI: C L I
+  API: A P I
+  HTTP: H T T P
+  HTTPS: H T T P S
+  URL: U R L
+  JSON: J son
+  Java: Java
+  CSV: C S V
+  Python: Python
+  YAML: yam el
+  venv: V env
+  Parquet: Par kay
+  Git: Git
+  UTC: U T C
+  UTF-8: U T F 八
+  DAG: D A G
+  CDC: C D C
+  OLAP: O L A P
+  OLTP: O L T P
+  Airflow: Air Flow
+  SCD: S C D
+  TTL: T T L
+  SLA: S L A
+  HDFS: H D F S
+  BI: B I
+  ID: I D
+  ANSI: A N S I
+  CPU: C P U
+  RAM: ram
+  GB: GB
+  MB: MB
+  KB: KB
+  TB: TB
+  BigQuery: Big Query
+  PowerShell: Power Shell
+  GitHub: Git Hub
+  S3: S three
+# Applied to parts of identifiers, not to prose "no" or the SQL AVG function.
+identifierParts:
+  id: I D
+  "no": number
+  avg: average
+  amt: amount
+  qty: quantity
+  n: N
+polyphones:
+  - {text: 數據, pinyin: shù jù}
+  - {text: 列, pinyin: liè}
+  - {text: 欄, pinyin: lán}
+  - {text: 一行, pinyin: yì háng}
+  - {text: 每行, pinyin: měi háng}
+  - {text: 逐行, pinyin: zhú háng}
+  - {text: 行數, pinyin: háng shù}
+  - {text: 行程, pinyin: xíng chéng}
+  - {text: 執行, pinyin: zhí xíng}
+  - {text: 重送, pinyin: chóng sòng}
+  - {text: 重跑, pinyin: chóng pǎo}
+  - {text: 重複, pinyin: chóng fù}
+  - {text: 重試, pinyin: chóng shì}
+  - {text: 重算, pinyin: chóng suàn}
+  - {text: 權重, pinyin: quán zhòng}
+  - {text: 調度, pinyin: diào dù}
+  - {text: 調整, pinyin: tiáo zhěng}
+  - {text: 長期, pinyin: cháng qí}
+  - {text: 長度, pinyin: cháng dù}
+  - {text: 增長, pinyin: zēng zhǎng}
+  - {text: 成長, pinyin: chéng zhǎng}
+  - {text: 得到, pinyin: dé dào}
+  - {text: 得先, pinyin: děi xiān}
+  - {text: 空值, pinyin: kōng zhí}
+  - {text: 分區, pinyin: fēn qū}
+  - {text: 區分, pinyin: qū fēn}
+  - {text: 看板, pinyin: kàn bǎn}
+  - {text: 便宜, pinyin: pián yí}

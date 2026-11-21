@@ -1,0 +1,19 @@
+id: cr-behavior
+track: career
+stage: 4
+order: 480
+title: 行為面試與技術英文
+subtitle: 用一個真實失誤談清楚你的判斷
+summary: 行為面試與技術英文：用一個真實失誤談清楚你的判斷。從「專案深挖與個人責任」練到「面試復盤與下一輪」。
+outcomes:
+- 清楚區別框架提供與自己設計的部分
+- 交代錯誤、受影響對象與可核對的修正
+- 把一次面試失分改寫成能再驗一次的題
+prereqs:
+- cr-portfolio
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 2

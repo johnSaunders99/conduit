@@ -1,0 +1,33 @@
+id: proj-stream
+track: bigdata
+title: 實時茶舖交易看板
+summary: 在 Windows 的 WSL 中用 Compose 同時執行單節點 Kafka、Flink 與 ClickHouse，容器預算不超過 8 GB，需另量組合峰值；先分開驗收各服務，不部署圖形管理服務。可選 Java DataStream、PyFlink
+  DataStream 或 Flink SQL；共同驗收口徑不變。
+why: 展示事件時間、重送與可恢復寫入三件事，而非只展示跳動的畫面。
+modules:
+- bd-kafka
+- bd-flink
+- bd-serve
+level: 3
+hours: 26
+milestones:
+- id: proj-stream-m1
+  title: 定義帶事件鍵與事件時間的付款流
+  checks:
+  - 固定輸入可重播；每次使用相同事件鍵。
+  - 來源付款總額能手算。
+- id: proj-stream-m2
+  title: 建立每分鐘窗口與遲到政策
+  checks:
+  - 同一事件重送，窗口金額不變。
+  - 逾時事件有明確處理去向。
+  - 列出所用路線與版本；不論選哪條路線，都用相同的固定事件、窗口與遲到政策驗收。
+- id: proj-stream-m3
+  title: 在寫出後中斷再恢復並比對批次基準
+  checks:
+  - 在目的端寫出後中斷，恢復結果與批次基準相同。
+  - 列出恢復成功依賴的讀寫端條件與記憶體預算。
+stretch:
+- 把一份新輸入交給沒有參與製作的人，記下首次重跑卡住之處並修訂交接說明。
+- 選 Java 時先完成 fd-java 與 bd-jvm 的 Flink 練習；選 PyFlink 時先核對 Python 與 Flink 版本。兩者都須用同一組重播測資，不必實作兩版。
+showcase: 讓一筆付款晚一分鐘才到，說明何時改看板、何時改走補數。

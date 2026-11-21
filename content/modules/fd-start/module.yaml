@@ -1,0 +1,19 @@
+id: fd-start
+track: foundations
+stage: 0
+order: 10
+title: 數據工作的第一天
+subtitle: 從一張錯了的日報開始
+summary: 沿著茶舖的小票與退款認識數據管道、職務方向、學習計畫及 AI 驗算。
+outcomes:
+- 沿一張小票找到第一個對帳差異
+- 說明公司的來源、同步、數倉層與下游各做什麼
+- 依今天可用時間安排複習與新課
+- 用同價不同號的反例檢查 AI 的答案
+prereqs: []
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 1.5

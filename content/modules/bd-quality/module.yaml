@@ -1,0 +1,19 @@
+id: bd-quality
+track: bigdata
+stage: 2
+order: 340
+title: 數據質量工程
+subtitle: 趕在營運看到錯帳之前攔下來
+summary: 數據質量工程：趕在營運看到錯帳之前攔下來。從「唯一性與非空檢查」練到「事故復盤與修復」。
+outcomes:
+- 設計會被非空及唯一檢查分別抓到的輸入
+- 找出筆數不變但金額錯誤的情況
+- 讓一次事故留下可重複執行的測試
+prereqs:
+- bd-orch
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 3.5

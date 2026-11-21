@@ -1,0 +1,30 @@
+id: proj-warehouse
+track: bigdata
+title: 茶舖離線數倉
+summary: Windows WSL 或 Compose 分時跑 DuckDB 與排程器，預留 4 GB。
+why: 展示粒度、分層、增量與回填如何共同保住同一個營收口徑。
+modules:
+- sq-metrics
+- bd-orch
+- bd-quality
+level: 2
+hours: 24
+milestones:
+- id: proj-warehouse-m1
+  title: 定義訂單明細粒度，保留 ODS 原始批次
+  checks:
+  - 明細的訂單鍵與明細序號組合唯一。
+  - 已取消的單仍可追溯但不進實收。
+- id: proj-warehouse-m2
+  title: 交付 DWD、DIM、DWS、ADS 及層間對帳
+  checks:
+  - 逐單追過 ODS 原始數據層、DWD 明細數據層、DWS 彙總數據層及 ADS 應用數據層，均能說明各層粒度。
+  - 退款日和原交易日各有清楚命名的指標。
+- id: proj-warehouse-m3
+  title: 排程每日產出並中斷一批再補跑
+  checks:
+  - 補三天只改該三個業務分區。
+  - 受影響區間和全量重建的鍵與金額一致。
+stretch:
+- 把一份新輸入交給沒有參與製作的人，記下首次重跑卡住之處並修訂交接說明。
+showcase: 展示一張退款單如何從原始層走到更正後的報表，最後秀出前後差額。

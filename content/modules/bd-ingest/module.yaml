@@ -1,0 +1,20 @@
+id: bd-ingest
+track: bigdata
+stage: 2
+order: 320
+title: 數據採集與同步
+subtitle: 從全量匯入走到可續跑的增量
+summary: 數據採集與同步：從全量匯入走到可續跑的增量。從「全量與快照」練到「斷點續傳與對帳」。
+outcomes:
+- 記下完整匯入對應的來源切點
+- 將舊同步任務對照到現代替代流程
+- 在寫入後中斷並核對重跑結果
+prereqs:
+- sq-db
+- fd-tools
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 4.0

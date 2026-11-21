@@ -1,0 +1,19 @@
+id: bd-flink
+track: bigdata
+stage: 3
+order: 400
+title: Flink 有狀態計算
+subtitle: 遲到的付款要放回哪個窗口
+summary: Flink 有狀態計算：遲到的付款要放回哪個窗口。從「無界流與有界流」練到「背壓與端到端一致性」。
+outcomes:
+- 說明沒有自然終點時如何連續更新結果
+- 對照恢復後的來源位置與計算狀態
+- 在寫端變慢時追蹤上游等待與交付保證
+prereqs:
+- bd-kafka
+- sq-window
+roles:
+- warehouse
+- stream
+- platform
+hours: 6

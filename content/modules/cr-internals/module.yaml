@@ -1,0 +1,21 @@
+id: cr-internals
+track: career
+stage: 4
+order: 470
+title: 大數據機制面試
+subtitle: 把背過的名詞變成可量測的解釋
+summary: 大數據機制面試：把背過的名詞變成可量測的解釋。從「Spark Shuffle 與長尾」練到「故障定位演練」。
+outcomes:
+- 用長尾與流量分布排除非傾斜原因
+- 分清消息保證與外部寫端保證
+- 在兩個可能根因中選最便宜的辨識測量
+prereqs:
+- bd-flink
+- bd-spark
+- bd-hive
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 2

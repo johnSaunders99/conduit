@@ -1,0 +1,56 @@
+/* SQL bench shares the desk's hairlines, ink and tabular rhythm. */
+.lab-tabs{display:flex;gap:24px;border-bottom:1px solid var(--border-strong);margin-bottom:20px}
+.lab-tabs a{padding:10px 0;color:var(--text-2);font-weight:600}
+.lab-tabs a[aria-current]{color:var(--brand);border-bottom:3px solid}
+.sql-page .workspace{max-width:1280px}
+.main.sql-page{padding-inline:clamp(24px,2.5vw,48px)}
+.lab-layout{display:grid;grid-template-columns:280px minmax(0,1fr);gap:18px;align-items:start}
+.lab-list,.lab-sheet,.free-lab,.sql-work,.lesson-sql,.reader,.review-card{min-width:0}
+.lab-list{padding:18px}.lab-list .search{width:100%;margin:12px 0}.lab-list .search input{width:100%;min-width:0}
+.lab-list>small{display:block;margin:7px 0;color:var(--text-2)}
+.lab-filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:12px 0}.lab-filters select{width:100%;min-width:0}
+.lab-module-filter,.lab-categories{grid-column:1/-1}
+.lab-categories{min-width:0;margin:0;border:0;padding:0;color:var(--text-2);font-size:13px}
+.lab-categories legend{padding:0;margin-bottom:4px}
+.lab-category-chips{display:flex;flex-wrap:wrap;gap:4px}
+.lab-category-chips button{padding:4px 7px;min-height:30px;font-size:12px;font-weight:500;gap:4px}
+.lab-category-chips button small{font:11px var(--mono);color:inherit;opacity:.85}
+.lab-groups{margin-top:14px}
+.lab-groups section{border-top:1px solid var(--border);padding-block:4px}
+.lab-groups h3{margin:0;font-size:13px}
+.lab-group-title{width:100%;justify-content:flex-start;align-items:start;gap:7px;text-align:left;padding:7px 3px;border:0;background:transparent}
+.lab-group-title svg{margin-top:3px;flex:none;color:var(--brand)}
+.lab-group-title[aria-expanded=false] svg{transform:rotate(-90deg)}
+.lab-group-title small{display:block;color:var(--text-2);font-weight:400}
+.lab-empty{margin-top:14px;padding:11px;border-radius:8px;background:var(--surface-2);font-size:13px}
+.lab-empty p{margin:0 0 8px}
+@media(max-width:767px){.lab-category-chips button{min-height:44px}}
+.lab-row{display:flex;flex-direction:column;gap:2px;padding:10px 12px;border-left:3px solid transparent;color:var(--text)}
+.lab-row span,.lab-row small{font-size:12px;color:var(--text-2)}.lab-row i{font:10px var(--mono);color:var(--brand)}
+.lab-row[aria-current]{border-color:var(--brand);background:var(--tint)}.lab-start{padding:45px 12px;max-width:36em;margin:auto}.lab-start>svg{color:var(--brand)}
+.lab-links,.sql-caption{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px;font-size:13px}
+.sql-caption{color:var(--text-2);margin:8px 0}.sql-caption b{display:flex;gap:5px;align-items:center;color:var(--text)}.sql-caption span{font-variant-numeric:tabular-nums}
+.schema{padding:6px 12px;background:var(--surface-2);border:1px solid var(--border);border-radius:6px;margin:14px 0}
+.schema details{padding:5px 0}.schema dl{margin:4px 0}.schema dl div{display:flex;justify-content:space-between;flex-wrap:wrap;border-top:1px solid var(--border);padding:3px 0;gap:8px}.schema dt,.schema dd code{font:13px var(--mono)}.schema dd{margin:0;color:var(--text-2);font-size:12px}
+.sql-editor{border:1px solid var(--border-strong);border-radius:6px;overflow:hidden;background:var(--surface);text-align:left}
+.sql-editor:focus-within{outline:2px solid var(--brand);outline-offset:2px}
+.sql-editor .cm-editor{font:14px/1.65 var(--mono);color:var(--text)}
+.sql-editor .cm-scroller{min-height:calc(6 * 1lh + 8px);max-height:calc(20 * 1lh + 8px);overflow:auto}
+.sql-editor .cm-content{min-height:calc(6 * 1lh + 8px);padding-block:4px}
+.sql-editor .cm-scroller,.sql-editor .cm-content{font-family:var(--mono)}.sql-editor .cm-gutters{color:var(--text-2);background:var(--surface-2);border-color:var(--border)}
+.sql-editor .cm-activeLine,.sql-editor .cm-activeLineGutter{background:var(--tint)}.sql-editor .cm-cursor{border-color:var(--text)}
+.sql-editor .cm-tooltip,.sql-editor .cm-tooltip-autocomplete{color:var(--text);background:var(--surface);border-color:var(--border-strong)}
+.sql-tools{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.sql-tools kbd{font-size:10px}.sql-work pre,.query-history{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.55 var(--mono);text-align:left}
+.sql-scroll{overflow:auto;max-height:380px;border:1px solid var(--border);border-radius:6px}
+.sql-scroll table{border-collapse:separate;border-spacing:0;width:100%;font:13px/1.55 var(--mono)}.sql-scroll th,.sql-scroll td{text-align:left;padding:5px 10px;border-bottom:1px solid var(--border)}
+.sql-scroll th{position:sticky;top:0;background:var(--surface-2)}.sql-scroll th small{display:block;color:var(--text-3);font-size:11px}.sql-scroll tr:nth-child(even){background:color-mix(in srgb,var(--brand) 3%,transparent)}
+.sql-scroll td.numeric{text-align:right;font-variant-numeric:tabular-nums}.sql-null{padding:1px 4px;font-size:11px;color:var(--text-2);background:var(--surface-2);border:1px solid var(--border);border-radius:4px}
+.sql-error,.sql-pass{padding:10px 14px;border-left:3px solid var(--err);background:color-mix(in srgb,var(--err) 6%,var(--surface));margin:12px 0}.sql-error>b{color:var(--err)}.sql-pass{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 7%,var(--surface))}.sql-pass>b{color:var(--ok);margin-right:10px}
+.query-history{display:block;width:100%;margin:4px 0}.back-list{display:none}.seg{flex-wrap:wrap}
+@media(max-width:900px){.lab-layout{grid-template-columns:1fr}.lab-index .lab-sheet,.lab-detail .lab-list{display:none}.back-list{display:inline-block;margin-bottom:14px}}
+@media(max-width:767px){.main.sql-page{padding-inline:16px}.sql-tools kbd{display:none}.sql-tools button,.lab-tabs a{min-height:44px}.sql-work .schema{padding:5px 8px}.lab-links{gap:12px}}
+
+.sql-solution{margin-top:14px}
+.sql-solution h4{margin:0}
+.sql-solution .codebox{margin-block:10px}
+.sql-solution .codebox pre{font-size:14px;line-height:1.6}

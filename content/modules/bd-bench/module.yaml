@@ -1,0 +1,19 @@
+id: bd-bench
+track: bigdata
+stage: 3
+order: 440
+title: 效能驗證與調校
+subtitle: 別拿一次變快當作最佳化證明
+summary: 效能驗證與調校：別拿一次變快當作最佳化證明。從「基準負載與固定輸入」練到「調校成本說明」。
+outcomes:
+- 讓輸入切點、數據量與執行設定可重現
+- 用中位與高分位指出任務分布長尾
+- 用一定的運算成本換取有上限的延遲改善
+prereqs:
+- bd-spark
+- bd-quality
+roles:
+- warehouse
+- stream
+- platform
+hours: 3.5

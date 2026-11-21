@@ -1,0 +1,20 @@
+id: cr-search
+track: career
+stage: 1
+order: 80
+title: 職缺與投遞
+subtitle: 先選一種能得到回應的工作
+summary: 職缺與投遞：先選一種能得到回應的工作。從「職缺取樣與編碼」練到「投遞漏斗」。
+outcomes:
+- 把三份職缺拆成職責、條件與加分
+- 核對畢業資格、每週工時與到職窗口
+- 依投遞、篩選、技術輪分開決定下一步
+prereqs:
+- sq-group
+- fd-git
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 2

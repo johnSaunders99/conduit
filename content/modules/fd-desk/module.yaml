@@ -1,0 +1,20 @@
+id: fd-desk
+track: foundations
+stage: 0
+order: 30
+title: Windows 工作環境
+subtitle: 讓明天的你找得到今天的檔案
+summary: Windows 工作環境：讓明天的你找得到今天的檔案。從「檔案與資料夾」練到「PowerShell 管道」。
+outcomes:
+- 在檔案總管建立並重新找到練習資料夾
+- 由提示符讀出目前位置，不必先記指令
+- 保留符合條件的日誌列並計出列數
+prereqs:
+- fd-start
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 2.5
+skippable: true

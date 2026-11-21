@@ -1,0 +1,172 @@
+﻿url,title,lang,checked,verification
+https://aws.amazon.com/what-is/data-pipeline/,What is Data Pipeline? - Data Pipeline Explained - AWS,en,2026-11-20,200
+https://www.learningscientists.org/retrieval-practice,Retrieval Practice,en,2026-11-20,200
+https://docs.github.com/en/copilot/responsible-use/chat,Application card: GitHub Copilot Chat - GitHub Docs,en,2026-11-20,200
+https://support.microsoft.com/en-us/windows/experience/fileexplorer/file-explorer-in-windows,File Explorer in Windows,en,2026-11-20,200
+https://code.visualstudio.com/docs/editing/codebasics,Basic editing,en,2026-11-20,200
+https://ubuntu.com/tutorials/command-line-for-beginners,The Linux command line for beginners,en,2026-11-20,200
+https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/04-pipelines?view=powershell-7.6,One-liners and the pipeline - PowerShell 101,en,2026-11-20,200
+https://docs.python.org/3/using/windows.html,4. Using Python on Windows,en,2026-11-20,200
+https://docs.python.org/3/tutorial/introduction.html,3. An Informal Introduction to Python,en,2026-11-20,200
+https://docs.python.org/3/tutorial/inputoutput.html,7. Input and output,en,2026-11-20,200
+https://docs.python.org/zh-tw/3/tutorial/controlflow.html,4. 深入了解流程控制,zh-Hant,2026-11-20,200
+https://docs.python.org/3/tutorial/controlflow.html,4. More Control Flow Tools,en,2026-11-20,200
+https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup,Git - First-Time Git Setup,en,2026-11-20,200
+https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository,Git - Recording Changes to the Repository,en,2026-11-20,200
+https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging,Git - Basic Branching and Merging,en,2026-11-20,200
+https://docs.github.com/en/get-started/using-github/hello-world,Hello World - GitHub Docs,en,2026-11-20,200
+https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things,Git - Undoing Things,en,2026-11-20,200
+https://www.nowcoder.com/jobs/detail/470517,校招職缺：數倉與分層,zh-Hans,2026-11-20,200
+https://hk.linkedin.com/jobs/view/junior-data-engineer-fresh-grad-will-be-considered-at-vms-group-4389868568,香港初階數據職缺,en,2026-11-20,200
+https://tw.linkedin.com/jobs/view/ai%EF%BC%8F%E8%B3%87%E6%96%99%E5%B7%A5%E7%A8%8B%E5%B8%AB%EF%BD%9Cai-data-engineer-at-peqaboo-4470973351,台灣數據職缺：作品驗證,zh-Hant,2026-11-20,200
+https://atoz.amazon/en-us/jobs/hiring-process/interview-prep/university/data,大學生數據職面試指引,en,2026-11-20,web
+https://docs.python.org/3/tutorial/datastructures.html,5. Data Structures,en,2026-11-20,200
+https://docs.python.org/3/tutorial/modules.html,6. Modules,en,2026-11-20,200
+https://docs.python.org/3/library/csv.html,csv,en,2026-11-20,200
+https://docs.python.org/3/library/json.html,json,en,2026-11-20,200
+https://requests.readthedocs.io/en/latest/user/quickstart/,Quickstart,en,2026-11-20,200
+https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html,Getting started tutorials,en,2026-11-20,200
+https://docs.python.org/3/tutorial/errors.html,8. Errors and Exceptions,en,2026-11-20,200
+https://docs.python.org/3/tutorial/classes.html,9. Classes,en,2026-11-20,200
+https://docs.python.org/3/tutorial/venv.html,12. Virtual Environments and Packages,en,2026-11-20,200
+https://docs.python.org/3/library/unittest.html,unittest,en,2026-11-20,200
+https://docs.python.org/3/library/argparse.html,argparse,en,2026-11-20,200
+https://docs.python.org/3/howto/logging.html,Logging HOWTO,en,2026-11-20,web
+https://docs.python.org/3/library/os.html#os.replace,os,en,2026-11-20,200
+https://learn.microsoft.com/en-us/windows/wsl/setup/environment,Set up a WSL development environment,en,2026-11-20,200
+https://www.gnu.org/software/bash/manual/bash.html,Bash Reference Manual,en,2026-11-20,200
+https://learn.microsoft.com/en-us/windows/win32/procthread/processes-and-threads,Processes and Threads - Win32 apps,en,2026-11-20,200
+https://learn.microsoft.com/en-us/windows/win32/memory/about-memory-management,About Memory Management - Win32 apps,en,2026-11-20,200
+https://docs.python.org/3/library/io.html,io,en,2026-11-20,200
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name,What is a Domain Name? - Learn web development,en,2026-11-20,200
+https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Transport_Layer_Security,Transport Layer Security (TLS) - Security,en,2026-11-20,200
+https://docs.oracle.com/en/java/javase/25/gctuning/introduction-garbage-collection-tuning.html,Introduction to Garbage Collection Tuning,en,2026-11-20,200
+https://docs.docker.com/desktop/features/wsl/,Docker Desktop WSL 2 backend on Windows,en,2026-11-20,200
+https://docs.docker.com/learn/content/what-is-a-container/,What is a container?,en,2026-11-20,200
+https://docs.docker.com/compose/intro/compose-application-model/,How Compose works,en,2026-11-20,200
+https://opendatastructures.org/ods-python/,Open Data Structures：容器與演算法,en,2026-11-20,200
+https://www.postgresql.org/docs/current/tutorial.html,PostgreSQL: Documentation: 19: Part I. Tutorial,en,2026-11-20,200
+https://www.postgresql.org/docs/current/transaction-iso.html,PostgreSQL: Documentation: 19: 13.2. Transaction Isolation,en,2026-11-20,200
+https://dev.mysql.com/doc/refman/8.4/en/optimization-indexes.html,Optimization and Indexes,en,2026-11-20,web
+https://www.postgresql.org/docs/current/using-explain.html,PostgreSQL: Documentation: 19: 14.1. Using EXPLAIN,en,2026-11-20,200
+https://parquet.apache.org/docs/file-format/,File Format,en,2026-11-20,200
+https://cloud.google.com/learn/what-is-a-data-warehouse,What is a Data Warehouse?,en,2026-11-20,200
+https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/,Kimball Group：維度建模技法,en,2026-11-20,200
+https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/type-2/,Type 2: Add New Row,en,2026-11-20,200
+https://www.ibm.com/think/topics/data-warehouse,What Is a Data Warehouse?,en,2026-11-20,200
+https://automate-dv.readthedocs.io/en/latest/tutorial/tut_hubs/,Hubs - AutomateDV,en,2026-11-20,200
+https://www.alibabacloud.com/help/en/dataworks/user-guide/data-warehouse-layering,Data warehouse layering - DataWorks - Alibaba Cloud Documentation Center,en,2026-11-20,200
+https://help.aliyun.com/zh/dataworks/user-guide/data-warehouse-layering,DataWorks：數倉分層,zh-Hans,2026-11-20,200
+https://docs.getdbt.com/docs/build/metrics-overview,Creating metrics,en,2026-11-20,200
+https://openlineage.io/docs/,About OpenLineage,en,2026-11-20,200
+https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html,Security best practices in IAM - AWS Identity and Access Management,en,2026-11-20,200
+https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html,Apache Hadoop 3.3.5,en,2026-11-20,200
+https://hadoop.apache.org/docs/stable/hadoop-yarn/hadoop-yarn-site/YARN.html,Apache Hadoop 3.3.5,en,2026-11-20,200
+https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html,Apache Hadoop 3.3.5,en,2026-11-20,200
+https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html,Managing your costs with AWS Budgets - AWS Cost Management,en,2026-11-20,200
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html,What is Amazon S3? - Amazon Simple Storage Service,en,2026-11-20,200
+https://aws.amazon.com/s3/pricing/,S3 Pricing,en,2026-11-20,200
+https://hive.apache.org/docs/latest/language/languagemanual-ddl/,Apache Hive : LanguageManual DDL,en,2026-11-20,200
+https://hive.apache.org/docs/latest/language/languagemanual-udf/,Apache Hive : LanguageManual UDF,en,2026-11-20,200
+https://spark.apache.org/docs/latest/api/python/getting_started/quickstart_df.html,Quickstart: DataFrame,en,2026-11-20,200
+https://spark.apache.org/docs/latest/cluster-overview.html,Cluster Mode Overview - Spark 4.3.0 Documentation,en,2026-11-20,200
+https://spark.apache.org/docs/latest/sql-performance-tuning.html,Performance Tuning - Spark 4.3.0 Documentation,en,2026-11-20,200
+https://debezium.io/documentation/reference/stable/architecture.html,Debezium Architecture :: Debezium Documentation,en,2026-11-20,200
+https://github.com/alibaba/DataX,DataX：讀寫通道,zh-Hans,2026-11-20,200
+https://github.com/apache/seatunnel,SeaTunnel：數據整合,en,2026-11-20,200
+https://sqoop.apache.org/,Sqoop -,en,2026-11-20,200
+https://github.com/alibaba/canal,Canal：變更訂閱,zh-Hans,2026-11-20,200
+https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/dags.html,Dags,en,2026-11-20,200
+https://airflow.apache.org/docs/apache-airflow/stable/best-practices.html,Best Practices,en,2026-11-20,200
+https://github.com/apache/dolphinscheduler,DolphinScheduler：工作流排程,en,2026-11-20,200
+https://docs.getdbt.com/docs/build/data-tests,Add data tests to your DAG,en,2026-11-20,200
+https://docs.getdbt.com/docs/deploy/source-freshness,Source freshness,en,2026-11-20,200
+https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes,About the repository README file - GitHub Docs,en,2026-11-20,200
+https://github.com/DataTalksClub/data-engineering-zoomcamp,Data Engineering Zoomcamp：課綱與專案,en,2026-11-20,200
+https://docs.cloud.google.com/bigquery/docs/introduction,BigQuery overview,en,2026-11-20,200
+https://docs.cloud.google.com/bigquery/docs/best-practices-costs,Estimate and control costs,en,2026-11-20,200
+https://docs.snowflake.com/en/user-guide/warehouses-overview,Overview of warehouses,en,2026-11-20,200
+https://docs.aws.amazon.com/redshift/latest/dg/c_high_level_system_architecture.html,Data warehouse system architecture - Amazon Redshift,en,2026-11-20,200
+https://www.alibabacloud.com/help/en/maxcompute/user-guide/what-is-maxcompute,What is Alibaba Cloud MaxCompute - MaxCompute - Alibaba Cloud Documentation Center,en,2026-11-20,200
+https://docs.delta.io/,Welcome to the Delta Lake documentation,en,2026-11-20,200
+https://kubernetes.io/docs/concepts/overview/,Overview,en,2026-11-20,200
+https://docs.getdbt.com/docs/build/models,About dbt models,en,2026-11-20,200
+https://docs.getdbt.com/docs/build/incremental-models,Configure incremental models,en,2026-11-20,200
+https://docs.getdbt.com/docs/build/snapshots,Add snapshots to your DAG,en,2026-11-20,200
+https://docs.getdbt.com/docs/build/documentation,About documentation,en,2026-11-20,200
+https://kafka.apache.org/42/design/design/,Design,en,2026-11-20,200
+https://nightlies.apache.org/flink/flink-docs-stable/docs/concepts/time/,Timely Stream Processing,en,2026-11-20,200
+https://nightlies.apache.org/flink/flink-docs-stable/docs/concepts/stateful-stream-processing/,Stateful Stream Processing,en,2026-11-20,200
+https://nightlies.apache.org/flink/flink-docs-stable/docs/dev/table/overview/,Overview,en,2026-11-20,200
+https://nightlies.apache.org/flink/flink-cdc-docs-stable/docs/get-started/introduction/,Introduction,en,2026-11-20,200
+https://clickhouse.com/docs/reference/engines/table-engines/mergetree-family/mergetree,MergeTree table engine - ClickHouse Documentation,en,2026-11-20,200
+https://github.com/apache/doris,Apache Doris：分析引擎,en,2026-11-20,200
+https://docs.starrocks.io/docs/introduction/Architecture/,Architecture,en,2026-11-20,200
+https://trino.io/docs/current/overview/concepts.html,Trino concepts,en,2026-11-20,200
+https://iceberg.apache.org/spec/,Spec - Apache Iceberg™,en,2026-11-20,200
+https://hudi.apache.org/docs/overview/,Overview,en,2026-11-20,200
+https://github.com/apache/paimon,Apache Paimon：流式湖倉,en,2026-11-20,200
+https://docs.scala-lang.org/tour/basics.html,Basics,en,2026-11-20,200
+https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview,RAG and Generative AI - Foundry IQ (Azure AI Search),en,2026-11-20,200
+https://amazon.jobs/content/en/how-we-hire,How We Hire,en,2026-11-20,200
+https://aws.amazon.com/what-is/data-warehouse-diagram/,AWS：數倉架構圖,en,2026-11-20,web
+https://help.aliyun.com/zh/dataphin/fullmanaged/getting-started/the-statistical-index,Dataphin：指標與統計粒度,zh-Hans,2026-11-20,web
+https://tech.meituan.com/2026/03/20/Busniness-Intelligence-practice-in-meituan.html,美團技術團隊：指標平台與 BI,zh-Hans,2026-11-20,web
+https://tech.meituan.com/2018/10/18/meishi-data-flink.html,美團技術團隊：實時數倉分層,zh-Hans,2026-11-20,web
+https://datatalksclub.github.io/docs/courses/data-engineering-zoomcamp/prerequisites/,Zoomcamp：起步條件,en,2026-11-20,web
+https://www.nowcoder.com/discuss/388707339937873920,牛客：大數據實習面試回顧,zh-Hans,2026-11-20,web
+https://www.uber.com/us/en/blog/from-batch-to-streaming-accelerating-data-freshness-in-ubers-data-lake/,Uber：從批次到串流攝取,en,2026-11-20,web
+https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-location,PowerShell：顯示目前位置,en,2026-11-20,web
+https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_quoting_rules,PowerShell：路徑與引號,en,2026-11-20,web
+https://kafka.apache.org/42/kafka-connect/overview/,Kafka Connect：來源與目的連接器,en,2026-11-20,web
+https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html,Java：自動關閉資源,en,2026-11-20,web
+https://orc.apache.org/docs/,ORC：欄式格式,en,2026-11-20,web
+https://hive.apache.org/docs/latest/user/configuration-properties/,Hive：傾斜連接設定,en,2026-11-20,web
+https://aws.amazon.com/compare/the-difference-between-etl-and-elt/,ETL 與 ELT 的轉換位置,en,2026-11-20,web
+https://www.alibabacloud.com/help/en/dataworks/user-guide/what-is-dataworks,DataWorks 與計算服務,en,2026-11-20,web
+https://sqlbolt.com/lesson/select_queries_introduction,SQLBolt：第一個 SELECT,en,2026-11-20,web
+https://duckdb.org/docs/stable/sql/query_syntax/select,SELECT Clause,en,2026-11-20,200
+https://duckdb.org/docs/stable/sql/query_syntax/where,WHERE Clause,en,2026-11-20,200
+https://duckdb.org/docs/stable/sql/query_syntax/orderby,ORDER BY Clause,en,2026-11-20,200
+https://duckdb.org/docs/stable/sql/data_types/nulls,NULL Values,en,2026-11-20,200
+https://duckdb.org/docs/stable/sql/query_syntax/limit,LIMIT and OFFSET Clauses,en,2026-11-20,200
+https://duckdb.org/docs/stable/sql/functions/text,Text Functions,en,2026-11-20,200
+https://duckdb.org/docs/stable/sql/expressions/cast,Casting,en,2026-11-20,200
+https://duckdb.org/docs/stable/sql/expressions/case,CASE Expression,en,2026-11-20,200
+https://duckdb.org/docs/stable/sql/functions/date,Date Functions,en,2026-11-20,200
+https://duckdb.org/docs/stable/sql/data_types/timestamp,Timestamp Types,en,2026-11-20,200
+https://duckdb.org/docs/stable/sql/expressions/overview,Expressions,en,2026-11-20,200
+https://duckdb.org/docs/stable/sql/functions/aggregates,Aggregate Functions,en,2026-11-20,200
+https://duckdb.org/docs/stable/sql/query_syntax/groupby,GROUP BY Clause,en,2026-11-20,200
+https://duckdb.org/docs/stable/sql/query_syntax/having,HAVING Clause,en,2026-11-20,200
+https://duckdb.org/docs/stable/sql/query_syntax/from,FROM and JOIN Clauses,en,2026-11-20,200
+https://duckdb.org/docs/stable/sql/expressions/subqueries,Subqueries,en,2026-11-20,200
+https://duckdb.org/docs/stable/sql/query_syntax/with,WITH Clause,en,2026-11-20,200
+https://duckdb.org/docs/stable/sql/query_syntax/setops,Set Operations,en,2026-11-20,200
+https://duckdb.org/docs/stable/sql/functions/window_functions,Window Functions,en,2026-11-20,200
+https://duckdb.org/docs/stable/sql/expressions/comparison_operators,DuckDB：比較運算子,en,2026-11-20,web
+https://docs.oracle.com/en/java/javase/25/install/installation-jdk-microsoft-windows-platforms.html,Oracle：Windows 安裝 JDK,en,2026-11-20,web
+https://www.oracle.com/java/technologies/java-se-support-roadmap.html,Oracle：Java LTS 支援表,en,2026-11-20,web
+https://docs.oracle.com/en/java/javase/25/docs/specs/man/javac.html,Oracle：javac 指令,en,2026-11-20,web
+https://docs.oracle.com/en/java/javase/25/docs/specs/man/java.html,Oracle：java 指令,en,2026-11-20,web
+https://code.visualstudio.com/docs/java/java-tutorial,VS Code：Java 起步,en,2026-11-20,web
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html,Oracle：Java 語言基礎,en,2026-11-20,web
+https://docs.oracle.com/javase/tutorial/java/javaOO/classes.html,Oracle：定義類別,en,2026-11-20,web
+https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html,Oracle：介面,en,2026-11-20,web
+https://docs.oracle.com/en/java/javase/25/language/records.html,Oracle：Record 類別,en,2026-11-20,web
+https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html,Oracle：Collection 介面,en,2026-11-20,web
+https://docs.oracle.com/javase/tutorial/java/generics/types.html,Oracle：泛型類型,en,2026-11-20,web
+https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/HashMap.html,Oracle：HashMap,en,2026-11-20,web
+https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html,Apache Maven：第一個專案,en,2026-11-20,web
+https://docs.junit.org/5.14.1/writing-tests/intro.html,JUnit 5：測試寫法,en,2026-11-20,web
+https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html,Apache Maven：建置階段,en,2026-11-20,web
+https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html,Oracle：Lambda 表達式,en,2026-11-20,web
+https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/package-summary.html,Oracle：Stream 套件,en,2026-11-20,web
+https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/concurrent/ExecutorService.html,Oracle：ExecutorService,en,2026-11-20,web
+https://docs.oracle.com/javase/specs/jls/se25/html/jls-17.html,Java 語言規格：執行緒與鎖,en,2026-11-20,web
+https://docs.oracle.com/en/java/javase/25/docs/specs/man/jar.html,Oracle：jar 指令,en,2026-11-20,web
+https://hive.apache.org/docs/latest/language/hiveplugins/,Apache Hive：自訂函式,en,2026-11-20,web
+https://nightlies.apache.org/flink/flink-docs-stable/docs/dev/datastream/overview/,Apache Flink：DataStream 基本 API,en,2026-11-20,web
+https://nightlies.apache.org/flink/flink-docs-stable/docs/deployment/java_compatibility/,Apache Flink：Java 兼容性,en,2026-11-20,web
+https://nightlies.apache.org/flink/flink-docs-stable/docs/dev/datastream/testing/,Apache Flink：DataStream 測試,en,2026-11-20,web
+https://spark.apache.org/docs/latest/sql-programming-guide.html,Apache Spark：SQL 與 DataFrame,en,2026-11-20,web

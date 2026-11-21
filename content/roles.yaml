@@ -1,0 +1,147 @@
+- id: warehouse
+  title: 離線數倉工程師
+  summary: 交付訂單明細、統一指標與可回填的日報。
+  skills:
+  - id: skill-warehouse-1
+    title: SQL 查詢與轉換
+    weight: 3
+    modules:
+    - sq-read
+    - sq-group
+    - sq-join
+    - sq-pattern
+  - id: skill-warehouse-2
+    title: 數倉建模與分層
+    weight: 3
+    modules:
+    - sq-model
+    - sq-metrics
+  - id: skill-warehouse-3
+    title: 批次引擎與調校
+    weight: 3
+    modules:
+    - bd-hive
+    - bd-spark
+  - id: skill-warehouse-4
+    title: 質量檢查與對帳
+    weight: 3
+    modules:
+    - sq-audit
+    - bd-quality
+  - id: skill-warehouse-5
+    title: 湖倉表格式
+    weight: 1
+    modules:
+    - bd-lake
+- id: stream
+  title: 實時數據工程師
+  summary: 把持續到達的事件算成可信、可恢復的結果。
+  skills:
+  - id: skill-stream-1
+    title: 事件時間與順序分析
+    weight: 3
+    modules:
+    - sq-window
+    - sq-time
+  - id: skill-stream-2
+    title: SQL 與串流程式
+    weight: 3
+    modules:
+    - sq-compose
+    - fd-python
+  - id: skill-stream-3
+    title: 串流引擎與消息系統
+    weight: 3
+    modules:
+    - bd-kafka
+    - bd-flink
+  - id: skill-stream-4
+    title: 質量與一致性驗收
+    weight: 2
+    modules:
+    - bd-ingest
+    - bd-quality
+    - bd-serve
+  - id: skill-stream-5
+    title: Java 與 JVM 作業
+    weight: 2
+    modules:
+    - fd-java
+    - bd-jvm
+- id: platform
+  title: 數據平台工程師
+  summary: 替多條管道提供採集、排程及分散式運算能力。
+  skills:
+  - id: skill-platform-1
+    title: 程式與工具開發
+    weight: 3
+    modules:
+    - fd-data
+    - fd-tools
+  - id: skill-platform-java
+    title: 依職缺實作 Java 作業
+    weight: 2
+    modules:
+    - fd-java
+    - bd-jvm
+  - id: skill-platform-2
+    title: 分散式處理
+    weight: 3
+    modules:
+    - bd-distrib
+    - bd-spark
+  - id: skill-platform-3
+    title: 作業排程
+    weight: 2
+    modules:
+    - bd-orch
+  - id: skill-platform-4
+    title: 質量與穩定性
+    weight: 3
+    modules:
+    - bd-quality
+    - bd-bench
+  - id: skill-platform-5
+    title: 非結構化檢索管道
+    weight: 1
+    modules:
+    - cl-ai
+- id: modern
+  title: 雲端數據與分析工程師
+  summary: 依職缺偏重數據整合或指標建模，交付可測試的模型。
+  skills:
+  - id: skill-modern-1
+    title: SQL 與分析模型
+    weight: 3
+    modules:
+    - sq-join
+    - sq-model
+  - id: skill-modern-2
+    title: 雲端儲存與數倉
+    weight: 3
+    modules:
+    - cl-cloud
+    - cl-wh
+  - id: skill-modern-3
+    title: Python 數據轉換與交換
+    weight: 3
+    modules:
+    - fd-data
+    - fd-io
+  - id: skill-modern-4
+    title: 可測試的數據產品
+    weight: 3
+    modules:
+    - cl-contract
+    - bd-quality
+  - id: skill-modern-5
+    title: dbt 模型工程
+    weight: 2
+    modules:
+    - cl-dbt
+  - id: skill-modern-6
+    title: 批流與增量
+    weight: 2
+    modules:
+    - bd-ingest
+    - bd-kafka

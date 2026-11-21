@@ -1,0 +1,19 @@
+id: bd-lake
+track: bigdata
+stage: 3
+order: 420
+title: 湖倉表格式
+subtitle: 找回一個更新以前的版本
+summary: 湖倉表格式：找回一個更新以前的版本。從「物件檔與表格式」練到「CDC 湖倉重播」。
+outcomes:
+- 分清單一檔案編碼與整張表的提交語義
+- 指定起始提交點讀區間變更
+- 重播含刪除的事件並確認不會復活
+prereqs:
+- bd-spark
+- bd-ingest
+roles:
+- warehouse
+- stream
+- platform
+hours: 4.5

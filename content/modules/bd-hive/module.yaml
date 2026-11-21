@@ -1,0 +1,19 @@
+id: bd-hive
+track: bigdata
+stage: 2
+order: 300
+title: Hive 與檔案佈局
+subtitle: 讓日報不再掃完整年份
+summary: Hive 與檔案佈局：讓日報不再掃完整年份。從「內外部表與目錄」練到「Hive 數據傾斜」。
+outcomes:
+- 在沙盒確認表定義與實體檔案擁有權
+- 記錄壓縮比與解壓後掃描時間
+- 將空鍵與熱門鍵另算後再合併結果
+prereqs:
+- bd-distrib
+- sq-model
+roles:
+- warehouse
+- stream
+- platform
+hours: 4.0

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 273" role="img" aria-labelledby="title desc">
+<title id="title">一個主題，三條可獨立前進的日誌</title><desc id="desc">主題對應 P0、P1、P2。三列各自有位移 0、1、2，P0:0 與 P1:0 不是同一筆。</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#52708a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect x="1" y="1" width="818" height="271" rx="18" fill="#f3f7fa" stroke="#d4e0eb"/>
+<g font-family="'Microsoft JhengHei UI','Noto Sans TC',system-ui,sans-serif">
+<text x="26" y="33" fill="#1d5c8f" font-size="13" font-weight="700" font-family="Consolas, monospace">KAFKA / 01</text>
+<text x="26" y="61" fill="#162d42" font-size="25" font-weight="700">一個主題，三條可獨立前進的日誌</text>
+<path d="M26 77H794" fill="none" stroke="#d4e0eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="26" y="119" width="178" height="75" rx="10" fill="#e5f0fb" stroke="#d4e0eb"/>
+<text x="42" y="148" fill="#162d42" font-size="18" font-weight="700">訂單主題</text>
+<text x="42" y="174" fill="#36546e" font-size="17" font-family="Consolas, monospace">order_events</text>
+<path d="M204 157H240 M240 111V203 M240 111H269 M240 157H269 M240 203H269" fill="none" stroke="#1d5c8f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="269" y="91" width="62" height="39" rx="10" fill="#fff" stroke="#d4e0eb"/>
+<text x="300" y="116" fill="#162d42" font-size="18" font-weight="700" font-family="Consolas, monospace" text-anchor="middle">P0</text>
+<rect x="352" y="91" width="73" height="39" rx="10" fill="#e5f0fb" stroke="#d4e0eb"/>
+<text x="389" y="116" fill="#1d5c8f" font-size="18" font-weight="700" font-family="Consolas, monospace" text-anchor="middle">0</text>
+<rect x="441" y="91" width="73" height="39" rx="10" fill="#fff" stroke="#d4e0eb"/>
+<text x="478" y="116" fill="#162d42" font-size="18" font-weight="700" font-family="Consolas, monospace" text-anchor="middle">1</text>
+<rect x="530" y="91" width="73" height="39" rx="10" fill="#fff" stroke="#d4e0eb"/>
+<text x="567" y="116" fill="#162d42" font-size="18" font-weight="700" font-family="Consolas, monospace" text-anchor="middle">2</text>
+<path d="M608 111H669" fill="none" stroke="#1d5c8f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="686" y="117" fill="#536b80" font-size="16">追加</text>
+<rect x="269" y="137" width="62" height="39" rx="10" fill="#fff" stroke="#d4e0eb"/>
+<text x="300" y="162" fill="#162d42" font-size="18" font-weight="700" font-family="Consolas, monospace" text-anchor="middle">P1</text>
+<rect x="352" y="137" width="73" height="39" rx="10" fill="#e5f0fb" stroke="#d4e0eb"/>
+<text x="389" y="162" fill="#1d5c8f" font-size="18" font-weight="700" font-family="Consolas, monospace" text-anchor="middle">0</text>
+<rect x="441" y="137" width="73" height="39" rx="10" fill="#fff" stroke="#d4e0eb"/>
+<text x="478" y="162" fill="#162d42" font-size="18" font-weight="700" font-family="Consolas, monospace" text-anchor="middle">1</text>
+<rect x="530" y="137" width="73" height="39" rx="10" fill="#fff" stroke="#d4e0eb"/>
+<text x="567" y="162" fill="#162d42" font-size="18" font-weight="700" font-family="Consolas, monospace" text-anchor="middle">2</text>
+<path d="M608 157H669" fill="none" stroke="#1d5c8f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="686" y="163" fill="#536b80" font-size="16">追加</text>
+<rect x="269" y="183" width="62" height="39" rx="10" fill="#fff" stroke="#d4e0eb"/>
+<text x="300" y="208" fill="#162d42" font-size="18" font-weight="700" font-family="Consolas, monospace" text-anchor="middle">P2</text>
+<rect x="352" y="183" width="73" height="39" rx="10" fill="#e5f0fb" stroke="#d4e0eb"/>
+<text x="389" y="208" fill="#1d5c8f" font-size="18" font-weight="700" font-family="Consolas, monospace" text-anchor="middle">0</text>
+<rect x="441" y="183" width="73" height="39" rx="10" fill="#fff" stroke="#d4e0eb"/>
+<text x="478" y="208" fill="#162d42" font-size="18" font-weight="700" font-family="Consolas, monospace" text-anchor="middle">1</text>
+<rect x="530" y="183" width="73" height="39" rx="10" fill="#fff" stroke="#d4e0eb"/>
+<text x="567" y="208" fill="#162d42" font-size="18" font-weight="700" font-family="Consolas, monospace" text-anchor="middle">2</text>
+<path d="M608 203H669" fill="none" stroke="#1d5c8f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="686" y="209" fill="#536b80" font-size="16">追加</text>
+<text x="26" y="252" fill="#36546e" font-size="16">位移只在分區內定位；要連同主題和分區一起記。</text>
+</g></svg>

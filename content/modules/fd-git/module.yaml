@@ -1,0 +1,20 @@
+id: fd-git
+track: foundations
+stage: 1
+order: 70
+title: Git 版本管理
+subtitle: 讓別人看見數字如何被修好
+summary: Git 版本管理：讓別人看見數字如何被修好。從「Git 與工作區」練到「還原與回退」。
+outcomes:
+- 辨認工作區根目錄與未追蹤檔
+- 保留兩種實驗而不改壞可用版本
+- 保留舊版本證據並產生可以稽核的回復提交
+prereqs:
+- fd-desk
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 4.0
+skippable: true

@@ -1,0 +1,20 @@
+id: fd-tools
+track: foundations
+stage: 1
+order: 130
+title: Python 程式組織與測試
+subtitle: 同一批輸入明天也要跑得過
+summary: Python 程式組織與測試：同一批輸入明天也要跑得過。從「物件與方法」練到「整合測試」。
+outcomes:
+- 用方法封裝一份解析器設定
+- 從堆疊找出自己可以修改的那一行
+- 從原檔走到最後產物並檢查失敗路徑
+prereqs:
+- fd-io
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 4.0
+skippable: true

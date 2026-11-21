@@ -1,0 +1,18 @@
+id: cl-contract
+track: cloud
+stage: 3
+order: 380
+title: 分析產品交付
+subtitle: 讓下一位同事放心改模型
+summary: 分析產品交付：讓下一位同事放心改模型。從「來源新鮮度」練到「交付驗收與停用」。
+outcomes:
+- 區分最後更新與最新業務事件日期
+- 在兩張圖中用同一語義定義驗算分母
+- 追蹤使用者完成切換後才停舊模型
+prereqs:
+- cl-dbt
+- bd-quality
+roles:
+- modern
+- platform
+hours: 3.5

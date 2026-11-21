@@ -1,0 +1,20 @@
+id: cr-portfolio
+track: career
+stage: 2
+order: 350
+title: 履歷與作品集
+subtitle: 讓審查者能親手驗算你的成果
+summary: 履歷與作品集：讓審查者能親手驗算你的成果。從「作品範圍與讀者」練到「交接與展示」。
+outcomes:
+- 把作品的讀者、業務問題與邊界寫在首頁
+- 把履歷敘述連到輸入規模與結果證據
+- 安排一次看得到錯誤也看得到恢復的演示
+prereqs:
+- bd-quality
+- fd-git
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 2

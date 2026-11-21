@@ -1,0 +1,18 @@
+id: sq-window
+track: sql
+stage: 1
+order: 150
+title: SQL 窗口函數
+subtitle: 在不壓扁明細下比較前後筆
+summary: SQL 窗口函數：在不壓扁明細下比較前後筆。從「OVER 與分區」練到「首尾值與排序框」。
+outcomes:
+- 用同一組數據對照窗口和一般聚合的列數
+- 標出每組第一筆取不到前值的原因
+- 將窗口終點改到整組再取真正尾值
+prereqs:
+- sq-compose
+roles:
+- warehouse
+- modern
+- stream
+hours: 4.5

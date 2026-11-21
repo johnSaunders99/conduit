@@ -1,0 +1,19 @@
+id: bd-spark
+track: bigdata
+stage: 2
+order: 310
+title: Spark 與 PySpark
+subtitle: 看見一次計算被拆成幾段
+summary: Spark 與 PySpark：看見一次計算被拆成幾段。從「本機 Spark 與工作階段」練到「重分區與合併輸出」。
+outcomes:
+- 從本機作業找到執行紀錄
+- 對照任務數與輸入分區數
+- 控制輸出檔數並說明下游平行讀取的影響
+prereqs:
+- bd-distrib
+- fd-tools
+roles:
+- warehouse
+- stream
+- platform
+hours: 5.0

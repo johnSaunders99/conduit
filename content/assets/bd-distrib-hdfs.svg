@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="333" viewBox="0 0 820 333" role="img" aria-labelledby="diagram-title diagram-desc">
+<title id="diagram-title">HDFS 讀取路徑</title><desc id="diagram-desc">檔案名稱與數據內容分開傳遞。用戶端，需要 orders.csv；用戶端，已取得區塊位置。NameNode，檔名 → 區塊 → 位置；DataNode，讀出需要的區塊。某個 DataNode 無法讀時，改找同一個區塊的健康複本。</desc>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#2b668b"/></marker><marker id="hot" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#a65416"/></marker></defs>
+<rect x="1" y="1" width="818" height="331" rx="16" fill="#fff" stroke="#dce5eb"/>
+<g font-family="Segoe UI, Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif">
+<text x="30" y="40" font-size="24" font-weight="700" fill="#172d3d">HDFS 讀取路徑</text>
+<text x="30" y="66" font-size="15" fill="#4b6171">檔案名稱與數據內容分開傳遞</text>
+<path d="M30 81H790" stroke="#dce5eb"/>
+<rect x="30" y="99" width="248" height="58" rx="10" fill="#f6fafc" stroke="#a8c2d3"/><text x="44" y="123" font-size="16" font-weight="700" fill="#14374e">用戶端</text><text x="44" y="144" font-size="14" fill="#465868">需要 orders.csv</text>
+<rect x="30" y="177" width="248" height="58" rx="10" fill="#f6fafc" stroke="#a8c2d3"/><text x="44" y="201" font-size="16" font-weight="700" fill="#14374e">用戶端</text><text x="44" y="222" font-size="14" fill="#465868">已取得區塊位置</text>
+<rect x="542" y="99" width="248" height="58" rx="10" fill="#f6fafc" stroke="#a8c2d3"/><text x="556" y="123" font-size="16" font-weight="700" fill="#14374e">NameNode</text><text x="556" y="144" font-size="14" fill="#465868">檔名 → 區塊 → 位置</text>
+<rect x="542" y="177" width="248" height="58" rx="10" fill="#f6fafc" stroke="#a8c2d3"/><text x="556" y="201" font-size="16" font-weight="700" fill="#14374e">DataNode</text><text x="556" y="222" font-size="14" fill="#465868">讀出需要的區塊</text>
+<path d="M283 128 C383 128 437 128 536 128" fill="none" stroke="#2b668b" stroke-width="1.8" marker-end="url(#arrow)"/><text x="409" y="120" text-anchor="middle" fill="#23485d" stroke="white" stroke-width="5" paint-order="stroke" font-size="14">① 問位置</text>
+<path d="M283 206 C383 206 437 206 536 206" fill="none" stroke="#2b668b" stroke-width="1.8" marker-end="url(#arrow)"/><text x="409" y="198" text-anchor="middle" fill="#23485d" stroke="white" stroke-width="5" paint-order="stroke" font-size="14">② 取內容</text>
+<rect x="30" y="265" width="760" height="38" rx="8" fill="#edf5f9"/>
+<text x="46" y="289" font-size="14" fill="#254a62">某個 DataNode 無法讀時，改找同一個區塊的健康複本。</text>
+</g></svg>

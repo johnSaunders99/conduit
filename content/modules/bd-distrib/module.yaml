@@ -1,0 +1,19 @@
+id: bd-distrib
+track: bigdata
+stage: 2
+order: 280
+title: 分散式運算
+subtitle: 從一台算不完到分工重算
+summary: 分散式運算：從一台算不完到分工重算。從「分區與鍵」練到「分散式重試」。
+outcomes:
+- 以鍵映射示範同鍵合流與熱門分區
+- 指出應用等待容器與任務運算中的差別
+- 標記最後一致輸出並從該處重算
+prereqs:
+- fd-system
+- sq-group
+roles:
+- warehouse
+- stream
+- platform
+hours: 3.5

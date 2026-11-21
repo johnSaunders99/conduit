@@ -1,0 +1,94 @@
+id: iv-dw-modeling
+title: 數倉建模：從粒度開始
+track: sql
+questions:
+- id: iv-dw-modeling-q01
+  lesson: sq-model-02
+  question: 一張訂單拆三次出貨，銷售事實以什麼為粒度？
+  points:
+  - 交易與履約分開
+  - 說明可加度量
+  answer: 銷售按訂單明細記金額；出貨另建出貨明細事實，記數量和時間。直接展開三次出貨再合計銷售額會重複計算。
+  tags:
+  - 事實粒度
+- id: iv-dw-modeling-q02
+  lesson: sq-model-08
+  question: 會員搬家後查去年各城營收，該用哪個城市？
+  points:
+  - 先問歷史或現況口徑
+  - 用有效期或代理鍵
+  answer: 若想看當時歸屬，保留城市歷史版本，在付款時點匹配。若要按今天居住地回看，另給現行口徑；兩張報表不可用同一標籤。
+  tags:
+  - 慢變維度
+- id: iv-dw-modeling-q03
+  lesson: sq-model-07
+  question: 昨日庫存加今日庫存，能說是兩日總庫存嗎？
+  points:
+  - 存量與流量
+  - 跨日期不具有可加性
+  answer: 不能。庫存是時點餘額，跨店同一時點可加，跨日期通常要取期末或日均；兩日銷量則可在口徑相同時相加。
+  tags:
+  - 快照事實
+- id: iv-dw-modeling-q04
+  lesson: sq-model-06
+  question: 為什麼先畫匯流排矩陣而不是先畫所有欄？
+  points:
+  - 對齊業務過程與維度
+  - 檢查跨表可比較性
+  answer: 我會先列訂單、退款、出貨，再標出共用的商品、日期和門市。能提早發現退款日與下單日雖用同一日期維度，業務角色不同。
+  tags:
+  - 匯流排矩陣
+- id: iv-dw-modeling-q05
+  lesson: bd-quality-02
+  question: 維度晚到，事實要不要直接丟掉？
+  points:
+  - 保住事實與來源鍵
+  - 安排補維與重對帳
+  answer: 不應靜默丟失交易。先用明確的未知成員或隔離區保留來源鍵，等維度到達再補配，記錄尚未配對筆數。
+  tags:
+  - 晚到維度
+- id: iv-dw-modeling-q06
+  lesson: sq-model-08
+  question: 同一個業務鍵為什麼會有兩個代理鍵？
+  points:
+  - 一個實體多個版本
+  - 區間不可重疊
+  answer: 二型維度會為屬性變更建立新版本。業務鍵（也稱自然鍵）表示同一實體，代理鍵定位當時版本；要用時點或已解析的版本鍵，不能只連業務鍵。
+  tags:
+  - 代理鍵
+- id: iv-dw-modeling-q07
+  lesson: sq-metrics-06
+  question: 活動報表的退款要扣在哪一天？
+  points:
+  - 區分交易日與入帳日
+  - 讓口徑可追溯
+  answer: 先問用於評估活動還是核對財務入帳。前者可能重述原交易日，後者看退款入帳日；保留兩個日期欄，指標標記口徑與版本。
+  tags:
+  - 退款口徑
+- id: iv-dw-modeling-q08
+  lesson: sq-model-10
+  question: 分層後，同一條清洗規則應放哪裡？
+  points:
+  - 區分共用語義與應用展示
+  - 保留原始層
+  answer: ODS 原始數據層保留收到的值；跨報表共用的清洗在 DWD 明細數據層做一次，ADS 應用數據層才處理報表的顯示格式。若改規則，從保留的來源重算受影響區間。
+  tags:
+  - 數倉分層
+- id: iv-dw-modeling-q09
+  lesson: sq-model-05
+  question: 星型模型為何不把每個字串都拆成獨立小表？
+  points:
+  - 閱讀成本與查詢成本
+  - 考量維度維護
+  answer: 分析時少幾次連接、用戶能直接找到描述通常更重要。若層級維護成本很高或需共用獨立主檔，再考慮拆成雪花。
+  tags:
+  - 星型模型
+- id: iv-dw-modeling-q10
+  lesson: sq-expr-08
+  question: 商品一單多件又用兩張券，怎樣分攤折扣？
+  points:
+  - 先固定分攤單位
+  - 處理尾差與對帳
+  answer: 定義按成交金額或數量分攤到明細，記錄規則版本；最小貨幣單位造成的尾差按穩定規則落到一列。逐單驗證分攤合計等於原券金額。
+  tags:
+  - 度量分攤

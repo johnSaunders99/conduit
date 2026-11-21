@@ -1,0 +1,288 @@
+- lesson: fd-linux-01
+  tools: [wsl]
+  note: 未實跑 Ubuntu 啟動與 Windows 檔案跨側讀取。
+- lesson: fd-linux-02
+  tools: [wsl]
+  note: 未實跑掛載目錄與 Linux 權限對照。
+- lesson: fd-linux-03
+  tools: [wsl]
+  note: 未實跑管道、重新導向與檔案輸出。
+- lesson: fd-linux-04
+  tools: [wsl]
+  note: 未實跑 Shell 變數、引號與精簡環境。
+- lesson: fd-linux-05
+  tools: [wsl]
+  note: 未實跑腳本與結束碼檢查。
+- lesson: fd-linux-06
+  tools: [wsl]
+  note: 未實跑背景行程與日誌檢查。
+- lesson: fd-linux-07
+  tools: [wsl]
+  note: 排程只寫草稿；未啟動 cron 或驗證精簡環境。
+- lesson: fd-system-02
+  tools: [vmstat]
+  note: 未實測換頁期間的 vmstat 輸出。
+- lesson: fd-system-06
+  tools: [curl]
+  note: 未取得 Windows curl.exe 的成功 TLS 與首位元組計時。
+- lesson: fd-io-05
+  tools: [pandas]
+  note: 未實跑 pandas 安裝與讀表。
+- lesson: fd-io-06
+  tools: [pandas]
+  note: 未實跑 pandas 合併與缺值檢查。
+- lesson: fd-docker-01
+  tools: [docker]
+  note: 未實跑容器建立與啟停。
+- lesson: fd-docker-02
+  tools: [docker]
+  note: 未實跑連接埠對映。
+- lesson: fd-docker-03
+  tools: [docker]
+  note: 未實跑磁碟區及掛載。
+- lesson: fd-docker-04
+  tools: [docker]
+  note: 未實跑橋接網路連通性。
+- lesson: fd-docker-05
+  tools: [docker]
+  note: 未實跑 Compose 設定展開、啟動與停止。
+- lesson: fd-docker-06
+  tools: [docker]
+  note: 未實跑容器資源上限、即時統計與停止。
+- lesson: fd-java-01
+  tools: [jdk-25]
+  note: 未實跑 JDK 25 安裝與環境檢查。
+- lesson: fd-java-02
+  tools: [jdk-25]
+  note: 未在編輯器實跑 JDK 25 的執行流程。
+- lesson: fd-java-04
+  tools: [jdk-25]
+  note: 未以 JDK 25 編譯 record。
+- lesson: fd-java-07
+  tools: [jdk-25, maven]
+  note: 未實跑 Maven 編譯；舊版 JDK 的子集檢查不能取代。
+- lesson: fd-java-08
+  tools: [jdk-25, maven]
+  note: 未實跑 Maven 的 JUnit 失敗與通過對照。
+- lesson: fd-java-12
+  tools: [jdk-25, maven]
+  note: 未實跑 Maven 打包與產物獨立啟動。
+- lesson: bd-jvm-02
+  tools: [maven, docker, hive]
+  note: 未實跑薄 JAR 打包、HiveServer2 與 Beeline 連線中的 UDF 往返。
+- lesson: bd-jvm-03
+  tools: [jdk-17, maven, flink]
+  note: 未實跑 Maven 啟動的 Flink DataStream 作業。
+- lesson: bd-jvm-04
+  tools: [maven, junit]
+  note: 未實跑 Maven 與 JUnit 的 Flink 作業測試。
+- lesson: bd-jvm-05
+  tools: [wsl, jdk-21, spark]
+  note: 未實跑 spark-shell 與 spark-submit 的輸出對照。
+- lesson: bd-hive-01
+  tools: [wsl, spark]
+  note: 未實跑 PySpark 安裝與內嵌目錄；原生 Hive 建表也未實測。
+- lesson: bd-hive-02
+  tools: [wsl, spark]
+  note: 未實跑分區裁剪的計畫與檔案對照。
+- lesson: bd-hive-04
+  tools: [wsl, spark]
+  note: 未實跑欄投影與檔案格式的計畫對照。
+- lesson: bd-hive-05
+  tools: [wsl, spark]
+  note: 未實跑檔案壓縮對照。
+- lesson: bd-hive-07
+  tools: [wsl, spark]
+  note: 未實跑小檔合併及合併前後的輸出。
+- lesson: bd-hive-03
+  tools: [hive]
+  note: 未實跑原生 Hive 分桶；課內 DuckDB 練習只驗邏輯。
+- lesson: bd-hive-06
+  tools: [hive]
+  note: 未實跑 Hive 的 UDF 方言；課內 DuckDB 題不驗證該方言。
+- lesson: bd-spark-01
+  tools: [wsl, jdk-21, spark]
+  note: 未實跑 JVM 與工作階段啟動。
+- lesson: bd-spark-02
+  tools: [wsl, jdk-21, spark]
+  note: 未以實際 Spark 輸出核對欄位類型。
+- lesson: bd-spark-03
+  tools: [wsl, jdk-21, spark]
+  note: 未實跑轉換、動作與執行介面對照。
+- lesson: bd-spark-04
+  tools: [wsl, jdk-21, spark]
+  note: 未實跑 Spark SQL 與視圖。
+- lesson: bd-spark-05
+  tools: [wsl, jdk-21, spark]
+  note: 未實測工作階段的執行計畫與階段統計。
+- lesson: bd-spark-06
+  tools: [wsl, jdk-21, spark]
+  note: 未實測任務與分區數。
+- lesson: bd-spark-07
+  tools: [wsl, jdk-21, spark]
+  note: 未實跑快取與持久化，也未量速度。
+- lesson: bd-spark-08
+  tools: [wsl, jdk-21, spark]
+  note: 未實跑廣播與排序合併的計畫。
+- lesson: bd-spark-09
+  tools: [wsl, jdk-21, spark]
+  note: 未實跑自適應計畫與傾斜案例。
+- lesson: bd-spark-10
+  tools: [wsl, jdk-21, spark]
+  note: 未實跑重分區、合併後的輸出檔案。
+- lesson: bd-lake-02
+  tools: [wsl, spark, iceberg]
+  note: 未實跑 Spark 提交與 Iceberg 的快照重建。
+- lesson: bd-bench-01
+  tools: [wsl, spark]
+  note: 未實跑固定輸入的 Spark 基準計時。
+- lesson: bd-bench-02
+  tools: [wsl, spark]
+  note: 未實跑 Spark 冷熱快取對照。
+- lesson: bd-bench-03
+  tools: [duckdb-cli]
+  note: 未以命令列量測 Parquet 實際讀量；瀏覽器題只驗結果。
+- lesson: bd-kafka-01
+  tools: [docker, kafka]
+  note: 未實跑 Compose 啟動、主題建立與分區檢查。
+- lesson: bd-kafka-02
+  tools: [docker, kafka]
+  note: 未實跑主控台生產與消費。
+- lesson: bd-kafka-03
+  tools: [docker, kafka]
+  note: 複本與多代理故障只做演練，未實跑。
+- lesson: bd-kafka-07
+  tools: [docker, kafka]
+  note: 交易提交與中斷只做演練，未實跑。
+- lesson: bd-kafka-08
+  tools: [docker, kafka]
+  note: 未實跑 Kafka Connect 連接器。
+- lesson: bd-kafka-09
+  tools: [docker, kafka]
+  note: 再平衡與積壓處置未做原生驗收。
+- lesson: bd-flink-01
+  tools: [docker, flink]
+  note: 未實跑 Compose 啟動與 Flink SQL Client。
+- lesson: bd-flink-06
+  tools: [docker, flink]
+  note: 未實跑檢查點後的多服務狀態恢復。
+- lesson: bd-flink-07
+  tools: [docker, flink]
+  note: 未實跑從儲存點恢復或升級。
+- lesson: bd-flink-08
+  tools: [docker, flink]
+  note: 未實跑 SQL Client 的 DataGen 更新流。
+- lesson: bd-flink-09
+  tools: [docker, flink]
+  note: 未實跑 CDC 連接器及狀態恢復。
+- lesson: bd-flink-10
+  tools: [docker, flink]
+  note: 未實跑慢寫端中斷及下游提交。
+- lesson: bd-serve-01
+  tools: [docker, clickhouse]
+  note: 未實跑容器與執行計畫中的讀取區塊數。
+- lesson: bd-orch-05
+  tools: [docker, airflow]
+  note: 未實跑初始化、流程圖、XCom、日誌與峰值記憶體。
+- lesson: bd-orch-06
+  tools: [docker, dolphinscheduler]
+  note: 未實跑啟動及前置失敗分支。
+- lesson: bd-ingest-03
+  tools: [datax]
+  note: 未實跑 DataX 的來源、通道與目的端；課內是設定練習。
+- lesson: bd-ingest-04
+  tools: [seatunnel]
+  note: 未實跑 SeaTunnel 連接器；課內是設定練習。
+- lesson: bd-ingest-05
+  tools: [sqoop]
+  note: 未實跑 Sqoop 匯入及寫入目的端。
+- lesson: bd-ingest-06
+  tools: [mysql]
+  note: 未實跑原生 binlog；固定數據只演練讀取邊界。
+- lesson: bd-ingest-07
+  tools: [debezium, canal]
+  note: 未實跑 CDC 連接器與實際事件投遞。
+- lesson: cl-dbt-01
+  tools: [dbt-cli]
+  note: 未實跑安裝、連線檢查與建置。
+- lesson: cl-dbt-02
+  tools: [dbt-cli]
+  note: 未實跑列出模型、編譯與建置。
+- lesson: cl-dbt-03
+  tools: [dbt-cli]
+  note: 未實跑模型物化建置。
+- lesson: cl-dbt-04
+  tools: [dbt-cli]
+  note: 未實跑增量模型建置與重跑。
+- lesson: cl-dbt-05
+  tools: [dbt-cli]
+  note: 未實跑快照的兩次版本變更及有效區間。
+- lesson: cl-dbt-06
+  tools: [dbt-cli]
+  note: 未實跑測試及文件生成。
+- lesson: cl-dbt-07
+  tools: [dbt-cli]
+  note: 未實跑模型選擇器和目標環境建置。
+- lesson: cl-contract-01
+  tools: [dbt-cli]
+  note: 未實跑來源新鮮度檢查。
+- lesson: cl-contract-02
+  tools: [dbt-cli]
+  note: 未實跑模型版本與欄位契約的建置拒絕流程。
+- lesson: sq-db-05
+  tools: [postgresql]
+  note: 未實跑雙連線交易隔離；課內 DuckDB 是模擬。
+- lesson: sq-db-06
+  tools: [postgresql, mysql]
+  note: 未實跑兩個原生引擎的索引與存取路徑。
+- lesson: sq-db-07
+  tools: [postgresql]
+  note: 未實跑原生執行計畫及緩衝區讀量。
+- lesson: sq-db-08
+  tools: [postgresql, mysql]
+  note: 未實跑兩個原生引擎的建表回退及算術對照。
+- lesson: sq-metrics-09
+  tools: [postgresql, mysql]
+  note: 未用實際讀者帳戶驗證授權；課內 DuckDB 只演練發表範圍。
+- lesson: cl-cloud-01
+  tools: [cloud-console]
+  note: 未在主控台建立預算或驗證真實帳務。
+- lesson: cl-cloud-02
+  tools: [cloud-console]
+  note: 未在主控台驗證身分設定及最小權限。
+- lesson: cl-cloud-04
+  tools: [cloud-console]
+  note: 未實跑儲存生命週期規則。
+- lesson: cl-cloud-05
+  tools: [cloud-console]
+  note: 未在主控台核對實際掃描、傳輸與跨區費用。
+- lesson: cl-cloud-06
+  tools: [cloud-console]
+  note: 未建立雲端資源或驗收實際回收。
+- lesson: cl-wh-02
+  tools: [bigquery]
+  note: 未在主控台實跑 dry run 及掃描量對照。
+- lesson: cl-wh-03
+  tools: [snowflake]
+  note: 未實跑虛擬倉庫啟停與扣點核對。
+- lesson: cl-wh-04
+  tools: [redshift]
+  note: 未實跑 Redshift 的執行計畫。
+- lesson: cl-wh-05
+  tools: [dataworks, maxcompute]
+  note: 未實跑節點排程及 MaxCompute 作業。
+- lesson: cl-wh-06
+  tools: [databricks, delta]
+  note: 未實跑 Databricks 的 Delta 流程。
+- lesson: cl-wh-07
+  tools: [kubernetes]
+  note: 課內讀圖不需要啟動叢集，未驗證實際部署。
+- lesson: cl-ai-03
+  tools: [cloud-console]
+  note: 未在雲端實跑模型或向量索引。
+- lesson: cl-ai-04
+  tools: [cloud-console]
+  note: 未在雲端驗證實際檢索與權限回應。
+- lesson: cl-ai-05
+  tools: [cloud-console]
+  note: 未在雲端驗證刪除或撤權傳播。

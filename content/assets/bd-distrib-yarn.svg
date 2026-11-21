@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="411" viewBox="0 0 820 411" role="img" aria-labelledby="diagram-title diagram-desc">
+<title id="diagram-title">YARN 的三個責任</title><desc id="diagram-desc">提交、協商和啟動不等於業務計算。① 提交應用，帶著啟動請求；② 協商工作容器，由應用提出請求；③ 啟動已分配的容器，帶容器分配結果。ResourceManager，統籌隊列及資源；ApplicationMaster，追蹤此應用的工作；NodeManager，在節點上啟動及監看。先查等待發生在分配前，還是容器拿到後。</desc>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#2b668b"/></marker><marker id="hot" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#a65416"/></marker></defs>
+<rect x="1" y="1" width="818" height="409" rx="16" fill="#fff" stroke="#dce5eb"/>
+<g font-family="Segoe UI, Microsoft JhengHei, PingFang TC, Noto Sans TC, sans-serif">
+<text x="30" y="40" font-size="24" font-weight="700" fill="#172d3d">YARN 的三個責任</text>
+<text x="30" y="66" font-size="15" fill="#4b6171">提交、協商和啟動不等於業務計算</text>
+<path d="M30 81H790" stroke="#dce5eb"/>
+<rect x="30" y="99" width="248" height="58" rx="10" fill="#f6fafc" stroke="#a8c2d3"/><text x="44" y="123" font-size="16" font-weight="700" fill="#14374e">① 提交應用</text><text x="44" y="144" font-size="14" fill="#465868">帶著啟動請求</text>
+<rect x="30" y="177" width="248" height="58" rx="10" fill="#f6fafc" stroke="#a8c2d3"/><text x="44" y="201" font-size="16" font-weight="700" fill="#14374e">② 協商工作容器</text><text x="44" y="222" font-size="14" fill="#465868">由應用提出請求</text>
+<rect x="30" y="255" width="248" height="58" rx="10" fill="#f6fafc" stroke="#a8c2d3"/><text x="44" y="279" font-size="16" font-weight="700" fill="#14374e">③ 啟動已分配的容器</text><text x="44" y="300" font-size="14" fill="#465868">帶容器分配結果</text>
+<rect x="542" y="99" width="248" height="58" rx="10" fill="#f6fafc" stroke="#a8c2d3"/><text x="556" y="123" font-size="16" font-weight="700" fill="#14374e">ResourceManager</text><text x="556" y="144" font-size="14" fill="#465868">統籌隊列及資源</text>
+<rect x="542" y="177" width="248" height="58" rx="10" fill="#f6fafc" stroke="#a8c2d3"/><text x="556" y="201" font-size="16" font-weight="700" fill="#14374e">ApplicationMaster</text><text x="556" y="222" font-size="14" fill="#465868">追蹤此應用的工作</text>
+<rect x="542" y="255" width="248" height="58" rx="10" fill="#f6fafc" stroke="#a8c2d3"/><text x="556" y="279" font-size="16" font-weight="700" fill="#14374e">NodeManager</text><text x="556" y="300" font-size="14" fill="#465868">在節點上啟動及監看</text>
+<path d="M283 128 C383 128 437 128 536 128" fill="none" stroke="#2b668b" stroke-width="1.8" marker-end="url(#arrow)"/><text x="409" y="120" text-anchor="middle" fill="#23485d" stroke="white" stroke-width="5" paint-order="stroke" font-size="14">交給</text>
+<path d="M283 206 C383 206 437 206 536 206" fill="none" stroke="#2b668b" stroke-width="1.8" marker-end="url(#arrow)"/><text x="409" y="198" text-anchor="middle" fill="#23485d" stroke="white" stroke-width="5" paint-order="stroke" font-size="14">由它協調</text>
+<path d="M283 284 C383 284 437 284 536 284" fill="none" stroke="#2b668b" stroke-width="1.8" marker-end="url(#arrow)"/><text x="409" y="276" text-anchor="middle" fill="#23485d" stroke="white" stroke-width="5" paint-order="stroke" font-size="14">交給</text>
+<rect x="30" y="343" width="760" height="38" rx="8" fill="#edf5f9"/>
+<text x="46" y="367" font-size="14" fill="#254a62">先查等待發生在分配前，還是容器拿到後。</text>
+</g></svg>

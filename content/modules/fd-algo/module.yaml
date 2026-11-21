@@ -1,0 +1,20 @@
+id: fd-algo
+track: foundations
+stage: 2
+order: 190
+title: 數據結構與演算法
+subtitle: 讓面試官看懂時間花在哪裡
+summary: 數據結構與演算法：讓面試官看懂時間花在哪裡。從「時間與空間複雜度」練到「遞迴與動態規劃」。
+outcomes:
+- 用操作次數判斷輸入翻倍後的成長
+- 用空陣列及重複值驗證搜尋邊界
+- 先寫狀態轉移再記錄重複子問題
+prereqs:
+- fd-data
+roles:
+- warehouse
+- stream
+- platform
+- modern
+hours: 5.0
+skippable: true

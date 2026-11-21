@@ -1,0 +1,19 @@
+id: sq-audit
+track: sql
+stage: 2
+order: 260
+title: SQL 對帳與修復
+subtitle: 追到第一筆不一致的訂單
+summary: SQL 對帳與修復：追到第一筆不一致的訂單。從「集合差集對帳」練到「逐層定位」。
+outcomes:
+- 用兩個方向的差集找出缺單與多單
+- 用受影響鍵縮小全量對照區間
+- 對同一營業日逐層記錄第一個差異
+prereqs:
+- sq-metrics
+- sq-pattern
+roles:
+- warehouse
+- modern
+- stream
+hours: 3.0
