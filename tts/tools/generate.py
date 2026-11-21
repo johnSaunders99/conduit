@@ -239,6 +239,15 @@ def speakable_caps(text):
         return tok.lower()
     return CAPS.sub(fix, text)
 TOO_SHORT_UNITS = 5  # below this, GPT-SoVITS often returns silence; the app's system voice reads it
+# Inside Chinese sentences the front end silently drops stand-alone operators: "price > 四十五 and price < 六十"
+# was read as "price 四十五 and price 六十", "select * from" lost its star. Name them (2026-11-22).
+INLINE_SYMBOLS = {'>': '大於', '<': '小於', '>=': '大於等於', '<=': '小於等於', '=': '等於', '==': '兩個等號',
+                  '!=': '不等於', '<>': '不等於', '*': '星號', '/': '斜線', '//': '兩個斜線', '-': '減號',
+                  '--': '兩個減號', '+': '加號', '%': '百分號', '|': '直線', '||': '兩條直線', '&': 'and 符號',
+                  '&&': '兩個 and 符號', '^': '插入號', '>>': '兩個大於', '{}': '一對大括號', '[]': '一對中括號',
+                  '()': '一對小括號', '{{': '兩個左大括號', '}}': '兩個右大括號', '.': '點'}
+INLINE = re.compile(r'\s*(?<!\S)(' + '|'.join(sorted(map(re.escape, INLINE_SYMBOLS), key=len, reverse=True))
+                    + r')(?=\s|$|[。，、；：？！」』）])\s*')
 
 
 def engine_text(text):
@@ -249,8 +258,10 @@ def engine_text(text):
     t = re.sub(r'(?<=[A-Za-z0-9])[-_](?=[A-Za-z0-9])', ' ', t)  # UTF-8, key-value, read-only
     t = speakable_caps(t)
     core = t.strip(CJK_PUNCT + ' ')
-    if HAN.search(core) or not core:
-        return core and t
+    if HAN.search(core):
+        return INLINE.sub(lambda m: f' {INLINE_SYMBOLS[m.group(1)]} ', t)
+    if not core:
+        return ''
     if not re.search(r'[^A-Za-z0-9\s]', core):
         return t  # plain English word(s): leave to the engine
     words = []

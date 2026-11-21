@@ -52,32 +52,68 @@ if sk_path.exists():
     skipped = [r['speak'] for r in rows if r['key'] in keys]
 
 HAN = re.compile(r'[一-鿿]')
-caps = set((ROOT / 'work/caps-fix.keys').read_text(encoding='utf-8').split()) if (ROOT / 'work/caps-fix.keys').exists() else set()
-old_items = read_json(voice_dir / 'manifest.before-caps-fix.json')['items'] if (voice_dir / 'manifest.before-caps-fix.json').exists() else {}
-ab = [r for r in have if r['key'] in caps and r['key'] in old_items and HAN.search(r['speak'])
-      and (voice_dir / '_replaced_caps' / Path(old_items[r['key']]['file']).name).exists()]
-ab.sort(key=lambda r: items[r['key']]['ms'] - old_items[r['key']]['ms'])
-ab = ab[:4] + rnd.sample(ab[4:], min(4, len(ab[4:])))
+
+
+def keyset(name):
+    path = ROOT / 'work' / name
+    return set(path.read_text(encoding='utf-8').split()) if path.exists() else set()
+
+
+def old_manifest(name):
+    path = voice_dir / name
+    return read_json(path)['items'] if path.exists() else {}
+
+
+def ab_section(title, note, olds, n_top=4, n_rand=4):
+    """olds: key -> (old ms, old file path relative to the voice folder, sort weight)."""
+    rs = [r for r in have if r['key'] in olds and HAN.search(r['speak']) and (voice_dir / olds[r['key']][1]).exists()]
+    rs.sort(key=lambda r: olds[r['key']][2])
+    rs = rs[:n_top] + rnd.sample(rs[n_top:], min(n_rand, len(rs[n_top:])))
+    if not rs:
+        return ''
+    cards = []
+    for r in rs:
+        old_ms, old_file, _ = olds[r['key']]
+        new = items[r['key']]
+        cards.append(f'''<li><div class="meta">{html.escape(r.get("lessonId", ""))} · {html.escape(r["kind"])} · 修正前 {old_ms / 1000:.1f} 秒 → 修正後 {new["ms"] / 1000:.1f} 秒</div>
+<div class="text">{html.escape(r["speak"])}</div>
+<div class="ab"><span>修正前</span><audio controls preload="none" src="../audio/{VOICE}/{old_file}"></audio>
+<span>修正後</span><audio controls preload="none" src="../audio/{VOICE}/{new["file"]}"></audio></div></li>''')
+    return f'<section><h2>{html.escape(title)}</h2><p class="note">{html.escape(note)}</p><ol>{"".join(cards)}</ol></section>'
+
 
 parts = []
-if ab:
-    cards = []
-    for r in ab:
-        old, new = old_items[r['key']], items[r['key']]
-        cards.append(f'''<li><div class="meta">{html.escape(r.get("lessonId", ""))} · {html.escape(r["kind"])} · 修正前 {old["ms"] / 1000:.1f} 秒 → 修正後 {new["ms"] / 1000:.1f} 秒</div>
-<div class="text">{html.escape(r["speak"])}</div>
-<div class="ab"><span>修正前</span><audio controls preload="none" src="../audio/{VOICE}/_replaced_caps/{Path(old["file"]).name}"></audio>
-<span>修正後</span><audio controls preload="none" src="../audio/{VOICE}/{new["file"]}"></audio></div></li>''')
-    parts.append('<section><h2>英文詞修正前後對照</h2><p class="note">'
-                 + html.escape('之前生成模型的英文前端會把全大寫的字（ORDER BY、COALESCE、ROWS BETWEEN…）一個字母一個字母拼出來，所以很長很慢。'
-                               '「SQL」本身沒有拖長（「我們用 SQL 查詢」2.2 秒，「我們用資料庫查詢」2.1 秒）。'
-                               f'現在 SQL 關鍵字改用一般單字念法，縮寫（SQL、CTE、API…）仍逐字母念；共重新生成 {len(caps):,} 句。')
-                 + f'</p><ol>{"".join(cards)}</ol></section>')
+caps, old_caps = keyset('caps-fix.keys'), old_manifest('manifest.before-caps-fix.json')
+parts.append(ab_section(
+    '英文詞修正前後對照',
+    '之前生成模型的英文前端會把全大寫的字（ORDER BY、COALESCE、ROWS BETWEEN…）一個字母一個字母拼出來，所以很長很慢。'
+    '「SQL」本身沒有拖長（「我們用 SQL 查詢」2.2 秒，「我們用資料庫查詢」2.1 秒）。'
+    f'現在 SQL 關鍵字改用一般單字念法，縮寫（SQL、CTE、API…）仍逐字母念；共重新生成 {len(caps):,} 句。',
+    {k: (old_caps[k]['ms'], '_replaced_caps/' + Path(old_caps[k]['file']).name, items[k]['ms'] - old_caps[k]['ms'])
+     for k in caps if k in old_caps and k in items}))
+symbols, old_sym = keyset('symbol-fix.keys'), old_manifest('manifest.before-symbol-fix.json')
+parts.append(ab_section(
+    '運算符號修正前後對照',
+    '中文句子裡單獨出現的符號，生成模型會直接略過：「price > 四十五 and price < 六十」被念成「price 四十五 and price 六十」，'
+    f'「select * from」的星號也不見了。現在念成「大於」「小於」「星號」「斜線」等；共重新生成 {len(symbols):,} 句。',
+    {k: (old_sym[k]['ms'], f'_replaced_symbols/{k}.ogg', rnd.random()) for k in symbols if k in old_sym and k in items},
+    n_top=0, n_rand=8))
+retake_path = ROOT / 'work/retake.jsonl'
+swapped = [json.loads(l) for l in open(retake_path, encoding='utf-8') if l.strip()] if retake_path.exists() else []
+swapped = {x['key']: x for x in swapped if x['swapped']}
+parts.append(ab_section(
+    '重錄較清楚的版本',
+    f'自動檢查覺得可能念錯的句子，各多錄三個版本，由語音辨識挑最清楚的；{len(swapped)} 句換成了新版本。',
+    {k: (x['before']['ms'], f'_replaced_retake/{k}.ogg',
+         min((t['score'] for t in x['takes'] if 'score' in t), default=0) - x['before']['score'])
+     for k, x in swapped.items() if k in items}))
 for title, note, rs in groups:
     if not rs:
         continue
     cards = []
     for r in rs:
+        if title.startswith('語音辨識') and r['key'] in swapped:
+            continue  # already replaced by a clearer take; its old ASR transcript no longer applies
         it = items[r['key']]
         heard = qa.get(r['key'], {}).get('heard')
         extra = f'<div class="heard">辨識器聽到：{html.escape(heard)}</div>' if heard and title.startswith('語音辨識') else ''
